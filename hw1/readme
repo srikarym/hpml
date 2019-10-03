@@ -1,0 +1,35 @@
+Commands to run the codes:
+
+Problem 1:
+
+gcc -O3 -Wall -o dp1 dp1.c
+./dp1 1000000 1000
+./dp1 300000000 20
+
+Problem 2:
+
+gcc -O3 -Wall -o dp2 dp2.c
+./dp1 1000000 1000
+./dp1 300000000 20
+
+
+Problem 3 :
+
+module load numpy/python2.7/intel/1.14.0
+gcc -O3 -Wall -o dp3 -I /share/apps/intel/17.0.1/mkl/include dp3.c -L /share/apps/intel/17.0.1/mkl/lib -lmkl_rt 
+./dp3 1000000 1000
+./dp3 300000000 20
+
+Problem 4:
+
+module purge
+module load python3/intel/3.6.3
+python3 dp4.py 1000000 1000
+python3 dp4.py 300000000 20
+
+Problem 5:
+
+module purge
+module load python3/intel/3.6.3
+python3 dp5.py 1000000 1000
+python3 dp5.py 300000000 20
