@@ -7,11 +7,11 @@
 
 struct timespec start, end;
 
-double dp(long N, float *pA, float *pB) {
+double dpunroll(long N, float *pA, float *pB) {
 	double R = 0.0;
 	int j;
-	for (j=0;j<N;j++)
-		R += pA[j]*pB[j];
+	for (j=0;j<N;j+=4)
+		R += pA[j]*pB[j] + pA[j+1]*pB[j+1] + pA[j+2]*pB[j+2] + pA[j+3] * pB[j+3];
 	return R;
 }
 
@@ -39,7 +39,7 @@ int main(int argc, char* argv[])
 	for (i=0; i<repetitions; i++)
 	{
 		clock_gettime(CLOCK_MONOTONIC, &start);
-		ans = dp(N, pa, pb);
+		ans = dpunroll(N, pa, pb);
 		
 		assert(ans == (double)N);
 		clock_gettime(CLOCK_MONOTONIC, &end);
