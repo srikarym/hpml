@@ -37,7 +37,7 @@ int main(int argc, char* argv[])
 	for (i=0; i<=repetitions; i++)
 	{
 		clock_gettime(CLOCK_MONOTONIC, &start);
-		ans = dpunroll(N, pa, pb);
+		ans = bdp(N, pa, pb);
 		clock_gettime(CLOCK_MONOTONIC, &end);
 
 		float time_diff = (end.tv_sec - start.tv_sec) + (end.tv_nsec - start.tv_nsec) / BILLION;
