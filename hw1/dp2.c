@@ -7,7 +7,7 @@
 
 struct timespec start, end;
 
-double dpunroll(long N, float *pA, float *pB) {
+float dpunroll(long N, float *pA, float *pB) {
 	float R = 0.0;
 	int j;
 	for (j=0;j<N;j+=4)
@@ -28,7 +28,7 @@ int main(int argc, char* argv[])
 	float ans=0.0;
 	int i = 0;
 
-	double total_time = 0.0;
+	float total_time = 0.0;
 
 	for (i=0; i<N; i++)
 	{
@@ -42,7 +42,7 @@ int main(int argc, char* argv[])
 		ans = dpunroll(N, pa, pb);
 		clock_gettime(CLOCK_MONOTONIC, &end);
 
-		double time_diff = (end.tv_sec - start.tv_sec) + (end.tv_nsec - start.tv_nsec) / BILLION;
+		float time_diff = (end.tv_sec - start.tv_sec) + (end.tv_nsec - start.tv_nsec) / BILLION;
 
 		total_time += time_diff;
 
@@ -56,10 +56,10 @@ int main(int argc, char* argv[])
 
 	int num_reps = repetitions / 2;
 
-	double avg_time = total_time / num_reps;
+	float avg_time = total_time / num_reps;
 
-	double bw = (double)N * (double) sizeof(double) * 2/ (avg_time * BILLION);
-	double flops = (double) FLOP / avg_time;
+	float bw = (float)N * (float) sizeof(float) * 2/ (avg_time * BILLION);
+	float flops = (float) FLOP / avg_time;
 	
 	printf("N: %ld \n<T_avg>: %lf sec \nBw: %lf GB/s \nF: %lf FLOP/s\n",N,avg_time ,bw, flops);
 	
