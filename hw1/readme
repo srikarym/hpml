@@ -9,8 +9,8 @@ gcc -O3 -Wall -o dp1 dp1.c
 Problem 2:
 
 gcc -O3 -Wall -o dp2 dp2.c
-./dp1 1000000 1000
-./dp1 300000000 20
+./dp2 1000000 1000
+./dp2 300000000 20
 
 
 Problem 3 :
@@ -33,3 +33,9 @@ module purge
 module load python3/intel/3.6.3
 python3 dp5.py 1000000 1000
 python3 dp5.py 300000000 20
+
+Roofline plot - 
+
+roofline.ipynb has the code used to generate the interactive plot
+roofline.png has the image
+roofline.html has the interactive plot

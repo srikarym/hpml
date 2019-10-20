@@ -17,19 +17,20 @@ def main():
 	A = np.ones(N,dtype=np.float32)
 	B = np.ones(N,dtype=np.float32)
 
-	ans = 0
+	ans = 0.0
 	total_time = 0
-
+	j = 0
 	for i in range(1,repetitions+1):
 		start = time.monotonic()
 		ans = dp(N,A,B)
 		end = time.monotonic()
 		total_time += end-start
 
-		if i == repetitions // 2:
+		if (i == repetitions // 2 -1):
 			total_time = 0
+			j += 1
 
-	avg_time = total_time / (repetitions//2)
+	avg_time = total_time / j
 
 	print(f'Dot product result is {ans}')
 
