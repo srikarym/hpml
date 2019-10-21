@@ -1,11 +1,9 @@
 import argparse
 import os
 import time
-import numpy as np
 import torch
 from torch.utils.data import Dataset
 from torch.optim import SGD, Adagrad, Adadelta, Adam
-import torch.nn as nn
 import torchvision.transforms as transforms
 from torchvision.datasets import CIFAR10
 import torch.nn.functional as F
@@ -54,26 +52,20 @@ def parse_args():
 	device = 'cuda' if args.cuda else 'cpu'
 	args.device = torch.device(device)
 
-	print(args.device)
 
 	return args
 
 
-def precision(k, output, target, device, mean=True):
-	topk_labels = output.detach().topk(k)[1]
-	rows = torch.arange(topk_labels.shape[0]).unsqueeze(-1).repeat(1, topk_labels.shape[1]).to(device)
-	indices = torch.cat((rows.reshape(-1, 1), topk_labels.reshape(-1, 1)), dim=1)
+def precision(k, output, target):
 
-	labels_predicted = torch.zeros_like(target)
-	labels_predicted[indices[:, 0], indices[:, 1]] = 1
+	batch_size = target.size(0)
+	_, pred = output.topk(k,1,True,True)
+	pred = pred.t()
+	correct = pred.eq(target.view(1,-1).expand_as(pred))
 
-	precision_k = torch.sum(target * labels_predicted, dim=1).float() / float(k)
-
-	if mean:
-		return precision_k.mean()
-
-	return precision_k.sum()
-
+	correct_k = correct[:k].view(-1).float().sum(0,keepdim = True)
+	res = correct_k.mul_(100.0 / batch_size)
+	return res
 
 def main():
 	args = parse_args()
@@ -135,10 +127,10 @@ def main():
 			load_end = time.perf_counter()
 
 			image = image.to(args.device)
-			labels = labels.to(args.device).reshape(image.shape[0], -1)
+			labels = labels.to(args.device)
 
 			out = net(image)
-			loss = F.cross_entropy(out, labels.float())
+			loss = F.cross_entropy(out, labels)
 
 			optimizer.zero_grad()
 			loss.backward()
@@ -146,7 +138,7 @@ def main():
 
 			batch_end = time.perf_counter()
 
-			precision_1 = precision(1, out, labels, args.device, mean=False)
+			precision_1 = precision(1, out, labels)
 
 			epoch_loss += loss.detach().cpu().item()
 			epoch_precision1 += precision_1.cpu().item()
