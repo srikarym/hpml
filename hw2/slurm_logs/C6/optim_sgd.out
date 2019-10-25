@@ -35,3 +35,13 @@ Epoch 4
 	Averages:
 		Training Loss:     0.9528
 	
+		Testing precision@1:     0.6759
+Epoch 5
+	Aggregates:
+		DataLoader Time:     0.8379
+		Mini-batch Time:    33.4304
+		Training Epoch Time:   159.0104
+	Averages:
+		Training Loss:     0.8038
+	
+		Testing precision@1:     0.6438
