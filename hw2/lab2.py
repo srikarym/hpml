@@ -56,6 +56,43 @@ def parse_args():
 	return args
 
 
+args = parse_args()
+
+transform_train = transforms.Compose([
+	transforms.RandomCrop(32, padding=4),
+	transforms.RandomHorizontalFlip(),
+	transforms.ToTensor(),
+	transforms.Normalize((0.4914, 0.4822, 0.4465), (0.2023, 0.1994, 0.2010)),
+])
+
+transform_test = transforms.Compose([
+	transforms.ToTensor(),
+	transforms.Normalize((0.4914, 0.4822, 0.4465), (0.2023, 0.1994, 0.2010)),
+])
+
+trainset = CIFAR10(root='./data', train=True, download=True, transform=transform_train)
+trainloader = torch.utils.data.DataLoader(trainset, batch_size=args.batch_size, shuffle=True, num_workers=args.num_workers)
+
+testset = CIFAR10(root='./data', train=False, download=True, transform=transform_test)
+testloader = torch.utils.data.DataLoader(testset, batch_size=100, shuffle=False, num_workers=args.num_workers)
+
+net = ResNet18().to(args.device)
+
+if args.optimizer == 'sgd':
+	optimizer = SGD(net.parameters(), lr=args.lr, momentum=args.momentum, weight_decay=args.weight_decay)
+elif args.optimizer == 'nesterov':
+	optimizer = SGD(net.parameters(), lr=args.lr, momentum=args.momentum,
+					weight_decay=args.weight_decay,nesterov=True)
+elif args.optimizer == 'adagrad':
+	optimizer = Adagrad(net.parameters())
+elif args.optimizer == 'adadelta':
+	optimizer = Adadelta(net.parameters())
+elif args.optimizer == 'adam':
+	optimizer = Adam(net.parameters())
+else:
+	raise Exception('Invalid optimizer specified.')
+
+
 def precision(k, output, target):
 
 	batch_size = target.size(0)
@@ -67,103 +104,90 @@ def precision(k, output, target):
 	res = correct_k.mul_(100.0 / batch_size)
 	return res
 
-def main():
-	args = parse_args()
-
-	transform_train = transforms.Compose([
-		transforms.RandomCrop(32, padding=4),
-		transforms.RandomHorizontalFlip(),
-		transforms.ToTensor(),
-		transforms.Normalize((0.4914, 0.4822, 0.4465), (0.2023, 0.1994, 0.2010)),
-	])
-
-	transform_test = transforms.Compose([
-		transforms.ToTensor(),
-		transforms.Normalize((0.4914, 0.4822, 0.4465), (0.2023, 0.1994, 0.2010)),
-	])
-
-	trainset = CIFAR10(root='./data', train=True, download=True, transform=transform_train)
-	trainloader = torch.utils.data.DataLoader(trainset, batch_size=args.batch_size, shuffle=True, num_workers=args.num_workers)
-
-	testset = CIFAR10(root='./data', train=False, download=True, transform=transform_test)
-	testloader = torch.utils.data.DataLoader(testset, batch_size=100, shuffle=False, num_workers=args.num_workers)
-
-	net = ResNet18().to(args.device)
-
-	if args.optimizer == 'sgd':
-		optimizer = SGD(net.parameters(), lr=args.lr, momentum=args.momentum, weight_decay=args.weight_decay)
-	elif args.optimizer == 'nesterov':
-		optimizer = SGD(net.parameters(), lr=args.lr, momentum=args.momentum,
-						weight_decay=args.weight_decay,nesterov=True)
-	elif args.optimizer == 'adagrad':
-		optimizer = Adagrad(net.parameters())
-	elif args.optimizer == 'adadelta':
-		optimizer = Adadelta(net.parameters())
-	elif args.optimizer == 'adam':
-		optimizer = Adam(net.parameters())
-	else:
-		raise Exception('Invalid optimizer specified.')
-
+def train(epoch):
+	
 	n_batches = len(trainloader)
-
-	for epoch in range(args.epochs):
 		# Statistics Tracking Variables
-		epoch_loss = 0.0
-		epoch_precision1 = 0.0
+	epoch_loss = 0.0
 
-		epoch_loader_time = 0.0
-		epoch_minibatch_time = 0.0
+	epoch_loader_time = 0.0
+	epoch_minibatch_time = 0.0
 
-		iter_loader = iter(trainloader)
-		net.train()
+	iter_loader = iter(trainloader)
+	net.train()
+	epoch_start = time.perf_counter()
 
-		epoch_start = time.perf_counter()
+	for mini_batch in range(n_batches):
+		load_start = time.perf_counter()
 
-		for mini_batch in range(n_batches):
-			load_start = time.perf_counter()
+		image, labels = next(iter_loader)
 
-			image, labels = next(iter_loader)
+		load_end = time.perf_counter()
 
-			load_end = time.perf_counter()
+		image = image.to(args.device)
+		labels = labels.to(args.device)
 
-			image = image.to(args.device)
-			labels = labels.to(args.device)
+		out = net(image)
+		loss = F.cross_entropy(out, labels)
 
-			out = net(image)
-			loss = F.cross_entropy(out, labels)
+		optimizer.zero_grad()
+		loss.backward()
+		optimizer.step()
 
-			optimizer.zero_grad()
-			loss.backward()
-			optimizer.step()
+		batch_end = time.perf_counter()
 
-			batch_end = time.perf_counter()
 
-			precision_1 = precision(1, out, labels)
+		epoch_loss += loss.detach().cpu().item()
 
-			epoch_loss += loss.detach().cpu().item()
-			epoch_precision1 += precision_1.cpu().item()
+		epoch_loader_time += (load_end - load_start)
+		epoch_minibatch_time += (batch_end - load_start)
 
-			epoch_loader_time += (load_end - load_start)
-			epoch_minibatch_time += (batch_end - load_start)
+	epoch_time = time.perf_counter() - epoch_start
 
-		epoch_time = time.perf_counter() - epoch_start
+	epoch_loss /= n_batches
 
-		epoch_precision1 /= len(trainset)
-		epoch_loss /= n_batches
-
-		report = """Epoch {}
+	report = """Epoch {}
 	Aggregates:
 		DataLoader Time: {:10.4f}
 		Mini-batch Time: {:10.4f}
-		Epoch Time: {:10.4f}
+		Training Epoch Time: {:10.4f}
 	Averages:
-		Loss: {:10.4f}
-		Precision@1: {:10.4f}
+		Training Loss: {:10.4f}
 	""".format(epoch + 1, epoch_loader_time, epoch_minibatch_time, epoch_time,
-				epoch_loss, epoch_precision1)
+				epoch_loss)
 
-		print(report)
+	print(report)
 
+def test():
+	n_batches = len(testloader)
+		# Statistics Tracking Variables
+	epoch_loss = 0.0
+	epoch_precision1 = 0.0
+
+	iter_loader = iter(testloader)
+	net.eval()
+
+
+	for mini_batch in range(n_batches):
+
+		image, labels = next(iter_loader)
+
+
+		image = image.to(args.device)
+		labels = labels.to(args.device)
+
+		out = net(image)
+		precision_1 = precision(1, out, labels)
+
+		epoch_precision1 += precision_1.cpu().item()
+
+	epoch_precision1 /= len(testset)
+
+	report = "\t\tTesting precision@1: {:10.4f}".format(epoch_precision1)
+	print(report)
 
 if __name__ == '__main__':
-	main()
+	
+	for epoch in range(args.epochs):
+		train(epoch)
+		test()

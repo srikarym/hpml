@@ -7,7 +7,7 @@ import glob
 email = "msy290@nyu.edu"
 directory="/misc/kcgscratch1/ChoGroup/srikar/hpml/hw2"
 
-run = 'C3'
+run = 'C6'
 
 slurm_logs = os.path.join(directory, "slurm_logs",run)
 slurm_scripts = os.path.join(directory, "slurm_scripts",run)
@@ -42,15 +42,16 @@ def train(flags, jobname=None, time=24):
 	os.system(s)
 
 
-job = {'cuda':1}
+job = {'num-workers':12, 'cuda':1}
+
 
 
 time = 48
 
-nworkers = [0,4,8,12,16,20,24,28,32,36,40]
+optim = ['sgd','nesterov','adagrad','adadelta','adam']
 
-for w in nworkers:
-	job['num-workers']=w
-	jname = 'workers_{}'.format(w)
+for op in optim:
+	job['optimizer']=op
+	jname = 'optim_{}'.format(op)
 	train(job, jname)
 

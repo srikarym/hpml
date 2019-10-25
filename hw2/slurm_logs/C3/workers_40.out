@@ -1,0 +1,47 @@
+Files already downloaded and verified
+Files already downloaded and verified
+Epoch 1
+	Aggregates:
+		DataLoader Time:     1.0007
+		Mini-batch Time:    21.3826
+		Training Epoch Time:    50.6721
+	Averages:
+		Training Loss:     2.0390
+	
+		Testing precision@1:     0.3669
+Epoch 2
+	Aggregates:
+		DataLoader Time:     1.5065
+		Mini-batch Time:    21.6007
+		Training Epoch Time:    51.6115
+	Averages:
+		Training Loss:     1.5374
+	
+		Testing precision@1:     0.4708
+Epoch 3
+	Aggregates:
+		DataLoader Time:     1.1472
+		Mini-batch Time:    21.5071
+		Training Epoch Time:    52.9046
+	Averages:
+		Training Loss:     1.2618
+	
+		Testing precision@1:     0.6079
+Epoch 4
+	Aggregates:
+		DataLoader Time:     1.3919
+		Mini-batch Time:    21.3793
+		Training Epoch Time:    53.1910
+	Averages:
+		Training Loss:     1.0457
+	
+		Testing precision@1:     0.6632
+Epoch 5
+	Aggregates:
+		DataLoader Time:     1.4195
+		Mini-batch Time:    21.3332
+		Training Epoch Time:    53.3878
+	Averages:
+		Training Loss:     0.9008
+	
+		Testing precision@1:     0.6870
