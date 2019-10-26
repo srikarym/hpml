@@ -42,7 +42,7 @@ def train(flags, jobname=None, time=24):
 	os.system(s)
 
 
-job = {'num-workers':12, 'cuda':1, 'batch-norm':0}
+job = {'num-workers':4, 'cuda':1, 'batch-norm':0}
 
 time = 48
 
