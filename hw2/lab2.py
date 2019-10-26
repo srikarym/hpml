@@ -42,6 +42,9 @@ def parse_args():
 	parser.add_argument('--cuda', type=int, default=0,
 						help='Flag 1/0 to enable/disable CUDA')
 
+	parser.add_argument('--batch-norm', type=int, default=1,
+						help='Flag 1/0 to enable/disable Batch-norm')
+
 	args = parser.parse_args()
 
 	# Make file paths absolute
