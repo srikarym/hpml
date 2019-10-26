@@ -10,7 +10,8 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-from lab2 import parse_args
+from arguments import parse_args
+
 args = parse_args()
 
 class BasicBlock(nn.Module):

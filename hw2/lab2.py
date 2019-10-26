@@ -1,4 +1,3 @@
-import argparse
 import os
 import time
 import torch
@@ -7,56 +6,14 @@ from torch.optim import SGD, Adagrad, Adadelta, Adam
 import torchvision.transforms as transforms
 from torchvision.datasets import CIFAR10
 import torch.nn.functional as F
-from resnet import ResNet18
+from resnet import *
+from arguments import parse_args
+
+def ResNet18():
+    return ResNet(BasicBlock, [2,2,2,2])
 
 
 
-def parse_args():
-	parser = argparse.ArgumentParser()
-
-	parser.add_argument('--data-dir', type=str,
-						metavar='', help='Data directory root',
-						default='./data')
-
-	parser.add_argument('--optimizer', type=str,
-						metavar='', help='Optimizer', default='sgd')
-
-	parser.add_argument('--num-workers', type=int,
-						metavar='', help='Number of data loader workers',
-						default=2)
-
-	parser.add_argument('--batch-size', type=int,
-						metavar='', help='Batch Size', default=128)
-	parser.add_argument('--epochs', type=int,
-						metavar='', help='Number of epochs', default=5)
-
-	parser.add_argument('--lr', type=float,
-						metavar='', help='Learning rate', default=0.1)
-
-	parser.add_argument('--momentum', type=float,
-						metavar='', help='Momentum', default=0.9)
-
-	parser.add_argument('--weight-decay', type = float,
-						metavar='',help = 'Weight decay', default=5e-4)
-
-	parser.add_argument('--cuda', type=int, default=0,
-						help='Flag 1/0 to enable/disable CUDA')
-
-	parser.add_argument('--batch-norm', type=int, default=1,
-						help='Flag 1/0 to enable/disable Batch-norm')
-
-	args = parser.parse_args()
-
-	# Make file paths absolute
-	args.data_dir = os.path.abspath(args.data_dir)
-
-	args.cuda = bool(args.cuda)
-	args.cuda = args.cuda and torch.cuda.is_available()
-	device = 'cuda' if args.cuda else 'cpu'
-	args.device = torch.device(device)
-
-
-	return args
 
 
 args = parse_args()
@@ -139,20 +96,20 @@ def train(epoch):
 
 		batch_end = time.perf_counter()
 
-
-		epoch_loss += loss.detach().cpu().item()
+		loss_scalar = loss.detach().cpu().item()
+		epoch_loss += loss_scalar
 
 		epoch_loader_time += (load_end - load_start)
 		epoch_minibatch_time += (batch_end - load_start)
 
-		print(f'Minibatch {mini_batch:.4f} / {n_batches:.4f}\n \t loss: {loss.detach().cpu().item()}\
-			\n \t Accumulated loss: {epoch_loss:.2f}')
+		print(f'\t Minibatch {mini_batch+1} / {n_batches}, loss: {loss_scalar:.2f}, \
+			Accumulated loss: {epoch_loss:.2f}')
 
 	epoch_time = time.perf_counter() - epoch_start
 
 	epoch_loss /= n_batches
 
-	print(f'Aggregates: \n \t DataLoader Time: {epoch_loader_time:.4f} \n \t \
+	print(f'\nAggregates: \n \t DataLoader Time: {epoch_loader_time:.4f} \n \t \
 		Mini-batch Time:{epoch_minibatch_time:.4f} \n \t Training Epoch Time:{epoch_time:.4f}\n \
 		Averages: \n \t Training Loss: {epoch_loss:.4f}')
 
@@ -182,7 +139,7 @@ def test():
 
 	epoch_precision1 /= len(testset)
 
-	report = f"\tTesting precision@1: {epoch_precision1:.4f} \n".format(epoch_precision1)
+	report = f"\t Testing precision@1: {epoch_precision1:.4f} \n".format(epoch_precision1)
 	print(report)
 
 if __name__ == '__main__':
@@ -190,3 +147,5 @@ if __name__ == '__main__':
 	for epoch in range(args.epochs):
 		train(epoch)
 		test()
+	os.system("grep 'model name' /proc/cpuinfo |head -1")
+	os.system('nvidia-smi')

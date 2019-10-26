@@ -1,0 +1,5912 @@
+Files already downloaded and verified
+Files already downloaded and verified
+Epoch 0
+Minibatch 0.0000 / 391.0000
+ 	 loss: 2.300633668899536			
+ 	 Accumulated loss: 2.30
+Minibatch 1.0000 / 391.0000
+ 	 loss: 2.300494432449341			
+ 	 Accumulated loss: 4.60
+Minibatch 2.0000 / 391.0000
+ 	 loss: 2.306877613067627			
+ 	 Accumulated loss: 6.91
+Minibatch 3.0000 / 391.0000
+ 	 loss: 2.2988643646240234			
+ 	 Accumulated loss: 9.21
+Minibatch 4.0000 / 391.0000
+ 	 loss: 2.2968623638153076			
+ 	 Accumulated loss: 11.50
+Minibatch 5.0000 / 391.0000
+ 	 loss: 2.297123908996582			
+ 	 Accumulated loss: 13.80
+Minibatch 6.0000 / 391.0000
+ 	 loss: 2.3046107292175293			
+ 	 Accumulated loss: 16.11
+Minibatch 7.0000 / 391.0000
+ 	 loss: 2.300584554672241			
+ 	 Accumulated loss: 18.41
+Minibatch 8.0000 / 391.0000
+ 	 loss: 2.2876944541931152			
+ 	 Accumulated loss: 20.69
+Minibatch 9.0000 / 391.0000
+ 	 loss: 2.311065673828125			
+ 	 Accumulated loss: 23.00
+Minibatch 10.0000 / 391.0000
+ 	 loss: 2.3012640476226807			
+ 	 Accumulated loss: 25.31
+Minibatch 11.0000 / 391.0000
+ 	 loss: 2.3026561737060547			
+ 	 Accumulated loss: 27.61
+Minibatch 12.0000 / 391.0000
+ 	 loss: 2.2921786308288574			
+ 	 Accumulated loss: 29.90
+Minibatch 13.0000 / 391.0000
+ 	 loss: 2.2798807621002197			
+ 	 Accumulated loss: 32.18
+Minibatch 14.0000 / 391.0000
+ 	 loss: 2.2687904834747314			
+ 	 Accumulated loss: 34.45
+Minibatch 15.0000 / 391.0000
+ 	 loss: 2.3062150478363037			
+ 	 Accumulated loss: 36.76
+Minibatch 16.0000 / 391.0000
+ 	 loss: 2.26596736907959			
+ 	 Accumulated loss: 39.02
+Minibatch 17.0000 / 391.0000
+ 	 loss: 2.2444372177124023			
+ 	 Accumulated loss: 41.27
+Minibatch 18.0000 / 391.0000
+ 	 loss: 2.2341880798339844			
+ 	 Accumulated loss: 43.50
+Minibatch 19.0000 / 391.0000
+ 	 loss: 2.271592140197754			
+ 	 Accumulated loss: 45.77
+Minibatch 20.0000 / 391.0000
+ 	 loss: 2.232811450958252			
+ 	 Accumulated loss: 48.00
+Minibatch 21.0000 / 391.0000
+ 	 loss: 2.2173938751220703			
+ 	 Accumulated loss: 50.22
+Minibatch 22.0000 / 391.0000
+ 	 loss: 2.223182439804077			
+ 	 Accumulated loss: 52.45
+Minibatch 23.0000 / 391.0000
+ 	 loss: 2.2149436473846436			
+ 	 Accumulated loss: 54.66
+Minibatch 24.0000 / 391.0000
+ 	 loss: 2.262592077255249			
+ 	 Accumulated loss: 56.92
+Minibatch 25.0000 / 391.0000
+ 	 loss: 2.2362334728240967			
+ 	 Accumulated loss: 59.16
+Minibatch 26.0000 / 391.0000
+ 	 loss: 2.195664167404175			
+ 	 Accumulated loss: 61.35
+Minibatch 27.0000 / 391.0000
+ 	 loss: 2.1936752796173096			
+ 	 Accumulated loss: 63.55
+Minibatch 28.0000 / 391.0000
+ 	 loss: 2.195457696914673			
+ 	 Accumulated loss: 65.74
+Minibatch 29.0000 / 391.0000
+ 	 loss: 2.22088623046875			
+ 	 Accumulated loss: 67.96
+Minibatch 30.0000 / 391.0000
+ 	 loss: 2.145451784133911			
+ 	 Accumulated loss: 70.11
+Minibatch 31.0000 / 391.0000
+ 	 loss: 2.1482276916503906			
+ 	 Accumulated loss: 72.26
+Minibatch 32.0000 / 391.0000
+ 	 loss: 2.203856945037842			
+ 	 Accumulated loss: 74.46
+Minibatch 33.0000 / 391.0000
+ 	 loss: 2.1238553524017334			
+ 	 Accumulated loss: 76.59
+Minibatch 34.0000 / 391.0000
+ 	 loss: 2.135624408721924			
+ 	 Accumulated loss: 78.72
+Minibatch 35.0000 / 391.0000
+ 	 loss: 2.1713478565216064			
+ 	 Accumulated loss: 80.89
+Minibatch 36.0000 / 391.0000
+ 	 loss: 2.1701834201812744			
+ 	 Accumulated loss: 83.06
+Minibatch 37.0000 / 391.0000
+ 	 loss: 2.1940436363220215			
+ 	 Accumulated loss: 85.26
+Minibatch 38.0000 / 391.0000
+ 	 loss: 2.1299173831939697			
+ 	 Accumulated loss: 87.39
+Minibatch 39.0000 / 391.0000
+ 	 loss: 2.1355340480804443			
+ 	 Accumulated loss: 89.52
+Minibatch 40.0000 / 391.0000
+ 	 loss: 2.124427556991577			
+ 	 Accumulated loss: 91.65
+Minibatch 41.0000 / 391.0000
+ 	 loss: 2.1225340366363525			
+ 	 Accumulated loss: 93.77
+Minibatch 42.0000 / 391.0000
+ 	 loss: 2.1311018466949463			
+ 	 Accumulated loss: 95.90
+Minibatch 43.0000 / 391.0000
+ 	 loss: 2.0853137969970703			
+ 	 Accumulated loss: 97.99
+Minibatch 44.0000 / 391.0000
+ 	 loss: 2.038926601409912			
+ 	 Accumulated loss: 100.03
+Minibatch 45.0000 / 391.0000
+ 	 loss: 2.0149431228637695			
+ 	 Accumulated loss: 102.04
+Minibatch 46.0000 / 391.0000
+ 	 loss: 2.195617198944092			
+ 	 Accumulated loss: 104.24
+Minibatch 47.0000 / 391.0000
+ 	 loss: 2.147167921066284			
+ 	 Accumulated loss: 106.38
+Minibatch 48.0000 / 391.0000
+ 	 loss: 2.1427571773529053			
+ 	 Accumulated loss: 108.53
+Minibatch 49.0000 / 391.0000
+ 	 loss: 2.1521949768066406			
+ 	 Accumulated loss: 110.68
+Minibatch 50.0000 / 391.0000
+ 	 loss: 2.1359639167785645			
+ 	 Accumulated loss: 112.81
+Minibatch 51.0000 / 391.0000
+ 	 loss: 2.1009535789489746			
+ 	 Accumulated loss: 114.91
+Minibatch 52.0000 / 391.0000
+ 	 loss: 2.098604440689087			
+ 	 Accumulated loss: 117.01
+Minibatch 53.0000 / 391.0000
+ 	 loss: 2.1793227195739746			
+ 	 Accumulated loss: 119.19
+Minibatch 54.0000 / 391.0000
+ 	 loss: 2.1533989906311035			
+ 	 Accumulated loss: 121.35
+Minibatch 55.0000 / 391.0000
+ 	 loss: 2.1288909912109375			
+ 	 Accumulated loss: 123.47
+Minibatch 56.0000 / 391.0000
+ 	 loss: 2.0653879642486572			
+ 	 Accumulated loss: 125.54
+Minibatch 57.0000 / 391.0000
+ 	 loss: 2.0867385864257812			
+ 	 Accumulated loss: 127.63
+Minibatch 58.0000 / 391.0000
+ 	 loss: 2.069138526916504			
+ 	 Accumulated loss: 129.70
+Minibatch 59.0000 / 391.0000
+ 	 loss: 2.0839438438415527			
+ 	 Accumulated loss: 131.78
+Minibatch 60.0000 / 391.0000
+ 	 loss: 1.9982922077178955			
+ 	 Accumulated loss: 133.78
+Minibatch 61.0000 / 391.0000
+ 	 loss: 2.1048436164855957			
+ 	 Accumulated loss: 135.88
+Minibatch 62.0000 / 391.0000
+ 	 loss: 2.047213077545166			
+ 	 Accumulated loss: 137.93
+Minibatch 63.0000 / 391.0000
+ 	 loss: 2.0386431217193604			
+ 	 Accumulated loss: 139.97
+Minibatch 64.0000 / 391.0000
+ 	 loss: 1.980987787246704			
+ 	 Accumulated loss: 141.95
+Minibatch 65.0000 / 391.0000
+ 	 loss: 2.0137033462524414			
+ 	 Accumulated loss: 143.96
+Minibatch 66.0000 / 391.0000
+ 	 loss: 2.005781412124634			
+ 	 Accumulated loss: 145.97
+Minibatch 67.0000 / 391.0000
+ 	 loss: 2.0770058631896973			
+ 	 Accumulated loss: 148.05
+Minibatch 68.0000 / 391.0000
+ 	 loss: 2.021052360534668			
+ 	 Accumulated loss: 150.07
+Minibatch 69.0000 / 391.0000
+ 	 loss: 2.001824378967285			
+ 	 Accumulated loss: 152.07
+Minibatch 70.0000 / 391.0000
+ 	 loss: 2.1099236011505127			
+ 	 Accumulated loss: 154.18
+Minibatch 71.0000 / 391.0000
+ 	 loss: 2.0949747562408447			
+ 	 Accumulated loss: 156.27
+Minibatch 72.0000 / 391.0000
+ 	 loss: 1.9968125820159912			
+ 	 Accumulated loss: 158.27
+Minibatch 73.0000 / 391.0000
+ 	 loss: 2.322099447250366			
+ 	 Accumulated loss: 160.59
+Minibatch 74.0000 / 391.0000
+ 	 loss: 2.155944585800171			
+ 	 Accumulated loss: 162.75
+Minibatch 75.0000 / 391.0000
+ 	 loss: 2.157097578048706			
+ 	 Accumulated loss: 164.91
+Minibatch 76.0000 / 391.0000
+ 	 loss: 2.097438097000122			
+ 	 Accumulated loss: 167.00
+Minibatch 77.0000 / 391.0000
+ 	 loss: 2.1476941108703613			
+ 	 Accumulated loss: 169.15
+Minibatch 78.0000 / 391.0000
+ 	 loss: 2.1428613662719727			
+ 	 Accumulated loss: 171.29
+Minibatch 79.0000 / 391.0000
+ 	 loss: 2.178327798843384			
+ 	 Accumulated loss: 173.47
+Minibatch 80.0000 / 391.0000
+ 	 loss: 2.136467933654785			
+ 	 Accumulated loss: 175.61
+Minibatch 81.0000 / 391.0000
+ 	 loss: 2.088017463684082			
+ 	 Accumulated loss: 177.70
+Minibatch 82.0000 / 391.0000
+ 	 loss: 2.090261459350586			
+ 	 Accumulated loss: 179.79
+Minibatch 83.0000 / 391.0000
+ 	 loss: 2.059647560119629			
+ 	 Accumulated loss: 181.85
+Minibatch 84.0000 / 391.0000
+ 	 loss: 1.9916138648986816			
+ 	 Accumulated loss: 183.84
+Minibatch 85.0000 / 391.0000
+ 	 loss: 2.1793651580810547			
+ 	 Accumulated loss: 186.02
+Minibatch 86.0000 / 391.0000
+ 	 loss: 2.0268592834472656			
+ 	 Accumulated loss: 188.04
+Minibatch 87.0000 / 391.0000
+ 	 loss: 2.0155420303344727			
+ 	 Accumulated loss: 190.06
+Minibatch 88.0000 / 391.0000
+ 	 loss: 1.9173306226730347			
+ 	 Accumulated loss: 191.98
+Minibatch 89.0000 / 391.0000
+ 	 loss: 2.010448455810547			
+ 	 Accumulated loss: 193.99
+Minibatch 90.0000 / 391.0000
+ 	 loss: 2.0647082328796387			
+ 	 Accumulated loss: 196.05
+Minibatch 91.0000 / 391.0000
+ 	 loss: 2.1397151947021484			
+ 	 Accumulated loss: 198.19
+Minibatch 92.0000 / 391.0000
+ 	 loss: 1.9819175004959106			
+ 	 Accumulated loss: 200.17
+Minibatch 93.0000 / 391.0000
+ 	 loss: 1.9967834949493408			
+ 	 Accumulated loss: 202.17
+Minibatch 94.0000 / 391.0000
+ 	 loss: 1.949692726135254			
+ 	 Accumulated loss: 204.12
+Minibatch 95.0000 / 391.0000
+ 	 loss: 2.0737178325653076			
+ 	 Accumulated loss: 206.19
+Minibatch 96.0000 / 391.0000
+ 	 loss: 2.0898075103759766			
+ 	 Accumulated loss: 208.28
+Minibatch 97.0000 / 391.0000
+ 	 loss: 2.0444765090942383			
+ 	 Accumulated loss: 210.33
+Minibatch 98.0000 / 391.0000
+ 	 loss: 2.040821075439453			
+ 	 Accumulated loss: 212.37
+Minibatch 99.0000 / 391.0000
+ 	 loss: 2.1354591846466064			
+ 	 Accumulated loss: 214.51
+Minibatch 100.0000 / 391.0000
+ 	 loss: 1.9698162078857422			
+ 	 Accumulated loss: 216.48
+Minibatch 101.0000 / 391.0000
+ 	 loss: 1.9827868938446045			
+ 	 Accumulated loss: 218.46
+Minibatch 102.0000 / 391.0000
+ 	 loss: 2.019547700881958			
+ 	 Accumulated loss: 220.48
+Minibatch 103.0000 / 391.0000
+ 	 loss: 1.8996338844299316			
+ 	 Accumulated loss: 222.38
+Minibatch 104.0000 / 391.0000
+ 	 loss: 2.19752836227417			
+ 	 Accumulated loss: 224.57
+Minibatch 105.0000 / 391.0000
+ 	 loss: 2.203301191329956			
+ 	 Accumulated loss: 226.78
+Minibatch 106.0000 / 391.0000
+ 	 loss: 2.1031928062438965			
+ 	 Accumulated loss: 228.88
+Minibatch 107.0000 / 391.0000
+ 	 loss: 2.0329511165618896			
+ 	 Accumulated loss: 230.91
+Minibatch 108.0000 / 391.0000
+ 	 loss: 2.1625044345855713			
+ 	 Accumulated loss: 233.08
+Minibatch 109.0000 / 391.0000
+ 	 loss: 2.0723605155944824			
+ 	 Accumulated loss: 235.15
+Minibatch 110.0000 / 391.0000
+ 	 loss: 2.0699195861816406			
+ 	 Accumulated loss: 237.22
+Minibatch 111.0000 / 391.0000
+ 	 loss: 2.102816104888916			
+ 	 Accumulated loss: 239.32
+Minibatch 112.0000 / 391.0000
+ 	 loss: 2.0850019454956055			
+ 	 Accumulated loss: 241.41
+Minibatch 113.0000 / 391.0000
+ 	 loss: 1.9703090190887451			
+ 	 Accumulated loss: 243.38
+Minibatch 114.0000 / 391.0000
+ 	 loss: 2.0441462993621826			
+ 	 Accumulated loss: 245.42
+Minibatch 115.0000 / 391.0000
+ 	 loss: 2.0214006900787354			
+ 	 Accumulated loss: 247.44
+Minibatch 116.0000 / 391.0000
+ 	 loss: 1.9469265937805176			
+ 	 Accumulated loss: 249.39
+Minibatch 117.0000 / 391.0000
+ 	 loss: 1.965870976448059			
+ 	 Accumulated loss: 251.36
+Minibatch 118.0000 / 391.0000
+ 	 loss: 2.0224947929382324			
+ 	 Accumulated loss: 253.38
+Minibatch 119.0000 / 391.0000
+ 	 loss: 2.0755715370178223			
+ 	 Accumulated loss: 255.45
+Minibatch 120.0000 / 391.0000
+ 	 loss: 2.128549337387085			
+ 	 Accumulated loss: 257.58
+Minibatch 121.0000 / 391.0000
+ 	 loss: 1.9771803617477417			
+ 	 Accumulated loss: 259.56
+Minibatch 122.0000 / 391.0000
+ 	 loss: 2.06387996673584			
+ 	 Accumulated loss: 261.62
+Minibatch 123.0000 / 391.0000
+ 	 loss: 2.0384464263916016			
+ 	 Accumulated loss: 263.66
+Minibatch 124.0000 / 391.0000
+ 	 loss: 2.0146188735961914			
+ 	 Accumulated loss: 265.68
+Minibatch 125.0000 / 391.0000
+ 	 loss: 2.025022029876709			
+ 	 Accumulated loss: 267.70
+Minibatch 126.0000 / 391.0000
+ 	 loss: 2.0511157512664795			
+ 	 Accumulated loss: 269.75
+Minibatch 127.0000 / 391.0000
+ 	 loss: 2.0574350357055664			
+ 	 Accumulated loss: 271.81
+Minibatch 128.0000 / 391.0000
+ 	 loss: 1.989030361175537			
+ 	 Accumulated loss: 273.80
+Minibatch 129.0000 / 391.0000
+ 	 loss: 1.975744366645813			
+ 	 Accumulated loss: 275.77
+Minibatch 130.0000 / 391.0000
+ 	 loss: 1.9568268060684204			
+ 	 Accumulated loss: 277.73
+Minibatch 131.0000 / 391.0000
+ 	 loss: 1.930377721786499			
+ 	 Accumulated loss: 279.66
+Minibatch 132.0000 / 391.0000
+ 	 loss: 2.0294835567474365			
+ 	 Accumulated loss: 281.69
+Minibatch 133.0000 / 391.0000
+ 	 loss: 1.9512815475463867			
+ 	 Accumulated loss: 283.64
+Minibatch 134.0000 / 391.0000
+ 	 loss: 2.135993242263794			
+ 	 Accumulated loss: 285.78
+Minibatch 135.0000 / 391.0000
+ 	 loss: 1.9438971281051636			
+ 	 Accumulated loss: 287.72
+Minibatch 136.0000 / 391.0000
+ 	 loss: 1.934125304222107			
+ 	 Accumulated loss: 289.66
+Minibatch 137.0000 / 391.0000
+ 	 loss: 1.9920027256011963			
+ 	 Accumulated loss: 291.65
+Minibatch 138.0000 / 391.0000
+ 	 loss: 2.038013219833374			
+ 	 Accumulated loss: 293.69
+Minibatch 139.0000 / 391.0000
+ 	 loss: 2.0395069122314453			
+ 	 Accumulated loss: 295.73
+Minibatch 140.0000 / 391.0000
+ 	 loss: 2.0792336463928223			
+ 	 Accumulated loss: 297.81
+Minibatch 141.0000 / 391.0000
+ 	 loss: 1.9912205934524536			
+ 	 Accumulated loss: 299.80
+Minibatch 142.0000 / 391.0000
+ 	 loss: 2.0781660079956055			
+ 	 Accumulated loss: 301.87
+Minibatch 143.0000 / 391.0000
+ 	 loss: 1.945662260055542			
+ 	 Accumulated loss: 303.82
+Minibatch 144.0000 / 391.0000
+ 	 loss: 2.0633888244628906			
+ 	 Accumulated loss: 305.88
+Minibatch 145.0000 / 391.0000
+ 	 loss: 1.9875454902648926			
+ 	 Accumulated loss: 307.87
+Minibatch 146.0000 / 391.0000
+ 	 loss: 2.0320990085601807			
+ 	 Accumulated loss: 309.90
+Minibatch 147.0000 / 391.0000
+ 	 loss: 2.055392265319824			
+ 	 Accumulated loss: 311.96
+Minibatch 148.0000 / 391.0000
+ 	 loss: 1.882712483406067			
+ 	 Accumulated loss: 313.84
+Minibatch 149.0000 / 391.0000
+ 	 loss: 2.116039752960205			
+ 	 Accumulated loss: 315.96
+Minibatch 150.0000 / 391.0000
+ 	 loss: 1.9612456560134888			
+ 	 Accumulated loss: 317.92
+Minibatch 151.0000 / 391.0000
+ 	 loss: 1.9005486965179443			
+ 	 Accumulated loss: 319.82
+Minibatch 152.0000 / 391.0000
+ 	 loss: 1.9218699932098389			
+ 	 Accumulated loss: 321.74
+Minibatch 153.0000 / 391.0000
+ 	 loss: 1.9029697179794312			
+ 	 Accumulated loss: 323.64
+Minibatch 154.0000 / 391.0000
+ 	 loss: 1.8897744417190552			
+ 	 Accumulated loss: 325.53
+Minibatch 155.0000 / 391.0000
+ 	 loss: 1.971101999282837			
+ 	 Accumulated loss: 327.50
+Minibatch 156.0000 / 391.0000
+ 	 loss: 2.03174090385437			
+ 	 Accumulated loss: 329.54
+Minibatch 157.0000 / 391.0000
+ 	 loss: 1.8551781177520752			
+ 	 Accumulated loss: 331.39
+Minibatch 158.0000 / 391.0000
+ 	 loss: 1.8620027303695679			
+ 	 Accumulated loss: 333.25
+Minibatch 159.0000 / 391.0000
+ 	 loss: 1.9422013759613037			
+ 	 Accumulated loss: 335.20
+Minibatch 160.0000 / 391.0000
+ 	 loss: 1.863174557685852			
+ 	 Accumulated loss: 337.06
+Minibatch 161.0000 / 391.0000
+ 	 loss: 2.02046537399292			
+ 	 Accumulated loss: 339.08
+Minibatch 162.0000 / 391.0000
+ 	 loss: 1.8588380813598633			
+ 	 Accumulated loss: 340.94
+Minibatch 163.0000 / 391.0000
+ 	 loss: 1.9621200561523438			
+ 	 Accumulated loss: 342.90
+Minibatch 164.0000 / 391.0000
+ 	 loss: 2.006321907043457			
+ 	 Accumulated loss: 344.91
+Minibatch 165.0000 / 391.0000
+ 	 loss: 1.9802106618881226			
+ 	 Accumulated loss: 346.89
+Minibatch 166.0000 / 391.0000
+ 	 loss: 1.8904376029968262			
+ 	 Accumulated loss: 348.78
+Minibatch 167.0000 / 391.0000
+ 	 loss: 1.8701410293579102			
+ 	 Accumulated loss: 350.65
+Minibatch 168.0000 / 391.0000
+ 	 loss: 1.9712183475494385			
+ 	 Accumulated loss: 352.62
+Minibatch 169.0000 / 391.0000
+ 	 loss: 1.9664297103881836			
+ 	 Accumulated loss: 354.59
+Minibatch 170.0000 / 391.0000
+ 	 loss: 1.8541396856307983			
+ 	 Accumulated loss: 356.44
+Minibatch 171.0000 / 391.0000
+ 	 loss: 1.8887619972229004			
+ 	 Accumulated loss: 358.33
+Minibatch 172.0000 / 391.0000
+ 	 loss: 1.9525312185287476			
+ 	 Accumulated loss: 360.28
+Minibatch 173.0000 / 391.0000
+ 	 loss: 1.8546183109283447			
+ 	 Accumulated loss: 362.14
+Minibatch 174.0000 / 391.0000
+ 	 loss: 1.8477879762649536			
+ 	 Accumulated loss: 363.98
+Minibatch 175.0000 / 391.0000
+ 	 loss: 1.8018192052841187			
+ 	 Accumulated loss: 365.79
+Minibatch 176.0000 / 391.0000
+ 	 loss: 1.9138661623001099			
+ 	 Accumulated loss: 367.70
+Minibatch 177.0000 / 391.0000
+ 	 loss: 1.9911810159683228			
+ 	 Accumulated loss: 369.69
+Minibatch 178.0000 / 391.0000
+ 	 loss: 1.913240671157837			
+ 	 Accumulated loss: 371.60
+Minibatch 179.0000 / 391.0000
+ 	 loss: 2.0892322063446045			
+ 	 Accumulated loss: 373.69
+Minibatch 180.0000 / 391.0000
+ 	 loss: 1.952643632888794			
+ 	 Accumulated loss: 375.65
+Minibatch 181.0000 / 391.0000
+ 	 loss: 1.954728364944458			
+ 	 Accumulated loss: 377.60
+Minibatch 182.0000 / 391.0000
+ 	 loss: 1.9819928407669067			
+ 	 Accumulated loss: 379.58
+Minibatch 183.0000 / 391.0000
+ 	 loss: 1.9741270542144775			
+ 	 Accumulated loss: 381.56
+Minibatch 184.0000 / 391.0000
+ 	 loss: 1.8602735996246338			
+ 	 Accumulated loss: 383.42
+Minibatch 185.0000 / 391.0000
+ 	 loss: 2.014047384262085			
+ 	 Accumulated loss: 385.43
+Minibatch 186.0000 / 391.0000
+ 	 loss: 1.8931838274002075			
+ 	 Accumulated loss: 387.32
+Minibatch 187.0000 / 391.0000
+ 	 loss: 1.964882493019104			
+ 	 Accumulated loss: 389.29
+Minibatch 188.0000 / 391.0000
+ 	 loss: 2.0147171020507812			
+ 	 Accumulated loss: 391.30
+Minibatch 189.0000 / 391.0000
+ 	 loss: 1.9536378383636475			
+ 	 Accumulated loss: 393.26
+Minibatch 190.0000 / 391.0000
+ 	 loss: 2.0174639225006104			
+ 	 Accumulated loss: 395.27
+Minibatch 191.0000 / 391.0000
+ 	 loss: 1.9228280782699585			
+ 	 Accumulated loss: 397.20
+Minibatch 192.0000 / 391.0000
+ 	 loss: 1.915131688117981			
+ 	 Accumulated loss: 399.11
+Minibatch 193.0000 / 391.0000
+ 	 loss: 1.8931796550750732			
+ 	 Accumulated loss: 401.01
+Minibatch 194.0000 / 391.0000
+ 	 loss: 1.8899956941604614			
+ 	 Accumulated loss: 402.90
+Minibatch 195.0000 / 391.0000
+ 	 loss: 1.8478453159332275			
+ 	 Accumulated loss: 404.74
+Minibatch 196.0000 / 391.0000
+ 	 loss: 2.021453619003296			
+ 	 Accumulated loss: 406.76
+Minibatch 197.0000 / 391.0000
+ 	 loss: 1.8434083461761475			
+ 	 Accumulated loss: 408.61
+Minibatch 198.0000 / 391.0000
+ 	 loss: 1.893044114112854			
+ 	 Accumulated loss: 410.50
+Minibatch 199.0000 / 391.0000
+ 	 loss: 1.8301962614059448			
+ 	 Accumulated loss: 412.33
+Minibatch 200.0000 / 391.0000
+ 	 loss: 1.7878079414367676			
+ 	 Accumulated loss: 414.12
+Minibatch 201.0000 / 391.0000
+ 	 loss: 2.0582315921783447			
+ 	 Accumulated loss: 416.18
+Minibatch 202.0000 / 391.0000
+ 	 loss: 1.748673915863037			
+ 	 Accumulated loss: 417.93
+Minibatch 203.0000 / 391.0000
+ 	 loss: 1.9512112140655518			
+ 	 Accumulated loss: 419.88
+Minibatch 204.0000 / 391.0000
+ 	 loss: 1.7774076461791992			
+ 	 Accumulated loss: 421.65
+Minibatch 205.0000 / 391.0000
+ 	 loss: 1.7385342121124268			
+ 	 Accumulated loss: 423.39
+Minibatch 206.0000 / 391.0000
+ 	 loss: 1.791595458984375			
+ 	 Accumulated loss: 425.18
+Minibatch 207.0000 / 391.0000
+ 	 loss: 1.9602546691894531			
+ 	 Accumulated loss: 427.15
+Minibatch 208.0000 / 391.0000
+ 	 loss: 1.8412933349609375			
+ 	 Accumulated loss: 428.99
+Minibatch 209.0000 / 391.0000
+ 	 loss: 1.865761160850525			
+ 	 Accumulated loss: 430.85
+Minibatch 210.0000 / 391.0000
+ 	 loss: 1.7971980571746826			
+ 	 Accumulated loss: 432.65
+Minibatch 211.0000 / 391.0000
+ 	 loss: 2.01340651512146			
+ 	 Accumulated loss: 434.66
+Minibatch 212.0000 / 391.0000
+ 	 loss: 1.8791768550872803			
+ 	 Accumulated loss: 436.54
+Minibatch 213.0000 / 391.0000
+ 	 loss: 1.9565566778182983			
+ 	 Accumulated loss: 438.50
+Minibatch 214.0000 / 391.0000
+ 	 loss: 1.8761265277862549			
+ 	 Accumulated loss: 440.37
+Minibatch 215.0000 / 391.0000
+ 	 loss: 1.8133481740951538			
+ 	 Accumulated loss: 442.19
+Minibatch 216.0000 / 391.0000
+ 	 loss: 1.790806770324707			
+ 	 Accumulated loss: 443.98
+Minibatch 217.0000 / 391.0000
+ 	 loss: 1.8637083768844604			
+ 	 Accumulated loss: 445.84
+Minibatch 218.0000 / 391.0000
+ 	 loss: 1.8604578971862793			
+ 	 Accumulated loss: 447.70
+Minibatch 219.0000 / 391.0000
+ 	 loss: 1.8556239604949951			
+ 	 Accumulated loss: 449.56
+Minibatch 220.0000 / 391.0000
+ 	 loss: 1.815225601196289			
+ 	 Accumulated loss: 451.37
+Minibatch 221.0000 / 391.0000
+ 	 loss: 2.1274077892303467			
+ 	 Accumulated loss: 453.50
+Minibatch 222.0000 / 391.0000
+ 	 loss: 1.9023653268814087			
+ 	 Accumulated loss: 455.40
+Minibatch 223.0000 / 391.0000
+ 	 loss: 1.929675817489624			
+ 	 Accumulated loss: 457.33
+Minibatch 224.0000 / 391.0000
+ 	 loss: 1.9572025537490845			
+ 	 Accumulated loss: 459.29
+Minibatch 225.0000 / 391.0000
+ 	 loss: 1.8938302993774414			
+ 	 Accumulated loss: 461.18
+Minibatch 226.0000 / 391.0000
+ 	 loss: 1.8053369522094727			
+ 	 Accumulated loss: 462.99
+Minibatch 227.0000 / 391.0000
+ 	 loss: 1.816493272781372			
+ 	 Accumulated loss: 464.81
+Minibatch 228.0000 / 391.0000
+ 	 loss: 1.7353595495224			
+ 	 Accumulated loss: 466.54
+Minibatch 229.0000 / 391.0000
+ 	 loss: 1.781054139137268			
+ 	 Accumulated loss: 468.32
+Minibatch 230.0000 / 391.0000
+ 	 loss: 1.8788551092147827			
+ 	 Accumulated loss: 470.20
+Minibatch 231.0000 / 391.0000
+ 	 loss: 1.7839629650115967			
+ 	 Accumulated loss: 471.99
+Minibatch 232.0000 / 391.0000
+ 	 loss: 1.6375166177749634			
+ 	 Accumulated loss: 473.62
+Minibatch 233.0000 / 391.0000
+ 	 loss: 1.879921317100525			
+ 	 Accumulated loss: 475.50
+Minibatch 234.0000 / 391.0000
+ 	 loss: 1.8152892589569092			
+ 	 Accumulated loss: 477.32
+Minibatch 235.0000 / 391.0000
+ 	 loss: 1.8075342178344727			
+ 	 Accumulated loss: 479.13
+Minibatch 236.0000 / 391.0000
+ 	 loss: 1.6435896158218384			
+ 	 Accumulated loss: 480.77
+Minibatch 237.0000 / 391.0000
+ 	 loss: 1.677630066871643			
+ 	 Accumulated loss: 482.45
+Minibatch 238.0000 / 391.0000
+ 	 loss: 1.8451778888702393			
+ 	 Accumulated loss: 484.29
+Minibatch 239.0000 / 391.0000
+ 	 loss: 1.7942386865615845			
+ 	 Accumulated loss: 486.09
+Minibatch 240.0000 / 391.0000
+ 	 loss: 1.6690431833267212			
+ 	 Accumulated loss: 487.76
+Minibatch 241.0000 / 391.0000
+ 	 loss: 1.9424562454223633			
+ 	 Accumulated loss: 489.70
+Minibatch 242.0000 / 391.0000
+ 	 loss: 1.8710495233535767			
+ 	 Accumulated loss: 491.57
+Minibatch 243.0000 / 391.0000
+ 	 loss: 1.8224632740020752			
+ 	 Accumulated loss: 493.39
+Minibatch 244.0000 / 391.0000
+ 	 loss: 1.8629118204116821			
+ 	 Accumulated loss: 495.25
+Minibatch 245.0000 / 391.0000
+ 	 loss: 1.868109941482544			
+ 	 Accumulated loss: 497.12
+Minibatch 246.0000 / 391.0000
+ 	 loss: 1.64519464969635			
+ 	 Accumulated loss: 498.77
+Minibatch 247.0000 / 391.0000
+ 	 loss: 1.8065946102142334			
+ 	 Accumulated loss: 500.57
+Minibatch 248.0000 / 391.0000
+ 	 loss: 1.820122241973877			
+ 	 Accumulated loss: 502.39
+Minibatch 249.0000 / 391.0000
+ 	 loss: 1.8072000741958618			
+ 	 Accumulated loss: 504.20
+Minibatch 250.0000 / 391.0000
+ 	 loss: 1.8861005306243896			
+ 	 Accumulated loss: 506.09
+Minibatch 251.0000 / 391.0000
+ 	 loss: 1.883714199066162			
+ 	 Accumulated loss: 507.97
+Minibatch 252.0000 / 391.0000
+ 	 loss: 1.8342183828353882			
+ 	 Accumulated loss: 509.81
+Minibatch 253.0000 / 391.0000
+ 	 loss: 1.7846581935882568			
+ 	 Accumulated loss: 511.59
+Minibatch 254.0000 / 391.0000
+ 	 loss: 1.8663122653961182			
+ 	 Accumulated loss: 513.46
+Minibatch 255.0000 / 391.0000
+ 	 loss: 1.895189881324768			
+ 	 Accumulated loss: 515.35
+Minibatch 256.0000 / 391.0000
+ 	 loss: 1.7671773433685303			
+ 	 Accumulated loss: 517.12
+Minibatch 257.0000 / 391.0000
+ 	 loss: 1.8140099048614502			
+ 	 Accumulated loss: 518.93
+Minibatch 258.0000 / 391.0000
+ 	 loss: 1.7639622688293457			
+ 	 Accumulated loss: 520.70
+Minibatch 259.0000 / 391.0000
+ 	 loss: 1.881177544593811			
+ 	 Accumulated loss: 522.58
+Minibatch 260.0000 / 391.0000
+ 	 loss: 1.7051364183425903			
+ 	 Accumulated loss: 524.28
+Minibatch 261.0000 / 391.0000
+ 	 loss: 1.9380974769592285			
+ 	 Accumulated loss: 526.22
+Minibatch 262.0000 / 391.0000
+ 	 loss: 1.8150088787078857			
+ 	 Accumulated loss: 528.04
+Minibatch 263.0000 / 391.0000
+ 	 loss: 1.7806479930877686			
+ 	 Accumulated loss: 529.82
+Minibatch 264.0000 / 391.0000
+ 	 loss: 1.6892211437225342			
+ 	 Accumulated loss: 531.51
+Minibatch 265.0000 / 391.0000
+ 	 loss: 1.6688910722732544			
+ 	 Accumulated loss: 533.17
+Minibatch 266.0000 / 391.0000
+ 	 loss: 1.8841215372085571			
+ 	 Accumulated loss: 535.06
+Minibatch 267.0000 / 391.0000
+ 	 loss: 1.842184066772461			
+ 	 Accumulated loss: 536.90
+Minibatch 268.0000 / 391.0000
+ 	 loss: 1.7255345582962036			
+ 	 Accumulated loss: 538.63
+Minibatch 269.0000 / 391.0000
+ 	 loss: 1.6458135843276978			
+ 	 Accumulated loss: 540.27
+Minibatch 270.0000 / 391.0000
+ 	 loss: 1.717057466506958			
+ 	 Accumulated loss: 541.99
+Minibatch 271.0000 / 391.0000
+ 	 loss: 1.8047943115234375			
+ 	 Accumulated loss: 543.79
+Minibatch 272.0000 / 391.0000
+ 	 loss: 1.6845723390579224			
+ 	 Accumulated loss: 545.48
+Minibatch 273.0000 / 391.0000
+ 	 loss: 1.8424711227416992			
+ 	 Accumulated loss: 547.32
+Minibatch 274.0000 / 391.0000
+ 	 loss: 1.810534119606018			
+ 	 Accumulated loss: 549.13
+Minibatch 275.0000 / 391.0000
+ 	 loss: 1.7273060083389282			
+ 	 Accumulated loss: 550.86
+Minibatch 276.0000 / 391.0000
+ 	 loss: 1.7046934366226196			
+ 	 Accumulated loss: 552.56
+Minibatch 277.0000 / 391.0000
+ 	 loss: 1.6866717338562012			
+ 	 Accumulated loss: 554.25
+Minibatch 278.0000 / 391.0000
+ 	 loss: 1.7405693531036377			
+ 	 Accumulated loss: 555.99
+Minibatch 279.0000 / 391.0000
+ 	 loss: 1.724026083946228			
+ 	 Accumulated loss: 557.72
+Minibatch 280.0000 / 391.0000
+ 	 loss: 1.6494444608688354			
+ 	 Accumulated loss: 559.36
+Minibatch 281.0000 / 391.0000
+ 	 loss: 1.7329388856887817			
+ 	 Accumulated loss: 561.10
+Minibatch 282.0000 / 391.0000
+ 	 loss: 1.686377763748169			
+ 	 Accumulated loss: 562.78
+Minibatch 283.0000 / 391.0000
+ 	 loss: 1.6922743320465088			
+ 	 Accumulated loss: 564.48
+Minibatch 284.0000 / 391.0000
+ 	 loss: 1.7773016691207886			
+ 	 Accumulated loss: 566.25
+Minibatch 285.0000 / 391.0000
+ 	 loss: 1.8145350217819214			
+ 	 Accumulated loss: 568.07
+Minibatch 286.0000 / 391.0000
+ 	 loss: 1.85736882686615			
+ 	 Accumulated loss: 569.93
+Minibatch 287.0000 / 391.0000
+ 	 loss: 1.8467676639556885			
+ 	 Accumulated loss: 571.77
+Minibatch 288.0000 / 391.0000
+ 	 loss: 1.8024775981903076			
+ 	 Accumulated loss: 573.57
+Minibatch 289.0000 / 391.0000
+ 	 loss: 1.764920949935913			
+ 	 Accumulated loss: 575.34
+Minibatch 290.0000 / 391.0000
+ 	 loss: 1.8478491306304932			
+ 	 Accumulated loss: 577.19
+Minibatch 291.0000 / 391.0000
+ 	 loss: 1.894734501838684			
+ 	 Accumulated loss: 579.08
+Minibatch 292.0000 / 391.0000
+ 	 loss: 1.843855619430542			
+ 	 Accumulated loss: 580.93
+Minibatch 293.0000 / 391.0000
+ 	 loss: 1.7445573806762695			
+ 	 Accumulated loss: 582.67
+Minibatch 294.0000 / 391.0000
+ 	 loss: 1.6981741189956665			
+ 	 Accumulated loss: 584.37
+Minibatch 295.0000 / 391.0000
+ 	 loss: 1.7001934051513672			
+ 	 Accumulated loss: 586.07
+Minibatch 296.0000 / 391.0000
+ 	 loss: 1.7041809558868408			
+ 	 Accumulated loss: 587.77
+Minibatch 297.0000 / 391.0000
+ 	 loss: 1.8041568994522095			
+ 	 Accumulated loss: 589.58
+Minibatch 298.0000 / 391.0000
+ 	 loss: 1.6127461194992065			
+ 	 Accumulated loss: 591.19
+Minibatch 299.0000 / 391.0000
+ 	 loss: 1.6272720098495483			
+ 	 Accumulated loss: 592.82
+Minibatch 300.0000 / 391.0000
+ 	 loss: 1.7703651189804077			
+ 	 Accumulated loss: 594.59
+Minibatch 301.0000 / 391.0000
+ 	 loss: 1.7442620992660522			
+ 	 Accumulated loss: 596.33
+Minibatch 302.0000 / 391.0000
+ 	 loss: 1.903916835784912			
+ 	 Accumulated loss: 598.24
+Minibatch 303.0000 / 391.0000
+ 	 loss: 1.696588158607483			
+ 	 Accumulated loss: 599.93
+Minibatch 304.0000 / 391.0000
+ 	 loss: 1.6089719533920288			
+ 	 Accumulated loss: 601.54
+Minibatch 305.0000 / 391.0000
+ 	 loss: 1.7162013053894043			
+ 	 Accumulated loss: 603.26
+Minibatch 306.0000 / 391.0000
+ 	 loss: 1.5523362159729004			
+ 	 Accumulated loss: 604.81
+Minibatch 307.0000 / 391.0000
+ 	 loss: 1.7745678424835205			
+ 	 Accumulated loss: 606.58
+Minibatch 308.0000 / 391.0000
+ 	 loss: 1.7693897485733032			
+ 	 Accumulated loss: 608.35
+Minibatch 309.0000 / 391.0000
+ 	 loss: 1.8116204738616943			
+ 	 Accumulated loss: 610.17
+Minibatch 310.0000 / 391.0000
+ 	 loss: 1.6267167329788208			
+ 	 Accumulated loss: 611.79
+Minibatch 311.0000 / 391.0000
+ 	 loss: 1.928548812866211			
+ 	 Accumulated loss: 613.72
+Minibatch 312.0000 / 391.0000
+ 	 loss: 1.6866240501403809			
+ 	 Accumulated loss: 615.41
+Minibatch 313.0000 / 391.0000
+ 	 loss: 1.8472284078598022			
+ 	 Accumulated loss: 617.25
+Minibatch 314.0000 / 391.0000
+ 	 loss: 1.6588852405548096			
+ 	 Accumulated loss: 618.91
+Minibatch 315.0000 / 391.0000
+ 	 loss: 1.6366556882858276			
+ 	 Accumulated loss: 620.55
+Minibatch 316.0000 / 391.0000
+ 	 loss: 1.6756023168563843			
+ 	 Accumulated loss: 622.23
+Minibatch 317.0000 / 391.0000
+ 	 loss: 1.8603280782699585			
+ 	 Accumulated loss: 624.09
+Minibatch 318.0000 / 391.0000
+ 	 loss: 1.8351964950561523			
+ 	 Accumulated loss: 625.92
+Minibatch 319.0000 / 391.0000
+ 	 loss: 1.7059756517410278			
+ 	 Accumulated loss: 627.63
+Minibatch 320.0000 / 391.0000
+ 	 loss: 1.9448280334472656			
+ 	 Accumulated loss: 629.57
+Minibatch 321.0000 / 391.0000
+ 	 loss: 1.7680702209472656			
+ 	 Accumulated loss: 631.34
+Minibatch 322.0000 / 391.0000
+ 	 loss: 1.75973379611969			
+ 	 Accumulated loss: 633.10
+Minibatch 323.0000 / 391.0000
+ 	 loss: 2.0043554306030273			
+ 	 Accumulated loss: 635.10
+Minibatch 324.0000 / 391.0000
+ 	 loss: 1.6935962438583374			
+ 	 Accumulated loss: 636.80
+Minibatch 325.0000 / 391.0000
+ 	 loss: 1.796154499053955			
+ 	 Accumulated loss: 638.59
+Minibatch 326.0000 / 391.0000
+ 	 loss: 1.8991832733154297			
+ 	 Accumulated loss: 640.49
+Minibatch 327.0000 / 391.0000
+ 	 loss: 1.807743787765503			
+ 	 Accumulated loss: 642.30
+Minibatch 328.0000 / 391.0000
+ 	 loss: 1.715766191482544			
+ 	 Accumulated loss: 644.02
+Minibatch 329.0000 / 391.0000
+ 	 loss: 1.7903013229370117			
+ 	 Accumulated loss: 645.81
+Minibatch 330.0000 / 391.0000
+ 	 loss: 1.894248604774475			
+ 	 Accumulated loss: 647.70
+Minibatch 331.0000 / 391.0000
+ 	 loss: 1.7312241792678833			
+ 	 Accumulated loss: 649.43
+Minibatch 332.0000 / 391.0000
+ 	 loss: 1.7438946962356567			
+ 	 Accumulated loss: 651.18
+Minibatch 333.0000 / 391.0000
+ 	 loss: 1.7103502750396729			
+ 	 Accumulated loss: 652.89
+Minibatch 334.0000 / 391.0000
+ 	 loss: 1.8670493364334106			
+ 	 Accumulated loss: 654.75
+Minibatch 335.0000 / 391.0000
+ 	 loss: 1.9573894739151			
+ 	 Accumulated loss: 656.71
+Minibatch 336.0000 / 391.0000
+ 	 loss: 1.589401364326477			
+ 	 Accumulated loss: 658.30
+Minibatch 337.0000 / 391.0000
+ 	 loss: 1.914971113204956			
+ 	 Accumulated loss: 660.22
+Minibatch 338.0000 / 391.0000
+ 	 loss: 1.820816993713379			
+ 	 Accumulated loss: 662.04
+Minibatch 339.0000 / 391.0000
+ 	 loss: 1.7077398300170898			
+ 	 Accumulated loss: 663.74
+Minibatch 340.0000 / 391.0000
+ 	 loss: 1.8919575214385986			
+ 	 Accumulated loss: 665.64
+Minibatch 341.0000 / 391.0000
+ 	 loss: 1.919107437133789			
+ 	 Accumulated loss: 667.56
+Minibatch 342.0000 / 391.0000
+ 	 loss: 1.7356681823730469			
+ 	 Accumulated loss: 669.29
+Minibatch 343.0000 / 391.0000
+ 	 loss: 1.7704572677612305			
+ 	 Accumulated loss: 671.06
+Minibatch 344.0000 / 391.0000
+ 	 loss: 1.8521398305892944			
+ 	 Accumulated loss: 672.91
+Minibatch 345.0000 / 391.0000
+ 	 loss: 1.768943428993225			
+ 	 Accumulated loss: 674.68
+Minibatch 346.0000 / 391.0000
+ 	 loss: 1.7294195890426636			
+ 	 Accumulated loss: 676.41
+Minibatch 347.0000 / 391.0000
+ 	 loss: 1.8408583402633667			
+ 	 Accumulated loss: 678.25
+Minibatch 348.0000 / 391.0000
+ 	 loss: 1.7283766269683838			
+ 	 Accumulated loss: 679.98
+Minibatch 349.0000 / 391.0000
+ 	 loss: 1.7390468120574951			
+ 	 Accumulated loss: 681.72
+Minibatch 350.0000 / 391.0000
+ 	 loss: 1.6865378618240356			
+ 	 Accumulated loss: 683.41
+Minibatch 351.0000 / 391.0000
+ 	 loss: 1.69386625289917			
+ 	 Accumulated loss: 685.10
+Minibatch 352.0000 / 391.0000
+ 	 loss: 1.7090644836425781			
+ 	 Accumulated loss: 686.81
+Minibatch 353.0000 / 391.0000
+ 	 loss: 1.7482730150222778			
+ 	 Accumulated loss: 688.56
+Minibatch 354.0000 / 391.0000
+ 	 loss: 1.6477748155593872			
+ 	 Accumulated loss: 690.21
+Minibatch 355.0000 / 391.0000
+ 	 loss: 1.7226412296295166			
+ 	 Accumulated loss: 691.93
+Minibatch 356.0000 / 391.0000
+ 	 loss: 1.6362122297286987			
+ 	 Accumulated loss: 693.56
+Minibatch 357.0000 / 391.0000
+ 	 loss: 1.6855827569961548			
+ 	 Accumulated loss: 695.25
+Minibatch 358.0000 / 391.0000
+ 	 loss: 1.624489188194275			
+ 	 Accumulated loss: 696.87
+Minibatch 359.0000 / 391.0000
+ 	 loss: 1.850123643875122			
+ 	 Accumulated loss: 698.72
+Minibatch 360.0000 / 391.0000
+ 	 loss: 1.768311858177185			
+ 	 Accumulated loss: 700.49
+Minibatch 361.0000 / 391.0000
+ 	 loss: 1.726194977760315			
+ 	 Accumulated loss: 702.22
+Minibatch 362.0000 / 391.0000
+ 	 loss: 1.623443365097046			
+ 	 Accumulated loss: 703.84
+Minibatch 363.0000 / 391.0000
+ 	 loss: 1.7701889276504517			
+ 	 Accumulated loss: 705.61
+Minibatch 364.0000 / 391.0000
+ 	 loss: 1.8610647916793823			
+ 	 Accumulated loss: 707.47
+Minibatch 365.0000 / 391.0000
+ 	 loss: 1.7642251253128052			
+ 	 Accumulated loss: 709.24
+Minibatch 366.0000 / 391.0000
+ 	 loss: 1.8110581636428833			
+ 	 Accumulated loss: 711.05
+Minibatch 367.0000 / 391.0000
+ 	 loss: 1.750289797782898			
+ 	 Accumulated loss: 712.80
+Minibatch 368.0000 / 391.0000
+ 	 loss: 1.716103434562683			
+ 	 Accumulated loss: 714.52
+Minibatch 369.0000 / 391.0000
+ 	 loss: 1.7274956703186035			
+ 	 Accumulated loss: 716.24
+Minibatch 370.0000 / 391.0000
+ 	 loss: 1.6978892087936401			
+ 	 Accumulated loss: 717.94
+Minibatch 371.0000 / 391.0000
+ 	 loss: 1.6417375802993774			
+ 	 Accumulated loss: 719.58
+Minibatch 372.0000 / 391.0000
+ 	 loss: 1.6882061958312988			
+ 	 Accumulated loss: 721.27
+Minibatch 373.0000 / 391.0000
+ 	 loss: 1.6232495307922363			
+ 	 Accumulated loss: 722.89
+Minibatch 374.0000 / 391.0000
+ 	 loss: 1.701100468635559			
+ 	 Accumulated loss: 724.60
+Minibatch 375.0000 / 391.0000
+ 	 loss: 1.6148531436920166			
+ 	 Accumulated loss: 726.21
+Minibatch 376.0000 / 391.0000
+ 	 loss: 1.5953304767608643			
+ 	 Accumulated loss: 727.81
+Minibatch 377.0000 / 391.0000
+ 	 loss: 1.7008886337280273			
+ 	 Accumulated loss: 729.51
+Minibatch 378.0000 / 391.0000
+ 	 loss: 1.7569866180419922			
+ 	 Accumulated loss: 731.26
+Minibatch 379.0000 / 391.0000
+ 	 loss: 1.8495060205459595			
+ 	 Accumulated loss: 733.11
+Minibatch 380.0000 / 391.0000
+ 	 loss: 1.7180818319320679			
+ 	 Accumulated loss: 734.83
+Minibatch 381.0000 / 391.0000
+ 	 loss: 1.7868112325668335			
+ 	 Accumulated loss: 736.62
+Minibatch 382.0000 / 391.0000
+ 	 loss: 1.898724913597107			
+ 	 Accumulated loss: 738.52
+Minibatch 383.0000 / 391.0000
+ 	 loss: 1.7592294216156006			
+ 	 Accumulated loss: 740.28
+Minibatch 384.0000 / 391.0000
+ 	 loss: 1.7492003440856934			
+ 	 Accumulated loss: 742.02
+Minibatch 385.0000 / 391.0000
+ 	 loss: 1.7309733629226685			
+ 	 Accumulated loss: 743.76
+Minibatch 386.0000 / 391.0000
+ 	 loss: 1.75072181224823			
+ 	 Accumulated loss: 745.51
+Minibatch 387.0000 / 391.0000
+ 	 loss: 1.5748889446258545			
+ 	 Accumulated loss: 747.08
+Minibatch 388.0000 / 391.0000
+ 	 loss: 1.6741318702697754			
+ 	 Accumulated loss: 748.76
+Minibatch 389.0000 / 391.0000
+ 	 loss: 1.6605279445648193			
+ 	 Accumulated loss: 750.42
+Minibatch 390.0000 / 391.0000
+ 	 loss: 1.7905619144439697			
+ 	 Accumulated loss: 752.21
+Aggregates: 
+ 	 DataLoader Time: 3.1921 
+ 	 		Mini-batch Time:18.9166 
+ 	 Training Epoch Time:32.6862
+ 		Averages: 
+ 	 Training Loss: 1.9238
+	Testing precision@1: 0.3723 
+
+Epoch 1
+Minibatch 0.0000 / 391.0000
+ 	 loss: 1.697514533996582			
+ 	 Accumulated loss: 1.70
+Minibatch 1.0000 / 391.0000
+ 	 loss: 1.778343915939331			
+ 	 Accumulated loss: 3.48
+Minibatch 2.0000 / 391.0000
+ 	 loss: 1.658743977546692			
+ 	 Accumulated loss: 5.13
+Minibatch 3.0000 / 391.0000
+ 	 loss: 1.6678696870803833			
+ 	 Accumulated loss: 6.80
+Minibatch 4.0000 / 391.0000
+ 	 loss: 1.616171956062317			
+ 	 Accumulated loss: 8.42
+Minibatch 5.0000 / 391.0000
+ 	 loss: 1.6055768728256226			
+ 	 Accumulated loss: 10.02
+Minibatch 6.0000 / 391.0000
+ 	 loss: 1.5514063835144043			
+ 	 Accumulated loss: 11.58
+Minibatch 7.0000 / 391.0000
+ 	 loss: 1.5641487836837769			
+ 	 Accumulated loss: 13.14
+Minibatch 8.0000 / 391.0000
+ 	 loss: 1.7090944051742554			
+ 	 Accumulated loss: 14.85
+Minibatch 9.0000 / 391.0000
+ 	 loss: 1.7508169412612915			
+ 	 Accumulated loss: 16.60
+Minibatch 10.0000 / 391.0000
+ 	 loss: 1.6151678562164307			
+ 	 Accumulated loss: 18.21
+Minibatch 11.0000 / 391.0000
+ 	 loss: 1.5732518434524536			
+ 	 Accumulated loss: 19.79
+Minibatch 12.0000 / 391.0000
+ 	 loss: 1.675201416015625			
+ 	 Accumulated loss: 21.46
+Minibatch 13.0000 / 391.0000
+ 	 loss: 1.700304388999939			
+ 	 Accumulated loss: 23.16
+Minibatch 14.0000 / 391.0000
+ 	 loss: 1.8605636358261108			
+ 	 Accumulated loss: 25.02
+Minibatch 15.0000 / 391.0000
+ 	 loss: 1.6752314567565918			
+ 	 Accumulated loss: 26.70
+Minibatch 16.0000 / 391.0000
+ 	 loss: 1.66327702999115			
+ 	 Accumulated loss: 28.36
+Minibatch 17.0000 / 391.0000
+ 	 loss: 1.8161219358444214			
+ 	 Accumulated loss: 30.18
+Minibatch 18.0000 / 391.0000
+ 	 loss: 1.6278328895568848			
+ 	 Accumulated loss: 31.81
+Minibatch 19.0000 / 391.0000
+ 	 loss: 1.658341646194458			
+ 	 Accumulated loss: 33.46
+Minibatch 20.0000 / 391.0000
+ 	 loss: 1.681074857711792			
+ 	 Accumulated loss: 35.15
+Minibatch 21.0000 / 391.0000
+ 	 loss: 1.604325771331787			
+ 	 Accumulated loss: 36.75
+Minibatch 22.0000 / 391.0000
+ 	 loss: 1.6548317670822144			
+ 	 Accumulated loss: 38.41
+Minibatch 23.0000 / 391.0000
+ 	 loss: 1.71262788772583			
+ 	 Accumulated loss: 40.12
+Minibatch 24.0000 / 391.0000
+ 	 loss: 1.5278691053390503			
+ 	 Accumulated loss: 41.65
+Minibatch 25.0000 / 391.0000
+ 	 loss: 1.567571759223938			
+ 	 Accumulated loss: 43.21
+Minibatch 26.0000 / 391.0000
+ 	 loss: 1.6951972246170044			
+ 	 Accumulated loss: 44.91
+Minibatch 27.0000 / 391.0000
+ 	 loss: 1.7156985998153687			
+ 	 Accumulated loss: 46.62
+Minibatch 28.0000 / 391.0000
+ 	 loss: 1.6588114500045776			
+ 	 Accumulated loss: 48.28
+Minibatch 29.0000 / 391.0000
+ 	 loss: 1.6782194375991821			
+ 	 Accumulated loss: 49.96
+Minibatch 30.0000 / 391.0000
+ 	 loss: 1.6216241121292114			
+ 	 Accumulated loss: 51.58
+Minibatch 31.0000 / 391.0000
+ 	 loss: 1.5283830165863037			
+ 	 Accumulated loss: 53.11
+Minibatch 32.0000 / 391.0000
+ 	 loss: 1.644096851348877			
+ 	 Accumulated loss: 54.76
+Minibatch 33.0000 / 391.0000
+ 	 loss: 1.539232611656189			
+ 	 Accumulated loss: 56.29
+Minibatch 34.0000 / 391.0000
+ 	 loss: 1.6667550802230835			
+ 	 Accumulated loss: 57.96
+Minibatch 35.0000 / 391.0000
+ 	 loss: 1.7949167490005493			
+ 	 Accumulated loss: 59.76
+Minibatch 36.0000 / 391.0000
+ 	 loss: 1.6168502569198608			
+ 	 Accumulated loss: 61.37
+Minibatch 37.0000 / 391.0000
+ 	 loss: 1.6848715543746948			
+ 	 Accumulated loss: 63.06
+Minibatch 38.0000 / 391.0000
+ 	 loss: 1.747698426246643			
+ 	 Accumulated loss: 64.81
+Minibatch 39.0000 / 391.0000
+ 	 loss: 1.7185359001159668			
+ 	 Accumulated loss: 66.52
+Minibatch 40.0000 / 391.0000
+ 	 loss: 1.8063193559646606			
+ 	 Accumulated loss: 68.33
+Minibatch 41.0000 / 391.0000
+ 	 loss: 1.6541001796722412			
+ 	 Accumulated loss: 69.98
+Minibatch 42.0000 / 391.0000
+ 	 loss: 1.7099138498306274			
+ 	 Accumulated loss: 71.69
+Minibatch 43.0000 / 391.0000
+ 	 loss: 1.7301853895187378			
+ 	 Accumulated loss: 73.42
+Minibatch 44.0000 / 391.0000
+ 	 loss: 1.5919522047042847			
+ 	 Accumulated loss: 75.02
+Minibatch 45.0000 / 391.0000
+ 	 loss: 1.5974586009979248			
+ 	 Accumulated loss: 76.61
+Minibatch 46.0000 / 391.0000
+ 	 loss: 1.5904828310012817			
+ 	 Accumulated loss: 78.20
+Minibatch 47.0000 / 391.0000
+ 	 loss: 1.7245292663574219			
+ 	 Accumulated loss: 79.93
+Minibatch 48.0000 / 391.0000
+ 	 loss: 1.631861925125122			
+ 	 Accumulated loss: 81.56
+Minibatch 49.0000 / 391.0000
+ 	 loss: 1.7369332313537598			
+ 	 Accumulated loss: 83.30
+Minibatch 50.0000 / 391.0000
+ 	 loss: 1.6080775260925293			
+ 	 Accumulated loss: 84.91
+Minibatch 51.0000 / 391.0000
+ 	 loss: 1.5380876064300537			
+ 	 Accumulated loss: 86.44
+Minibatch 52.0000 / 391.0000
+ 	 loss: 1.5985909700393677			
+ 	 Accumulated loss: 88.04
+Minibatch 53.0000 / 391.0000
+ 	 loss: 1.6322195529937744			
+ 	 Accumulated loss: 89.67
+Minibatch 54.0000 / 391.0000
+ 	 loss: 1.6973745822906494			
+ 	 Accumulated loss: 91.37
+Minibatch 55.0000 / 391.0000
+ 	 loss: 1.6419353485107422			
+ 	 Accumulated loss: 93.01
+Minibatch 56.0000 / 391.0000
+ 	 loss: 1.5333424806594849			
+ 	 Accumulated loss: 94.55
+Minibatch 57.0000 / 391.0000
+ 	 loss: 1.437886118888855			
+ 	 Accumulated loss: 95.99
+Minibatch 58.0000 / 391.0000
+ 	 loss: 1.5587332248687744			
+ 	 Accumulated loss: 97.54
+Minibatch 59.0000 / 391.0000
+ 	 loss: 1.5998830795288086			
+ 	 Accumulated loss: 99.14
+Minibatch 60.0000 / 391.0000
+ 	 loss: 1.6152385473251343			
+ 	 Accumulated loss: 100.76
+Minibatch 61.0000 / 391.0000
+ 	 loss: 1.7069365978240967			
+ 	 Accumulated loss: 102.47
+Minibatch 62.0000 / 391.0000
+ 	 loss: 1.6020305156707764			
+ 	 Accumulated loss: 104.07
+Minibatch 63.0000 / 391.0000
+ 	 loss: 1.7498724460601807			
+ 	 Accumulated loss: 105.82
+Minibatch 64.0000 / 391.0000
+ 	 loss: 1.5606229305267334			
+ 	 Accumulated loss: 107.38
+Minibatch 65.0000 / 391.0000
+ 	 loss: 1.6011534929275513			
+ 	 Accumulated loss: 108.98
+Minibatch 66.0000 / 391.0000
+ 	 loss: 1.5901509523391724			
+ 	 Accumulated loss: 110.57
+Minibatch 67.0000 / 391.0000
+ 	 loss: 1.5743334293365479			
+ 	 Accumulated loss: 112.14
+Minibatch 68.0000 / 391.0000
+ 	 loss: 1.611222267150879			
+ 	 Accumulated loss: 113.76
+Minibatch 69.0000 / 391.0000
+ 	 loss: 1.8638865947723389			
+ 	 Accumulated loss: 115.62
+Minibatch 70.0000 / 391.0000
+ 	 loss: 1.570806622505188			
+ 	 Accumulated loss: 117.19
+Minibatch 71.0000 / 391.0000
+ 	 loss: 1.6136897802352905			
+ 	 Accumulated loss: 118.80
+Minibatch 72.0000 / 391.0000
+ 	 loss: 1.704184651374817			
+ 	 Accumulated loss: 120.51
+Minibatch 73.0000 / 391.0000
+ 	 loss: 1.503636360168457			
+ 	 Accumulated loss: 122.01
+Minibatch 74.0000 / 391.0000
+ 	 loss: 1.5125735998153687			
+ 	 Accumulated loss: 123.52
+Minibatch 75.0000 / 391.0000
+ 	 loss: 1.5762767791748047			
+ 	 Accumulated loss: 125.10
+Minibatch 76.0000 / 391.0000
+ 	 loss: 1.508821725845337			
+ 	 Accumulated loss: 126.61
+Minibatch 77.0000 / 391.0000
+ 	 loss: 1.6821919679641724			
+ 	 Accumulated loss: 128.29
+Minibatch 78.0000 / 391.0000
+ 	 loss: 1.6401695013046265			
+ 	 Accumulated loss: 129.93
+Minibatch 79.0000 / 391.0000
+ 	 loss: 1.5591697692871094			
+ 	 Accumulated loss: 131.49
+Minibatch 80.0000 / 391.0000
+ 	 loss: 1.6143471002578735			
+ 	 Accumulated loss: 133.11
+Minibatch 81.0000 / 391.0000
+ 	 loss: 1.597777247428894			
+ 	 Accumulated loss: 134.70
+Minibatch 82.0000 / 391.0000
+ 	 loss: 1.5787028074264526			
+ 	 Accumulated loss: 136.28
+Minibatch 83.0000 / 391.0000
+ 	 loss: 1.585592269897461			
+ 	 Accumulated loss: 137.87
+Minibatch 84.0000 / 391.0000
+ 	 loss: 1.713236689567566			
+ 	 Accumulated loss: 139.58
+Minibatch 85.0000 / 391.0000
+ 	 loss: 1.6780034303665161			
+ 	 Accumulated loss: 141.26
+Minibatch 86.0000 / 391.0000
+ 	 loss: 1.6566494703292847			
+ 	 Accumulated loss: 142.92
+Minibatch 87.0000 / 391.0000
+ 	 loss: 1.6831640005111694			
+ 	 Accumulated loss: 144.60
+Minibatch 88.0000 / 391.0000
+ 	 loss: 1.664122223854065			
+ 	 Accumulated loss: 146.26
+Minibatch 89.0000 / 391.0000
+ 	 loss: 1.7520419359207153			
+ 	 Accumulated loss: 148.01
+Minibatch 90.0000 / 391.0000
+ 	 loss: 1.5213772058486938			
+ 	 Accumulated loss: 149.54
+Minibatch 91.0000 / 391.0000
+ 	 loss: 1.5921343564987183			
+ 	 Accumulated loss: 151.13
+Minibatch 92.0000 / 391.0000
+ 	 loss: 1.5656180381774902			
+ 	 Accumulated loss: 152.69
+Minibatch 93.0000 / 391.0000
+ 	 loss: 1.563618779182434			
+ 	 Accumulated loss: 154.26
+Minibatch 94.0000 / 391.0000
+ 	 loss: 1.5711723566055298			
+ 	 Accumulated loss: 155.83
+Minibatch 95.0000 / 391.0000
+ 	 loss: 1.6785651445388794			
+ 	 Accumulated loss: 157.51
+Minibatch 96.0000 / 391.0000
+ 	 loss: 1.5095434188842773			
+ 	 Accumulated loss: 159.02
+Minibatch 97.0000 / 391.0000
+ 	 loss: 1.6401876211166382			
+ 	 Accumulated loss: 160.66
+Minibatch 98.0000 / 391.0000
+ 	 loss: 1.6661499738693237			
+ 	 Accumulated loss: 162.32
+Minibatch 99.0000 / 391.0000
+ 	 loss: 1.8298133611679077			
+ 	 Accumulated loss: 164.15
+Minibatch 100.0000 / 391.0000
+ 	 loss: 1.4882928133010864			
+ 	 Accumulated loss: 165.64
+Minibatch 101.0000 / 391.0000
+ 	 loss: 1.726399540901184			
+ 	 Accumulated loss: 167.37
+Minibatch 102.0000 / 391.0000
+ 	 loss: 1.467093825340271			
+ 	 Accumulated loss: 168.83
+Minibatch 103.0000 / 391.0000
+ 	 loss: 1.7244189977645874			
+ 	 Accumulated loss: 170.56
+Minibatch 104.0000 / 391.0000
+ 	 loss: 1.714767336845398			
+ 	 Accumulated loss: 172.27
+Minibatch 105.0000 / 391.0000
+ 	 loss: 1.6102107763290405			
+ 	 Accumulated loss: 173.88
+Minibatch 106.0000 / 391.0000
+ 	 loss: 1.5599514245986938			
+ 	 Accumulated loss: 175.44
+Minibatch 107.0000 / 391.0000
+ 	 loss: 1.7451006174087524			
+ 	 Accumulated loss: 177.19
+Minibatch 108.0000 / 391.0000
+ 	 loss: 1.6753458976745605			
+ 	 Accumulated loss: 178.86
+Minibatch 109.0000 / 391.0000
+ 	 loss: 1.7065656185150146			
+ 	 Accumulated loss: 180.57
+Minibatch 110.0000 / 391.0000
+ 	 loss: 1.489558458328247			
+ 	 Accumulated loss: 182.06
+Minibatch 111.0000 / 391.0000
+ 	 loss: 1.6720162630081177			
+ 	 Accumulated loss: 183.73
+Minibatch 112.0000 / 391.0000
+ 	 loss: 1.5769903659820557			
+ 	 Accumulated loss: 185.31
+Minibatch 113.0000 / 391.0000
+ 	 loss: 1.4754937887191772			
+ 	 Accumulated loss: 186.79
+Minibatch 114.0000 / 391.0000
+ 	 loss: 1.8353326320648193			
+ 	 Accumulated loss: 188.62
+Minibatch 115.0000 / 391.0000
+ 	 loss: 1.5851709842681885			
+ 	 Accumulated loss: 190.21
+Minibatch 116.0000 / 391.0000
+ 	 loss: 1.6149423122406006			
+ 	 Accumulated loss: 191.82
+Minibatch 117.0000 / 391.0000
+ 	 loss: 1.5590338706970215			
+ 	 Accumulated loss: 193.38
+Minibatch 118.0000 / 391.0000
+ 	 loss: 1.8341666460037231			
+ 	 Accumulated loss: 195.21
+Minibatch 119.0000 / 391.0000
+ 	 loss: 1.489405632019043			
+ 	 Accumulated loss: 196.70
+Minibatch 120.0000 / 391.0000
+ 	 loss: 1.5953320264816284			
+ 	 Accumulated loss: 198.30
+Minibatch 121.0000 / 391.0000
+ 	 loss: 1.5452934503555298			
+ 	 Accumulated loss: 199.84
+Minibatch 122.0000 / 391.0000
+ 	 loss: 1.5839087963104248			
+ 	 Accumulated loss: 201.43
+Minibatch 123.0000 / 391.0000
+ 	 loss: 1.4552557468414307			
+ 	 Accumulated loss: 202.88
+Minibatch 124.0000 / 391.0000
+ 	 loss: 1.6089355945587158			
+ 	 Accumulated loss: 204.49
+Minibatch 125.0000 / 391.0000
+ 	 loss: 1.5739506483078003			
+ 	 Accumulated loss: 206.07
+Minibatch 126.0000 / 391.0000
+ 	 loss: 1.7174144983291626			
+ 	 Accumulated loss: 207.78
+Minibatch 127.0000 / 391.0000
+ 	 loss: 1.665290117263794			
+ 	 Accumulated loss: 209.45
+Minibatch 128.0000 / 391.0000
+ 	 loss: 1.5863004922866821			
+ 	 Accumulated loss: 211.03
+Minibatch 129.0000 / 391.0000
+ 	 loss: 1.586475133895874			
+ 	 Accumulated loss: 212.62
+Minibatch 130.0000 / 391.0000
+ 	 loss: 1.600908875465393			
+ 	 Accumulated loss: 214.22
+Minibatch 131.0000 / 391.0000
+ 	 loss: 1.6396780014038086			
+ 	 Accumulated loss: 215.86
+Minibatch 132.0000 / 391.0000
+ 	 loss: 1.4511617422103882			
+ 	 Accumulated loss: 217.31
+Minibatch 133.0000 / 391.0000
+ 	 loss: 1.5961412191390991			
+ 	 Accumulated loss: 218.91
+Minibatch 134.0000 / 391.0000
+ 	 loss: 1.4921002388000488			
+ 	 Accumulated loss: 220.40
+Minibatch 135.0000 / 391.0000
+ 	 loss: 1.5945098400115967			
+ 	 Accumulated loss: 222.00
+Minibatch 136.0000 / 391.0000
+ 	 loss: 1.505190372467041			
+ 	 Accumulated loss: 223.50
+Minibatch 137.0000 / 391.0000
+ 	 loss: 1.4949699640274048			
+ 	 Accumulated loss: 225.00
+Minibatch 138.0000 / 391.0000
+ 	 loss: 1.458601951599121			
+ 	 Accumulated loss: 226.45
+Minibatch 139.0000 / 391.0000
+ 	 loss: 1.6814953088760376			
+ 	 Accumulated loss: 228.14
+Minibatch 140.0000 / 391.0000
+ 	 loss: 1.4789135456085205			
+ 	 Accumulated loss: 229.61
+Minibatch 141.0000 / 391.0000
+ 	 loss: 1.591429591178894			
+ 	 Accumulated loss: 231.21
+Minibatch 142.0000 / 391.0000
+ 	 loss: 1.6162787675857544			
+ 	 Accumulated loss: 232.82
+Minibatch 143.0000 / 391.0000
+ 	 loss: 1.4220010042190552			
+ 	 Accumulated loss: 234.24
+Minibatch 144.0000 / 391.0000
+ 	 loss: 1.6465333700180054			
+ 	 Accumulated loss: 235.89
+Minibatch 145.0000 / 391.0000
+ 	 loss: 1.4903916120529175			
+ 	 Accumulated loss: 237.38
+Minibatch 146.0000 / 391.0000
+ 	 loss: 1.497294306755066			
+ 	 Accumulated loss: 238.88
+Minibatch 147.0000 / 391.0000
+ 	 loss: 1.6114329099655151			
+ 	 Accumulated loss: 240.49
+Minibatch 148.0000 / 391.0000
+ 	 loss: 1.5070955753326416			
+ 	 Accumulated loss: 242.00
+Minibatch 149.0000 / 391.0000
+ 	 loss: 1.4900093078613281			
+ 	 Accumulated loss: 243.49
+Minibatch 150.0000 / 391.0000
+ 	 loss: 1.5578268766403198			
+ 	 Accumulated loss: 245.05
+Minibatch 151.0000 / 391.0000
+ 	 loss: 1.709493637084961			
+ 	 Accumulated loss: 246.75
+Minibatch 152.0000 / 391.0000
+ 	 loss: 1.510756492614746			
+ 	 Accumulated loss: 248.27
+Minibatch 153.0000 / 391.0000
+ 	 loss: 1.6529074907302856			
+ 	 Accumulated loss: 249.92
+Minibatch 154.0000 / 391.0000
+ 	 loss: 1.5015296936035156			
+ 	 Accumulated loss: 251.42
+Minibatch 155.0000 / 391.0000
+ 	 loss: 1.4518388509750366			
+ 	 Accumulated loss: 252.87
+Minibatch 156.0000 / 391.0000
+ 	 loss: 1.5696297883987427			
+ 	 Accumulated loss: 254.44
+Minibatch 157.0000 / 391.0000
+ 	 loss: 1.5445921421051025			
+ 	 Accumulated loss: 255.99
+Minibatch 158.0000 / 391.0000
+ 	 loss: 1.56931734085083			
+ 	 Accumulated loss: 257.56
+Minibatch 159.0000 / 391.0000
+ 	 loss: 1.4519894123077393			
+ 	 Accumulated loss: 259.01
+Minibatch 160.0000 / 391.0000
+ 	 loss: 1.561176061630249			
+ 	 Accumulated loss: 260.57
+Minibatch 161.0000 / 391.0000
+ 	 loss: 1.3719549179077148			
+ 	 Accumulated loss: 261.94
+Minibatch 162.0000 / 391.0000
+ 	 loss: 1.6617279052734375			
+ 	 Accumulated loss: 263.60
+Minibatch 163.0000 / 391.0000
+ 	 loss: 1.4579319953918457			
+ 	 Accumulated loss: 265.06
+Minibatch 164.0000 / 391.0000
+ 	 loss: 1.6227129697799683			
+ 	 Accumulated loss: 266.68
+Minibatch 165.0000 / 391.0000
+ 	 loss: 1.4665534496307373			
+ 	 Accumulated loss: 268.15
+Minibatch 166.0000 / 391.0000
+ 	 loss: 1.5619432926177979			
+ 	 Accumulated loss: 269.71
+Minibatch 167.0000 / 391.0000
+ 	 loss: 1.3184752464294434			
+ 	 Accumulated loss: 271.03
+Minibatch 168.0000 / 391.0000
+ 	 loss: 1.5028927326202393			
+ 	 Accumulated loss: 272.53
+Minibatch 169.0000 / 391.0000
+ 	 loss: 1.4264347553253174			
+ 	 Accumulated loss: 273.96
+Minibatch 170.0000 / 391.0000
+ 	 loss: 1.4940065145492554			
+ 	 Accumulated loss: 275.45
+Minibatch 171.0000 / 391.0000
+ 	 loss: 1.439326286315918			
+ 	 Accumulated loss: 276.89
+Minibatch 172.0000 / 391.0000
+ 	 loss: 1.6293385028839111			
+ 	 Accumulated loss: 278.52
+Minibatch 173.0000 / 391.0000
+ 	 loss: 1.5676661729812622			
+ 	 Accumulated loss: 280.09
+Minibatch 174.0000 / 391.0000
+ 	 loss: 1.6191891431808472			
+ 	 Accumulated loss: 281.71
+Minibatch 175.0000 / 391.0000
+ 	 loss: 1.415855050086975			
+ 	 Accumulated loss: 283.12
+Minibatch 176.0000 / 391.0000
+ 	 loss: 1.4869675636291504			
+ 	 Accumulated loss: 284.61
+Minibatch 177.0000 / 391.0000
+ 	 loss: 1.4253878593444824			
+ 	 Accumulated loss: 286.04
+Minibatch 178.0000 / 391.0000
+ 	 loss: 1.517120122909546			
+ 	 Accumulated loss: 287.55
+Minibatch 179.0000 / 391.0000
+ 	 loss: 1.664390206336975			
+ 	 Accumulated loss: 289.22
+Minibatch 180.0000 / 391.0000
+ 	 loss: 1.5328375101089478			
+ 	 Accumulated loss: 290.75
+Minibatch 181.0000 / 391.0000
+ 	 loss: 1.3879365921020508			
+ 	 Accumulated loss: 292.14
+Minibatch 182.0000 / 391.0000
+ 	 loss: 1.5628830194473267			
+ 	 Accumulated loss: 293.70
+Minibatch 183.0000 / 391.0000
+ 	 loss: 1.5599912405014038			
+ 	 Accumulated loss: 295.26
+Minibatch 184.0000 / 391.0000
+ 	 loss: 1.449647068977356			
+ 	 Accumulated loss: 296.71
+Minibatch 185.0000 / 391.0000
+ 	 loss: 1.5809696912765503			
+ 	 Accumulated loss: 298.29
+Minibatch 186.0000 / 391.0000
+ 	 loss: 1.5978976488113403			
+ 	 Accumulated loss: 299.89
+Minibatch 187.0000 / 391.0000
+ 	 loss: 1.4694197177886963			
+ 	 Accumulated loss: 301.36
+Minibatch 188.0000 / 391.0000
+ 	 loss: 1.3549118041992188			
+ 	 Accumulated loss: 302.71
+Minibatch 189.0000 / 391.0000
+ 	 loss: 1.5116899013519287			
+ 	 Accumulated loss: 304.23
+Minibatch 190.0000 / 391.0000
+ 	 loss: 1.5828484296798706			
+ 	 Accumulated loss: 305.81
+Minibatch 191.0000 / 391.0000
+ 	 loss: 1.5506647825241089			
+ 	 Accumulated loss: 307.36
+Minibatch 192.0000 / 391.0000
+ 	 loss: 1.4043595790863037			
+ 	 Accumulated loss: 308.76
+Minibatch 193.0000 / 391.0000
+ 	 loss: 1.7460777759552002			
+ 	 Accumulated loss: 310.51
+Minibatch 194.0000 / 391.0000
+ 	 loss: 1.6623278856277466			
+ 	 Accumulated loss: 312.17
+Minibatch 195.0000 / 391.0000
+ 	 loss: 1.539748191833496			
+ 	 Accumulated loss: 313.71
+Minibatch 196.0000 / 391.0000
+ 	 loss: 1.6353076696395874			
+ 	 Accumulated loss: 315.35
+Minibatch 197.0000 / 391.0000
+ 	 loss: 1.6609673500061035			
+ 	 Accumulated loss: 317.01
+Minibatch 198.0000 / 391.0000
+ 	 loss: 1.4786418676376343			
+ 	 Accumulated loss: 318.49
+Minibatch 199.0000 / 391.0000
+ 	 loss: 1.4658366441726685			
+ 	 Accumulated loss: 319.95
+Minibatch 200.0000 / 391.0000
+ 	 loss: 1.4934641122817993			
+ 	 Accumulated loss: 321.45
+Minibatch 201.0000 / 391.0000
+ 	 loss: 1.536279559135437			
+ 	 Accumulated loss: 322.98
+Minibatch 202.0000 / 391.0000
+ 	 loss: 1.7655147314071655			
+ 	 Accumulated loss: 324.75
+Minibatch 203.0000 / 391.0000
+ 	 loss: 1.7175850868225098			
+ 	 Accumulated loss: 326.47
+Minibatch 204.0000 / 391.0000
+ 	 loss: 1.445450782775879			
+ 	 Accumulated loss: 327.91
+Minibatch 205.0000 / 391.0000
+ 	 loss: 1.4665663242340088			
+ 	 Accumulated loss: 329.38
+Minibatch 206.0000 / 391.0000
+ 	 loss: 1.483535885810852			
+ 	 Accumulated loss: 330.86
+Minibatch 207.0000 / 391.0000
+ 	 loss: 1.5648829936981201			
+ 	 Accumulated loss: 332.43
+Minibatch 208.0000 / 391.0000
+ 	 loss: 1.5111862421035767			
+ 	 Accumulated loss: 333.94
+Minibatch 209.0000 / 391.0000
+ 	 loss: 1.4560335874557495			
+ 	 Accumulated loss: 335.39
+Minibatch 210.0000 / 391.0000
+ 	 loss: 1.4729268550872803			
+ 	 Accumulated loss: 336.87
+Minibatch 211.0000 / 391.0000
+ 	 loss: 1.5595169067382812			
+ 	 Accumulated loss: 338.43
+Minibatch 212.0000 / 391.0000
+ 	 loss: 1.5625327825546265			
+ 	 Accumulated loss: 339.99
+Minibatch 213.0000 / 391.0000
+ 	 loss: 1.4895607233047485			
+ 	 Accumulated loss: 341.48
+Minibatch 214.0000 / 391.0000
+ 	 loss: 1.2563605308532715			
+ 	 Accumulated loss: 342.73
+Minibatch 215.0000 / 391.0000
+ 	 loss: 1.5916014909744263			
+ 	 Accumulated loss: 344.33
+Minibatch 216.0000 / 391.0000
+ 	 loss: 1.5514557361602783			
+ 	 Accumulated loss: 345.88
+Minibatch 217.0000 / 391.0000
+ 	 loss: 1.4747904539108276			
+ 	 Accumulated loss: 347.35
+Minibatch 218.0000 / 391.0000
+ 	 loss: 1.530410885810852			
+ 	 Accumulated loss: 348.88
+Minibatch 219.0000 / 391.0000
+ 	 loss: 1.4718719720840454			
+ 	 Accumulated loss: 350.35
+Minibatch 220.0000 / 391.0000
+ 	 loss: 1.5960601568222046			
+ 	 Accumulated loss: 351.95
+Minibatch 221.0000 / 391.0000
+ 	 loss: 1.4171767234802246			
+ 	 Accumulated loss: 353.37
+Minibatch 222.0000 / 391.0000
+ 	 loss: 1.377760410308838			
+ 	 Accumulated loss: 354.75
+Minibatch 223.0000 / 391.0000
+ 	 loss: 1.4761848449707031			
+ 	 Accumulated loss: 356.22
+Minibatch 224.0000 / 391.0000
+ 	 loss: 1.3423503637313843			
+ 	 Accumulated loss: 357.56
+Minibatch 225.0000 / 391.0000
+ 	 loss: 1.3708088397979736			
+ 	 Accumulated loss: 358.94
+Minibatch 226.0000 / 391.0000
+ 	 loss: 1.4664498567581177			
+ 	 Accumulated loss: 360.40
+Minibatch 227.0000 / 391.0000
+ 	 loss: 1.5327110290527344			
+ 	 Accumulated loss: 361.93
+Minibatch 228.0000 / 391.0000
+ 	 loss: 1.5568238496780396			
+ 	 Accumulated loss: 363.49
+Minibatch 229.0000 / 391.0000
+ 	 loss: 1.2838571071624756			
+ 	 Accumulated loss: 364.77
+Minibatch 230.0000 / 391.0000
+ 	 loss: 1.5516438484191895			
+ 	 Accumulated loss: 366.33
+Minibatch 231.0000 / 391.0000
+ 	 loss: 1.2951014041900635			
+ 	 Accumulated loss: 367.62
+Minibatch 232.0000 / 391.0000
+ 	 loss: 1.4904866218566895			
+ 	 Accumulated loss: 369.11
+Minibatch 233.0000 / 391.0000
+ 	 loss: 1.4316476583480835			
+ 	 Accumulated loss: 370.54
+Minibatch 234.0000 / 391.0000
+ 	 loss: 1.5541311502456665			
+ 	 Accumulated loss: 372.10
+Minibatch 235.0000 / 391.0000
+ 	 loss: 1.616781234741211			
+ 	 Accumulated loss: 373.71
+Minibatch 236.0000 / 391.0000
+ 	 loss: 1.4082586765289307			
+ 	 Accumulated loss: 375.12
+Minibatch 237.0000 / 391.0000
+ 	 loss: 1.433562994003296			
+ 	 Accumulated loss: 376.56
+Minibatch 238.0000 / 391.0000
+ 	 loss: 1.5298995971679688			
+ 	 Accumulated loss: 378.09
+Minibatch 239.0000 / 391.0000
+ 	 loss: 1.3277745246887207			
+ 	 Accumulated loss: 379.41
+Minibatch 240.0000 / 391.0000
+ 	 loss: 1.4668552875518799			
+ 	 Accumulated loss: 380.88
+Minibatch 241.0000 / 391.0000
+ 	 loss: 1.3996524810791016			
+ 	 Accumulated loss: 382.28
+Minibatch 242.0000 / 391.0000
+ 	 loss: 1.3717525005340576			
+ 	 Accumulated loss: 383.65
+Minibatch 243.0000 / 391.0000
+ 	 loss: 1.3775184154510498			
+ 	 Accumulated loss: 385.03
+Minibatch 244.0000 / 391.0000
+ 	 loss: 1.4631733894348145			
+ 	 Accumulated loss: 386.49
+Minibatch 245.0000 / 391.0000
+ 	 loss: 1.4975857734680176			
+ 	 Accumulated loss: 387.99
+Minibatch 246.0000 / 391.0000
+ 	 loss: 1.376641035079956			
+ 	 Accumulated loss: 389.37
+Minibatch 247.0000 / 391.0000
+ 	 loss: 1.5392680168151855			
+ 	 Accumulated loss: 390.91
+Minibatch 248.0000 / 391.0000
+ 	 loss: 1.657106876373291			
+ 	 Accumulated loss: 392.56
+Minibatch 249.0000 / 391.0000
+ 	 loss: 1.3813538551330566			
+ 	 Accumulated loss: 393.95
+Minibatch 250.0000 / 391.0000
+ 	 loss: 1.4512050151824951			
+ 	 Accumulated loss: 395.40
+Minibatch 251.0000 / 391.0000
+ 	 loss: 1.3340879678726196			
+ 	 Accumulated loss: 396.73
+Minibatch 252.0000 / 391.0000
+ 	 loss: 1.4632232189178467			
+ 	 Accumulated loss: 398.19
+Minibatch 253.0000 / 391.0000
+ 	 loss: 1.4378639459609985			
+ 	 Accumulated loss: 399.63
+Minibatch 254.0000 / 391.0000
+ 	 loss: 1.3978151082992554			
+ 	 Accumulated loss: 401.03
+Minibatch 255.0000 / 391.0000
+ 	 loss: 1.4092551469802856			
+ 	 Accumulated loss: 402.44
+Minibatch 256.0000 / 391.0000
+ 	 loss: 1.4648576974868774			
+ 	 Accumulated loss: 403.90
+Minibatch 257.0000 / 391.0000
+ 	 loss: 1.3660446405410767			
+ 	 Accumulated loss: 405.27
+Minibatch 258.0000 / 391.0000
+ 	 loss: 1.5439757108688354			
+ 	 Accumulated loss: 406.81
+Minibatch 259.0000 / 391.0000
+ 	 loss: 1.4911248683929443			
+ 	 Accumulated loss: 408.30
+Minibatch 260.0000 / 391.0000
+ 	 loss: 1.4457318782806396			
+ 	 Accumulated loss: 409.75
+Minibatch 261.0000 / 391.0000
+ 	 loss: 1.6394457817077637			
+ 	 Accumulated loss: 411.39
+Minibatch 262.0000 / 391.0000
+ 	 loss: 1.3707491159439087			
+ 	 Accumulated loss: 412.76
+Minibatch 263.0000 / 391.0000
+ 	 loss: 1.6372727155685425			
+ 	 Accumulated loss: 414.40
+Minibatch 264.0000 / 391.0000
+ 	 loss: 1.47556471824646			
+ 	 Accumulated loss: 415.87
+Minibatch 265.0000 / 391.0000
+ 	 loss: 1.2816522121429443			
+ 	 Accumulated loss: 417.16
+Minibatch 266.0000 / 391.0000
+ 	 loss: 1.482134461402893			
+ 	 Accumulated loss: 418.64
+Minibatch 267.0000 / 391.0000
+ 	 loss: 1.476366400718689			
+ 	 Accumulated loss: 420.11
+Minibatch 268.0000 / 391.0000
+ 	 loss: 1.4272927045822144			
+ 	 Accumulated loss: 421.54
+Minibatch 269.0000 / 391.0000
+ 	 loss: 1.230351448059082			
+ 	 Accumulated loss: 422.77
+Minibatch 270.0000 / 391.0000
+ 	 loss: 1.4690827131271362			
+ 	 Accumulated loss: 424.24
+Minibatch 271.0000 / 391.0000
+ 	 loss: 1.4862943887710571			
+ 	 Accumulated loss: 425.73
+Minibatch 272.0000 / 391.0000
+ 	 loss: 1.4518133401870728			
+ 	 Accumulated loss: 427.18
+Minibatch 273.0000 / 391.0000
+ 	 loss: 1.3292171955108643			
+ 	 Accumulated loss: 428.51
+Minibatch 274.0000 / 391.0000
+ 	 loss: 1.6375471353530884			
+ 	 Accumulated loss: 430.15
+Minibatch 275.0000 / 391.0000
+ 	 loss: 1.3394378423690796			
+ 	 Accumulated loss: 431.48
+Minibatch 276.0000 / 391.0000
+ 	 loss: 1.3800225257873535			
+ 	 Accumulated loss: 432.86
+Minibatch 277.0000 / 391.0000
+ 	 loss: 1.5478758811950684			
+ 	 Accumulated loss: 434.41
+Minibatch 278.0000 / 391.0000
+ 	 loss: 1.523882508277893			
+ 	 Accumulated loss: 435.94
+Minibatch 279.0000 / 391.0000
+ 	 loss: 1.6497278213500977			
+ 	 Accumulated loss: 437.59
+Minibatch 280.0000 / 391.0000
+ 	 loss: 1.378340721130371			
+ 	 Accumulated loss: 438.96
+Minibatch 281.0000 / 391.0000
+ 	 loss: 1.497054934501648			
+ 	 Accumulated loss: 440.46
+Minibatch 282.0000 / 391.0000
+ 	 loss: 1.4833990335464478			
+ 	 Accumulated loss: 441.94
+Minibatch 283.0000 / 391.0000
+ 	 loss: 1.5058221817016602			
+ 	 Accumulated loss: 443.45
+Minibatch 284.0000 / 391.0000
+ 	 loss: 1.3638473749160767			
+ 	 Accumulated loss: 444.81
+Minibatch 285.0000 / 391.0000
+ 	 loss: 1.5066380500793457			
+ 	 Accumulated loss: 446.32
+Minibatch 286.0000 / 391.0000
+ 	 loss: 1.5174448490142822			
+ 	 Accumulated loss: 447.84
+Minibatch 287.0000 / 391.0000
+ 	 loss: 1.5329914093017578			
+ 	 Accumulated loss: 449.37
+Minibatch 288.0000 / 391.0000
+ 	 loss: 1.521425724029541			
+ 	 Accumulated loss: 450.89
+Minibatch 289.0000 / 391.0000
+ 	 loss: 1.2590878009796143			
+ 	 Accumulated loss: 452.15
+Minibatch 290.0000 / 391.0000
+ 	 loss: 1.606277585029602			
+ 	 Accumulated loss: 453.76
+Minibatch 291.0000 / 391.0000
+ 	 loss: 1.3585026264190674			
+ 	 Accumulated loss: 455.12
+Minibatch 292.0000 / 391.0000
+ 	 loss: 1.6368725299835205			
+ 	 Accumulated loss: 456.75
+Minibatch 293.0000 / 391.0000
+ 	 loss: 1.5216333866119385			
+ 	 Accumulated loss: 458.28
+Minibatch 294.0000 / 391.0000
+ 	 loss: 1.3248236179351807			
+ 	 Accumulated loss: 459.60
+Minibatch 295.0000 / 391.0000
+ 	 loss: 1.5940742492675781			
+ 	 Accumulated loss: 461.19
+Minibatch 296.0000 / 391.0000
+ 	 loss: 1.412083625793457			
+ 	 Accumulated loss: 462.61
+Minibatch 297.0000 / 391.0000
+ 	 loss: 1.5344613790512085			
+ 	 Accumulated loss: 464.14
+Minibatch 298.0000 / 391.0000
+ 	 loss: 1.5713434219360352			
+ 	 Accumulated loss: 465.71
+Minibatch 299.0000 / 391.0000
+ 	 loss: 1.4185250997543335			
+ 	 Accumulated loss: 467.13
+Minibatch 300.0000 / 391.0000
+ 	 loss: 1.5153224468231201			
+ 	 Accumulated loss: 468.65
+Minibatch 301.0000 / 391.0000
+ 	 loss: 1.4590210914611816			
+ 	 Accumulated loss: 470.11
+Minibatch 302.0000 / 391.0000
+ 	 loss: 1.462002158164978			
+ 	 Accumulated loss: 471.57
+Minibatch 303.0000 / 391.0000
+ 	 loss: 1.4295204877853394			
+ 	 Accumulated loss: 473.00
+Minibatch 304.0000 / 391.0000
+ 	 loss: 1.555968999862671			
+ 	 Accumulated loss: 474.55
+Minibatch 305.0000 / 391.0000
+ 	 loss: 1.4098562002182007			
+ 	 Accumulated loss: 475.96
+Minibatch 306.0000 / 391.0000
+ 	 loss: 1.4233165979385376			
+ 	 Accumulated loss: 477.39
+Minibatch 307.0000 / 391.0000
+ 	 loss: 1.642784833908081			
+ 	 Accumulated loss: 479.03
+Minibatch 308.0000 / 391.0000
+ 	 loss: 1.275734543800354			
+ 	 Accumulated loss: 480.30
+Minibatch 309.0000 / 391.0000
+ 	 loss: 1.4275869131088257			
+ 	 Accumulated loss: 481.73
+Minibatch 310.0000 / 391.0000
+ 	 loss: 1.4213569164276123			
+ 	 Accumulated loss: 483.15
+Minibatch 311.0000 / 391.0000
+ 	 loss: 1.4443159103393555			
+ 	 Accumulated loss: 484.60
+Minibatch 312.0000 / 391.0000
+ 	 loss: 1.3632628917694092			
+ 	 Accumulated loss: 485.96
+Minibatch 313.0000 / 391.0000
+ 	 loss: 1.3842277526855469			
+ 	 Accumulated loss: 487.35
+Minibatch 314.0000 / 391.0000
+ 	 loss: 1.6279140710830688			
+ 	 Accumulated loss: 488.97
+Minibatch 315.0000 / 391.0000
+ 	 loss: 1.4090572595596313			
+ 	 Accumulated loss: 490.38
+Minibatch 316.0000 / 391.0000
+ 	 loss: 1.4681943655014038			
+ 	 Accumulated loss: 491.85
+Minibatch 317.0000 / 391.0000
+ 	 loss: 1.3503473997116089			
+ 	 Accumulated loss: 493.20
+Minibatch 318.0000 / 391.0000
+ 	 loss: 1.421633005142212			
+ 	 Accumulated loss: 494.62
+Minibatch 319.0000 / 391.0000
+ 	 loss: 1.4640344381332397			
+ 	 Accumulated loss: 496.09
+Minibatch 320.0000 / 391.0000
+ 	 loss: 1.4273171424865723			
+ 	 Accumulated loss: 497.51
+Minibatch 321.0000 / 391.0000
+ 	 loss: 1.2846993207931519			
+ 	 Accumulated loss: 498.80
+Minibatch 322.0000 / 391.0000
+ 	 loss: 1.3876268863677979			
+ 	 Accumulated loss: 500.19
+Minibatch 323.0000 / 391.0000
+ 	 loss: 1.281530499458313			
+ 	 Accumulated loss: 501.47
+Minibatch 324.0000 / 391.0000
+ 	 loss: 1.22304105758667			
+ 	 Accumulated loss: 502.69
+Minibatch 325.0000 / 391.0000
+ 	 loss: 1.5603331327438354			
+ 	 Accumulated loss: 504.25
+Minibatch 326.0000 / 391.0000
+ 	 loss: 1.4052046537399292			
+ 	 Accumulated loss: 505.66
+Minibatch 327.0000 / 391.0000
+ 	 loss: 1.451851487159729			
+ 	 Accumulated loss: 507.11
+Minibatch 328.0000 / 391.0000
+ 	 loss: 1.4481256008148193			
+ 	 Accumulated loss: 508.56
+Minibatch 329.0000 / 391.0000
+ 	 loss: 1.4992860555648804			
+ 	 Accumulated loss: 510.06
+Minibatch 330.0000 / 391.0000
+ 	 loss: 1.5477049350738525			
+ 	 Accumulated loss: 511.60
+Minibatch 331.0000 / 391.0000
+ 	 loss: 1.2882304191589355			
+ 	 Accumulated loss: 512.89
+Minibatch 332.0000 / 391.0000
+ 	 loss: 1.3254801034927368			
+ 	 Accumulated loss: 514.22
+Minibatch 333.0000 / 391.0000
+ 	 loss: 1.3257087469100952			
+ 	 Accumulated loss: 515.54
+Minibatch 334.0000 / 391.0000
+ 	 loss: 1.6957646608352661			
+ 	 Accumulated loss: 517.24
+Minibatch 335.0000 / 391.0000
+ 	 loss: 1.2304906845092773			
+ 	 Accumulated loss: 518.47
+Minibatch 336.0000 / 391.0000
+ 	 loss: 1.5245970487594604			
+ 	 Accumulated loss: 519.99
+Minibatch 337.0000 / 391.0000
+ 	 loss: 1.532623052597046			
+ 	 Accumulated loss: 521.53
+Minibatch 338.0000 / 391.0000
+ 	 loss: 1.5955129861831665			
+ 	 Accumulated loss: 523.12
+Minibatch 339.0000 / 391.0000
+ 	 loss: 1.5296521186828613			
+ 	 Accumulated loss: 524.65
+Minibatch 340.0000 / 391.0000
+ 	 loss: 1.326241374015808			
+ 	 Accumulated loss: 525.98
+Minibatch 341.0000 / 391.0000
+ 	 loss: 1.4399008750915527			
+ 	 Accumulated loss: 527.42
+Minibatch 342.0000 / 391.0000
+ 	 loss: 1.4021035432815552			
+ 	 Accumulated loss: 528.82
+Minibatch 343.0000 / 391.0000
+ 	 loss: 1.5334066152572632			
+ 	 Accumulated loss: 530.35
+Minibatch 344.0000 / 391.0000
+ 	 loss: 1.4823027849197388			
+ 	 Accumulated loss: 531.83
+Minibatch 345.0000 / 391.0000
+ 	 loss: 1.404053807258606			
+ 	 Accumulated loss: 533.24
+Minibatch 346.0000 / 391.0000
+ 	 loss: 1.3843237161636353			
+ 	 Accumulated loss: 534.62
+Minibatch 347.0000 / 391.0000
+ 	 loss: 1.2873997688293457			
+ 	 Accumulated loss: 535.91
+Minibatch 348.0000 / 391.0000
+ 	 loss: 1.4630918502807617			
+ 	 Accumulated loss: 537.37
+Minibatch 349.0000 / 391.0000
+ 	 loss: 1.402371883392334			
+ 	 Accumulated loss: 538.78
+Minibatch 350.0000 / 391.0000
+ 	 loss: 1.5115115642547607			
+ 	 Accumulated loss: 540.29
+Minibatch 351.0000 / 391.0000
+ 	 loss: 1.5194904804229736			
+ 	 Accumulated loss: 541.81
+Minibatch 352.0000 / 391.0000
+ 	 loss: 1.2559210062026978			
+ 	 Accumulated loss: 543.06
+Minibatch 353.0000 / 391.0000
+ 	 loss: 1.416599154472351			
+ 	 Accumulated loss: 544.48
+Minibatch 354.0000 / 391.0000
+ 	 loss: 1.603210687637329			
+ 	 Accumulated loss: 546.08
+Minibatch 355.0000 / 391.0000
+ 	 loss: 1.48105788230896			
+ 	 Accumulated loss: 547.56
+Minibatch 356.0000 / 391.0000
+ 	 loss: 1.5091851949691772			
+ 	 Accumulated loss: 549.07
+Minibatch 357.0000 / 391.0000
+ 	 loss: 1.3796393871307373			
+ 	 Accumulated loss: 550.45
+Minibatch 358.0000 / 391.0000
+ 	 loss: 1.3796175718307495			
+ 	 Accumulated loss: 551.83
+Minibatch 359.0000 / 391.0000
+ 	 loss: 1.6087026596069336			
+ 	 Accumulated loss: 553.44
+Minibatch 360.0000 / 391.0000
+ 	 loss: 1.4667688608169556			
+ 	 Accumulated loss: 554.91
+Minibatch 361.0000 / 391.0000
+ 	 loss: 1.391142725944519			
+ 	 Accumulated loss: 556.30
+Minibatch 362.0000 / 391.0000
+ 	 loss: 1.6753209829330444			
+ 	 Accumulated loss: 557.97
+Minibatch 363.0000 / 391.0000
+ 	 loss: 1.481948971748352			
+ 	 Accumulated loss: 559.46
+Minibatch 364.0000 / 391.0000
+ 	 loss: 1.4265772104263306			
+ 	 Accumulated loss: 560.88
+Minibatch 365.0000 / 391.0000
+ 	 loss: 1.4646129608154297			
+ 	 Accumulated loss: 562.35
+Minibatch 366.0000 / 391.0000
+ 	 loss: 1.40189528465271			
+ 	 Accumulated loss: 563.75
+Minibatch 367.0000 / 391.0000
+ 	 loss: 1.4991711378097534			
+ 	 Accumulated loss: 565.25
+Minibatch 368.0000 / 391.0000
+ 	 loss: 1.4815850257873535			
+ 	 Accumulated loss: 566.73
+Minibatch 369.0000 / 391.0000
+ 	 loss: 1.5113961696624756			
+ 	 Accumulated loss: 568.24
+Minibatch 370.0000 / 391.0000
+ 	 loss: 1.334546446800232			
+ 	 Accumulated loss: 569.58
+Minibatch 371.0000 / 391.0000
+ 	 loss: 1.4758648872375488			
+ 	 Accumulated loss: 571.05
+Minibatch 372.0000 / 391.0000
+ 	 loss: 1.4624930620193481			
+ 	 Accumulated loss: 572.51
+Minibatch 373.0000 / 391.0000
+ 	 loss: 1.4882447719573975			
+ 	 Accumulated loss: 574.00
+Minibatch 374.0000 / 391.0000
+ 	 loss: 1.457735538482666			
+ 	 Accumulated loss: 575.46
+Minibatch 375.0000 / 391.0000
+ 	 loss: 1.3900120258331299			
+ 	 Accumulated loss: 576.85
+Minibatch 376.0000 / 391.0000
+ 	 loss: 1.3786500692367554			
+ 	 Accumulated loss: 578.23
+Minibatch 377.0000 / 391.0000
+ 	 loss: 1.484548807144165			
+ 	 Accumulated loss: 579.71
+Minibatch 378.0000 / 391.0000
+ 	 loss: 1.4527442455291748			
+ 	 Accumulated loss: 581.17
+Minibatch 379.0000 / 391.0000
+ 	 loss: 1.3203266859054565			
+ 	 Accumulated loss: 582.49
+Minibatch 380.0000 / 391.0000
+ 	 loss: 1.3547580242156982			
+ 	 Accumulated loss: 583.84
+Minibatch 381.0000 / 391.0000
+ 	 loss: 1.5242912769317627			
+ 	 Accumulated loss: 585.37
+Minibatch 382.0000 / 391.0000
+ 	 loss: 1.1756911277770996			
+ 	 Accumulated loss: 586.54
+Minibatch 383.0000 / 391.0000
+ 	 loss: 1.1914600133895874			
+ 	 Accumulated loss: 587.73
+Minibatch 384.0000 / 391.0000
+ 	 loss: 1.3692269325256348			
+ 	 Accumulated loss: 589.10
+Minibatch 385.0000 / 391.0000
+ 	 loss: 1.4278289079666138			
+ 	 Accumulated loss: 590.53
+Minibatch 386.0000 / 391.0000
+ 	 loss: 1.4319299459457397			
+ 	 Accumulated loss: 591.96
+Minibatch 387.0000 / 391.0000
+ 	 loss: 1.3182098865509033			
+ 	 Accumulated loss: 593.28
+Minibatch 388.0000 / 391.0000
+ 	 loss: 1.2538279294967651			
+ 	 Accumulated loss: 594.53
+Minibatch 389.0000 / 391.0000
+ 	 loss: 1.3122684955596924			
+ 	 Accumulated loss: 595.85
+Minibatch 390.0000 / 391.0000
+ 	 loss: 1.543880581855774			
+ 	 Accumulated loss: 597.39
+Aggregates: 
+ 	 DataLoader Time: 3.2507 
+ 	 		Mini-batch Time:18.4661 
+ 	 Training Epoch Time:32.6645
+ 		Averages: 
+ 	 Training Loss: 1.5279
+	Testing precision@1: 0.5033 
+
+Epoch 2
+Minibatch 0.0000 / 391.0000
+ 	 loss: 1.4296138286590576			
+ 	 Accumulated loss: 1.43
+Minibatch 1.0000 / 391.0000
+ 	 loss: 1.5552887916564941			
+ 	 Accumulated loss: 2.98
+Minibatch 2.0000 / 391.0000
+ 	 loss: 1.3370462656021118			
+ 	 Accumulated loss: 4.32
+Minibatch 3.0000 / 391.0000
+ 	 loss: 1.3547505140304565			
+ 	 Accumulated loss: 5.68
+Minibatch 4.0000 / 391.0000
+ 	 loss: 1.283346176147461			
+ 	 Accumulated loss: 6.96
+Minibatch 5.0000 / 391.0000
+ 	 loss: 1.3087337017059326			
+ 	 Accumulated loss: 8.27
+Minibatch 6.0000 / 391.0000
+ 	 loss: 1.3413382768630981			
+ 	 Accumulated loss: 9.61
+Minibatch 7.0000 / 391.0000
+ 	 loss: 1.4483319520950317			
+ 	 Accumulated loss: 11.06
+Minibatch 8.0000 / 391.0000
+ 	 loss: 1.353744387626648			
+ 	 Accumulated loss: 12.41
+Minibatch 9.0000 / 391.0000
+ 	 loss: 1.4082568883895874			
+ 	 Accumulated loss: 13.82
+Minibatch 10.0000 / 391.0000
+ 	 loss: 1.525283932685852			
+ 	 Accumulated loss: 15.35
+Minibatch 11.0000 / 391.0000
+ 	 loss: 1.2555181980133057			
+ 	 Accumulated loss: 16.60
+Minibatch 12.0000 / 391.0000
+ 	 loss: 1.30545973777771			
+ 	 Accumulated loss: 17.91
+Minibatch 13.0000 / 391.0000
+ 	 loss: 1.2270588874816895			
+ 	 Accumulated loss: 19.13
+Minibatch 14.0000 / 391.0000
+ 	 loss: 1.5532433986663818			
+ 	 Accumulated loss: 20.69
+Minibatch 15.0000 / 391.0000
+ 	 loss: 1.3429926633834839			
+ 	 Accumulated loss: 22.03
+Minibatch 16.0000 / 391.0000
+ 	 loss: 1.397045612335205			
+ 	 Accumulated loss: 23.43
+Minibatch 17.0000 / 391.0000
+ 	 loss: 1.4680246114730835			
+ 	 Accumulated loss: 24.90
+Minibatch 18.0000 / 391.0000
+ 	 loss: 1.4867902994155884			
+ 	 Accumulated loss: 26.38
+Minibatch 19.0000 / 391.0000
+ 	 loss: 1.358361005783081			
+ 	 Accumulated loss: 27.74
+Minibatch 20.0000 / 391.0000
+ 	 loss: 1.5276219844818115			
+ 	 Accumulated loss: 29.27
+Minibatch 21.0000 / 391.0000
+ 	 loss: 1.5110609531402588			
+ 	 Accumulated loss: 30.78
+Minibatch 22.0000 / 391.0000
+ 	 loss: 1.3738356828689575			
+ 	 Accumulated loss: 32.15
+Minibatch 23.0000 / 391.0000
+ 	 loss: 1.3766565322875977			
+ 	 Accumulated loss: 33.53
+Minibatch 24.0000 / 391.0000
+ 	 loss: 1.5628715753555298			
+ 	 Accumulated loss: 35.09
+Minibatch 25.0000 / 391.0000
+ 	 loss: 1.3465030193328857			
+ 	 Accumulated loss: 36.44
+Minibatch 26.0000 / 391.0000
+ 	 loss: 1.287245512008667			
+ 	 Accumulated loss: 37.73
+Minibatch 27.0000 / 391.0000
+ 	 loss: 1.321292519569397			
+ 	 Accumulated loss: 39.05
+Minibatch 28.0000 / 391.0000
+ 	 loss: 1.172285795211792			
+ 	 Accumulated loss: 40.22
+Minibatch 29.0000 / 391.0000
+ 	 loss: 1.3049023151397705			
+ 	 Accumulated loss: 41.52
+Minibatch 30.0000 / 391.0000
+ 	 loss: 1.1431962251663208			
+ 	 Accumulated loss: 42.67
+Minibatch 31.0000 / 391.0000
+ 	 loss: 1.4810048341751099			
+ 	 Accumulated loss: 44.15
+Minibatch 32.0000 / 391.0000
+ 	 loss: 1.1690261363983154			
+ 	 Accumulated loss: 45.32
+Minibatch 33.0000 / 391.0000
+ 	 loss: 1.2137243747711182			
+ 	 Accumulated loss: 46.53
+Minibatch 34.0000 / 391.0000
+ 	 loss: 1.4445375204086304			
+ 	 Accumulated loss: 47.98
+Minibatch 35.0000 / 391.0000
+ 	 loss: 1.3371061086654663			
+ 	 Accumulated loss: 49.31
+Minibatch 36.0000 / 391.0000
+ 	 loss: 1.2807245254516602			
+ 	 Accumulated loss: 50.59
+Minibatch 37.0000 / 391.0000
+ 	 loss: 1.4939417839050293			
+ 	 Accumulated loss: 52.09
+Minibatch 38.0000 / 391.0000
+ 	 loss: 1.3526049852371216			
+ 	 Accumulated loss: 53.44
+Minibatch 39.0000 / 391.0000
+ 	 loss: 1.2220501899719238			
+ 	 Accumulated loss: 54.66
+Minibatch 40.0000 / 391.0000
+ 	 loss: 1.3432289361953735			
+ 	 Accumulated loss: 56.01
+Minibatch 41.0000 / 391.0000
+ 	 loss: 1.3839300870895386			
+ 	 Accumulated loss: 57.39
+Minibatch 42.0000 / 391.0000
+ 	 loss: 1.490360140800476			
+ 	 Accumulated loss: 58.88
+Minibatch 43.0000 / 391.0000
+ 	 loss: 1.4532854557037354			
+ 	 Accumulated loss: 60.33
+Minibatch 44.0000 / 391.0000
+ 	 loss: 1.5270971059799194			
+ 	 Accumulated loss: 61.86
+Minibatch 45.0000 / 391.0000
+ 	 loss: 1.4526926279067993			
+ 	 Accumulated loss: 63.31
+Minibatch 46.0000 / 391.0000
+ 	 loss: 1.4035778045654297			
+ 	 Accumulated loss: 64.72
+Minibatch 47.0000 / 391.0000
+ 	 loss: 1.3888602256774902			
+ 	 Accumulated loss: 66.11
+Minibatch 48.0000 / 391.0000
+ 	 loss: 1.2454109191894531			
+ 	 Accumulated loss: 67.35
+Minibatch 49.0000 / 391.0000
+ 	 loss: 1.4736156463623047			
+ 	 Accumulated loss: 68.82
+Minibatch 50.0000 / 391.0000
+ 	 loss: 1.3884247541427612			
+ 	 Accumulated loss: 70.21
+Minibatch 51.0000 / 391.0000
+ 	 loss: 1.4704428911209106			
+ 	 Accumulated loss: 71.68
+Minibatch 52.0000 / 391.0000
+ 	 loss: 1.4003677368164062			
+ 	 Accumulated loss: 73.08
+Minibatch 53.0000 / 391.0000
+ 	 loss: 1.3048597574234009			
+ 	 Accumulated loss: 74.39
+Minibatch 54.0000 / 391.0000
+ 	 loss: 1.3000950813293457			
+ 	 Accumulated loss: 75.69
+Minibatch 55.0000 / 391.0000
+ 	 loss: 1.570787787437439			
+ 	 Accumulated loss: 77.26
+Minibatch 56.0000 / 391.0000
+ 	 loss: 1.368302345275879			
+ 	 Accumulated loss: 78.63
+Minibatch 57.0000 / 391.0000
+ 	 loss: 1.3796066045761108			
+ 	 Accumulated loss: 80.01
+Minibatch 58.0000 / 391.0000
+ 	 loss: 1.3379658460617065			
+ 	 Accumulated loss: 81.35
+Minibatch 59.0000 / 391.0000
+ 	 loss: 1.4969549179077148			
+ 	 Accumulated loss: 82.84
+Minibatch 60.0000 / 391.0000
+ 	 loss: 1.4211843013763428			
+ 	 Accumulated loss: 84.26
+Minibatch 61.0000 / 391.0000
+ 	 loss: 1.3568930625915527			
+ 	 Accumulated loss: 85.62
+Minibatch 62.0000 / 391.0000
+ 	 loss: 1.3541210889816284			
+ 	 Accumulated loss: 86.97
+Minibatch 63.0000 / 391.0000
+ 	 loss: 1.3593170642852783			
+ 	 Accumulated loss: 88.33
+Minibatch 64.0000 / 391.0000
+ 	 loss: 1.3499611616134644			
+ 	 Accumulated loss: 89.68
+Minibatch 65.0000 / 391.0000
+ 	 loss: 1.4120391607284546			
+ 	 Accumulated loss: 91.10
+Minibatch 66.0000 / 391.0000
+ 	 loss: 1.4202744960784912			
+ 	 Accumulated loss: 92.52
+Minibatch 67.0000 / 391.0000
+ 	 loss: 1.382500410079956			
+ 	 Accumulated loss: 93.90
+Minibatch 68.0000 / 391.0000
+ 	 loss: 1.4997719526290894			
+ 	 Accumulated loss: 95.40
+Minibatch 69.0000 / 391.0000
+ 	 loss: 1.3465228080749512			
+ 	 Accumulated loss: 96.74
+Minibatch 70.0000 / 391.0000
+ 	 loss: 1.3746761083602905			
+ 	 Accumulated loss: 98.12
+Minibatch 71.0000 / 391.0000
+ 	 loss: 1.4726160764694214			
+ 	 Accumulated loss: 99.59
+Minibatch 72.0000 / 391.0000
+ 	 loss: 1.2995326519012451			
+ 	 Accumulated loss: 100.89
+Minibatch 73.0000 / 391.0000
+ 	 loss: 1.4615317583084106			
+ 	 Accumulated loss: 102.35
+Minibatch 74.0000 / 391.0000
+ 	 loss: 1.2061282396316528			
+ 	 Accumulated loss: 103.56
+Minibatch 75.0000 / 391.0000
+ 	 loss: 1.4330538511276245			
+ 	 Accumulated loss: 104.99
+Minibatch 76.0000 / 391.0000
+ 	 loss: 1.5014386177062988			
+ 	 Accumulated loss: 106.49
+Minibatch 77.0000 / 391.0000
+ 	 loss: 1.4217872619628906			
+ 	 Accumulated loss: 107.92
+Minibatch 78.0000 / 391.0000
+ 	 loss: 1.1683682203292847			
+ 	 Accumulated loss: 109.08
+Minibatch 79.0000 / 391.0000
+ 	 loss: 1.3412998914718628			
+ 	 Accumulated loss: 110.43
+Minibatch 80.0000 / 391.0000
+ 	 loss: 1.379920482635498			
+ 	 Accumulated loss: 111.81
+Minibatch 81.0000 / 391.0000
+ 	 loss: 1.2983914613723755			
+ 	 Accumulated loss: 113.10
+Minibatch 82.0000 / 391.0000
+ 	 loss: 1.4470558166503906			
+ 	 Accumulated loss: 114.55
+Minibatch 83.0000 / 391.0000
+ 	 loss: 1.1634070873260498			
+ 	 Accumulated loss: 115.71
+Minibatch 84.0000 / 391.0000
+ 	 loss: 1.3028650283813477			
+ 	 Accumulated loss: 117.02
+Minibatch 85.0000 / 391.0000
+ 	 loss: 1.3263506889343262			
+ 	 Accumulated loss: 118.34
+Minibatch 86.0000 / 391.0000
+ 	 loss: 1.2397762537002563			
+ 	 Accumulated loss: 119.58
+Minibatch 87.0000 / 391.0000
+ 	 loss: 1.4315818548202515			
+ 	 Accumulated loss: 121.01
+Minibatch 88.0000 / 391.0000
+ 	 loss: 1.1402894258499146			
+ 	 Accumulated loss: 122.15
+Minibatch 89.0000 / 391.0000
+ 	 loss: 1.2547129392623901			
+ 	 Accumulated loss: 123.41
+Minibatch 90.0000 / 391.0000
+ 	 loss: 1.1934969425201416			
+ 	 Accumulated loss: 124.60
+Minibatch 91.0000 / 391.0000
+ 	 loss: 1.313130497932434			
+ 	 Accumulated loss: 125.92
+Minibatch 92.0000 / 391.0000
+ 	 loss: 1.2791106700897217			
+ 	 Accumulated loss: 127.20
+Minibatch 93.0000 / 391.0000
+ 	 loss: 1.427257776260376			
+ 	 Accumulated loss: 128.62
+Minibatch 94.0000 / 391.0000
+ 	 loss: 1.2797201871871948			
+ 	 Accumulated loss: 129.90
+Minibatch 95.0000 / 391.0000
+ 	 loss: 1.353232741355896			
+ 	 Accumulated loss: 131.26
+Minibatch 96.0000 / 391.0000
+ 	 loss: 1.3765684366226196			
+ 	 Accumulated loss: 132.63
+Minibatch 97.0000 / 391.0000
+ 	 loss: 1.533362627029419			
+ 	 Accumulated loss: 134.17
+Minibatch 98.0000 / 391.0000
+ 	 loss: 1.312420129776001			
+ 	 Accumulated loss: 135.48
+Minibatch 99.0000 / 391.0000
+ 	 loss: 1.2339791059494019			
+ 	 Accumulated loss: 136.71
+Minibatch 100.0000 / 391.0000
+ 	 loss: 1.3215503692626953			
+ 	 Accumulated loss: 138.03
+Minibatch 101.0000 / 391.0000
+ 	 loss: 1.339178204536438			
+ 	 Accumulated loss: 139.37
+Minibatch 102.0000 / 391.0000
+ 	 loss: 1.4370847940444946			
+ 	 Accumulated loss: 140.81
+Minibatch 103.0000 / 391.0000
+ 	 loss: 1.389976143836975			
+ 	 Accumulated loss: 142.20
+Minibatch 104.0000 / 391.0000
+ 	 loss: 1.287413239479065			
+ 	 Accumulated loss: 143.49
+Minibatch 105.0000 / 391.0000
+ 	 loss: 1.3513908386230469			
+ 	 Accumulated loss: 144.84
+Minibatch 106.0000 / 391.0000
+ 	 loss: 1.3526558876037598			
+ 	 Accumulated loss: 146.19
+Minibatch 107.0000 / 391.0000
+ 	 loss: 1.4122205972671509			
+ 	 Accumulated loss: 147.60
+Minibatch 108.0000 / 391.0000
+ 	 loss: 1.2694315910339355			
+ 	 Accumulated loss: 148.87
+Minibatch 109.0000 / 391.0000
+ 	 loss: 1.4091389179229736			
+ 	 Accumulated loss: 150.28
+Minibatch 110.0000 / 391.0000
+ 	 loss: 1.2622368335723877			
+ 	 Accumulated loss: 151.54
+Minibatch 111.0000 / 391.0000
+ 	 loss: 1.282158374786377			
+ 	 Accumulated loss: 152.83
+Minibatch 112.0000 / 391.0000
+ 	 loss: 1.4390764236450195			
+ 	 Accumulated loss: 154.27
+Minibatch 113.0000 / 391.0000
+ 	 loss: 1.435133934020996			
+ 	 Accumulated loss: 155.70
+Minibatch 114.0000 / 391.0000
+ 	 loss: 1.2249491214752197			
+ 	 Accumulated loss: 156.93
+Minibatch 115.0000 / 391.0000
+ 	 loss: 1.4509692192077637			
+ 	 Accumulated loss: 158.38
+Minibatch 116.0000 / 391.0000
+ 	 loss: 1.3010984659194946			
+ 	 Accumulated loss: 159.68
+Minibatch 117.0000 / 391.0000
+ 	 loss: 1.2239447832107544			
+ 	 Accumulated loss: 160.90
+Minibatch 118.0000 / 391.0000
+ 	 loss: 1.2741661071777344			
+ 	 Accumulated loss: 162.18
+Minibatch 119.0000 / 391.0000
+ 	 loss: 1.2428920269012451			
+ 	 Accumulated loss: 163.42
+Minibatch 120.0000 / 391.0000
+ 	 loss: 1.2522979974746704			
+ 	 Accumulated loss: 164.67
+Minibatch 121.0000 / 391.0000
+ 	 loss: 1.3449095487594604			
+ 	 Accumulated loss: 166.02
+Minibatch 122.0000 / 391.0000
+ 	 loss: 1.3202173709869385			
+ 	 Accumulated loss: 167.34
+Minibatch 123.0000 / 391.0000
+ 	 loss: 1.2202465534210205			
+ 	 Accumulated loss: 168.56
+Minibatch 124.0000 / 391.0000
+ 	 loss: 1.5826311111450195			
+ 	 Accumulated loss: 170.14
+Minibatch 125.0000 / 391.0000
+ 	 loss: 1.3518238067626953			
+ 	 Accumulated loss: 171.49
+Minibatch 126.0000 / 391.0000
+ 	 loss: 1.509761095046997			
+ 	 Accumulated loss: 173.00
+Minibatch 127.0000 / 391.0000
+ 	 loss: 1.1184427738189697			
+ 	 Accumulated loss: 174.12
+Minibatch 128.0000 / 391.0000
+ 	 loss: 1.4362112283706665			
+ 	 Accumulated loss: 175.56
+Minibatch 129.0000 / 391.0000
+ 	 loss: 1.3366225957870483			
+ 	 Accumulated loss: 176.89
+Minibatch 130.0000 / 391.0000
+ 	 loss: 1.374688982963562			
+ 	 Accumulated loss: 178.27
+Minibatch 131.0000 / 391.0000
+ 	 loss: 1.4419524669647217			
+ 	 Accumulated loss: 179.71
+Minibatch 132.0000 / 391.0000
+ 	 loss: 1.459673523902893			
+ 	 Accumulated loss: 181.17
+Minibatch 133.0000 / 391.0000
+ 	 loss: 1.4008159637451172			
+ 	 Accumulated loss: 182.57
+Minibatch 134.0000 / 391.0000
+ 	 loss: 1.4244472980499268			
+ 	 Accumulated loss: 183.99
+Minibatch 135.0000 / 391.0000
+ 	 loss: 1.3673157691955566			
+ 	 Accumulated loss: 185.36
+Minibatch 136.0000 / 391.0000
+ 	 loss: 1.288863182067871			
+ 	 Accumulated loss: 186.65
+Minibatch 137.0000 / 391.0000
+ 	 loss: 1.2954299449920654			
+ 	 Accumulated loss: 187.94
+Minibatch 138.0000 / 391.0000
+ 	 loss: 1.324188470840454			
+ 	 Accumulated loss: 189.27
+Minibatch 139.0000 / 391.0000
+ 	 loss: 1.2243850231170654			
+ 	 Accumulated loss: 190.49
+Minibatch 140.0000 / 391.0000
+ 	 loss: 1.3689231872558594			
+ 	 Accumulated loss: 191.86
+Minibatch 141.0000 / 391.0000
+ 	 loss: 1.3239902257919312			
+ 	 Accumulated loss: 193.19
+Minibatch 142.0000 / 391.0000
+ 	 loss: 1.2157965898513794			
+ 	 Accumulated loss: 194.40
+Minibatch 143.0000 / 391.0000
+ 	 loss: 1.2231041193008423			
+ 	 Accumulated loss: 195.63
+Minibatch 144.0000 / 391.0000
+ 	 loss: 1.2964516878128052			
+ 	 Accumulated loss: 196.92
+Minibatch 145.0000 / 391.0000
+ 	 loss: 1.3277310132980347			
+ 	 Accumulated loss: 198.25
+Minibatch 146.0000 / 391.0000
+ 	 loss: 1.16740882396698			
+ 	 Accumulated loss: 199.42
+Minibatch 147.0000 / 391.0000
+ 	 loss: 1.2168443202972412			
+ 	 Accumulated loss: 200.63
+Minibatch 148.0000 / 391.0000
+ 	 loss: 1.1121811866760254			
+ 	 Accumulated loss: 201.75
+Minibatch 149.0000 / 391.0000
+ 	 loss: 1.3227598667144775			
+ 	 Accumulated loss: 203.07
+Minibatch 150.0000 / 391.0000
+ 	 loss: 1.1213300228118896			
+ 	 Accumulated loss: 204.19
+Minibatch 151.0000 / 391.0000
+ 	 loss: 1.2196301221847534			
+ 	 Accumulated loss: 205.41
+Minibatch 152.0000 / 391.0000
+ 	 loss: 1.4789931774139404			
+ 	 Accumulated loss: 206.89
+Minibatch 153.0000 / 391.0000
+ 	 loss: 1.350590467453003			
+ 	 Accumulated loss: 208.24
+Minibatch 154.0000 / 391.0000
+ 	 loss: 1.475034236907959			
+ 	 Accumulated loss: 209.71
+Minibatch 155.0000 / 391.0000
+ 	 loss: 1.4051200151443481			
+ 	 Accumulated loss: 211.12
+Minibatch 156.0000 / 391.0000
+ 	 loss: 1.3687175512313843			
+ 	 Accumulated loss: 212.49
+Minibatch 157.0000 / 391.0000
+ 	 loss: 1.4279451370239258			
+ 	 Accumulated loss: 213.92
+Minibatch 158.0000 / 391.0000
+ 	 loss: 1.5448126792907715			
+ 	 Accumulated loss: 215.46
+Minibatch 159.0000 / 391.0000
+ 	 loss: 1.4412603378295898			
+ 	 Accumulated loss: 216.90
+Minibatch 160.0000 / 391.0000
+ 	 loss: 1.5092806816101074			
+ 	 Accumulated loss: 218.41
+Minibatch 161.0000 / 391.0000
+ 	 loss: 1.3850256204605103			
+ 	 Accumulated loss: 219.80
+Minibatch 162.0000 / 391.0000
+ 	 loss: 1.4035065174102783			
+ 	 Accumulated loss: 221.20
+Minibatch 163.0000 / 391.0000
+ 	 loss: 1.430282473564148			
+ 	 Accumulated loss: 222.63
+Minibatch 164.0000 / 391.0000
+ 	 loss: 1.1734904050827026			
+ 	 Accumulated loss: 223.80
+Minibatch 165.0000 / 391.0000
+ 	 loss: 1.420968770980835			
+ 	 Accumulated loss: 225.22
+Minibatch 166.0000 / 391.0000
+ 	 loss: 1.6276720762252808			
+ 	 Accumulated loss: 226.85
+Minibatch 167.0000 / 391.0000
+ 	 loss: 1.636644959449768			
+ 	 Accumulated loss: 228.49
+Minibatch 168.0000 / 391.0000
+ 	 loss: 1.290383219718933			
+ 	 Accumulated loss: 229.78
+Minibatch 169.0000 / 391.0000
+ 	 loss: 1.0362482070922852			
+ 	 Accumulated loss: 230.82
+Minibatch 170.0000 / 391.0000
+ 	 loss: 1.3705897331237793			
+ 	 Accumulated loss: 232.19
+Minibatch 171.0000 / 391.0000
+ 	 loss: 1.4017106294631958			
+ 	 Accumulated loss: 233.59
+Minibatch 172.0000 / 391.0000
+ 	 loss: 1.2163385152816772			
+ 	 Accumulated loss: 234.80
+Minibatch 173.0000 / 391.0000
+ 	 loss: 1.3611843585968018			
+ 	 Accumulated loss: 236.17
+Minibatch 174.0000 / 391.0000
+ 	 loss: 1.530636191368103			
+ 	 Accumulated loss: 237.70
+Minibatch 175.0000 / 391.0000
+ 	 loss: 1.464072823524475			
+ 	 Accumulated loss: 239.16
+Minibatch 176.0000 / 391.0000
+ 	 loss: 1.2299489974975586			
+ 	 Accumulated loss: 240.39
+Minibatch 177.0000 / 391.0000
+ 	 loss: 1.3476738929748535			
+ 	 Accumulated loss: 241.74
+Minibatch 178.0000 / 391.0000
+ 	 loss: 1.3372344970703125			
+ 	 Accumulated loss: 243.08
+Minibatch 179.0000 / 391.0000
+ 	 loss: 1.2009187936782837			
+ 	 Accumulated loss: 244.28
+Minibatch 180.0000 / 391.0000
+ 	 loss: 1.3167493343353271			
+ 	 Accumulated loss: 245.59
+Minibatch 181.0000 / 391.0000
+ 	 loss: 1.2180355787277222			
+ 	 Accumulated loss: 246.81
+Minibatch 182.0000 / 391.0000
+ 	 loss: 1.3539749383926392			
+ 	 Accumulated loss: 248.16
+Minibatch 183.0000 / 391.0000
+ 	 loss: 1.3027158975601196			
+ 	 Accumulated loss: 249.47
+Minibatch 184.0000 / 391.0000
+ 	 loss: 1.2947261333465576			
+ 	 Accumulated loss: 250.76
+Minibatch 185.0000 / 391.0000
+ 	 loss: 1.1640751361846924			
+ 	 Accumulated loss: 251.93
+Minibatch 186.0000 / 391.0000
+ 	 loss: 1.2072890996932983			
+ 	 Accumulated loss: 253.13
+Minibatch 187.0000 / 391.0000
+ 	 loss: 1.3840402364730835			
+ 	 Accumulated loss: 254.52
+Minibatch 188.0000 / 391.0000
+ 	 loss: 1.362710952758789			
+ 	 Accumulated loss: 255.88
+Minibatch 189.0000 / 391.0000
+ 	 loss: 1.373497486114502			
+ 	 Accumulated loss: 257.25
+Minibatch 190.0000 / 391.0000
+ 	 loss: 1.6717771291732788			
+ 	 Accumulated loss: 258.93
+Minibatch 191.0000 / 391.0000
+ 	 loss: 1.3492857217788696			
+ 	 Accumulated loss: 260.27
+Minibatch 192.0000 / 391.0000
+ 	 loss: 1.4267182350158691			
+ 	 Accumulated loss: 261.70
+Minibatch 193.0000 / 391.0000
+ 	 loss: 1.44357168674469			
+ 	 Accumulated loss: 263.15
+Minibatch 194.0000 / 391.0000
+ 	 loss: 1.4220772981643677			
+ 	 Accumulated loss: 264.57
+Minibatch 195.0000 / 391.0000
+ 	 loss: 1.4992963075637817			
+ 	 Accumulated loss: 266.07
+Minibatch 196.0000 / 391.0000
+ 	 loss: 1.5030006170272827			
+ 	 Accumulated loss: 267.57
+Minibatch 197.0000 / 391.0000
+ 	 loss: 1.4451147317886353			
+ 	 Accumulated loss: 269.01
+Minibatch 198.0000 / 391.0000
+ 	 loss: 1.4931654930114746			
+ 	 Accumulated loss: 270.51
+Minibatch 199.0000 / 391.0000
+ 	 loss: 1.2715293169021606			
+ 	 Accumulated loss: 271.78
+Minibatch 200.0000 / 391.0000
+ 	 loss: 1.3698580265045166			
+ 	 Accumulated loss: 273.15
+Minibatch 201.0000 / 391.0000
+ 	 loss: 1.4767088890075684			
+ 	 Accumulated loss: 274.63
+Minibatch 202.0000 / 391.0000
+ 	 loss: 1.1099011898040771			
+ 	 Accumulated loss: 275.74
+Minibatch 203.0000 / 391.0000
+ 	 loss: 1.2730494737625122			
+ 	 Accumulated loss: 277.01
+Minibatch 204.0000 / 391.0000
+ 	 loss: 1.2723957300186157			
+ 	 Accumulated loss: 278.28
+Minibatch 205.0000 / 391.0000
+ 	 loss: 1.45672607421875			
+ 	 Accumulated loss: 279.74
+Minibatch 206.0000 / 391.0000
+ 	 loss: 1.3373805284500122			
+ 	 Accumulated loss: 281.08
+Minibatch 207.0000 / 391.0000
+ 	 loss: 1.3737736940383911			
+ 	 Accumulated loss: 282.45
+Minibatch 208.0000 / 391.0000
+ 	 loss: 1.3172004222869873			
+ 	 Accumulated loss: 283.77
+Minibatch 209.0000 / 391.0000
+ 	 loss: 1.3889873027801514			
+ 	 Accumulated loss: 285.16
+Minibatch 210.0000 / 391.0000
+ 	 loss: 1.4282047748565674			
+ 	 Accumulated loss: 286.58
+Minibatch 211.0000 / 391.0000
+ 	 loss: 1.2864025831222534			
+ 	 Accumulated loss: 287.87
+Minibatch 212.0000 / 391.0000
+ 	 loss: 1.4049782752990723			
+ 	 Accumulated loss: 289.27
+Minibatch 213.0000 / 391.0000
+ 	 loss: 1.3673259019851685			
+ 	 Accumulated loss: 290.64
+Minibatch 214.0000 / 391.0000
+ 	 loss: 1.381750226020813			
+ 	 Accumulated loss: 292.02
+Minibatch 215.0000 / 391.0000
+ 	 loss: 1.2839144468307495			
+ 	 Accumulated loss: 293.31
+Minibatch 216.0000 / 391.0000
+ 	 loss: 1.2390739917755127			
+ 	 Accumulated loss: 294.55
+Minibatch 217.0000 / 391.0000
+ 	 loss: 1.417668342590332			
+ 	 Accumulated loss: 295.96
+Minibatch 218.0000 / 391.0000
+ 	 loss: 1.2360950708389282			
+ 	 Accumulated loss: 297.20
+Minibatch 219.0000 / 391.0000
+ 	 loss: 1.172805905342102			
+ 	 Accumulated loss: 298.37
+Minibatch 220.0000 / 391.0000
+ 	 loss: 1.3188716173171997			
+ 	 Accumulated loss: 299.69
+Minibatch 221.0000 / 391.0000
+ 	 loss: 1.1552811861038208			
+ 	 Accumulated loss: 300.85
+Minibatch 222.0000 / 391.0000
+ 	 loss: 1.2168667316436768			
+ 	 Accumulated loss: 302.06
+Minibatch 223.0000 / 391.0000
+ 	 loss: 1.2978256940841675			
+ 	 Accumulated loss: 303.36
+Minibatch 224.0000 / 391.0000
+ 	 loss: 1.3715180158615112			
+ 	 Accumulated loss: 304.73
+Minibatch 225.0000 / 391.0000
+ 	 loss: 1.5599347352981567			
+ 	 Accumulated loss: 306.29
+Minibatch 226.0000 / 391.0000
+ 	 loss: 1.2971091270446777			
+ 	 Accumulated loss: 307.59
+Minibatch 227.0000 / 391.0000
+ 	 loss: 1.1596262454986572			
+ 	 Accumulated loss: 308.75
+Minibatch 228.0000 / 391.0000
+ 	 loss: 1.3660019636154175			
+ 	 Accumulated loss: 310.12
+Minibatch 229.0000 / 391.0000
+ 	 loss: 1.3707926273345947			
+ 	 Accumulated loss: 311.49
+Minibatch 230.0000 / 391.0000
+ 	 loss: 1.3145904541015625			
+ 	 Accumulated loss: 312.80
+Minibatch 231.0000 / 391.0000
+ 	 loss: 1.3553484678268433			
+ 	 Accumulated loss: 314.16
+Minibatch 232.0000 / 391.0000
+ 	 loss: 1.3001458644866943			
+ 	 Accumulated loss: 315.46
+Minibatch 233.0000 / 391.0000
+ 	 loss: 1.2734750509262085			
+ 	 Accumulated loss: 316.73
+Minibatch 234.0000 / 391.0000
+ 	 loss: 1.3635936975479126			
+ 	 Accumulated loss: 318.09
+Minibatch 235.0000 / 391.0000
+ 	 loss: 1.3969582319259644			
+ 	 Accumulated loss: 319.49
+Minibatch 236.0000 / 391.0000
+ 	 loss: 1.377598762512207			
+ 	 Accumulated loss: 320.87
+Minibatch 237.0000 / 391.0000
+ 	 loss: 1.3784575462341309			
+ 	 Accumulated loss: 322.25
+Minibatch 238.0000 / 391.0000
+ 	 loss: 1.187132477760315			
+ 	 Accumulated loss: 323.43
+Minibatch 239.0000 / 391.0000
+ 	 loss: 1.1512665748596191			
+ 	 Accumulated loss: 324.59
+Minibatch 240.0000 / 391.0000
+ 	 loss: 1.2873249053955078			
+ 	 Accumulated loss: 325.87
+Minibatch 241.0000 / 391.0000
+ 	 loss: 1.198599934577942			
+ 	 Accumulated loss: 327.07
+Minibatch 242.0000 / 391.0000
+ 	 loss: 1.3377386331558228			
+ 	 Accumulated loss: 328.41
+Minibatch 243.0000 / 391.0000
+ 	 loss: 1.267258644104004			
+ 	 Accumulated loss: 329.68
+Minibatch 244.0000 / 391.0000
+ 	 loss: 1.2145107984542847			
+ 	 Accumulated loss: 330.89
+Minibatch 245.0000 / 391.0000
+ 	 loss: 1.1374669075012207			
+ 	 Accumulated loss: 332.03
+Minibatch 246.0000 / 391.0000
+ 	 loss: 1.3099496364593506			
+ 	 Accumulated loss: 333.34
+Minibatch 247.0000 / 391.0000
+ 	 loss: 1.1133743524551392			
+ 	 Accumulated loss: 334.45
+Minibatch 248.0000 / 391.0000
+ 	 loss: 1.2011178731918335			
+ 	 Accumulated loss: 335.65
+Minibatch 249.0000 / 391.0000
+ 	 loss: 1.1969257593154907			
+ 	 Accumulated loss: 336.85
+Minibatch 250.0000 / 391.0000
+ 	 loss: 1.2819629907608032			
+ 	 Accumulated loss: 338.13
+Minibatch 251.0000 / 391.0000
+ 	 loss: 1.251875638961792			
+ 	 Accumulated loss: 339.38
+Minibatch 252.0000 / 391.0000
+ 	 loss: 1.286674976348877			
+ 	 Accumulated loss: 340.67
+Minibatch 253.0000 / 391.0000
+ 	 loss: 1.119757890701294			
+ 	 Accumulated loss: 341.79
+Minibatch 254.0000 / 391.0000
+ 	 loss: 1.2583709955215454			
+ 	 Accumulated loss: 343.05
+Minibatch 255.0000 / 391.0000
+ 	 loss: 1.1675041913986206			
+ 	 Accumulated loss: 344.22
+Minibatch 256.0000 / 391.0000
+ 	 loss: 1.5768041610717773			
+ 	 Accumulated loss: 345.79
+Minibatch 257.0000 / 391.0000
+ 	 loss: 1.2460877895355225			
+ 	 Accumulated loss: 347.04
+Minibatch 258.0000 / 391.0000
+ 	 loss: 1.3128067255020142			
+ 	 Accumulated loss: 348.35
+Minibatch 259.0000 / 391.0000
+ 	 loss: 1.254998803138733			
+ 	 Accumulated loss: 349.61
+Minibatch 260.0000 / 391.0000
+ 	 loss: 1.1388370990753174			
+ 	 Accumulated loss: 350.75
+Minibatch 261.0000 / 391.0000
+ 	 loss: 1.2060552835464478			
+ 	 Accumulated loss: 351.95
+Minibatch 262.0000 / 391.0000
+ 	 loss: 1.451168417930603			
+ 	 Accumulated loss: 353.40
+Minibatch 263.0000 / 391.0000
+ 	 loss: 1.3023076057434082			
+ 	 Accumulated loss: 354.71
+Minibatch 264.0000 / 391.0000
+ 	 loss: 1.3689504861831665			
+ 	 Accumulated loss: 356.07
+Minibatch 265.0000 / 391.0000
+ 	 loss: 1.2651188373565674			
+ 	 Accumulated loss: 357.34
+Minibatch 266.0000 / 391.0000
+ 	 loss: 1.2558631896972656			
+ 	 Accumulated loss: 358.60
+Minibatch 267.0000 / 391.0000
+ 	 loss: 1.3326447010040283			
+ 	 Accumulated loss: 359.93
+Minibatch 268.0000 / 391.0000
+ 	 loss: 1.226520299911499			
+ 	 Accumulated loss: 361.15
+Minibatch 269.0000 / 391.0000
+ 	 loss: 1.2128875255584717			
+ 	 Accumulated loss: 362.37
+Minibatch 270.0000 / 391.0000
+ 	 loss: 1.2528159618377686			
+ 	 Accumulated loss: 363.62
+Minibatch 271.0000 / 391.0000
+ 	 loss: 1.3703992366790771			
+ 	 Accumulated loss: 364.99
+Minibatch 272.0000 / 391.0000
+ 	 loss: 1.2002036571502686			
+ 	 Accumulated loss: 366.19
+Minibatch 273.0000 / 391.0000
+ 	 loss: 1.2942880392074585			
+ 	 Accumulated loss: 367.49
+Minibatch 274.0000 / 391.0000
+ 	 loss: 1.211728811264038			
+ 	 Accumulated loss: 368.70
+Minibatch 275.0000 / 391.0000
+ 	 loss: 1.1819219589233398			
+ 	 Accumulated loss: 369.88
+Minibatch 276.0000 / 391.0000
+ 	 loss: 1.3713741302490234			
+ 	 Accumulated loss: 371.25
+Minibatch 277.0000 / 391.0000
+ 	 loss: 1.434981107711792			
+ 	 Accumulated loss: 372.69
+Minibatch 278.0000 / 391.0000
+ 	 loss: 1.1849446296691895			
+ 	 Accumulated loss: 373.87
+Minibatch 279.0000 / 391.0000
+ 	 loss: 1.15339994430542			
+ 	 Accumulated loss: 375.02
+Minibatch 280.0000 / 391.0000
+ 	 loss: 1.5950978994369507			
+ 	 Accumulated loss: 376.62
+Minibatch 281.0000 / 391.0000
+ 	 loss: 1.1703015565872192			
+ 	 Accumulated loss: 377.79
+Minibatch 282.0000 / 391.0000
+ 	 loss: 1.1895643472671509			
+ 	 Accumulated loss: 378.98
+Minibatch 283.0000 / 391.0000
+ 	 loss: 1.261548638343811			
+ 	 Accumulated loss: 380.24
+Minibatch 284.0000 / 391.0000
+ 	 loss: 1.3962733745574951			
+ 	 Accumulated loss: 381.64
+Minibatch 285.0000 / 391.0000
+ 	 loss: 1.1894574165344238			
+ 	 Accumulated loss: 382.83
+Minibatch 286.0000 / 391.0000
+ 	 loss: 1.1338090896606445			
+ 	 Accumulated loss: 383.96
+Minibatch 287.0000 / 391.0000
+ 	 loss: 1.1130026578903198			
+ 	 Accumulated loss: 385.07
+Minibatch 288.0000 / 391.0000
+ 	 loss: 1.2884068489074707			
+ 	 Accumulated loss: 386.36
+Minibatch 289.0000 / 391.0000
+ 	 loss: 1.12717866897583			
+ 	 Accumulated loss: 387.49
+Minibatch 290.0000 / 391.0000
+ 	 loss: 1.4087765216827393			
+ 	 Accumulated loss: 388.90
+Minibatch 291.0000 / 391.0000
+ 	 loss: 1.1254668235778809			
+ 	 Accumulated loss: 390.02
+Minibatch 292.0000 / 391.0000
+ 	 loss: 1.1769218444824219			
+ 	 Accumulated loss: 391.20
+Minibatch 293.0000 / 391.0000
+ 	 loss: 1.1584779024124146			
+ 	 Accumulated loss: 392.36
+Minibatch 294.0000 / 391.0000
+ 	 loss: 1.365268588066101			
+ 	 Accumulated loss: 393.72
+Minibatch 295.0000 / 391.0000
+ 	 loss: 1.300489068031311			
+ 	 Accumulated loss: 395.02
+Minibatch 296.0000 / 391.0000
+ 	 loss: 1.1847983598709106			
+ 	 Accumulated loss: 396.21
+Minibatch 297.0000 / 391.0000
+ 	 loss: 1.3319015502929688			
+ 	 Accumulated loss: 397.54
+Minibatch 298.0000 / 391.0000
+ 	 loss: 1.0442097187042236			
+ 	 Accumulated loss: 398.58
+Minibatch 299.0000 / 391.0000
+ 	 loss: 1.339103102684021			
+ 	 Accumulated loss: 399.92
+Minibatch 300.0000 / 391.0000
+ 	 loss: 1.2154929637908936			
+ 	 Accumulated loss: 401.14
+Minibatch 301.0000 / 391.0000
+ 	 loss: 1.0959837436676025			
+ 	 Accumulated loss: 402.23
+Minibatch 302.0000 / 391.0000
+ 	 loss: 1.2300173044204712			
+ 	 Accumulated loss: 403.46
+Minibatch 303.0000 / 391.0000
+ 	 loss: 1.245883584022522			
+ 	 Accumulated loss: 404.71
+Minibatch 304.0000 / 391.0000
+ 	 loss: 1.4853147268295288			
+ 	 Accumulated loss: 406.20
+Minibatch 305.0000 / 391.0000
+ 	 loss: 1.250740885734558			
+ 	 Accumulated loss: 407.45
+Minibatch 306.0000 / 391.0000
+ 	 loss: 1.1069281101226807			
+ 	 Accumulated loss: 408.55
+Minibatch 307.0000 / 391.0000
+ 	 loss: 1.0537201166152954			
+ 	 Accumulated loss: 409.61
+Minibatch 308.0000 / 391.0000
+ 	 loss: 1.4552948474884033			
+ 	 Accumulated loss: 411.06
+Minibatch 309.0000 / 391.0000
+ 	 loss: 1.397926926612854			
+ 	 Accumulated loss: 412.46
+Minibatch 310.0000 / 391.0000
+ 	 loss: 1.2116094827651978			
+ 	 Accumulated loss: 413.67
+Minibatch 311.0000 / 391.0000
+ 	 loss: 1.3204431533813477			
+ 	 Accumulated loss: 414.99
+Minibatch 312.0000 / 391.0000
+ 	 loss: 1.4020591974258423			
+ 	 Accumulated loss: 416.39
+Minibatch 313.0000 / 391.0000
+ 	 loss: 1.2040936946868896			
+ 	 Accumulated loss: 417.60
+Minibatch 314.0000 / 391.0000
+ 	 loss: 1.2864792346954346			
+ 	 Accumulated loss: 418.89
+Minibatch 315.0000 / 391.0000
+ 	 loss: 1.174314022064209			
+ 	 Accumulated loss: 420.06
+Minibatch 316.0000 / 391.0000
+ 	 loss: 1.2073829174041748			
+ 	 Accumulated loss: 421.27
+Minibatch 317.0000 / 391.0000
+ 	 loss: 1.200063705444336			
+ 	 Accumulated loss: 422.47
+Minibatch 318.0000 / 391.0000
+ 	 loss: 1.4256683588027954			
+ 	 Accumulated loss: 423.89
+Minibatch 319.0000 / 391.0000
+ 	 loss: 1.1488672494888306			
+ 	 Accumulated loss: 425.04
+Minibatch 320.0000 / 391.0000
+ 	 loss: 1.3009313344955444			
+ 	 Accumulated loss: 426.34
+Minibatch 321.0000 / 391.0000
+ 	 loss: 1.174699306488037			
+ 	 Accumulated loss: 427.52
+Minibatch 322.0000 / 391.0000
+ 	 loss: 1.187403678894043			
+ 	 Accumulated loss: 428.70
+Minibatch 323.0000 / 391.0000
+ 	 loss: 1.2600445747375488			
+ 	 Accumulated loss: 429.96
+Minibatch 324.0000 / 391.0000
+ 	 loss: 1.3597947359085083			
+ 	 Accumulated loss: 431.32
+Minibatch 325.0000 / 391.0000
+ 	 loss: 1.3707486391067505			
+ 	 Accumulated loss: 432.70
+Minibatch 326.0000 / 391.0000
+ 	 loss: 1.1876132488250732			
+ 	 Accumulated loss: 433.88
+Minibatch 327.0000 / 391.0000
+ 	 loss: 1.1741629838943481			
+ 	 Accumulated loss: 435.06
+Minibatch 328.0000 / 391.0000
+ 	 loss: 1.1880390644073486			
+ 	 Accumulated loss: 436.25
+Minibatch 329.0000 / 391.0000
+ 	 loss: 1.2310236692428589			
+ 	 Accumulated loss: 437.48
+Minibatch 330.0000 / 391.0000
+ 	 loss: 1.3018438816070557			
+ 	 Accumulated loss: 438.78
+Minibatch 331.0000 / 391.0000
+ 	 loss: 1.1762356758117676			
+ 	 Accumulated loss: 439.95
+Minibatch 332.0000 / 391.0000
+ 	 loss: 1.173671841621399			
+ 	 Accumulated loss: 441.13
+Minibatch 333.0000 / 391.0000
+ 	 loss: 1.280925989151001			
+ 	 Accumulated loss: 442.41
+Minibatch 334.0000 / 391.0000
+ 	 loss: 1.2327386140823364			
+ 	 Accumulated loss: 443.64
+Minibatch 335.0000 / 391.0000
+ 	 loss: 1.304169774055481			
+ 	 Accumulated loss: 444.95
+Minibatch 336.0000 / 391.0000
+ 	 loss: 1.1391781568527222			
+ 	 Accumulated loss: 446.08
+Minibatch 337.0000 / 391.0000
+ 	 loss: 1.0812124013900757			
+ 	 Accumulated loss: 447.17
+Minibatch 338.0000 / 391.0000
+ 	 loss: 1.1496131420135498			
+ 	 Accumulated loss: 448.32
+Minibatch 339.0000 / 391.0000
+ 	 loss: 1.0340367555618286			
+ 	 Accumulated loss: 449.35
+Minibatch 340.0000 / 391.0000
+ 	 loss: 1.1746294498443604			
+ 	 Accumulated loss: 450.52
+Minibatch 341.0000 / 391.0000
+ 	 loss: 1.3078906536102295			
+ 	 Accumulated loss: 451.83
+Minibatch 342.0000 / 391.0000
+ 	 loss: 1.2782598733901978			
+ 	 Accumulated loss: 453.11
+Minibatch 343.0000 / 391.0000
+ 	 loss: 1.2479647397994995			
+ 	 Accumulated loss: 454.36
+Minibatch 344.0000 / 391.0000
+ 	 loss: 1.1241633892059326			
+ 	 Accumulated loss: 455.48
+Minibatch 345.0000 / 391.0000
+ 	 loss: 1.317934274673462			
+ 	 Accumulated loss: 456.80
+Minibatch 346.0000 / 391.0000
+ 	 loss: 1.4365487098693848			
+ 	 Accumulated loss: 458.24
+Minibatch 347.0000 / 391.0000
+ 	 loss: 1.180564045906067			
+ 	 Accumulated loss: 459.42
+Minibatch 348.0000 / 391.0000
+ 	 loss: 1.3932701349258423			
+ 	 Accumulated loss: 460.81
+Minibatch 349.0000 / 391.0000
+ 	 loss: 1.3513208627700806			
+ 	 Accumulated loss: 462.16
+Minibatch 350.0000 / 391.0000
+ 	 loss: 1.0734127759933472			
+ 	 Accumulated loss: 463.24
+Minibatch 351.0000 / 391.0000
+ 	 loss: 1.3028241395950317			
+ 	 Accumulated loss: 464.54
+Minibatch 352.0000 / 391.0000
+ 	 loss: 1.112662672996521			
+ 	 Accumulated loss: 465.65
+Minibatch 353.0000 / 391.0000
+ 	 loss: 1.2483515739440918			
+ 	 Accumulated loss: 466.90
+Minibatch 354.0000 / 391.0000
+ 	 loss: 1.3089768886566162			
+ 	 Accumulated loss: 468.21
+Minibatch 355.0000 / 391.0000
+ 	 loss: 1.1087934970855713			
+ 	 Accumulated loss: 469.32
+Minibatch 356.0000 / 391.0000
+ 	 loss: 1.335618495941162			
+ 	 Accumulated loss: 470.65
+Minibatch 357.0000 / 391.0000
+ 	 loss: 1.1946977376937866			
+ 	 Accumulated loss: 471.85
+Minibatch 358.0000 / 391.0000
+ 	 loss: 1.437744140625			
+ 	 Accumulated loss: 473.29
+Minibatch 359.0000 / 391.0000
+ 	 loss: 1.2003915309906006			
+ 	 Accumulated loss: 474.49
+Minibatch 360.0000 / 391.0000
+ 	 loss: 1.1317622661590576			
+ 	 Accumulated loss: 475.62
+Minibatch 361.0000 / 391.0000
+ 	 loss: 1.1545746326446533			
+ 	 Accumulated loss: 476.77
+Minibatch 362.0000 / 391.0000
+ 	 loss: 1.4807623624801636			
+ 	 Accumulated loss: 478.25
+Minibatch 363.0000 / 391.0000
+ 	 loss: 1.316522479057312			
+ 	 Accumulated loss: 479.57
+Minibatch 364.0000 / 391.0000
+ 	 loss: 1.3490550518035889			
+ 	 Accumulated loss: 480.92
+Minibatch 365.0000 / 391.0000
+ 	 loss: 1.318709135055542			
+ 	 Accumulated loss: 482.24
+Minibatch 366.0000 / 391.0000
+ 	 loss: 1.28898286819458			
+ 	 Accumulated loss: 483.53
+Minibatch 367.0000 / 391.0000
+ 	 loss: 1.1433851718902588			
+ 	 Accumulated loss: 484.67
+Minibatch 368.0000 / 391.0000
+ 	 loss: 1.2829610109329224			
+ 	 Accumulated loss: 485.95
+Minibatch 369.0000 / 391.0000
+ 	 loss: 1.1520088911056519			
+ 	 Accumulated loss: 487.10
+Minibatch 370.0000 / 391.0000
+ 	 loss: 1.111968994140625			
+ 	 Accumulated loss: 488.22
+Minibatch 371.0000 / 391.0000
+ 	 loss: 1.2082505226135254			
+ 	 Accumulated loss: 489.42
+Minibatch 372.0000 / 391.0000
+ 	 loss: 1.4082432985305786			
+ 	 Accumulated loss: 490.83
+Minibatch 373.0000 / 391.0000
+ 	 loss: 1.1640660762786865			
+ 	 Accumulated loss: 492.00
+Minibatch 374.0000 / 391.0000
+ 	 loss: 1.2176920175552368			
+ 	 Accumulated loss: 493.21
+Minibatch 375.0000 / 391.0000
+ 	 loss: 1.0984386205673218			
+ 	 Accumulated loss: 494.31
+Minibatch 376.0000 / 391.0000
+ 	 loss: 1.1703393459320068			
+ 	 Accumulated loss: 495.48
+Minibatch 377.0000 / 391.0000
+ 	 loss: 1.2781696319580078			
+ 	 Accumulated loss: 496.76
+Minibatch 378.0000 / 391.0000
+ 	 loss: 1.1245145797729492			
+ 	 Accumulated loss: 497.89
+Minibatch 379.0000 / 391.0000
+ 	 loss: 1.198013186454773			
+ 	 Accumulated loss: 499.08
+Minibatch 380.0000 / 391.0000
+ 	 loss: 1.1727427244186401			
+ 	 Accumulated loss: 500.26
+Minibatch 381.0000 / 391.0000
+ 	 loss: 1.5107582807540894			
+ 	 Accumulated loss: 501.77
+Minibatch 382.0000 / 391.0000
+ 	 loss: 1.3235430717468262			
+ 	 Accumulated loss: 503.09
+Minibatch 383.0000 / 391.0000
+ 	 loss: 1.2807419300079346			
+ 	 Accumulated loss: 504.37
+Minibatch 384.0000 / 391.0000
+ 	 loss: 1.2075103521347046			
+ 	 Accumulated loss: 505.58
+Minibatch 385.0000 / 391.0000
+ 	 loss: 1.3302887678146362			
+ 	 Accumulated loss: 506.91
+Minibatch 386.0000 / 391.0000
+ 	 loss: 1.222928762435913			
+ 	 Accumulated loss: 508.13
+Minibatch 387.0000 / 391.0000
+ 	 loss: 1.2539191246032715			
+ 	 Accumulated loss: 509.39
+Minibatch 388.0000 / 391.0000
+ 	 loss: 1.0925453901290894			
+ 	 Accumulated loss: 510.48
+Minibatch 389.0000 / 391.0000
+ 	 loss: 1.1960899829864502			
+ 	 Accumulated loss: 511.68
+Minibatch 390.0000 / 391.0000
+ 	 loss: 1.3039608001708984			
+ 	 Accumulated loss: 512.98
+Aggregates: 
+ 	 DataLoader Time: 3.1377 
+ 	 		Mini-batch Time:18.3832 
+ 	 Training Epoch Time:32.8449
+ 		Averages: 
+ 	 Training Loss: 1.3120
+	Testing precision@1: 0.5558 
+
+Epoch 3
+Minibatch 0.0000 / 391.0000
+ 	 loss: 1.2609974145889282			
+ 	 Accumulated loss: 1.26
+Minibatch 1.0000 / 391.0000
+ 	 loss: 1.1866780519485474			
+ 	 Accumulated loss: 2.45
+Minibatch 2.0000 / 391.0000
+ 	 loss: 1.1110281944274902			
+ 	 Accumulated loss: 3.56
+Minibatch 3.0000 / 391.0000
+ 	 loss: 1.2382442951202393			
+ 	 Accumulated loss: 4.80
+Minibatch 4.0000 / 391.0000
+ 	 loss: 1.315025806427002			
+ 	 Accumulated loss: 6.11
+Minibatch 5.0000 / 391.0000
+ 	 loss: 1.0970876216888428			
+ 	 Accumulated loss: 7.21
+Minibatch 6.0000 / 391.0000
+ 	 loss: 1.3138536214828491			
+ 	 Accumulated loss: 8.52
+Minibatch 7.0000 / 391.0000
+ 	 loss: 1.3055156469345093			
+ 	 Accumulated loss: 9.83
+Minibatch 8.0000 / 391.0000
+ 	 loss: 1.1485304832458496			
+ 	 Accumulated loss: 10.98
+Minibatch 9.0000 / 391.0000
+ 	 loss: 1.1541030406951904			
+ 	 Accumulated loss: 12.13
+Minibatch 10.0000 / 391.0000
+ 	 loss: 1.2885791063308716			
+ 	 Accumulated loss: 13.42
+Minibatch 11.0000 / 391.0000
+ 	 loss: 1.1894131898880005			
+ 	 Accumulated loss: 14.61
+Minibatch 12.0000 / 391.0000
+ 	 loss: 1.1272813081741333			
+ 	 Accumulated loss: 15.74
+Minibatch 13.0000 / 391.0000
+ 	 loss: 1.2047176361083984			
+ 	 Accumulated loss: 16.94
+Minibatch 14.0000 / 391.0000
+ 	 loss: 1.229078769683838			
+ 	 Accumulated loss: 18.17
+Minibatch 15.0000 / 391.0000
+ 	 loss: 1.2491534948349			
+ 	 Accumulated loss: 19.42
+Minibatch 16.0000 / 391.0000
+ 	 loss: 1.2005385160446167			
+ 	 Accumulated loss: 20.62
+Minibatch 17.0000 / 391.0000
+ 	 loss: 1.2776379585266113			
+ 	 Accumulated loss: 21.90
+Minibatch 18.0000 / 391.0000
+ 	 loss: 1.3248460292816162			
+ 	 Accumulated loss: 23.22
+Minibatch 19.0000 / 391.0000
+ 	 loss: 1.076864242553711			
+ 	 Accumulated loss: 24.30
+Minibatch 20.0000 / 391.0000
+ 	 loss: 1.2919492721557617			
+ 	 Accumulated loss: 25.59
+Minibatch 21.0000 / 391.0000
+ 	 loss: 1.356195330619812			
+ 	 Accumulated loss: 26.95
+Minibatch 22.0000 / 391.0000
+ 	 loss: 1.3356479406356812			
+ 	 Accumulated loss: 28.28
+Minibatch 23.0000 / 391.0000
+ 	 loss: 1.2695783376693726			
+ 	 Accumulated loss: 29.55
+Minibatch 24.0000 / 391.0000
+ 	 loss: 1.1297550201416016			
+ 	 Accumulated loss: 30.68
+Minibatch 25.0000 / 391.0000
+ 	 loss: 1.116513729095459			
+ 	 Accumulated loss: 31.80
+Minibatch 26.0000 / 391.0000
+ 	 loss: 1.2059139013290405			
+ 	 Accumulated loss: 33.00
+Minibatch 27.0000 / 391.0000
+ 	 loss: 1.2747315168380737			
+ 	 Accumulated loss: 34.28
+Minibatch 28.0000 / 391.0000
+ 	 loss: 1.308067798614502			
+ 	 Accumulated loss: 35.59
+Minibatch 29.0000 / 391.0000
+ 	 loss: 1.4433943033218384			
+ 	 Accumulated loss: 37.03
+Minibatch 30.0000 / 391.0000
+ 	 loss: 1.18701171875			
+ 	 Accumulated loss: 38.22
+Minibatch 31.0000 / 391.0000
+ 	 loss: 1.1010262966156006			
+ 	 Accumulated loss: 39.32
+Minibatch 32.0000 / 391.0000
+ 	 loss: 1.4057364463806152			
+ 	 Accumulated loss: 40.72
+Minibatch 33.0000 / 391.0000
+ 	 loss: 1.237740397453308			
+ 	 Accumulated loss: 41.96
+Minibatch 34.0000 / 391.0000
+ 	 loss: 1.2638534307479858			
+ 	 Accumulated loss: 43.23
+Minibatch 35.0000 / 391.0000
+ 	 loss: 1.2005714178085327			
+ 	 Accumulated loss: 44.43
+Minibatch 36.0000 / 391.0000
+ 	 loss: 1.0846003293991089			
+ 	 Accumulated loss: 45.51
+Minibatch 37.0000 / 391.0000
+ 	 loss: 1.1636370420455933			
+ 	 Accumulated loss: 46.68
+Minibatch 38.0000 / 391.0000
+ 	 loss: 1.2063506841659546			
+ 	 Accumulated loss: 47.88
+Minibatch 39.0000 / 391.0000
+ 	 loss: 1.0696812868118286			
+ 	 Accumulated loss: 48.95
+Minibatch 40.0000 / 391.0000
+ 	 loss: 1.1666069030761719			
+ 	 Accumulated loss: 50.12
+Minibatch 41.0000 / 391.0000
+ 	 loss: 1.13997483253479			
+ 	 Accumulated loss: 51.26
+Minibatch 42.0000 / 391.0000
+ 	 loss: 1.2105647325515747			
+ 	 Accumulated loss: 52.47
+Minibatch 43.0000 / 391.0000
+ 	 loss: 1.3845865726470947			
+ 	 Accumulated loss: 53.85
+Minibatch 44.0000 / 391.0000
+ 	 loss: 1.2559518814086914			
+ 	 Accumulated loss: 55.11
+Minibatch 45.0000 / 391.0000
+ 	 loss: 1.1974495649337769			
+ 	 Accumulated loss: 56.31
+Minibatch 46.0000 / 391.0000
+ 	 loss: 1.319359302520752			
+ 	 Accumulated loss: 57.63
+Minibatch 47.0000 / 391.0000
+ 	 loss: 1.2773007154464722			
+ 	 Accumulated loss: 58.90
+Minibatch 48.0000 / 391.0000
+ 	 loss: 1.0620734691619873			
+ 	 Accumulated loss: 59.96
+Minibatch 49.0000 / 391.0000
+ 	 loss: 1.2184804677963257			
+ 	 Accumulated loss: 61.18
+Minibatch 50.0000 / 391.0000
+ 	 loss: 1.1700016260147095			
+ 	 Accumulated loss: 62.35
+Minibatch 51.0000 / 391.0000
+ 	 loss: 1.1999543905258179			
+ 	 Accumulated loss: 63.55
+Minibatch 52.0000 / 391.0000
+ 	 loss: 1.1199114322662354			
+ 	 Accumulated loss: 64.67
+Minibatch 53.0000 / 391.0000
+ 	 loss: 1.1052836179733276			
+ 	 Accumulated loss: 65.78
+Minibatch 54.0000 / 391.0000
+ 	 loss: 1.328494668006897			
+ 	 Accumulated loss: 67.11
+Minibatch 55.0000 / 391.0000
+ 	 loss: 1.2151893377304077			
+ 	 Accumulated loss: 68.32
+Minibatch 56.0000 / 391.0000
+ 	 loss: 1.146506905555725			
+ 	 Accumulated loss: 69.47
+Minibatch 57.0000 / 391.0000
+ 	 loss: 1.1858388185501099			
+ 	 Accumulated loss: 70.65
+Minibatch 58.0000 / 391.0000
+ 	 loss: 1.3311642408370972			
+ 	 Accumulated loss: 71.99
+Minibatch 59.0000 / 391.0000
+ 	 loss: 1.1803561449050903			
+ 	 Accumulated loss: 73.17
+Minibatch 60.0000 / 391.0000
+ 	 loss: 1.1398147344589233			
+ 	 Accumulated loss: 74.31
+Minibatch 61.0000 / 391.0000
+ 	 loss: 1.2176064252853394			
+ 	 Accumulated loss: 75.52
+Minibatch 62.0000 / 391.0000
+ 	 loss: 1.257562279701233			
+ 	 Accumulated loss: 76.78
+Minibatch 63.0000 / 391.0000
+ 	 loss: 1.2955653667449951			
+ 	 Accumulated loss: 78.08
+Minibatch 64.0000 / 391.0000
+ 	 loss: 1.1634589433670044			
+ 	 Accumulated loss: 79.24
+Minibatch 65.0000 / 391.0000
+ 	 loss: 1.2824907302856445			
+ 	 Accumulated loss: 80.52
+Minibatch 66.0000 / 391.0000
+ 	 loss: 1.2899104356765747			
+ 	 Accumulated loss: 81.81
+Minibatch 67.0000 / 391.0000
+ 	 loss: 1.3838660717010498			
+ 	 Accumulated loss: 83.20
+Minibatch 68.0000 / 391.0000
+ 	 loss: 1.2925764322280884			
+ 	 Accumulated loss: 84.49
+Minibatch 69.0000 / 391.0000
+ 	 loss: 1.1348011493682861			
+ 	 Accumulated loss: 85.62
+Minibatch 70.0000 / 391.0000
+ 	 loss: 1.241247534751892			
+ 	 Accumulated loss: 86.87
+Minibatch 71.0000 / 391.0000
+ 	 loss: 1.1739016771316528			
+ 	 Accumulated loss: 88.04
+Minibatch 72.0000 / 391.0000
+ 	 loss: 1.2363898754119873			
+ 	 Accumulated loss: 89.28
+Minibatch 73.0000 / 391.0000
+ 	 loss: 1.2204669713974			
+ 	 Accumulated loss: 90.50
+Minibatch 74.0000 / 391.0000
+ 	 loss: 1.1798604726791382			
+ 	 Accumulated loss: 91.68
+Minibatch 75.0000 / 391.0000
+ 	 loss: 1.1400768756866455			
+ 	 Accumulated loss: 92.82
+Minibatch 76.0000 / 391.0000
+ 	 loss: 1.0935893058776855			
+ 	 Accumulated loss: 93.91
+Minibatch 77.0000 / 391.0000
+ 	 loss: 1.2663414478302002			
+ 	 Accumulated loss: 95.18
+Minibatch 78.0000 / 391.0000
+ 	 loss: 1.2369847297668457			
+ 	 Accumulated loss: 96.41
+Minibatch 79.0000 / 391.0000
+ 	 loss: 1.2644163370132446			
+ 	 Accumulated loss: 97.68
+Minibatch 80.0000 / 391.0000
+ 	 loss: 1.1737489700317383			
+ 	 Accumulated loss: 98.85
+Minibatch 81.0000 / 391.0000
+ 	 loss: 1.1501964330673218			
+ 	 Accumulated loss: 100.00
+Minibatch 82.0000 / 391.0000
+ 	 loss: 1.1153037548065186			
+ 	 Accumulated loss: 101.12
+Minibatch 83.0000 / 391.0000
+ 	 loss: 1.0346368551254272			
+ 	 Accumulated loss: 102.15
+Minibatch 84.0000 / 391.0000
+ 	 loss: 1.2124439477920532			
+ 	 Accumulated loss: 103.36
+Minibatch 85.0000 / 391.0000
+ 	 loss: 1.1669042110443115			
+ 	 Accumulated loss: 104.53
+Minibatch 86.0000 / 391.0000
+ 	 loss: 1.213551640510559			
+ 	 Accumulated loss: 105.74
+Minibatch 87.0000 / 391.0000
+ 	 loss: 1.3512510061264038			
+ 	 Accumulated loss: 107.10
+Minibatch 88.0000 / 391.0000
+ 	 loss: 1.109641194343567			
+ 	 Accumulated loss: 108.20
+Minibatch 89.0000 / 391.0000
+ 	 loss: 1.0532171726226807			
+ 	 Accumulated loss: 109.26
+Minibatch 90.0000 / 391.0000
+ 	 loss: 1.3130441904067993			
+ 	 Accumulated loss: 110.57
+Minibatch 91.0000 / 391.0000
+ 	 loss: 1.1499086618423462			
+ 	 Accumulated loss: 111.72
+Minibatch 92.0000 / 391.0000
+ 	 loss: 1.0686876773834229			
+ 	 Accumulated loss: 112.79
+Minibatch 93.0000 / 391.0000
+ 	 loss: 1.171467900276184			
+ 	 Accumulated loss: 113.96
+Minibatch 94.0000 / 391.0000
+ 	 loss: 1.2368342876434326			
+ 	 Accumulated loss: 115.20
+Minibatch 95.0000 / 391.0000
+ 	 loss: 1.0975083112716675			
+ 	 Accumulated loss: 116.30
+Minibatch 96.0000 / 391.0000
+ 	 loss: 1.0895259380340576			
+ 	 Accumulated loss: 117.38
+Minibatch 97.0000 / 391.0000
+ 	 loss: 1.140562891960144			
+ 	 Accumulated loss: 118.53
+Minibatch 98.0000 / 391.0000
+ 	 loss: 1.0465924739837646			
+ 	 Accumulated loss: 119.57
+Minibatch 99.0000 / 391.0000
+ 	 loss: 1.1808462142944336			
+ 	 Accumulated loss: 120.75
+Minibatch 100.0000 / 391.0000
+ 	 loss: 1.0926358699798584			
+ 	 Accumulated loss: 121.85
+Minibatch 101.0000 / 391.0000
+ 	 loss: 1.1254981756210327			
+ 	 Accumulated loss: 122.97
+Minibatch 102.0000 / 391.0000
+ 	 loss: 1.1370644569396973			
+ 	 Accumulated loss: 124.11
+Minibatch 103.0000 / 391.0000
+ 	 loss: 1.0830885171890259			
+ 	 Accumulated loss: 125.19
+Minibatch 104.0000 / 391.0000
+ 	 loss: 1.0688074827194214			
+ 	 Accumulated loss: 126.26
+Minibatch 105.0000 / 391.0000
+ 	 loss: 1.3983154296875			
+ 	 Accumulated loss: 127.66
+Minibatch 106.0000 / 391.0000
+ 	 loss: 1.2135730981826782			
+ 	 Accumulated loss: 128.87
+Minibatch 107.0000 / 391.0000
+ 	 loss: 1.1596641540527344			
+ 	 Accumulated loss: 130.03
+Minibatch 108.0000 / 391.0000
+ 	 loss: 0.9923933744430542			
+ 	 Accumulated loss: 131.02
+Minibatch 109.0000 / 391.0000
+ 	 loss: 1.2479274272918701			
+ 	 Accumulated loss: 132.27
+Minibatch 110.0000 / 391.0000
+ 	 loss: 0.9418343901634216			
+ 	 Accumulated loss: 133.21
+Minibatch 111.0000 / 391.0000
+ 	 loss: 1.4291369915008545			
+ 	 Accumulated loss: 134.64
+Minibatch 112.0000 / 391.0000
+ 	 loss: 1.209395170211792			
+ 	 Accumulated loss: 135.85
+Minibatch 113.0000 / 391.0000
+ 	 loss: 1.1273671388626099			
+ 	 Accumulated loss: 136.98
+Minibatch 114.0000 / 391.0000
+ 	 loss: 1.1710222959518433			
+ 	 Accumulated loss: 138.15
+Minibatch 115.0000 / 391.0000
+ 	 loss: 1.1383335590362549			
+ 	 Accumulated loss: 139.29
+Minibatch 116.0000 / 391.0000
+ 	 loss: 1.285339593887329			
+ 	 Accumulated loss: 140.57
+Minibatch 117.0000 / 391.0000
+ 	 loss: 1.0419927835464478			
+ 	 Accumulated loss: 141.62
+Minibatch 118.0000 / 391.0000
+ 	 loss: 1.227004885673523			
+ 	 Accumulated loss: 142.84
+Minibatch 119.0000 / 391.0000
+ 	 loss: 1.2690664529800415			
+ 	 Accumulated loss: 144.11
+Minibatch 120.0000 / 391.0000
+ 	 loss: 1.3992931842803955			
+ 	 Accumulated loss: 145.51
+Minibatch 121.0000 / 391.0000
+ 	 loss: 1.167218804359436			
+ 	 Accumulated loss: 146.68
+Minibatch 122.0000 / 391.0000
+ 	 loss: 1.2529792785644531			
+ 	 Accumulated loss: 147.93
+Minibatch 123.0000 / 391.0000
+ 	 loss: 1.1887423992156982			
+ 	 Accumulated loss: 149.12
+Minibatch 124.0000 / 391.0000
+ 	 loss: 1.0636029243469238			
+ 	 Accumulated loss: 150.18
+Minibatch 125.0000 / 391.0000
+ 	 loss: 1.116003394126892			
+ 	 Accumulated loss: 151.30
+Minibatch 126.0000 / 391.0000
+ 	 loss: 1.222745418548584			
+ 	 Accumulated loss: 152.52
+Minibatch 127.0000 / 391.0000
+ 	 loss: 1.0449497699737549			
+ 	 Accumulated loss: 153.57
+Minibatch 128.0000 / 391.0000
+ 	 loss: 1.0620183944702148			
+ 	 Accumulated loss: 154.63
+Minibatch 129.0000 / 391.0000
+ 	 loss: 1.095467448234558			
+ 	 Accumulated loss: 155.73
+Minibatch 130.0000 / 391.0000
+ 	 loss: 1.1593321561813354			
+ 	 Accumulated loss: 156.88
+Minibatch 131.0000 / 391.0000
+ 	 loss: 1.2307676076889038			
+ 	 Accumulated loss: 158.12
+Minibatch 132.0000 / 391.0000
+ 	 loss: 1.0486201047897339			
+ 	 Accumulated loss: 159.16
+Minibatch 133.0000 / 391.0000
+ 	 loss: 1.1276881694793701			
+ 	 Accumulated loss: 160.29
+Minibatch 134.0000 / 391.0000
+ 	 loss: 1.2575569152832031			
+ 	 Accumulated loss: 161.55
+Minibatch 135.0000 / 391.0000
+ 	 loss: 1.0396652221679688			
+ 	 Accumulated loss: 162.59
+Minibatch 136.0000 / 391.0000
+ 	 loss: 1.0208001136779785			
+ 	 Accumulated loss: 163.61
+Minibatch 137.0000 / 391.0000
+ 	 loss: 1.1214897632598877			
+ 	 Accumulated loss: 164.73
+Minibatch 138.0000 / 391.0000
+ 	 loss: 1.184556007385254			
+ 	 Accumulated loss: 165.92
+Minibatch 139.0000 / 391.0000
+ 	 loss: 1.0210773944854736			
+ 	 Accumulated loss: 166.94
+Minibatch 140.0000 / 391.0000
+ 	 loss: 0.9819772243499756			
+ 	 Accumulated loss: 167.92
+Minibatch 141.0000 / 391.0000
+ 	 loss: 1.0820945501327515			
+ 	 Accumulated loss: 169.00
+Minibatch 142.0000 / 391.0000
+ 	 loss: 1.1478157043457031			
+ 	 Accumulated loss: 170.15
+Minibatch 143.0000 / 391.0000
+ 	 loss: 1.20561945438385			
+ 	 Accumulated loss: 171.35
+Minibatch 144.0000 / 391.0000
+ 	 loss: 1.0544265508651733			
+ 	 Accumulated loss: 172.41
+Minibatch 145.0000 / 391.0000
+ 	 loss: 1.1808444261550903			
+ 	 Accumulated loss: 173.59
+Minibatch 146.0000 / 391.0000
+ 	 loss: 1.0288552045822144			
+ 	 Accumulated loss: 174.62
+Minibatch 147.0000 / 391.0000
+ 	 loss: 0.995878279209137			
+ 	 Accumulated loss: 175.61
+Minibatch 148.0000 / 391.0000
+ 	 loss: 1.1141083240509033			
+ 	 Accumulated loss: 176.73
+Minibatch 149.0000 / 391.0000
+ 	 loss: 0.9844937324523926			
+ 	 Accumulated loss: 177.71
+Minibatch 150.0000 / 391.0000
+ 	 loss: 1.1891961097717285			
+ 	 Accumulated loss: 178.90
+Minibatch 151.0000 / 391.0000
+ 	 loss: 1.1474794149398804			
+ 	 Accumulated loss: 180.05
+Minibatch 152.0000 / 391.0000
+ 	 loss: 1.3730990886688232			
+ 	 Accumulated loss: 181.42
+Minibatch 153.0000 / 391.0000
+ 	 loss: 1.0587267875671387			
+ 	 Accumulated loss: 182.48
+Minibatch 154.0000 / 391.0000
+ 	 loss: 1.035840630531311			
+ 	 Accumulated loss: 183.52
+Minibatch 155.0000 / 391.0000
+ 	 loss: 1.083122730255127			
+ 	 Accumulated loss: 184.60
+Minibatch 156.0000 / 391.0000
+ 	 loss: 1.214465618133545			
+ 	 Accumulated loss: 185.82
+Minibatch 157.0000 / 391.0000
+ 	 loss: 1.1170165538787842			
+ 	 Accumulated loss: 186.93
+Minibatch 158.0000 / 391.0000
+ 	 loss: 1.010392189025879			
+ 	 Accumulated loss: 187.94
+Minibatch 159.0000 / 391.0000
+ 	 loss: 1.2907010316848755			
+ 	 Accumulated loss: 189.23
+Minibatch 160.0000 / 391.0000
+ 	 loss: 1.1072450876235962			
+ 	 Accumulated loss: 190.34
+Minibatch 161.0000 / 391.0000
+ 	 loss: 1.0205962657928467			
+ 	 Accumulated loss: 191.36
+Minibatch 162.0000 / 391.0000
+ 	 loss: 0.9628400206565857			
+ 	 Accumulated loss: 192.32
+Minibatch 163.0000 / 391.0000
+ 	 loss: 1.085646390914917			
+ 	 Accumulated loss: 193.41
+Minibatch 164.0000 / 391.0000
+ 	 loss: 1.3173000812530518			
+ 	 Accumulated loss: 194.73
+Minibatch 165.0000 / 391.0000
+ 	 loss: 1.1071220636367798			
+ 	 Accumulated loss: 195.83
+Minibatch 166.0000 / 391.0000
+ 	 loss: 1.0550901889801025			
+ 	 Accumulated loss: 196.89
+Minibatch 167.0000 / 391.0000
+ 	 loss: 1.0387067794799805			
+ 	 Accumulated loss: 197.93
+Minibatch 168.0000 / 391.0000
+ 	 loss: 1.1517277956008911			
+ 	 Accumulated loss: 199.08
+Minibatch 169.0000 / 391.0000
+ 	 loss: 1.034806251525879			
+ 	 Accumulated loss: 200.11
+Minibatch 170.0000 / 391.0000
+ 	 loss: 1.197609305381775			
+ 	 Accumulated loss: 201.31
+Minibatch 171.0000 / 391.0000
+ 	 loss: 0.9622089862823486			
+ 	 Accumulated loss: 202.27
+Minibatch 172.0000 / 391.0000
+ 	 loss: 1.2529501914978027			
+ 	 Accumulated loss: 203.53
+Minibatch 173.0000 / 391.0000
+ 	 loss: 1.0162937641143799			
+ 	 Accumulated loss: 204.54
+Minibatch 174.0000 / 391.0000
+ 	 loss: 1.1213443279266357			
+ 	 Accumulated loss: 205.66
+Minibatch 175.0000 / 391.0000
+ 	 loss: 1.1171270608901978			
+ 	 Accumulated loss: 206.78
+Minibatch 176.0000 / 391.0000
+ 	 loss: 1.1946914196014404			
+ 	 Accumulated loss: 207.98
+Minibatch 177.0000 / 391.0000
+ 	 loss: 1.4153212308883667			
+ 	 Accumulated loss: 209.39
+Minibatch 178.0000 / 391.0000
+ 	 loss: 1.181604266166687			
+ 	 Accumulated loss: 210.57
+Minibatch 179.0000 / 391.0000
+ 	 loss: 1.0877069234848022			
+ 	 Accumulated loss: 211.66
+Minibatch 180.0000 / 391.0000
+ 	 loss: 1.2777568101882935			
+ 	 Accumulated loss: 212.94
+Minibatch 181.0000 / 391.0000
+ 	 loss: 1.1012485027313232			
+ 	 Accumulated loss: 214.04
+Minibatch 182.0000 / 391.0000
+ 	 loss: 1.0594669580459595			
+ 	 Accumulated loss: 215.10
+Minibatch 183.0000 / 391.0000
+ 	 loss: 1.1182520389556885			
+ 	 Accumulated loss: 216.22
+Minibatch 184.0000 / 391.0000
+ 	 loss: 1.202315092086792			
+ 	 Accumulated loss: 217.42
+Minibatch 185.0000 / 391.0000
+ 	 loss: 1.1566596031188965			
+ 	 Accumulated loss: 218.58
+Minibatch 186.0000 / 391.0000
+ 	 loss: 1.1237488985061646			
+ 	 Accumulated loss: 219.70
+Minibatch 187.0000 / 391.0000
+ 	 loss: 1.1913918256759644			
+ 	 Accumulated loss: 220.89
+Minibatch 188.0000 / 391.0000
+ 	 loss: 1.1563453674316406			
+ 	 Accumulated loss: 222.05
+Minibatch 189.0000 / 391.0000
+ 	 loss: 1.0794774293899536			
+ 	 Accumulated loss: 223.13
+Minibatch 190.0000 / 391.0000
+ 	 loss: 1.0571120977401733			
+ 	 Accumulated loss: 224.18
+Minibatch 191.0000 / 391.0000
+ 	 loss: 1.1089204549789429			
+ 	 Accumulated loss: 225.29
+Minibatch 192.0000 / 391.0000
+ 	 loss: 0.908596932888031			
+ 	 Accumulated loss: 226.20
+Minibatch 193.0000 / 391.0000
+ 	 loss: 1.0126316547393799			
+ 	 Accumulated loss: 227.22
+Minibatch 194.0000 / 391.0000
+ 	 loss: 1.1573169231414795			
+ 	 Accumulated loss: 228.37
+Minibatch 195.0000 / 391.0000
+ 	 loss: 0.9791826605796814			
+ 	 Accumulated loss: 229.35
+Minibatch 196.0000 / 391.0000
+ 	 loss: 1.0877065658569336			
+ 	 Accumulated loss: 230.44
+Minibatch 197.0000 / 391.0000
+ 	 loss: 0.9740917682647705			
+ 	 Accumulated loss: 231.41
+Minibatch 198.0000 / 391.0000
+ 	 loss: 1.0649104118347168			
+ 	 Accumulated loss: 232.48
+Minibatch 199.0000 / 391.0000
+ 	 loss: 1.0895514488220215			
+ 	 Accumulated loss: 233.57
+Minibatch 200.0000 / 391.0000
+ 	 loss: 1.0578440427780151			
+ 	 Accumulated loss: 234.63
+Minibatch 201.0000 / 391.0000
+ 	 loss: 1.1365307569503784			
+ 	 Accumulated loss: 235.76
+Minibatch 202.0000 / 391.0000
+ 	 loss: 1.1798605918884277			
+ 	 Accumulated loss: 236.94
+Minibatch 203.0000 / 391.0000
+ 	 loss: 1.3670291900634766			
+ 	 Accumulated loss: 238.31
+Minibatch 204.0000 / 391.0000
+ 	 loss: 1.2287815809249878			
+ 	 Accumulated loss: 239.54
+Minibatch 205.0000 / 391.0000
+ 	 loss: 1.0728901624679565			
+ 	 Accumulated loss: 240.61
+Minibatch 206.0000 / 391.0000
+ 	 loss: 1.193239688873291			
+ 	 Accumulated loss: 241.80
+Minibatch 207.0000 / 391.0000
+ 	 loss: 1.0190850496292114			
+ 	 Accumulated loss: 242.82
+Minibatch 208.0000 / 391.0000
+ 	 loss: 1.2597932815551758			
+ 	 Accumulated loss: 244.08
+Minibatch 209.0000 / 391.0000
+ 	 loss: 0.934411346912384			
+ 	 Accumulated loss: 245.02
+Minibatch 210.0000 / 391.0000
+ 	 loss: 1.1729607582092285			
+ 	 Accumulated loss: 246.19
+Minibatch 211.0000 / 391.0000
+ 	 loss: 1.144935131072998			
+ 	 Accumulated loss: 247.34
+Minibatch 212.0000 / 391.0000
+ 	 loss: 1.2746342420578003			
+ 	 Accumulated loss: 248.61
+Minibatch 213.0000 / 391.0000
+ 	 loss: 1.1528315544128418			
+ 	 Accumulated loss: 249.76
+Minibatch 214.0000 / 391.0000
+ 	 loss: 1.108524203300476			
+ 	 Accumulated loss: 250.87
+Minibatch 215.0000 / 391.0000
+ 	 loss: 1.1226056814193726			
+ 	 Accumulated loss: 251.99
+Minibatch 216.0000 / 391.0000
+ 	 loss: 1.1728813648223877			
+ 	 Accumulated loss: 253.17
+Minibatch 217.0000 / 391.0000
+ 	 loss: 1.0575307607650757			
+ 	 Accumulated loss: 254.22
+Minibatch 218.0000 / 391.0000
+ 	 loss: 1.098630666732788			
+ 	 Accumulated loss: 255.32
+Minibatch 219.0000 / 391.0000
+ 	 loss: 0.9909610152244568			
+ 	 Accumulated loss: 256.31
+Minibatch 220.0000 / 391.0000
+ 	 loss: 0.9424214959144592			
+ 	 Accumulated loss: 257.26
+Minibatch 221.0000 / 391.0000
+ 	 loss: 1.5599523782730103			
+ 	 Accumulated loss: 258.82
+Minibatch 222.0000 / 391.0000
+ 	 loss: 1.077018141746521			
+ 	 Accumulated loss: 259.89
+Minibatch 223.0000 / 391.0000
+ 	 loss: 1.2114771604537964			
+ 	 Accumulated loss: 261.10
+Minibatch 224.0000 / 391.0000
+ 	 loss: 1.1103490591049194			
+ 	 Accumulated loss: 262.21
+Minibatch 225.0000 / 391.0000
+ 	 loss: 1.1824729442596436			
+ 	 Accumulated loss: 263.40
+Minibatch 226.0000 / 391.0000
+ 	 loss: 1.0525262355804443			
+ 	 Accumulated loss: 264.45
+Minibatch 227.0000 / 391.0000
+ 	 loss: 1.0825473070144653			
+ 	 Accumulated loss: 265.53
+Minibatch 228.0000 / 391.0000
+ 	 loss: 1.0671788454055786			
+ 	 Accumulated loss: 266.60
+Minibatch 229.0000 / 391.0000
+ 	 loss: 1.1987355947494507			
+ 	 Accumulated loss: 267.80
+Minibatch 230.0000 / 391.0000
+ 	 loss: 0.9586442708969116			
+ 	 Accumulated loss: 268.76
+Minibatch 231.0000 / 391.0000
+ 	 loss: 0.9808502793312073			
+ 	 Accumulated loss: 269.74
+Minibatch 232.0000 / 391.0000
+ 	 loss: 1.0240583419799805			
+ 	 Accumulated loss: 270.76
+Minibatch 233.0000 / 391.0000
+ 	 loss: 1.109977126121521			
+ 	 Accumulated loss: 271.87
+Minibatch 234.0000 / 391.0000
+ 	 loss: 1.1337847709655762			
+ 	 Accumulated loss: 273.01
+Minibatch 235.0000 / 391.0000
+ 	 loss: 1.0353729724884033			
+ 	 Accumulated loss: 274.04
+Minibatch 236.0000 / 391.0000
+ 	 loss: 0.9038798213005066			
+ 	 Accumulated loss: 274.95
+Minibatch 237.0000 / 391.0000
+ 	 loss: 1.0507012605667114			
+ 	 Accumulated loss: 276.00
+Minibatch 238.0000 / 391.0000
+ 	 loss: 1.0829225778579712			
+ 	 Accumulated loss: 277.08
+Minibatch 239.0000 / 391.0000
+ 	 loss: 0.9228729605674744			
+ 	 Accumulated loss: 278.00
+Minibatch 240.0000 / 391.0000
+ 	 loss: 0.9691305756568909			
+ 	 Accumulated loss: 278.97
+Minibatch 241.0000 / 391.0000
+ 	 loss: 0.9870496392250061			
+ 	 Accumulated loss: 279.96
+Minibatch 242.0000 / 391.0000
+ 	 loss: 1.045716404914856			
+ 	 Accumulated loss: 281.00
+Minibatch 243.0000 / 391.0000
+ 	 loss: 1.2049530744552612			
+ 	 Accumulated loss: 282.21
+Minibatch 244.0000 / 391.0000
+ 	 loss: 1.1160567998886108			
+ 	 Accumulated loss: 283.32
+Minibatch 245.0000 / 391.0000
+ 	 loss: 1.0702286958694458			
+ 	 Accumulated loss: 284.39
+Minibatch 246.0000 / 391.0000
+ 	 loss: 1.1786408424377441			
+ 	 Accumulated loss: 285.57
+Minibatch 247.0000 / 391.0000
+ 	 loss: 1.1156374216079712			
+ 	 Accumulated loss: 286.69
+Minibatch 248.0000 / 391.0000
+ 	 loss: 0.9379634857177734			
+ 	 Accumulated loss: 287.63
+Minibatch 249.0000 / 391.0000
+ 	 loss: 1.1336793899536133			
+ 	 Accumulated loss: 288.76
+Minibatch 250.0000 / 391.0000
+ 	 loss: 1.145282506942749			
+ 	 Accumulated loss: 289.91
+Minibatch 251.0000 / 391.0000
+ 	 loss: 1.0538814067840576			
+ 	 Accumulated loss: 290.96
+Minibatch 252.0000 / 391.0000
+ 	 loss: 0.9758142232894897			
+ 	 Accumulated loss: 291.94
+Minibatch 253.0000 / 391.0000
+ 	 loss: 1.2377839088439941			
+ 	 Accumulated loss: 293.17
+Minibatch 254.0000 / 391.0000
+ 	 loss: 1.2969646453857422			
+ 	 Accumulated loss: 294.47
+Minibatch 255.0000 / 391.0000
+ 	 loss: 1.1182595491409302			
+ 	 Accumulated loss: 295.59
+Minibatch 256.0000 / 391.0000
+ 	 loss: 1.048351764678955			
+ 	 Accumulated loss: 296.64
+Minibatch 257.0000 / 391.0000
+ 	 loss: 1.1037590503692627			
+ 	 Accumulated loss: 297.74
+Minibatch 258.0000 / 391.0000
+ 	 loss: 1.028399109840393			
+ 	 Accumulated loss: 298.77
+Minibatch 259.0000 / 391.0000
+ 	 loss: 0.9709280729293823			
+ 	 Accumulated loss: 299.74
+Minibatch 260.0000 / 391.0000
+ 	 loss: 1.1988294124603271			
+ 	 Accumulated loss: 300.94
+Minibatch 261.0000 / 391.0000
+ 	 loss: 1.2156882286071777			
+ 	 Accumulated loss: 302.15
+Minibatch 262.0000 / 391.0000
+ 	 loss: 1.0331770181655884			
+ 	 Accumulated loss: 303.19
+Minibatch 263.0000 / 391.0000
+ 	 loss: 0.9914199709892273			
+ 	 Accumulated loss: 304.18
+Minibatch 264.0000 / 391.0000
+ 	 loss: 1.114301323890686			
+ 	 Accumulated loss: 305.29
+Minibatch 265.0000 / 391.0000
+ 	 loss: 1.020548701286316			
+ 	 Accumulated loss: 306.31
+Minibatch 266.0000 / 391.0000
+ 	 loss: 0.8270005583763123			
+ 	 Accumulated loss: 307.14
+Minibatch 267.0000 / 391.0000
+ 	 loss: 1.161628246307373			
+ 	 Accumulated loss: 308.30
+Minibatch 268.0000 / 391.0000
+ 	 loss: 0.886756956577301			
+ 	 Accumulated loss: 309.19
+Minibatch 269.0000 / 391.0000
+ 	 loss: 1.095388650894165			
+ 	 Accumulated loss: 310.28
+Minibatch 270.0000 / 391.0000
+ 	 loss: 1.0177292823791504			
+ 	 Accumulated loss: 311.30
+Minibatch 271.0000 / 391.0000
+ 	 loss: 1.1178934574127197			
+ 	 Accumulated loss: 312.42
+Minibatch 272.0000 / 391.0000
+ 	 loss: 0.9521566033363342			
+ 	 Accumulated loss: 313.37
+Minibatch 273.0000 / 391.0000
+ 	 loss: 1.179649829864502			
+ 	 Accumulated loss: 314.55
+Minibatch 274.0000 / 391.0000
+ 	 loss: 1.0895929336547852			
+ 	 Accumulated loss: 315.64
+Minibatch 275.0000 / 391.0000
+ 	 loss: 0.9745736122131348			
+ 	 Accumulated loss: 316.62
+Minibatch 276.0000 / 391.0000
+ 	 loss: 0.9487844109535217			
+ 	 Accumulated loss: 317.57
+Minibatch 277.0000 / 391.0000
+ 	 loss: 1.2803252935409546			
+ 	 Accumulated loss: 318.85
+Minibatch 278.0000 / 391.0000
+ 	 loss: 1.102892518043518			
+ 	 Accumulated loss: 319.95
+Minibatch 279.0000 / 391.0000
+ 	 loss: 1.1411772966384888			
+ 	 Accumulated loss: 321.09
+Minibatch 280.0000 / 391.0000
+ 	 loss: 1.2305715084075928			
+ 	 Accumulated loss: 322.32
+Minibatch 281.0000 / 391.0000
+ 	 loss: 1.0480618476867676			
+ 	 Accumulated loss: 323.37
+Minibatch 282.0000 / 391.0000
+ 	 loss: 1.0768520832061768			
+ 	 Accumulated loss: 324.44
+Minibatch 283.0000 / 391.0000
+ 	 loss: 1.0538908243179321			
+ 	 Accumulated loss: 325.50
+Minibatch 284.0000 / 391.0000
+ 	 loss: 1.1513867378234863			
+ 	 Accumulated loss: 326.65
+Minibatch 285.0000 / 391.0000
+ 	 loss: 0.9572667479515076			
+ 	 Accumulated loss: 327.61
+Minibatch 286.0000 / 391.0000
+ 	 loss: 1.0213971138000488			
+ 	 Accumulated loss: 328.63
+Minibatch 287.0000 / 391.0000
+ 	 loss: 0.9372368454933167			
+ 	 Accumulated loss: 329.57
+Minibatch 288.0000 / 391.0000
+ 	 loss: 1.3803156614303589			
+ 	 Accumulated loss: 330.95
+Minibatch 289.0000 / 391.0000
+ 	 loss: 1.1732144355773926			
+ 	 Accumulated loss: 332.12
+Minibatch 290.0000 / 391.0000
+ 	 loss: 1.2588855028152466			
+ 	 Accumulated loss: 333.38
+Minibatch 291.0000 / 391.0000
+ 	 loss: 1.1761103868484497			
+ 	 Accumulated loss: 334.55
+Minibatch 292.0000 / 391.0000
+ 	 loss: 1.0468581914901733			
+ 	 Accumulated loss: 335.60
+Minibatch 293.0000 / 391.0000
+ 	 loss: 1.0103917121887207			
+ 	 Accumulated loss: 336.61
+Minibatch 294.0000 / 391.0000
+ 	 loss: 1.018714189529419			
+ 	 Accumulated loss: 337.63
+Minibatch 295.0000 / 391.0000
+ 	 loss: 0.9741557836532593			
+ 	 Accumulated loss: 338.60
+Minibatch 296.0000 / 391.0000
+ 	 loss: 1.1597479581832886			
+ 	 Accumulated loss: 339.76
+Minibatch 297.0000 / 391.0000
+ 	 loss: 1.2375229597091675			
+ 	 Accumulated loss: 341.00
+Minibatch 298.0000 / 391.0000
+ 	 loss: 0.9444991946220398			
+ 	 Accumulated loss: 341.95
+Minibatch 299.0000 / 391.0000
+ 	 loss: 1.1836801767349243			
+ 	 Accumulated loss: 343.13
+Minibatch 300.0000 / 391.0000
+ 	 loss: 1.0370726585388184			
+ 	 Accumulated loss: 344.17
+Minibatch 301.0000 / 391.0000
+ 	 loss: 1.0740331411361694			
+ 	 Accumulated loss: 345.24
+Minibatch 302.0000 / 391.0000
+ 	 loss: 1.2236928939819336			
+ 	 Accumulated loss: 346.47
+Minibatch 303.0000 / 391.0000
+ 	 loss: 1.0854047536849976			
+ 	 Accumulated loss: 347.55
+Minibatch 304.0000 / 391.0000
+ 	 loss: 1.1449544429779053			
+ 	 Accumulated loss: 348.70
+Minibatch 305.0000 / 391.0000
+ 	 loss: 1.260377287864685			
+ 	 Accumulated loss: 349.96
+Minibatch 306.0000 / 391.0000
+ 	 loss: 1.0691685676574707			
+ 	 Accumulated loss: 351.02
+Minibatch 307.0000 / 391.0000
+ 	 loss: 1.211288571357727			
+ 	 Accumulated loss: 352.24
+Minibatch 308.0000 / 391.0000
+ 	 loss: 1.1286799907684326			
+ 	 Accumulated loss: 353.36
+Minibatch 309.0000 / 391.0000
+ 	 loss: 1.1911261081695557			
+ 	 Accumulated loss: 354.56
+Minibatch 310.0000 / 391.0000
+ 	 loss: 1.167614221572876			
+ 	 Accumulated loss: 355.72
+Minibatch 311.0000 / 391.0000
+ 	 loss: 1.2701925039291382			
+ 	 Accumulated loss: 356.99
+Minibatch 312.0000 / 391.0000
+ 	 loss: 1.1145421266555786			
+ 	 Accumulated loss: 358.11
+Minibatch 313.0000 / 391.0000
+ 	 loss: 1.0915418863296509			
+ 	 Accumulated loss: 359.20
+Minibatch 314.0000 / 391.0000
+ 	 loss: 1.083053469657898			
+ 	 Accumulated loss: 360.28
+Minibatch 315.0000 / 391.0000
+ 	 loss: 1.2646793127059937			
+ 	 Accumulated loss: 361.55
+Minibatch 316.0000 / 391.0000
+ 	 loss: 1.099778413772583			
+ 	 Accumulated loss: 362.65
+Minibatch 317.0000 / 391.0000
+ 	 loss: 1.1072971820831299			
+ 	 Accumulated loss: 363.75
+Minibatch 318.0000 / 391.0000
+ 	 loss: 1.0623639822006226			
+ 	 Accumulated loss: 364.82
+Minibatch 319.0000 / 391.0000
+ 	 loss: 1.1028071641921997			
+ 	 Accumulated loss: 365.92
+Minibatch 320.0000 / 391.0000
+ 	 loss: 0.954662024974823			
+ 	 Accumulated loss: 366.87
+Minibatch 321.0000 / 391.0000
+ 	 loss: 1.012865424156189			
+ 	 Accumulated loss: 367.89
+Minibatch 322.0000 / 391.0000
+ 	 loss: 1.2019578218460083			
+ 	 Accumulated loss: 369.09
+Minibatch 323.0000 / 391.0000
+ 	 loss: 1.2752132415771484			
+ 	 Accumulated loss: 370.36
+Minibatch 324.0000 / 391.0000
+ 	 loss: 1.1424212455749512			
+ 	 Accumulated loss: 371.51
+Minibatch 325.0000 / 391.0000
+ 	 loss: 1.1456879377365112			
+ 	 Accumulated loss: 372.65
+Minibatch 326.0000 / 391.0000
+ 	 loss: 0.9790860414505005			
+ 	 Accumulated loss: 373.63
+Minibatch 327.0000 / 391.0000
+ 	 loss: 0.9909963011741638			
+ 	 Accumulated loss: 374.62
+Minibatch 328.0000 / 391.0000
+ 	 loss: 0.8964460492134094			
+ 	 Accumulated loss: 375.52
+Minibatch 329.0000 / 391.0000
+ 	 loss: 1.091080904006958			
+ 	 Accumulated loss: 376.61
+Minibatch 330.0000 / 391.0000
+ 	 loss: 0.947343111038208			
+ 	 Accumulated loss: 377.56
+Minibatch 331.0000 / 391.0000
+ 	 loss: 0.9432552456855774			
+ 	 Accumulated loss: 378.50
+Minibatch 332.0000 / 391.0000
+ 	 loss: 0.9921960830688477			
+ 	 Accumulated loss: 379.49
+Minibatch 333.0000 / 391.0000
+ 	 loss: 1.0411598682403564			
+ 	 Accumulated loss: 380.53
+Minibatch 334.0000 / 391.0000
+ 	 loss: 1.0498943328857422			
+ 	 Accumulated loss: 381.58
+Minibatch 335.0000 / 391.0000
+ 	 loss: 0.8450229167938232			
+ 	 Accumulated loss: 382.43
+Minibatch 336.0000 / 391.0000
+ 	 loss: 1.0595223903656006			
+ 	 Accumulated loss: 383.49
+Minibatch 337.0000 / 391.0000
+ 	 loss: 0.9694140553474426			
+ 	 Accumulated loss: 384.46
+Minibatch 338.0000 / 391.0000
+ 	 loss: 1.1865473985671997			
+ 	 Accumulated loss: 385.64
+Minibatch 339.0000 / 391.0000
+ 	 loss: 1.008236289024353			
+ 	 Accumulated loss: 386.65
+Minibatch 340.0000 / 391.0000
+ 	 loss: 1.166804313659668			
+ 	 Accumulated loss: 387.82
+Minibatch 341.0000 / 391.0000
+ 	 loss: 1.1244373321533203			
+ 	 Accumulated loss: 388.94
+Minibatch 342.0000 / 391.0000
+ 	 loss: 1.2187138795852661			
+ 	 Accumulated loss: 390.16
+Minibatch 343.0000 / 391.0000
+ 	 loss: 1.0730414390563965			
+ 	 Accumulated loss: 391.24
+Minibatch 344.0000 / 391.0000
+ 	 loss: 1.1697787046432495			
+ 	 Accumulated loss: 392.41
+Minibatch 345.0000 / 391.0000
+ 	 loss: 1.0657212734222412			
+ 	 Accumulated loss: 393.47
+Minibatch 346.0000 / 391.0000
+ 	 loss: 0.8484038710594177			
+ 	 Accumulated loss: 394.32
+Minibatch 347.0000 / 391.0000
+ 	 loss: 0.9738166928291321			
+ 	 Accumulated loss: 395.29
+Minibatch 348.0000 / 391.0000
+ 	 loss: 1.1972793340682983			
+ 	 Accumulated loss: 396.49
+Minibatch 349.0000 / 391.0000
+ 	 loss: 0.850713312625885			
+ 	 Accumulated loss: 397.34
+Minibatch 350.0000 / 391.0000
+ 	 loss: 1.0549399852752686			
+ 	 Accumulated loss: 398.40
+Minibatch 351.0000 / 391.0000
+ 	 loss: 0.9465978741645813			
+ 	 Accumulated loss: 399.34
+Minibatch 352.0000 / 391.0000
+ 	 loss: 0.9733009338378906			
+ 	 Accumulated loss: 400.32
+Minibatch 353.0000 / 391.0000
+ 	 loss: 1.1326625347137451			
+ 	 Accumulated loss: 401.45
+Minibatch 354.0000 / 391.0000
+ 	 loss: 1.162969946861267			
+ 	 Accumulated loss: 402.61
+Minibatch 355.0000 / 391.0000
+ 	 loss: 0.9560528993606567			
+ 	 Accumulated loss: 403.57
+Minibatch 356.0000 / 391.0000
+ 	 loss: 1.0662291049957275			
+ 	 Accumulated loss: 404.63
+Minibatch 357.0000 / 391.0000
+ 	 loss: 1.2930786609649658			
+ 	 Accumulated loss: 405.93
+Minibatch 358.0000 / 391.0000
+ 	 loss: 1.1552221775054932			
+ 	 Accumulated loss: 407.08
+Minibatch 359.0000 / 391.0000
+ 	 loss: 1.3115241527557373			
+ 	 Accumulated loss: 408.39
+Minibatch 360.0000 / 391.0000
+ 	 loss: 1.1412615776062012			
+ 	 Accumulated loss: 409.54
+Minibatch 361.0000 / 391.0000
+ 	 loss: 1.2739744186401367			
+ 	 Accumulated loss: 410.81
+Minibatch 362.0000 / 391.0000
+ 	 loss: 1.1473586559295654			
+ 	 Accumulated loss: 411.96
+Minibatch 363.0000 / 391.0000
+ 	 loss: 1.0412015914916992			
+ 	 Accumulated loss: 413.00
+Minibatch 364.0000 / 391.0000
+ 	 loss: 1.1923884153366089			
+ 	 Accumulated loss: 414.19
+Minibatch 365.0000 / 391.0000
+ 	 loss: 1.3095279932022095			
+ 	 Accumulated loss: 415.50
+Minibatch 366.0000 / 391.0000
+ 	 loss: 1.1709589958190918			
+ 	 Accumulated loss: 416.67
+Minibatch 367.0000 / 391.0000
+ 	 loss: 1.0638093948364258			
+ 	 Accumulated loss: 417.73
+Minibatch 368.0000 / 391.0000
+ 	 loss: 1.0716744661331177			
+ 	 Accumulated loss: 418.81
+Minibatch 369.0000 / 391.0000
+ 	 loss: 1.0721851587295532			
+ 	 Accumulated loss: 419.88
+Minibatch 370.0000 / 391.0000
+ 	 loss: 0.896784245967865			
+ 	 Accumulated loss: 420.78
+Minibatch 371.0000 / 391.0000
+ 	 loss: 1.1228768825531006			
+ 	 Accumulated loss: 421.90
+Minibatch 372.0000 / 391.0000
+ 	 loss: 1.2474359273910522			
+ 	 Accumulated loss: 423.15
+Minibatch 373.0000 / 391.0000
+ 	 loss: 0.9286673665046692			
+ 	 Accumulated loss: 424.07
+Minibatch 374.0000 / 391.0000
+ 	 loss: 0.9989249110221863			
+ 	 Accumulated loss: 425.07
+Minibatch 375.0000 / 391.0000
+ 	 loss: 1.0905075073242188			
+ 	 Accumulated loss: 426.16
+Minibatch 376.0000 / 391.0000
+ 	 loss: 0.8922259211540222			
+ 	 Accumulated loss: 427.06
+Minibatch 377.0000 / 391.0000
+ 	 loss: 1.1157548427581787			
+ 	 Accumulated loss: 428.17
+Minibatch 378.0000 / 391.0000
+ 	 loss: 1.097631812095642			
+ 	 Accumulated loss: 429.27
+Minibatch 379.0000 / 391.0000
+ 	 loss: 1.2178246974945068			
+ 	 Accumulated loss: 430.49
+Minibatch 380.0000 / 391.0000
+ 	 loss: 0.962620735168457			
+ 	 Accumulated loss: 431.45
+Minibatch 381.0000 / 391.0000
+ 	 loss: 0.9286445379257202			
+ 	 Accumulated loss: 432.38
+Minibatch 382.0000 / 391.0000
+ 	 loss: 0.9969191551208496			
+ 	 Accumulated loss: 433.38
+Minibatch 383.0000 / 391.0000
+ 	 loss: 1.0713744163513184			
+ 	 Accumulated loss: 434.45
+Minibatch 384.0000 / 391.0000
+ 	 loss: 1.008421540260315			
+ 	 Accumulated loss: 435.46
+Minibatch 385.0000 / 391.0000
+ 	 loss: 1.0208834409713745			
+ 	 Accumulated loss: 436.48
+Minibatch 386.0000 / 391.0000
+ 	 loss: 0.947563648223877			
+ 	 Accumulated loss: 437.42
+Minibatch 387.0000 / 391.0000
+ 	 loss: 1.111311435699463			
+ 	 Accumulated loss: 438.53
+Minibatch 388.0000 / 391.0000
+ 	 loss: 1.0294097661972046			
+ 	 Accumulated loss: 439.56
+Minibatch 389.0000 / 391.0000
+ 	 loss: 1.064951777458191			
+ 	 Accumulated loss: 440.63
+Minibatch 390.0000 / 391.0000
+ 	 loss: 1.1681894063949585			
+ 	 Accumulated loss: 441.80
+Aggregates: 
+ 	 DataLoader Time: 3.1634 
+ 	 		Mini-batch Time:18.5541 
+ 	 Training Epoch Time:32.7551
+ 		Averages: 
+ 	 Training Loss: 1.1299
+	Testing precision@1: 0.6371 
+
+Epoch 4
+Minibatch 0.0000 / 391.0000
+ 	 loss: 1.1161421537399292			
+ 	 Accumulated loss: 1.12
+Minibatch 1.0000 / 391.0000
+ 	 loss: 0.882068395614624			
+ 	 Accumulated loss: 2.00
+Minibatch 2.0000 / 391.0000
+ 	 loss: 0.9897541403770447			
+ 	 Accumulated loss: 2.99
+Minibatch 3.0000 / 391.0000
+ 	 loss: 1.0308804512023926			
+ 	 Accumulated loss: 4.02
+Minibatch 4.0000 / 391.0000
+ 	 loss: 0.9875829219818115			
+ 	 Accumulated loss: 5.01
+Minibatch 5.0000 / 391.0000
+ 	 loss: 1.0044876337051392			
+ 	 Accumulated loss: 6.01
+Minibatch 6.0000 / 391.0000
+ 	 loss: 1.014007568359375			
+ 	 Accumulated loss: 7.02
+Minibatch 7.0000 / 391.0000
+ 	 loss: 1.0316319465637207			
+ 	 Accumulated loss: 8.06
+Minibatch 8.0000 / 391.0000
+ 	 loss: 1.0690401792526245			
+ 	 Accumulated loss: 9.13
+Minibatch 9.0000 / 391.0000
+ 	 loss: 0.9396341443061829			
+ 	 Accumulated loss: 10.07
+Minibatch 10.0000 / 391.0000
+ 	 loss: 1.216951608657837			
+ 	 Accumulated loss: 11.28
+Minibatch 11.0000 / 391.0000
+ 	 loss: 0.9799047112464905			
+ 	 Accumulated loss: 12.26
+Minibatch 12.0000 / 391.0000
+ 	 loss: 1.0755672454833984			
+ 	 Accumulated loss: 13.34
+Minibatch 13.0000 / 391.0000
+ 	 loss: 0.9100725650787354			
+ 	 Accumulated loss: 14.25
+Minibatch 14.0000 / 391.0000
+ 	 loss: 1.0663057565689087			
+ 	 Accumulated loss: 15.31
+Minibatch 15.0000 / 391.0000
+ 	 loss: 0.9401082396507263			
+ 	 Accumulated loss: 16.25
+Minibatch 16.0000 / 391.0000
+ 	 loss: 1.258113145828247			
+ 	 Accumulated loss: 17.51
+Minibatch 17.0000 / 391.0000
+ 	 loss: 1.071023941040039			
+ 	 Accumulated loss: 18.58
+Minibatch 18.0000 / 391.0000
+ 	 loss: 0.9880332946777344			
+ 	 Accumulated loss: 19.57
+Minibatch 19.0000 / 391.0000
+ 	 loss: 0.9926514029502869			
+ 	 Accumulated loss: 20.56
+Minibatch 20.0000 / 391.0000
+ 	 loss: 1.2460737228393555			
+ 	 Accumulated loss: 21.81
+Minibatch 21.0000 / 391.0000
+ 	 loss: 1.0119256973266602			
+ 	 Accumulated loss: 22.82
+Minibatch 22.0000 / 391.0000
+ 	 loss: 0.9550846815109253			
+ 	 Accumulated loss: 23.78
+Minibatch 23.0000 / 391.0000
+ 	 loss: 1.1003892421722412			
+ 	 Accumulated loss: 24.88
+Minibatch 24.0000 / 391.0000
+ 	 loss: 1.131291389465332			
+ 	 Accumulated loss: 26.01
+Minibatch 25.0000 / 391.0000
+ 	 loss: 0.9661421179771423			
+ 	 Accumulated loss: 26.97
+Minibatch 26.0000 / 391.0000
+ 	 loss: 0.8565115332603455			
+ 	 Accumulated loss: 27.83
+Minibatch 27.0000 / 391.0000
+ 	 loss: 1.09171724319458			
+ 	 Accumulated loss: 28.92
+Minibatch 28.0000 / 391.0000
+ 	 loss: 1.0130970478057861			
+ 	 Accumulated loss: 29.94
+Minibatch 29.0000 / 391.0000
+ 	 loss: 1.0194859504699707			
+ 	 Accumulated loss: 30.96
+Minibatch 30.0000 / 391.0000
+ 	 loss: 1.079771637916565			
+ 	 Accumulated loss: 32.04
+Minibatch 31.0000 / 391.0000
+ 	 loss: 0.9162119626998901			
+ 	 Accumulated loss: 32.95
+Minibatch 32.0000 / 391.0000
+ 	 loss: 0.9872387051582336			
+ 	 Accumulated loss: 33.94
+Minibatch 33.0000 / 391.0000
+ 	 loss: 0.8312842845916748			
+ 	 Accumulated loss: 34.77
+Minibatch 34.0000 / 391.0000
+ 	 loss: 0.8819516897201538			
+ 	 Accumulated loss: 35.65
+Minibatch 35.0000 / 391.0000
+ 	 loss: 0.9169101119041443			
+ 	 Accumulated loss: 36.57
+Minibatch 36.0000 / 391.0000
+ 	 loss: 0.9713209271430969			
+ 	 Accumulated loss: 37.54
+Minibatch 37.0000 / 391.0000
+ 	 loss: 0.9774181842803955			
+ 	 Accumulated loss: 38.52
+Minibatch 38.0000 / 391.0000
+ 	 loss: 1.080321192741394			
+ 	 Accumulated loss: 39.60
+Minibatch 39.0000 / 391.0000
+ 	 loss: 0.921377420425415			
+ 	 Accumulated loss: 40.52
+Minibatch 40.0000 / 391.0000
+ 	 loss: 1.1234599351882935			
+ 	 Accumulated loss: 41.64
+Minibatch 41.0000 / 391.0000
+ 	 loss: 1.2646892070770264			
+ 	 Accumulated loss: 42.91
+Minibatch 42.0000 / 391.0000
+ 	 loss: 1.0946400165557861			
+ 	 Accumulated loss: 44.00
+Minibatch 43.0000 / 391.0000
+ 	 loss: 1.2517600059509277			
+ 	 Accumulated loss: 45.25
+Minibatch 44.0000 / 391.0000
+ 	 loss: 0.9077112674713135			
+ 	 Accumulated loss: 46.16
+Minibatch 45.0000 / 391.0000
+ 	 loss: 1.1811511516571045			
+ 	 Accumulated loss: 47.34
+Minibatch 46.0000 / 391.0000
+ 	 loss: 1.1074949502944946			
+ 	 Accumulated loss: 48.45
+Minibatch 47.0000 / 391.0000
+ 	 loss: 1.3420902490615845			
+ 	 Accumulated loss: 49.79
+Minibatch 48.0000 / 391.0000
+ 	 loss: 1.1271100044250488			
+ 	 Accumulated loss: 50.92
+Minibatch 49.0000 / 391.0000
+ 	 loss: 1.2149235010147095			
+ 	 Accumulated loss: 52.13
+Minibatch 50.0000 / 391.0000
+ 	 loss: 1.1301054954528809			
+ 	 Accumulated loss: 53.26
+Minibatch 51.0000 / 391.0000
+ 	 loss: 1.1916587352752686			
+ 	 Accumulated loss: 54.46
+Minibatch 52.0000 / 391.0000
+ 	 loss: 1.093963861465454			
+ 	 Accumulated loss: 55.55
+Minibatch 53.0000 / 391.0000
+ 	 loss: 1.0278533697128296			
+ 	 Accumulated loss: 56.58
+Minibatch 54.0000 / 391.0000
+ 	 loss: 1.1735281944274902			
+ 	 Accumulated loss: 57.75
+Minibatch 55.0000 / 391.0000
+ 	 loss: 1.1007347106933594			
+ 	 Accumulated loss: 58.85
+Minibatch 56.0000 / 391.0000
+ 	 loss: 1.211594581604004			
+ 	 Accumulated loss: 60.06
+Minibatch 57.0000 / 391.0000
+ 	 loss: 1.0630823373794556			
+ 	 Accumulated loss: 61.13
+Minibatch 58.0000 / 391.0000
+ 	 loss: 1.2815808057785034			
+ 	 Accumulated loss: 62.41
+Minibatch 59.0000 / 391.0000
+ 	 loss: 1.0488499402999878			
+ 	 Accumulated loss: 63.46
+Minibatch 60.0000 / 391.0000
+ 	 loss: 0.8805066347122192			
+ 	 Accumulated loss: 64.34
+Minibatch 61.0000 / 391.0000
+ 	 loss: 1.1634870767593384			
+ 	 Accumulated loss: 65.50
+Minibatch 62.0000 / 391.0000
+ 	 loss: 1.0468087196350098			
+ 	 Accumulated loss: 66.55
+Minibatch 63.0000 / 391.0000
+ 	 loss: 1.0869466066360474			
+ 	 Accumulated loss: 67.64
+Minibatch 64.0000 / 391.0000
+ 	 loss: 1.0168367624282837			
+ 	 Accumulated loss: 68.65
+Minibatch 65.0000 / 391.0000
+ 	 loss: 1.1630357503890991			
+ 	 Accumulated loss: 69.82
+Minibatch 66.0000 / 391.0000
+ 	 loss: 1.072739601135254			
+ 	 Accumulated loss: 70.89
+Minibatch 67.0000 / 391.0000
+ 	 loss: 1.0119301080703735			
+ 	 Accumulated loss: 71.90
+Minibatch 68.0000 / 391.0000
+ 	 loss: 0.8709840178489685			
+ 	 Accumulated loss: 72.77
+Minibatch 69.0000 / 391.0000
+ 	 loss: 1.07649564743042			
+ 	 Accumulated loss: 73.85
+Minibatch 70.0000 / 391.0000
+ 	 loss: 1.0869008302688599			
+ 	 Accumulated loss: 74.93
+Minibatch 71.0000 / 391.0000
+ 	 loss: 0.9544498920440674			
+ 	 Accumulated loss: 75.89
+Minibatch 72.0000 / 391.0000
+ 	 loss: 0.951370894908905			
+ 	 Accumulated loss: 76.84
+Minibatch 73.0000 / 391.0000
+ 	 loss: 0.8763561844825745			
+ 	 Accumulated loss: 77.72
+Minibatch 74.0000 / 391.0000
+ 	 loss: 1.1042405366897583			
+ 	 Accumulated loss: 78.82
+Minibatch 75.0000 / 391.0000
+ 	 loss: 1.024802803993225			
+ 	 Accumulated loss: 79.85
+Minibatch 76.0000 / 391.0000
+ 	 loss: 0.92894047498703			
+ 	 Accumulated loss: 80.77
+Minibatch 77.0000 / 391.0000
+ 	 loss: 0.901687741279602			
+ 	 Accumulated loss: 81.68
+Minibatch 78.0000 / 391.0000
+ 	 loss: 1.1135950088500977			
+ 	 Accumulated loss: 82.79
+Minibatch 79.0000 / 391.0000
+ 	 loss: 1.024902105331421			
+ 	 Accumulated loss: 83.81
+Minibatch 80.0000 / 391.0000
+ 	 loss: 1.0472078323364258			
+ 	 Accumulated loss: 84.86
+Minibatch 81.0000 / 391.0000
+ 	 loss: 0.9632619023323059			
+ 	 Accumulated loss: 85.82
+Minibatch 82.0000 / 391.0000
+ 	 loss: 1.0200741291046143			
+ 	 Accumulated loss: 86.85
+Minibatch 83.0000 / 391.0000
+ 	 loss: 0.8436707854270935			
+ 	 Accumulated loss: 87.69
+Minibatch 84.0000 / 391.0000
+ 	 loss: 1.1144565343856812			
+ 	 Accumulated loss: 88.80
+Minibatch 85.0000 / 391.0000
+ 	 loss: 0.9934221506118774			
+ 	 Accumulated loss: 89.80
+Minibatch 86.0000 / 391.0000
+ 	 loss: 0.9936291575431824			
+ 	 Accumulated loss: 90.79
+Minibatch 87.0000 / 391.0000
+ 	 loss: 0.9002266526222229			
+ 	 Accumulated loss: 91.69
+Minibatch 88.0000 / 391.0000
+ 	 loss: 1.1171367168426514			
+ 	 Accumulated loss: 92.81
+Minibatch 89.0000 / 391.0000
+ 	 loss: 1.0750802755355835			
+ 	 Accumulated loss: 93.88
+Minibatch 90.0000 / 391.0000
+ 	 loss: 1.0583345890045166			
+ 	 Accumulated loss: 94.94
+Minibatch 91.0000 / 391.0000
+ 	 loss: 1.2490711212158203			
+ 	 Accumulated loss: 96.19
+Minibatch 92.0000 / 391.0000
+ 	 loss: 0.9943628907203674			
+ 	 Accumulated loss: 97.18
+Minibatch 93.0000 / 391.0000
+ 	 loss: 0.8810260891914368			
+ 	 Accumulated loss: 98.07
+Minibatch 94.0000 / 391.0000
+ 	 loss: 0.9790496826171875			
+ 	 Accumulated loss: 99.04
+Minibatch 95.0000 / 391.0000
+ 	 loss: 1.044304370880127			
+ 	 Accumulated loss: 100.09
+Minibatch 96.0000 / 391.0000
+ 	 loss: 1.1344144344329834			
+ 	 Accumulated loss: 101.22
+Minibatch 97.0000 / 391.0000
+ 	 loss: 1.1407833099365234			
+ 	 Accumulated loss: 102.36
+Minibatch 98.0000 / 391.0000
+ 	 loss: 1.135227084159851			
+ 	 Accumulated loss: 103.50
+Minibatch 99.0000 / 391.0000
+ 	 loss: 0.9873866438865662			
+ 	 Accumulated loss: 104.49
+Minibatch 100.0000 / 391.0000
+ 	 loss: 1.0579910278320312			
+ 	 Accumulated loss: 105.54
+Minibatch 101.0000 / 391.0000
+ 	 loss: 1.017072081565857			
+ 	 Accumulated loss: 106.56
+Minibatch 102.0000 / 391.0000
+ 	 loss: 0.9391106963157654			
+ 	 Accumulated loss: 107.50
+Minibatch 103.0000 / 391.0000
+ 	 loss: 1.0705167055130005			
+ 	 Accumulated loss: 108.57
+Minibatch 104.0000 / 391.0000
+ 	 loss: 1.0368987321853638			
+ 	 Accumulated loss: 109.61
+Minibatch 105.0000 / 391.0000
+ 	 loss: 1.2460941076278687			
+ 	 Accumulated loss: 110.85
+Minibatch 106.0000 / 391.0000
+ 	 loss: 0.8178231716156006			
+ 	 Accumulated loss: 111.67
+Minibatch 107.0000 / 391.0000
+ 	 loss: 0.820600688457489			
+ 	 Accumulated loss: 112.49
+Minibatch 108.0000 / 391.0000
+ 	 loss: 0.9734567403793335			
+ 	 Accumulated loss: 113.47
+Minibatch 109.0000 / 391.0000
+ 	 loss: 0.9619792699813843			
+ 	 Accumulated loss: 114.43
+Minibatch 110.0000 / 391.0000
+ 	 loss: 0.9535303115844727			
+ 	 Accumulated loss: 115.38
+Minibatch 111.0000 / 391.0000
+ 	 loss: 0.9165563583374023			
+ 	 Accumulated loss: 116.30
+Minibatch 112.0000 / 391.0000
+ 	 loss: 0.8950425386428833			
+ 	 Accumulated loss: 117.19
+Minibatch 113.0000 / 391.0000
+ 	 loss: 1.0883148908615112			
+ 	 Accumulated loss: 118.28
+Minibatch 114.0000 / 391.0000
+ 	 loss: 0.9711894989013672			
+ 	 Accumulated loss: 119.25
+Minibatch 115.0000 / 391.0000
+ 	 loss: 1.0109425783157349			
+ 	 Accumulated loss: 120.26
+Minibatch 116.0000 / 391.0000
+ 	 loss: 0.8342136144638062			
+ 	 Accumulated loss: 121.10
+Minibatch 117.0000 / 391.0000
+ 	 loss: 1.0482367277145386			
+ 	 Accumulated loss: 122.15
+Minibatch 118.0000 / 391.0000
+ 	 loss: 1.1005719900131226			
+ 	 Accumulated loss: 123.25
+Minibatch 119.0000 / 391.0000
+ 	 loss: 1.0136865377426147			
+ 	 Accumulated loss: 124.26
+Minibatch 120.0000 / 391.0000
+ 	 loss: 0.9450986981391907			
+ 	 Accumulated loss: 125.21
+Minibatch 121.0000 / 391.0000
+ 	 loss: 1.1487373113632202			
+ 	 Accumulated loss: 126.35
+Minibatch 122.0000 / 391.0000
+ 	 loss: 1.0130282640457153			
+ 	 Accumulated loss: 127.37
+Minibatch 123.0000 / 391.0000
+ 	 loss: 0.9585691690444946			
+ 	 Accumulated loss: 128.33
+Minibatch 124.0000 / 391.0000
+ 	 loss: 0.9537642002105713			
+ 	 Accumulated loss: 129.28
+Minibatch 125.0000 / 391.0000
+ 	 loss: 0.9709697961807251			
+ 	 Accumulated loss: 130.25
+Minibatch 126.0000 / 391.0000
+ 	 loss: 1.016196370124817			
+ 	 Accumulated loss: 131.27
+Minibatch 127.0000 / 391.0000
+ 	 loss: 1.0356700420379639			
+ 	 Accumulated loss: 132.30
+Minibatch 128.0000 / 391.0000
+ 	 loss: 1.0274444818496704			
+ 	 Accumulated loss: 133.33
+Minibatch 129.0000 / 391.0000
+ 	 loss: 0.8930355310440063			
+ 	 Accumulated loss: 134.22
+Minibatch 130.0000 / 391.0000
+ 	 loss: 0.8156115412712097			
+ 	 Accumulated loss: 135.04
+Minibatch 131.0000 / 391.0000
+ 	 loss: 0.9420874118804932			
+ 	 Accumulated loss: 135.98
+Minibatch 132.0000 / 391.0000
+ 	 loss: 1.0769405364990234			
+ 	 Accumulated loss: 137.06
+Minibatch 133.0000 / 391.0000
+ 	 loss: 0.9437741041183472			
+ 	 Accumulated loss: 138.00
+Minibatch 134.0000 / 391.0000
+ 	 loss: 1.2132580280303955			
+ 	 Accumulated loss: 139.21
+Minibatch 135.0000 / 391.0000
+ 	 loss: 1.0751384496688843			
+ 	 Accumulated loss: 140.29
+Minibatch 136.0000 / 391.0000
+ 	 loss: 0.9977928996086121			
+ 	 Accumulated loss: 141.29
+Minibatch 137.0000 / 391.0000
+ 	 loss: 0.7968441843986511			
+ 	 Accumulated loss: 142.08
+Minibatch 138.0000 / 391.0000
+ 	 loss: 1.2750587463378906			
+ 	 Accumulated loss: 143.36
+Minibatch 139.0000 / 391.0000
+ 	 loss: 0.9751768708229065			
+ 	 Accumulated loss: 144.33
+Minibatch 140.0000 / 391.0000
+ 	 loss: 0.9676737189292908			
+ 	 Accumulated loss: 145.30
+Minibatch 141.0000 / 391.0000
+ 	 loss: 1.0807991027832031			
+ 	 Accumulated loss: 146.38
+Minibatch 142.0000 / 391.0000
+ 	 loss: 0.927142858505249			
+ 	 Accumulated loss: 147.31
+Minibatch 143.0000 / 391.0000
+ 	 loss: 1.2165350914001465			
+ 	 Accumulated loss: 148.53
+Minibatch 144.0000 / 391.0000
+ 	 loss: 1.0629563331604004			
+ 	 Accumulated loss: 149.59
+Minibatch 145.0000 / 391.0000
+ 	 loss: 1.0242232084274292			
+ 	 Accumulated loss: 150.61
+Minibatch 146.0000 / 391.0000
+ 	 loss: 1.1499292850494385			
+ 	 Accumulated loss: 151.76
+Minibatch 147.0000 / 391.0000
+ 	 loss: 1.0191340446472168			
+ 	 Accumulated loss: 152.78
+Minibatch 148.0000 / 391.0000
+ 	 loss: 1.099303126335144			
+ 	 Accumulated loss: 153.88
+Minibatch 149.0000 / 391.0000
+ 	 loss: 1.0120233297348022			
+ 	 Accumulated loss: 154.89
+Minibatch 150.0000 / 391.0000
+ 	 loss: 1.0114837884902954			
+ 	 Accumulated loss: 155.91
+Minibatch 151.0000 / 391.0000
+ 	 loss: 0.8731125593185425			
+ 	 Accumulated loss: 156.78
+Minibatch 152.0000 / 391.0000
+ 	 loss: 1.1221823692321777			
+ 	 Accumulated loss: 157.90
+Minibatch 153.0000 / 391.0000
+ 	 loss: 0.8581652045249939			
+ 	 Accumulated loss: 158.76
+Minibatch 154.0000 / 391.0000
+ 	 loss: 0.9276495575904846			
+ 	 Accumulated loss: 159.69
+Minibatch 155.0000 / 391.0000
+ 	 loss: 1.0584913492202759			
+ 	 Accumulated loss: 160.75
+Minibatch 156.0000 / 391.0000
+ 	 loss: 0.9312430024147034			
+ 	 Accumulated loss: 161.68
+Minibatch 157.0000 / 391.0000
+ 	 loss: 1.0177044868469238			
+ 	 Accumulated loss: 162.69
+Minibatch 158.0000 / 391.0000
+ 	 loss: 1.0337942838668823			
+ 	 Accumulated loss: 163.73
+Minibatch 159.0000 / 391.0000
+ 	 loss: 1.1177263259887695			
+ 	 Accumulated loss: 164.85
+Minibatch 160.0000 / 391.0000
+ 	 loss: 0.9514869451522827			
+ 	 Accumulated loss: 165.80
+Minibatch 161.0000 / 391.0000
+ 	 loss: 0.9447072148323059			
+ 	 Accumulated loss: 166.74
+Minibatch 162.0000 / 391.0000
+ 	 loss: 1.1238116025924683			
+ 	 Accumulated loss: 167.87
+Minibatch 163.0000 / 391.0000
+ 	 loss: 1.0194071531295776			
+ 	 Accumulated loss: 168.89
+Minibatch 164.0000 / 391.0000
+ 	 loss: 1.0077656507492065			
+ 	 Accumulated loss: 169.89
+Minibatch 165.0000 / 391.0000
+ 	 loss: 1.1009597778320312			
+ 	 Accumulated loss: 170.99
+Minibatch 166.0000 / 391.0000
+ 	 loss: 0.9754457473754883			
+ 	 Accumulated loss: 171.97
+Minibatch 167.0000 / 391.0000
+ 	 loss: 0.9915767312049866			
+ 	 Accumulated loss: 172.96
+Minibatch 168.0000 / 391.0000
+ 	 loss: 0.8193749785423279			
+ 	 Accumulated loss: 173.78
+Minibatch 169.0000 / 391.0000
+ 	 loss: 0.9463586211204529			
+ 	 Accumulated loss: 174.73
+Minibatch 170.0000 / 391.0000
+ 	 loss: 0.8390838503837585			
+ 	 Accumulated loss: 175.57
+Minibatch 171.0000 / 391.0000
+ 	 loss: 0.9439123272895813			
+ 	 Accumulated loss: 176.51
+Minibatch 172.0000 / 391.0000
+ 	 loss: 1.1170997619628906			
+ 	 Accumulated loss: 177.63
+Minibatch 173.0000 / 391.0000
+ 	 loss: 0.9130243062973022			
+ 	 Accumulated loss: 178.54
+Minibatch 174.0000 / 391.0000
+ 	 loss: 0.9697222709655762			
+ 	 Accumulated loss: 179.51
+Minibatch 175.0000 / 391.0000
+ 	 loss: 0.9917956590652466			
+ 	 Accumulated loss: 180.50
+Minibatch 176.0000 / 391.0000
+ 	 loss: 1.0224603414535522			
+ 	 Accumulated loss: 181.52
+Minibatch 177.0000 / 391.0000
+ 	 loss: 1.0985580682754517			
+ 	 Accumulated loss: 182.62
+Minibatch 178.0000 / 391.0000
+ 	 loss: 1.051971435546875			
+ 	 Accumulated loss: 183.67
+Minibatch 179.0000 / 391.0000
+ 	 loss: 0.912946879863739			
+ 	 Accumulated loss: 184.59
+Minibatch 180.0000 / 391.0000
+ 	 loss: 0.9535196423530579			
+ 	 Accumulated loss: 185.54
+Minibatch 181.0000 / 391.0000
+ 	 loss: 1.0268290042877197			
+ 	 Accumulated loss: 186.57
+Minibatch 182.0000 / 391.0000
+ 	 loss: 0.8865944743156433			
+ 	 Accumulated loss: 187.45
+Minibatch 183.0000 / 391.0000
+ 	 loss: 0.8040134310722351			
+ 	 Accumulated loss: 188.26
+Minibatch 184.0000 / 391.0000
+ 	 loss: 1.0391322374343872			
+ 	 Accumulated loss: 189.30
+Minibatch 185.0000 / 391.0000
+ 	 loss: 0.9476497769355774			
+ 	 Accumulated loss: 190.25
+Minibatch 186.0000 / 391.0000
+ 	 loss: 0.8989863991737366			
+ 	 Accumulated loss: 191.14
+Minibatch 187.0000 / 391.0000
+ 	 loss: 1.1845862865447998			
+ 	 Accumulated loss: 192.33
+Minibatch 188.0000 / 391.0000
+ 	 loss: 0.8459707498550415			
+ 	 Accumulated loss: 193.17
+Minibatch 189.0000 / 391.0000
+ 	 loss: 1.3317527770996094			
+ 	 Accumulated loss: 194.51
+Minibatch 190.0000 / 391.0000
+ 	 loss: 0.9648925065994263			
+ 	 Accumulated loss: 195.47
+Minibatch 191.0000 / 391.0000
+ 	 loss: 0.9732098579406738			
+ 	 Accumulated loss: 196.44
+Minibatch 192.0000 / 391.0000
+ 	 loss: 1.0719032287597656			
+ 	 Accumulated loss: 197.52
+Minibatch 193.0000 / 391.0000
+ 	 loss: 0.8726746439933777			
+ 	 Accumulated loss: 198.39
+Minibatch 194.0000 / 391.0000
+ 	 loss: 0.9120400547981262			
+ 	 Accumulated loss: 199.30
+Minibatch 195.0000 / 391.0000
+ 	 loss: 0.9487739205360413			
+ 	 Accumulated loss: 200.25
+Minibatch 196.0000 / 391.0000
+ 	 loss: 1.1376721858978271			
+ 	 Accumulated loss: 201.39
+Minibatch 197.0000 / 391.0000
+ 	 loss: 0.8810160160064697			
+ 	 Accumulated loss: 202.27
+Minibatch 198.0000 / 391.0000
+ 	 loss: 0.9793117046356201			
+ 	 Accumulated loss: 203.25
+Minibatch 199.0000 / 391.0000
+ 	 loss: 1.0157368183135986			
+ 	 Accumulated loss: 204.26
+Minibatch 200.0000 / 391.0000
+ 	 loss: 0.8728755712509155			
+ 	 Accumulated loss: 205.14
+Minibatch 201.0000 / 391.0000
+ 	 loss: 1.1073901653289795			
+ 	 Accumulated loss: 206.24
+Minibatch 202.0000 / 391.0000
+ 	 loss: 0.9247332811355591			
+ 	 Accumulated loss: 207.17
+Minibatch 203.0000 / 391.0000
+ 	 loss: 1.1591838598251343			
+ 	 Accumulated loss: 208.33
+Minibatch 204.0000 / 391.0000
+ 	 loss: 1.0110924243927002			
+ 	 Accumulated loss: 209.34
+Minibatch 205.0000 / 391.0000
+ 	 loss: 1.057477355003357			
+ 	 Accumulated loss: 210.40
+Minibatch 206.0000 / 391.0000
+ 	 loss: 1.1515311002731323			
+ 	 Accumulated loss: 211.55
+Minibatch 207.0000 / 391.0000
+ 	 loss: 1.0373436212539673			
+ 	 Accumulated loss: 212.59
+Minibatch 208.0000 / 391.0000
+ 	 loss: 1.0549606084823608			
+ 	 Accumulated loss: 213.64
+Minibatch 209.0000 / 391.0000
+ 	 loss: 1.083304762840271			
+ 	 Accumulated loss: 214.72
+Minibatch 210.0000 / 391.0000
+ 	 loss: 0.9257033467292786			
+ 	 Accumulated loss: 215.65
+Minibatch 211.0000 / 391.0000
+ 	 loss: 0.8602373600006104			
+ 	 Accumulated loss: 216.51
+Minibatch 212.0000 / 391.0000
+ 	 loss: 1.0065711736679077			
+ 	 Accumulated loss: 217.52
+Minibatch 213.0000 / 391.0000
+ 	 loss: 0.912563145160675			
+ 	 Accumulated loss: 218.43
+Minibatch 214.0000 / 391.0000
+ 	 loss: 0.8860316872596741			
+ 	 Accumulated loss: 219.31
+Minibatch 215.0000 / 391.0000
+ 	 loss: 0.9040470719337463			
+ 	 Accumulated loss: 220.22
+Minibatch 216.0000 / 391.0000
+ 	 loss: 0.7810677289962769			
+ 	 Accumulated loss: 221.00
+Minibatch 217.0000 / 391.0000
+ 	 loss: 0.9934091567993164			
+ 	 Accumulated loss: 221.99
+Minibatch 218.0000 / 391.0000
+ 	 loss: 1.1859955787658691			
+ 	 Accumulated loss: 223.18
+Minibatch 219.0000 / 391.0000
+ 	 loss: 0.9190546870231628			
+ 	 Accumulated loss: 224.10
+Minibatch 220.0000 / 391.0000
+ 	 loss: 0.8519818782806396			
+ 	 Accumulated loss: 224.95
+Minibatch 221.0000 / 391.0000
+ 	 loss: 1.0554929971694946			
+ 	 Accumulated loss: 226.01
+Minibatch 222.0000 / 391.0000
+ 	 loss: 0.9924092888832092			
+ 	 Accumulated loss: 227.00
+Minibatch 223.0000 / 391.0000
+ 	 loss: 0.9769575595855713			
+ 	 Accumulated loss: 227.98
+Minibatch 224.0000 / 391.0000
+ 	 loss: 0.815836489200592			
+ 	 Accumulated loss: 228.79
+Minibatch 225.0000 / 391.0000
+ 	 loss: 0.8260862231254578			
+ 	 Accumulated loss: 229.62
+Minibatch 226.0000 / 391.0000
+ 	 loss: 1.0191941261291504			
+ 	 Accumulated loss: 230.64
+Minibatch 227.0000 / 391.0000
+ 	 loss: 1.0016167163848877			
+ 	 Accumulated loss: 231.64
+Minibatch 228.0000 / 391.0000
+ 	 loss: 0.9698923230171204			
+ 	 Accumulated loss: 232.61
+Minibatch 229.0000 / 391.0000
+ 	 loss: 1.2731997966766357			
+ 	 Accumulated loss: 233.88
+Minibatch 230.0000 / 391.0000
+ 	 loss: 1.0191376209259033			
+ 	 Accumulated loss: 234.90
+Minibatch 231.0000 / 391.0000
+ 	 loss: 0.7289406061172485			
+ 	 Accumulated loss: 235.63
+Minibatch 232.0000 / 391.0000
+ 	 loss: 0.9695507287979126			
+ 	 Accumulated loss: 236.60
+Minibatch 233.0000 / 391.0000
+ 	 loss: 0.9255591630935669			
+ 	 Accumulated loss: 237.52
+Minibatch 234.0000 / 391.0000
+ 	 loss: 1.109534502029419			
+ 	 Accumulated loss: 238.63
+Minibatch 235.0000 / 391.0000
+ 	 loss: 1.070267677307129			
+ 	 Accumulated loss: 239.70
+Minibatch 236.0000 / 391.0000
+ 	 loss: 0.9632339477539062			
+ 	 Accumulated loss: 240.67
+Minibatch 237.0000 / 391.0000
+ 	 loss: 0.9650590419769287			
+ 	 Accumulated loss: 241.63
+Minibatch 238.0000 / 391.0000
+ 	 loss: 1.2170885801315308			
+ 	 Accumulated loss: 242.85
+Minibatch 239.0000 / 391.0000
+ 	 loss: 1.200137734413147			
+ 	 Accumulated loss: 244.05
+Minibatch 240.0000 / 391.0000
+ 	 loss: 0.8697283864021301			
+ 	 Accumulated loss: 244.92
+Minibatch 241.0000 / 391.0000
+ 	 loss: 0.992579996585846			
+ 	 Accumulated loss: 245.91
+Minibatch 242.0000 / 391.0000
+ 	 loss: 1.09316885471344			
+ 	 Accumulated loss: 247.00
+Minibatch 243.0000 / 391.0000
+ 	 loss: 0.7139169573783875			
+ 	 Accumulated loss: 247.72
+Minibatch 244.0000 / 391.0000
+ 	 loss: 1.0483115911483765			
+ 	 Accumulated loss: 248.77
+Minibatch 245.0000 / 391.0000
+ 	 loss: 0.7859928607940674			
+ 	 Accumulated loss: 249.55
+Minibatch 246.0000 / 391.0000
+ 	 loss: 0.9704871773719788			
+ 	 Accumulated loss: 250.52
+Minibatch 247.0000 / 391.0000
+ 	 loss: 1.0561624765396118			
+ 	 Accumulated loss: 251.58
+Minibatch 248.0000 / 391.0000
+ 	 loss: 0.8286901712417603			
+ 	 Accumulated loss: 252.41
+Minibatch 249.0000 / 391.0000
+ 	 loss: 1.1075373888015747			
+ 	 Accumulated loss: 253.52
+Minibatch 250.0000 / 391.0000
+ 	 loss: 0.8444216847419739			
+ 	 Accumulated loss: 254.36
+Minibatch 251.0000 / 391.0000
+ 	 loss: 0.855162501335144			
+ 	 Accumulated loss: 255.22
+Minibatch 252.0000 / 391.0000
+ 	 loss: 1.0920732021331787			
+ 	 Accumulated loss: 256.31
+Minibatch 253.0000 / 391.0000
+ 	 loss: 0.8665105104446411			
+ 	 Accumulated loss: 257.17
+Minibatch 254.0000 / 391.0000
+ 	 loss: 0.9020559787750244			
+ 	 Accumulated loss: 258.08
+Minibatch 255.0000 / 391.0000
+ 	 loss: 0.9122542142868042			
+ 	 Accumulated loss: 258.99
+Minibatch 256.0000 / 391.0000
+ 	 loss: 1.0631135702133179			
+ 	 Accumulated loss: 260.05
+Minibatch 257.0000 / 391.0000
+ 	 loss: 1.0522735118865967			
+ 	 Accumulated loss: 261.10
+Minibatch 258.0000 / 391.0000
+ 	 loss: 0.8632611632347107			
+ 	 Accumulated loss: 261.97
+Minibatch 259.0000 / 391.0000
+ 	 loss: 0.9146271347999573			
+ 	 Accumulated loss: 262.88
+Minibatch 260.0000 / 391.0000
+ 	 loss: 1.0453740358352661			
+ 	 Accumulated loss: 263.93
+Minibatch 261.0000 / 391.0000
+ 	 loss: 1.0300462245941162			
+ 	 Accumulated loss: 264.96
+Minibatch 262.0000 / 391.0000
+ 	 loss: 0.9933817386627197			
+ 	 Accumulated loss: 265.95
+Minibatch 263.0000 / 391.0000
+ 	 loss: 0.907575249671936			
+ 	 Accumulated loss: 266.86
+Minibatch 264.0000 / 391.0000
+ 	 loss: 1.0063308477401733			
+ 	 Accumulated loss: 267.86
+Minibatch 265.0000 / 391.0000
+ 	 loss: 0.8813672661781311			
+ 	 Accumulated loss: 268.75
+Minibatch 266.0000 / 391.0000
+ 	 loss: 0.8726466298103333			
+ 	 Accumulated loss: 269.62
+Minibatch 267.0000 / 391.0000
+ 	 loss: 0.9970753192901611			
+ 	 Accumulated loss: 270.62
+Minibatch 268.0000 / 391.0000
+ 	 loss: 1.158582091331482			
+ 	 Accumulated loss: 271.77
+Minibatch 269.0000 / 391.0000
+ 	 loss: 0.94095379114151			
+ 	 Accumulated loss: 272.72
+Minibatch 270.0000 / 391.0000
+ 	 loss: 1.0490953922271729			
+ 	 Accumulated loss: 273.76
+Minibatch 271.0000 / 391.0000
+ 	 loss: 0.9343804717063904			
+ 	 Accumulated loss: 274.70
+Minibatch 272.0000 / 391.0000
+ 	 loss: 0.9950599074363708			
+ 	 Accumulated loss: 275.69
+Minibatch 273.0000 / 391.0000
+ 	 loss: 1.0003637075424194			
+ 	 Accumulated loss: 276.69
+Minibatch 274.0000 / 391.0000
+ 	 loss: 0.9387549757957458			
+ 	 Accumulated loss: 277.63
+Minibatch 275.0000 / 391.0000
+ 	 loss: 1.059084415435791			
+ 	 Accumulated loss: 278.69
+Minibatch 276.0000 / 391.0000
+ 	 loss: 0.9968808889389038			
+ 	 Accumulated loss: 279.69
+Minibatch 277.0000 / 391.0000
+ 	 loss: 1.0007398128509521			
+ 	 Accumulated loss: 280.69
+Minibatch 278.0000 / 391.0000
+ 	 loss: 0.8200188875198364			
+ 	 Accumulated loss: 281.51
+Minibatch 279.0000 / 391.0000
+ 	 loss: 0.9147542119026184			
+ 	 Accumulated loss: 282.42
+Minibatch 280.0000 / 391.0000
+ 	 loss: 0.8073793053627014			
+ 	 Accumulated loss: 283.23
+Minibatch 281.0000 / 391.0000
+ 	 loss: 1.037388801574707			
+ 	 Accumulated loss: 284.27
+Minibatch 282.0000 / 391.0000
+ 	 loss: 1.0205953121185303			
+ 	 Accumulated loss: 285.29
+Minibatch 283.0000 / 391.0000
+ 	 loss: 0.9706494212150574			
+ 	 Accumulated loss: 286.26
+Minibatch 284.0000 / 391.0000
+ 	 loss: 1.0031018257141113			
+ 	 Accumulated loss: 287.26
+Minibatch 285.0000 / 391.0000
+ 	 loss: 0.9712409973144531			
+ 	 Accumulated loss: 288.23
+Minibatch 286.0000 / 391.0000
+ 	 loss: 0.8511632084846497			
+ 	 Accumulated loss: 289.09
+Minibatch 287.0000 / 391.0000
+ 	 loss: 0.8108843564987183			
+ 	 Accumulated loss: 289.90
+Minibatch 288.0000 / 391.0000
+ 	 loss: 0.8257796764373779			
+ 	 Accumulated loss: 290.72
+Minibatch 289.0000 / 391.0000
+ 	 loss: 0.8603911995887756			
+ 	 Accumulated loss: 291.58
+Minibatch 290.0000 / 391.0000
+ 	 loss: 0.934903621673584			
+ 	 Accumulated loss: 292.52
+Minibatch 291.0000 / 391.0000
+ 	 loss: 0.9426044821739197			
+ 	 Accumulated loss: 293.46
+Minibatch 292.0000 / 391.0000
+ 	 loss: 0.9919763803482056			
+ 	 Accumulated loss: 294.45
+Minibatch 293.0000 / 391.0000
+ 	 loss: 1.0635632276535034			
+ 	 Accumulated loss: 295.52
+Minibatch 294.0000 / 391.0000
+ 	 loss: 0.8134104013442993			
+ 	 Accumulated loss: 296.33
+Minibatch 295.0000 / 391.0000
+ 	 loss: 0.9792910814285278			
+ 	 Accumulated loss: 297.31
+Minibatch 296.0000 / 391.0000
+ 	 loss: 1.007827639579773			
+ 	 Accumulated loss: 298.32
+Minibatch 297.0000 / 391.0000
+ 	 loss: 0.8029652237892151			
+ 	 Accumulated loss: 299.12
+Minibatch 298.0000 / 391.0000
+ 	 loss: 0.731176495552063			
+ 	 Accumulated loss: 299.85
+Minibatch 299.0000 / 391.0000
+ 	 loss: 0.9779959321022034			
+ 	 Accumulated loss: 300.83
+Minibatch 300.0000 / 391.0000
+ 	 loss: 1.0110394954681396			
+ 	 Accumulated loss: 301.84
+Minibatch 301.0000 / 391.0000
+ 	 loss: 0.9358639717102051			
+ 	 Accumulated loss: 302.78
+Minibatch 302.0000 / 391.0000
+ 	 loss: 0.8291032314300537			
+ 	 Accumulated loss: 303.60
+Minibatch 303.0000 / 391.0000
+ 	 loss: 0.8835225105285645			
+ 	 Accumulated loss: 304.49
+Minibatch 304.0000 / 391.0000
+ 	 loss: 1.0613216161727905			
+ 	 Accumulated loss: 305.55
+Minibatch 305.0000 / 391.0000
+ 	 loss: 1.0665851831436157			
+ 	 Accumulated loss: 306.62
+Minibatch 306.0000 / 391.0000
+ 	 loss: 1.146059274673462			
+ 	 Accumulated loss: 307.76
+Minibatch 307.0000 / 391.0000
+ 	 loss: 0.9375985860824585			
+ 	 Accumulated loss: 308.70
+Minibatch 308.0000 / 391.0000
+ 	 loss: 1.1072481870651245			
+ 	 Accumulated loss: 309.81
+Minibatch 309.0000 / 391.0000
+ 	 loss: 1.167949914932251			
+ 	 Accumulated loss: 310.97
+Minibatch 310.0000 / 391.0000
+ 	 loss: 0.8427127599716187			
+ 	 Accumulated loss: 311.82
+Minibatch 311.0000 / 391.0000
+ 	 loss: 1.1044161319732666			
+ 	 Accumulated loss: 312.92
+Minibatch 312.0000 / 391.0000
+ 	 loss: 0.8437193036079407			
+ 	 Accumulated loss: 313.77
+Minibatch 313.0000 / 391.0000
+ 	 loss: 0.9128996133804321			
+ 	 Accumulated loss: 314.68
+Minibatch 314.0000 / 391.0000
+ 	 loss: 0.9198658466339111			
+ 	 Accumulated loss: 315.60
+Minibatch 315.0000 / 391.0000
+ 	 loss: 0.9466961622238159			
+ 	 Accumulated loss: 316.55
+Minibatch 316.0000 / 391.0000
+ 	 loss: 1.2108478546142578			
+ 	 Accumulated loss: 317.76
+Minibatch 317.0000 / 391.0000
+ 	 loss: 0.9999321103096008			
+ 	 Accumulated loss: 318.76
+Minibatch 318.0000 / 391.0000
+ 	 loss: 0.9672484993934631			
+ 	 Accumulated loss: 319.72
+Minibatch 319.0000 / 391.0000
+ 	 loss: 0.8452660441398621			
+ 	 Accumulated loss: 320.57
+Minibatch 320.0000 / 391.0000
+ 	 loss: 0.9893432855606079			
+ 	 Accumulated loss: 321.56
+Minibatch 321.0000 / 391.0000
+ 	 loss: 1.0434155464172363			
+ 	 Accumulated loss: 322.60
+Minibatch 322.0000 / 391.0000
+ 	 loss: 0.825886607170105			
+ 	 Accumulated loss: 323.43
+Minibatch 323.0000 / 391.0000
+ 	 loss: 1.1299443244934082			
+ 	 Accumulated loss: 324.56
+Minibatch 324.0000 / 391.0000
+ 	 loss: 1.017492651939392			
+ 	 Accumulated loss: 325.57
+Minibatch 325.0000 / 391.0000
+ 	 loss: 0.8861751556396484			
+ 	 Accumulated loss: 326.46
+Minibatch 326.0000 / 391.0000
+ 	 loss: 1.043522596359253			
+ 	 Accumulated loss: 327.50
+Minibatch 327.0000 / 391.0000
+ 	 loss: 0.9906042814254761			
+ 	 Accumulated loss: 328.49
+Minibatch 328.0000 / 391.0000
+ 	 loss: 0.9554486274719238			
+ 	 Accumulated loss: 329.45
+Minibatch 329.0000 / 391.0000
+ 	 loss: 1.1145861148834229			
+ 	 Accumulated loss: 330.56
+Minibatch 330.0000 / 391.0000
+ 	 loss: 0.7449851632118225			
+ 	 Accumulated loss: 331.31
+Minibatch 331.0000 / 391.0000
+ 	 loss: 0.9748746156692505			
+ 	 Accumulated loss: 332.28
+Minibatch 332.0000 / 391.0000
+ 	 loss: 0.8414961695671082			
+ 	 Accumulated loss: 333.13
+Minibatch 333.0000 / 391.0000
+ 	 loss: 0.9122964143753052			
+ 	 Accumulated loss: 334.04
+Minibatch 334.0000 / 391.0000
+ 	 loss: 1.026584506034851			
+ 	 Accumulated loss: 335.07
+Minibatch 335.0000 / 391.0000
+ 	 loss: 0.8237670063972473			
+ 	 Accumulated loss: 335.89
+Minibatch 336.0000 / 391.0000
+ 	 loss: 1.0426262617111206			
+ 	 Accumulated loss: 336.93
+Minibatch 337.0000 / 391.0000
+ 	 loss: 0.9920528531074524			
+ 	 Accumulated loss: 337.92
+Minibatch 338.0000 / 391.0000
+ 	 loss: 0.8361525535583496			
+ 	 Accumulated loss: 338.76
+Minibatch 339.0000 / 391.0000
+ 	 loss: 1.0637567043304443			
+ 	 Accumulated loss: 339.82
+Minibatch 340.0000 / 391.0000
+ 	 loss: 0.9421939253807068			
+ 	 Accumulated loss: 340.77
+Minibatch 341.0000 / 391.0000
+ 	 loss: 0.9286810755729675			
+ 	 Accumulated loss: 341.69
+Minibatch 342.0000 / 391.0000
+ 	 loss: 0.8622527122497559			
+ 	 Accumulated loss: 342.56
+Minibatch 343.0000 / 391.0000
+ 	 loss: 0.8290701508522034			
+ 	 Accumulated loss: 343.39
+Minibatch 344.0000 / 391.0000
+ 	 loss: 0.85735023021698			
+ 	 Accumulated loss: 344.24
+Minibatch 345.0000 / 391.0000
+ 	 loss: 1.0302766561508179			
+ 	 Accumulated loss: 345.27
+Minibatch 346.0000 / 391.0000
+ 	 loss: 1.1665637493133545			
+ 	 Accumulated loss: 346.44
+Minibatch 347.0000 / 391.0000
+ 	 loss: 0.8923404812812805			
+ 	 Accumulated loss: 347.33
+Minibatch 348.0000 / 391.0000
+ 	 loss: 0.8851605653762817			
+ 	 Accumulated loss: 348.22
+Minibatch 349.0000 / 391.0000
+ 	 loss: 0.9260278344154358			
+ 	 Accumulated loss: 349.14
+Minibatch 350.0000 / 391.0000
+ 	 loss: 1.0228441953659058			
+ 	 Accumulated loss: 350.17
+Minibatch 351.0000 / 391.0000
+ 	 loss: 1.0527467727661133			
+ 	 Accumulated loss: 351.22
+Minibatch 352.0000 / 391.0000
+ 	 loss: 0.7482609152793884			
+ 	 Accumulated loss: 351.97
+Minibatch 353.0000 / 391.0000
+ 	 loss: 0.7100955843925476			
+ 	 Accumulated loss: 352.68
+Minibatch 354.0000 / 391.0000
+ 	 loss: 0.8746371269226074			
+ 	 Accumulated loss: 353.55
+Minibatch 355.0000 / 391.0000
+ 	 loss: 1.070202350616455			
+ 	 Accumulated loss: 354.62
+Minibatch 356.0000 / 391.0000
+ 	 loss: 0.7277702689170837			
+ 	 Accumulated loss: 355.35
+Minibatch 357.0000 / 391.0000
+ 	 loss: 1.0132229328155518			
+ 	 Accumulated loss: 356.36
+Minibatch 358.0000 / 391.0000
+ 	 loss: 0.951769232749939			
+ 	 Accumulated loss: 357.31
+Minibatch 359.0000 / 391.0000
+ 	 loss: 0.8338671326637268			
+ 	 Accumulated loss: 358.15
+Minibatch 360.0000 / 391.0000
+ 	 loss: 1.0287940502166748			
+ 	 Accumulated loss: 359.18
+Minibatch 361.0000 / 391.0000
+ 	 loss: 1.0277365446090698			
+ 	 Accumulated loss: 360.21
+Minibatch 362.0000 / 391.0000
+ 	 loss: 0.9587635397911072			
+ 	 Accumulated loss: 361.16
+Minibatch 363.0000 / 391.0000
+ 	 loss: 1.0329097509384155			
+ 	 Accumulated loss: 362.20
+Minibatch 364.0000 / 391.0000
+ 	 loss: 0.934918999671936			
+ 	 Accumulated loss: 363.13
+Minibatch 365.0000 / 391.0000
+ 	 loss: 0.8358402848243713			
+ 	 Accumulated loss: 363.97
+Minibatch 366.0000 / 391.0000
+ 	 loss: 1.2239400148391724			
+ 	 Accumulated loss: 365.19
+Minibatch 367.0000 / 391.0000
+ 	 loss: 0.8419932723045349			
+ 	 Accumulated loss: 366.03
+Minibatch 368.0000 / 391.0000
+ 	 loss: 0.9494667649269104			
+ 	 Accumulated loss: 366.98
+Minibatch 369.0000 / 391.0000
+ 	 loss: 0.8083111643791199			
+ 	 Accumulated loss: 367.79
+Minibatch 370.0000 / 391.0000
+ 	 loss: 1.0604597330093384			
+ 	 Accumulated loss: 368.85
+Minibatch 371.0000 / 391.0000
+ 	 loss: 1.0275051593780518			
+ 	 Accumulated loss: 369.88
+Minibatch 372.0000 / 391.0000
+ 	 loss: 0.9427759051322937			
+ 	 Accumulated loss: 370.82
+Minibatch 373.0000 / 391.0000
+ 	 loss: 0.8889188766479492			
+ 	 Accumulated loss: 371.71
+Minibatch 374.0000 / 391.0000
+ 	 loss: 0.7740671634674072			
+ 	 Accumulated loss: 372.49
+Minibatch 375.0000 / 391.0000
+ 	 loss: 0.9189579486846924			
+ 	 Accumulated loss: 373.40
+Minibatch 376.0000 / 391.0000
+ 	 loss: 1.1107935905456543			
+ 	 Accumulated loss: 374.51
+Minibatch 377.0000 / 391.0000
+ 	 loss: 1.0132014751434326			
+ 	 Accumulated loss: 375.53
+Minibatch 378.0000 / 391.0000
+ 	 loss: 1.040793776512146			
+ 	 Accumulated loss: 376.57
+Minibatch 379.0000 / 391.0000
+ 	 loss: 0.9084283709526062			
+ 	 Accumulated loss: 377.48
+Minibatch 380.0000 / 391.0000
+ 	 loss: 0.9672425985336304			
+ 	 Accumulated loss: 378.44
+Minibatch 381.0000 / 391.0000
+ 	 loss: 1.1238200664520264			
+ 	 Accumulated loss: 379.57
+Minibatch 382.0000 / 391.0000
+ 	 loss: 0.9495687484741211			
+ 	 Accumulated loss: 380.52
+Minibatch 383.0000 / 391.0000
+ 	 loss: 0.8361740112304688			
+ 	 Accumulated loss: 381.35
+Minibatch 384.0000 / 391.0000
+ 	 loss: 1.0087401866912842			
+ 	 Accumulated loss: 382.36
+Minibatch 385.0000 / 391.0000
+ 	 loss: 0.9305810332298279			
+ 	 Accumulated loss: 383.29
+Minibatch 386.0000 / 391.0000
+ 	 loss: 0.7535858154296875			
+ 	 Accumulated loss: 384.05
+Minibatch 387.0000 / 391.0000
+ 	 loss: 0.7867937684059143			
+ 	 Accumulated loss: 384.83
+Minibatch 388.0000 / 391.0000
+ 	 loss: 0.9823412895202637			
+ 	 Accumulated loss: 385.82
+Minibatch 389.0000 / 391.0000
+ 	 loss: 0.980294942855835			
+ 	 Accumulated loss: 386.80
+Minibatch 390.0000 / 391.0000
+ 	 loss: 0.8935715556144714			
+ 	 Accumulated loss: 387.69
+Aggregates: 
+ 	 DataLoader Time: 3.2241 
+ 	 		Mini-batch Time:18.6010 
+ 	 Training Epoch Time:32.7877
+ 		Averages: 
+ 	 Training Loss: 0.9915
+	Testing precision@1: 0.6890 
+

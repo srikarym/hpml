@@ -1,47 +1,8 @@
-Files already downloaded and verified
-Files already downloaded and verified
-Epoch 1
-	Aggregates:
-		DataLoader Time:     0.7616
-		Mini-batch Time:    36.2146
-		Training Epoch Time:   130.6323
-	Averages:
-		Training Loss:     1.4387
-	
-		Testing precision@1:     0.5670
-Epoch 2
-	Aggregates:
-		DataLoader Time:     0.7439
-		Mini-batch Time:    36.0929
-		Training Epoch Time:   132.7354
-	Averages:
-		Training Loss:     0.9524
-	
-		Testing precision@1:     0.6414
-Epoch 3
-	Aggregates:
-		DataLoader Time:     0.7878
-		Mini-batch Time:    35.7411
-		Training Epoch Time:   132.6442
-	Averages:
-		Training Loss:     0.7363
-	
-		Testing precision@1:     0.7377
-Epoch 4
-	Aggregates:
-		DataLoader Time:     0.7940
-		Mini-batch Time:    35.8455
-		Training Epoch Time:   132.7732
-	Averages:
-		Training Loss:     0.6113
-	
-		Testing precision@1:     0.7912
-Epoch 5
-	Aggregates:
-		DataLoader Time:     0.6590
-		Mini-batch Time:    35.9415
-		Training Epoch Time:   132.7180
-	Averages:
-		Training Loss:     0.5257
-	
-		Testing precision@1:     0.7799
+Traceback (most recent call last):
+  File "lab2.py", line 10, in <module>
+    from resnet import ResNet18
+  File "/misc/kcgscratch1/ChoGroup/srikar/hpml/hw2/resnet.py", line 13, in <module>
+    from lab2 import parse_args
+  File "/misc/kcgscratch1/ChoGroup/srikar/hpml/hw2/lab2.py", line 10, in <module>
+    from resnet import ResNet18
+ImportError: cannot import name 'ResNet18'
