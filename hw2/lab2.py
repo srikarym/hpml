@@ -145,16 +145,16 @@ def train(epoch):
 		epoch_loader_time += (load_end - load_start)
 		epoch_minibatch_time += (batch_end - load_start)
 
-		print(f'Minibatch {mini_batch} / {n_batches}\n \t loss: {loss.detach().cpu().item()}\
-			\n \t Accumulated loss: {epoch_loss}')
+		print(f'Minibatch {mini_batch:.4f} / {n_batches:.4f}\n \t loss: {loss.detach().cpu().item()}\
+			\n \t Accumulated loss: {epoch_loss:.2f}')
 
 	epoch_time = time.perf_counter() - epoch_start
 
 	epoch_loss /= n_batches
 
-	print(f'Aggregates: \n \t DataLoader Time: {epoch_loader_time} \n \t \
-		Mini-batch Time:{epoch_minibatch_time} \n \t Training Epoch Time:{epoch_time}\n \
-		Averages: \n \t Training Loss: {epoch_loss}')
+	print(f'Aggregates: \n \t DataLoader Time: {epoch_loader_time:.4f} \n \t \
+		Mini-batch Time:{epoch_minibatch_time:.4f} \n \t Training Epoch Time:{epoch_time:.4f}\n \
+		Averages: \n \t Training Loss: {epoch_loss:.4f}')
 
 
 def test():
@@ -182,7 +182,7 @@ def test():
 
 	epoch_precision1 /= len(testset)
 
-	report = "\tTesting precision@1: {:10.4f}".format(epoch_precision1)
+	report = f"\tTesting precision@1: {epoch_precision1:.4f} \n".format(epoch_precision1)
 	print(report)
 
 if __name__ == '__main__':
