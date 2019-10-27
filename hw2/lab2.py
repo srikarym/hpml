@@ -61,7 +61,7 @@ def precision(k, output, target):
 	correct = pred.eq(target.view(1,-1).expand_as(pred))
 
 	correct_k = correct[:k].view(-1).float().sum(0,keepdim = True)
-	res = correct_k.mul_(100.0 / batch_size)
+	res = correct_k.mul_(100.0)
 	return res
 
 def train(epoch):
@@ -77,6 +77,8 @@ def train(epoch):
 	net.train()
 	epoch_start = time.perf_counter()
 	print(f'Epoch {epoch}')
+	precision_1 = 0.0
+
 	for mini_batch in range(n_batches):
 		load_start = time.perf_counter()
 
@@ -99,19 +101,24 @@ def train(epoch):
 		loss_scalar = loss.detach().cpu().item()
 		epoch_loss += loss_scalar
 
+		precision_1 += precision(1, out, labels) / image.shape(0)
+
 		epoch_loader_time += (load_end - load_start)
 		epoch_minibatch_time += (batch_end - load_start)
 
 		print(f'\t Minibatch {mini_batch+1} / {n_batches}, loss: {loss_scalar:.2f}, \
-			Accumulated loss: {epoch_loss:.2f}')
+			Avg Accumulated loss: {epoch_loss / (mini_batch+1):.2f}, Accumulated precision: {precision_1/(mini_batch+1):.2f}')
 
 	epoch_time = time.perf_counter() - epoch_start
 
 	epoch_loss /= n_batches
 
-	print(f'\nAggregates: \n \t DataLoader Time: {epoch_loader_time:.4f} \n \t \
-		Mini-batch Time:{epoch_minibatch_time:.4f} \n \t Training Epoch Time:{epoch_time:.4f}\n \
-		Averages: \n \t Training Loss: {epoch_loss:.4f}')
+	print(f'\nAggregates: \
+			\t DataLoader Time: {epoch_loader_time:.4f} \
+			\t Mini-batch Time:{epoch_minibatch_time:.4f} \
+			\t Training Epoch Time:{epoch_time:.4f}\n \
+			Averages: \
+			\t Training Loss: {epoch_loss:.4f}')
 
 
 def test():
