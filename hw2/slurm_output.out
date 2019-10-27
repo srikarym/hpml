@@ -1,0 +1,21 @@
+
+
+ssh -F ~/ssh_config -L 10395:localhost:10395 lion9.cs.nyu.edu
+
+
+
+
+[W 14:35:34.777 NotebookApp] Terminals not available (error was terminado >= 0.8.1 required, found 0.6)
+[I 14:35:34.838 NotebookApp] JupyterLab alpha preview extension loaded from /misc/kcgscratch1/ChoGroup/srikar/.pyenv/versions/anaconda3-5.0.0/lib/python3.6/site-packages/jupyterlab
+JupyterLab v0.27.0
+Known labextensions:
+[I 14:35:34.842 NotebookApp] Running the core application with no additional extensions or settings
+[I 14:35:34.846 NotebookApp] Serving notebooks from local directory: /misc/kcgscratch1/ChoGroup/srikar/hpml/hw2
+[I 14:35:34.846 NotebookApp] The Jupyter Notebook is running at:
+[I 14:35:34.846 NotebookApp] http://localhost:10395/?token=6d355ca9571228c1b7803a4baa4ded5d597d700b73253d3e
+[I 14:35:34.846 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 14:35:34.848 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:10395/?token=6d355ca9571228c1b7803a4baa4ded5d597d700b73253d3e

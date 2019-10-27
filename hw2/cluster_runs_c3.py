@@ -47,7 +47,7 @@ job = {'cuda':1}
 
 time = 48
 
-nworkers = [0,4,8,12,16,20,24,28,32,36,40]
+nworkers = [0,1,4,8,12,16]
 
 for w in nworkers:
 	job['num-workers']=w

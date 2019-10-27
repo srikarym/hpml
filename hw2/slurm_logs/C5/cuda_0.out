@@ -1,2018 +1,13 @@
-Files already downloaded and verified
-Files already downloaded and verified
-Epoch 0
-	 Minibatch 1 / 391, loss: 2.42, 			Accumulated loss: 2.42
-	 Minibatch 2 / 391, loss: 3.41, 			Accumulated loss: 5.83
-	 Minibatch 3 / 391, loss: 3.76, 			Accumulated loss: 9.59
-	 Minibatch 4 / 391, loss: 5.99, 			Accumulated loss: 15.57
-	 Minibatch 5 / 391, loss: 7.88, 			Accumulated loss: 23.45
-	 Minibatch 6 / 391, loss: 5.69, 			Accumulated loss: 29.14
-	 Minibatch 7 / 391, loss: 5.50, 			Accumulated loss: 34.65
-	 Minibatch 8 / 391, loss: 4.77, 			Accumulated loss: 39.42
-	 Minibatch 9 / 391, loss: 3.79, 			Accumulated loss: 43.20
-	 Minibatch 10 / 391, loss: 3.61, 			Accumulated loss: 46.81
-	 Minibatch 11 / 391, loss: 4.45, 			Accumulated loss: 51.26
-	 Minibatch 12 / 391, loss: 4.03, 			Accumulated loss: 55.29
-	 Minibatch 13 / 391, loss: 3.22, 			Accumulated loss: 58.51
-	 Minibatch 14 / 391, loss: 3.18, 			Accumulated loss: 61.70
-	 Minibatch 15 / 391, loss: 2.80, 			Accumulated loss: 64.50
-	 Minibatch 16 / 391, loss: 3.30, 			Accumulated loss: 67.80
-	 Minibatch 17 / 391, loss: 2.80, 			Accumulated loss: 70.60
-	 Minibatch 18 / 391, loss: 2.77, 			Accumulated loss: 73.37
-	 Minibatch 19 / 391, loss: 3.51, 			Accumulated loss: 76.87
-	 Minibatch 20 / 391, loss: 2.72, 			Accumulated loss: 79.59
-	 Minibatch 21 / 391, loss: 2.19, 			Accumulated loss: 81.78
-	 Minibatch 22 / 391, loss: 2.68, 			Accumulated loss: 84.46
-	 Minibatch 23 / 391, loss: 2.72, 			Accumulated loss: 87.18
-	 Minibatch 24 / 391, loss: 2.68, 			Accumulated loss: 89.86
-	 Minibatch 25 / 391, loss: 2.42, 			Accumulated loss: 92.29
-	 Minibatch 26 / 391, loss: 2.37, 			Accumulated loss: 94.66
-	 Minibatch 27 / 391, loss: 2.72, 			Accumulated loss: 97.38
-	 Minibatch 28 / 391, loss: 2.31, 			Accumulated loss: 99.69
-	 Minibatch 29 / 391, loss: 2.35, 			Accumulated loss: 102.03
-	 Minibatch 30 / 391, loss: 2.38, 			Accumulated loss: 104.41
-	 Minibatch 31 / 391, loss: 2.34, 			Accumulated loss: 106.76
-	 Minibatch 32 / 391, loss: 2.43, 			Accumulated loss: 109.18
-	 Minibatch 33 / 391, loss: 2.82, 			Accumulated loss: 112.00
-	 Minibatch 34 / 391, loss: 2.39, 			Accumulated loss: 114.39
-	 Minibatch 35 / 391, loss: 2.18, 			Accumulated loss: 116.58
-	 Minibatch 36 / 391, loss: 2.08, 			Accumulated loss: 118.66
-	 Minibatch 37 / 391, loss: 2.01, 			Accumulated loss: 120.66
-	 Minibatch 38 / 391, loss: 2.40, 			Accumulated loss: 123.07
-	 Minibatch 39 / 391, loss: 2.29, 			Accumulated loss: 125.36
-	 Minibatch 40 / 391, loss: 2.17, 			Accumulated loss: 127.53
-	 Minibatch 41 / 391, loss: 2.22, 			Accumulated loss: 129.75
-	 Minibatch 42 / 391, loss: 2.20, 			Accumulated loss: 131.95
-	 Minibatch 43 / 391, loss: 2.10, 			Accumulated loss: 134.05
-	 Minibatch 44 / 391, loss: 2.32, 			Accumulated loss: 136.37
-	 Minibatch 45 / 391, loss: 2.14, 			Accumulated loss: 138.51
-	 Minibatch 46 / 391, loss: 2.33, 			Accumulated loss: 140.84
-	 Minibatch 47 / 391, loss: 2.17, 			Accumulated loss: 143.01
-	 Minibatch 48 / 391, loss: 2.18, 			Accumulated loss: 145.20
-	 Minibatch 49 / 391, loss: 2.06, 			Accumulated loss: 147.26
-	 Minibatch 50 / 391, loss: 2.16, 			Accumulated loss: 149.42
-	 Minibatch 51 / 391, loss: 2.30, 			Accumulated loss: 151.72
-	 Minibatch 52 / 391, loss: 2.27, 			Accumulated loss: 153.99
-	 Minibatch 53 / 391, loss: 2.39, 			Accumulated loss: 156.38
-	 Minibatch 54 / 391, loss: 2.12, 			Accumulated loss: 158.51
-	 Minibatch 55 / 391, loss: 2.23, 			Accumulated loss: 160.73
-	 Minibatch 56 / 391, loss: 1.97, 			Accumulated loss: 162.70
-	 Minibatch 57 / 391, loss: 2.18, 			Accumulated loss: 164.88
-	 Minibatch 58 / 391, loss: 2.09, 			Accumulated loss: 166.97
-	 Minibatch 59 / 391, loss: 2.06, 			Accumulated loss: 169.04
-	 Minibatch 60 / 391, loss: 1.90, 			Accumulated loss: 170.93
-	 Minibatch 61 / 391, loss: 2.02, 			Accumulated loss: 172.95
-	 Minibatch 62 / 391, loss: 2.12, 			Accumulated loss: 175.07
-	 Minibatch 63 / 391, loss: 1.90, 			Accumulated loss: 176.98
-	 Minibatch 64 / 391, loss: 2.22, 			Accumulated loss: 179.19
-	 Minibatch 65 / 391, loss: 2.24, 			Accumulated loss: 181.44
-	 Minibatch 66 / 391, loss: 2.28, 			Accumulated loss: 183.71
-	 Minibatch 67 / 391, loss: 1.97, 			Accumulated loss: 185.68
-	 Minibatch 68 / 391, loss: 2.10, 			Accumulated loss: 187.78
-	 Minibatch 69 / 391, loss: 2.44, 			Accumulated loss: 190.22
-	 Minibatch 70 / 391, loss: 2.09, 			Accumulated loss: 192.31
-	 Minibatch 71 / 391, loss: 2.08, 			Accumulated loss: 194.39
-	 Minibatch 72 / 391, loss: 2.16, 			Accumulated loss: 196.55
-	 Minibatch 73 / 391, loss: 2.01, 			Accumulated loss: 198.56
-	 Minibatch 74 / 391, loss: 2.05, 			Accumulated loss: 200.61
-	 Minibatch 75 / 391, loss: 2.05, 			Accumulated loss: 202.66
-	 Minibatch 76 / 391, loss: 1.97, 			Accumulated loss: 204.62
-	 Minibatch 77 / 391, loss: 1.94, 			Accumulated loss: 206.57
-	 Minibatch 78 / 391, loss: 2.09, 			Accumulated loss: 208.66
-	 Minibatch 79 / 391, loss: 2.05, 			Accumulated loss: 210.70
-	 Minibatch 80 / 391, loss: 1.89, 			Accumulated loss: 212.59
-	 Minibatch 81 / 391, loss: 1.89, 			Accumulated loss: 214.48
-	 Minibatch 82 / 391, loss: 1.94, 			Accumulated loss: 216.42
-	 Minibatch 83 / 391, loss: 1.78, 			Accumulated loss: 218.21
-	 Minibatch 84 / 391, loss: 1.92, 			Accumulated loss: 220.12
-	 Minibatch 85 / 391, loss: 2.05, 			Accumulated loss: 222.17
-	 Minibatch 86 / 391, loss: 1.86, 			Accumulated loss: 224.03
-	 Minibatch 87 / 391, loss: 1.78, 			Accumulated loss: 225.81
-	 Minibatch 88 / 391, loss: 1.89, 			Accumulated loss: 227.70
-	 Minibatch 89 / 391, loss: 1.97, 			Accumulated loss: 229.66
-	 Minibatch 90 / 391, loss: 1.86, 			Accumulated loss: 231.52
-	 Minibatch 91 / 391, loss: 1.93, 			Accumulated loss: 233.46
-	 Minibatch 92 / 391, loss: 2.01, 			Accumulated loss: 235.46
-	 Minibatch 93 / 391, loss: 2.09, 			Accumulated loss: 237.55
-	 Minibatch 94 / 391, loss: 1.90, 			Accumulated loss: 239.45
-	 Minibatch 95 / 391, loss: 2.02, 			Accumulated loss: 241.47
-	 Minibatch 96 / 391, loss: 1.80, 			Accumulated loss: 243.26
-	 Minibatch 97 / 391, loss: 1.93, 			Accumulated loss: 245.19
-	 Minibatch 98 / 391, loss: 1.93, 			Accumulated loss: 247.13
-	 Minibatch 99 / 391, loss: 2.05, 			Accumulated loss: 249.18
-	 Minibatch 100 / 391, loss: 1.93, 			Accumulated loss: 251.10
-	 Minibatch 101 / 391, loss: 1.95, 			Accumulated loss: 253.05
-	 Minibatch 102 / 391, loss: 2.00, 			Accumulated loss: 255.05
-	 Minibatch 103 / 391, loss: 2.01, 			Accumulated loss: 257.05
-	 Minibatch 104 / 391, loss: 1.91, 			Accumulated loss: 258.97
-	 Minibatch 105 / 391, loss: 1.77, 			Accumulated loss: 260.74
-	 Minibatch 106 / 391, loss: 1.88, 			Accumulated loss: 262.61
-	 Minibatch 107 / 391, loss: 1.99, 			Accumulated loss: 264.61
-	 Minibatch 108 / 391, loss: 1.83, 			Accumulated loss: 266.44
-	 Minibatch 109 / 391, loss: 1.92, 			Accumulated loss: 268.36
-	 Minibatch 110 / 391, loss: 1.85, 			Accumulated loss: 270.22
-	 Minibatch 111 / 391, loss: 1.96, 			Accumulated loss: 272.17
-	 Minibatch 112 / 391, loss: 1.89, 			Accumulated loss: 274.06
-	 Minibatch 113 / 391, loss: 1.85, 			Accumulated loss: 275.91
-	 Minibatch 114 / 391, loss: 1.90, 			Accumulated loss: 277.81
-	 Minibatch 115 / 391, loss: 1.89, 			Accumulated loss: 279.70
-	 Minibatch 116 / 391, loss: 1.95, 			Accumulated loss: 281.65
-	 Minibatch 117 / 391, loss: 1.95, 			Accumulated loss: 283.60
-	 Minibatch 118 / 391, loss: 1.98, 			Accumulated loss: 285.58
-	 Minibatch 119 / 391, loss: 1.97, 			Accumulated loss: 287.54
-	 Minibatch 120 / 391, loss: 1.87, 			Accumulated loss: 289.41
-	 Minibatch 121 / 391, loss: 1.85, 			Accumulated loss: 291.26
-	 Minibatch 122 / 391, loss: 1.79, 			Accumulated loss: 293.05
-	 Minibatch 123 / 391, loss: 1.85, 			Accumulated loss: 294.90
-	 Minibatch 124 / 391, loss: 1.81, 			Accumulated loss: 296.71
-	 Minibatch 125 / 391, loss: 1.88, 			Accumulated loss: 298.59
-	 Minibatch 126 / 391, loss: 1.80, 			Accumulated loss: 300.39
-	 Minibatch 127 / 391, loss: 1.70, 			Accumulated loss: 302.09
-	 Minibatch 128 / 391, loss: 1.90, 			Accumulated loss: 304.00
-	 Minibatch 129 / 391, loss: 1.84, 			Accumulated loss: 305.84
-	 Minibatch 130 / 391, loss: 1.76, 			Accumulated loss: 307.60
-	 Minibatch 131 / 391, loss: 1.87, 			Accumulated loss: 309.47
-	 Minibatch 132 / 391, loss: 1.96, 			Accumulated loss: 311.43
-	 Minibatch 133 / 391, loss: 1.87, 			Accumulated loss: 313.30
-	 Minibatch 134 / 391, loss: 1.94, 			Accumulated loss: 315.23
-	 Minibatch 135 / 391, loss: 1.93, 			Accumulated loss: 317.17
-	 Minibatch 136 / 391, loss: 1.93, 			Accumulated loss: 319.10
-	 Minibatch 137 / 391, loss: 1.86, 			Accumulated loss: 320.96
-	 Minibatch 138 / 391, loss: 1.74, 			Accumulated loss: 322.69
-	 Minibatch 139 / 391, loss: 1.64, 			Accumulated loss: 324.33
-	 Minibatch 140 / 391, loss: 1.81, 			Accumulated loss: 326.15
-	 Minibatch 141 / 391, loss: 1.81, 			Accumulated loss: 327.96
-	 Minibatch 142 / 391, loss: 1.86, 			Accumulated loss: 329.82
-	 Minibatch 143 / 391, loss: 1.73, 			Accumulated loss: 331.55
-	 Minibatch 144 / 391, loss: 1.77, 			Accumulated loss: 333.32
-	 Minibatch 145 / 391, loss: 1.83, 			Accumulated loss: 335.15
-	 Minibatch 146 / 391, loss: 1.64, 			Accumulated loss: 336.79
-	 Minibatch 147 / 391, loss: 1.85, 			Accumulated loss: 338.64
-	 Minibatch 148 / 391, loss: 1.81, 			Accumulated loss: 340.45
-	 Minibatch 149 / 391, loss: 1.75, 			Accumulated loss: 342.20
-	 Minibatch 150 / 391, loss: 1.80, 			Accumulated loss: 343.99
-	 Minibatch 151 / 391, loss: 1.80, 			Accumulated loss: 345.80
-	 Minibatch 152 / 391, loss: 1.75, 			Accumulated loss: 347.55
-	 Minibatch 153 / 391, loss: 1.86, 			Accumulated loss: 349.41
-	 Minibatch 154 / 391, loss: 1.88, 			Accumulated loss: 351.28
-	 Minibatch 155 / 391, loss: 1.75, 			Accumulated loss: 353.03
-	 Minibatch 156 / 391, loss: 1.65, 			Accumulated loss: 354.68
-	 Minibatch 157 / 391, loss: 1.74, 			Accumulated loss: 356.42
-	 Minibatch 158 / 391, loss: 1.76, 			Accumulated loss: 358.18
-	 Minibatch 159 / 391, loss: 1.85, 			Accumulated loss: 360.03
-	 Minibatch 160 / 391, loss: 1.73, 			Accumulated loss: 361.75
-	 Minibatch 161 / 391, loss: 1.92, 			Accumulated loss: 363.67
-	 Minibatch 162 / 391, loss: 1.89, 			Accumulated loss: 365.57
-	 Minibatch 163 / 391, loss: 1.77, 			Accumulated loss: 367.33
-	 Minibatch 164 / 391, loss: 1.98, 			Accumulated loss: 369.31
-	 Minibatch 165 / 391, loss: 1.80, 			Accumulated loss: 371.12
-	 Minibatch 166 / 391, loss: 1.81, 			Accumulated loss: 372.92
-	 Minibatch 167 / 391, loss: 1.68, 			Accumulated loss: 374.60
-	 Minibatch 168 / 391, loss: 1.74, 			Accumulated loss: 376.34
-	 Minibatch 169 / 391, loss: 1.78, 			Accumulated loss: 378.11
-	 Minibatch 170 / 391, loss: 1.78, 			Accumulated loss: 379.89
-	 Minibatch 171 / 391, loss: 1.97, 			Accumulated loss: 381.86
-	 Minibatch 172 / 391, loss: 1.89, 			Accumulated loss: 383.74
-	 Minibatch 173 / 391, loss: 1.77, 			Accumulated loss: 385.51
-	 Minibatch 174 / 391, loss: 1.77, 			Accumulated loss: 387.28
-	 Minibatch 175 / 391, loss: 1.77, 			Accumulated loss: 389.04
-	 Minibatch 176 / 391, loss: 1.77, 			Accumulated loss: 390.81
-	 Minibatch 177 / 391, loss: 1.88, 			Accumulated loss: 392.70
-	 Minibatch 178 / 391, loss: 1.68, 			Accumulated loss: 394.38
-	 Minibatch 179 / 391, loss: 1.73, 			Accumulated loss: 396.11
-	 Minibatch 180 / 391, loss: 1.79, 			Accumulated loss: 397.89
-	 Minibatch 181 / 391, loss: 1.75, 			Accumulated loss: 399.64
-	 Minibatch 182 / 391, loss: 1.69, 			Accumulated loss: 401.33
-	 Minibatch 183 / 391, loss: 1.81, 			Accumulated loss: 403.14
-	 Minibatch 184 / 391, loss: 1.84, 			Accumulated loss: 404.99
-	 Minibatch 185 / 391, loss: 1.78, 			Accumulated loss: 406.76
-	 Minibatch 186 / 391, loss: 1.66, 			Accumulated loss: 408.42
-	 Minibatch 187 / 391, loss: 1.87, 			Accumulated loss: 410.29
-	 Minibatch 188 / 391, loss: 1.72, 			Accumulated loss: 412.01
-	 Minibatch 189 / 391, loss: 1.81, 			Accumulated loss: 413.82
-	 Minibatch 190 / 391, loss: 1.74, 			Accumulated loss: 415.56
-	 Minibatch 191 / 391, loss: 1.82, 			Accumulated loss: 417.38
-	 Minibatch 192 / 391, loss: 1.70, 			Accumulated loss: 419.08
-	 Minibatch 193 / 391, loss: 1.69, 			Accumulated loss: 420.78
-	 Minibatch 194 / 391, loss: 1.67, 			Accumulated loss: 422.45
-	 Minibatch 195 / 391, loss: 1.86, 			Accumulated loss: 424.31
-	 Minibatch 196 / 391, loss: 1.77, 			Accumulated loss: 426.08
-	 Minibatch 197 / 391, loss: 1.71, 			Accumulated loss: 427.79
-	 Minibatch 198 / 391, loss: 1.82, 			Accumulated loss: 429.61
-	 Minibatch 199 / 391, loss: 1.84, 			Accumulated loss: 431.45
-	 Minibatch 200 / 391, loss: 1.69, 			Accumulated loss: 433.14
-	 Minibatch 201 / 391, loss: 1.62, 			Accumulated loss: 434.76
-	 Minibatch 202 / 391, loss: 1.59, 			Accumulated loss: 436.35
-	 Minibatch 203 / 391, loss: 1.70, 			Accumulated loss: 438.05
-	 Minibatch 204 / 391, loss: 1.72, 			Accumulated loss: 439.77
-	 Minibatch 205 / 391, loss: 1.69, 			Accumulated loss: 441.46
-	 Minibatch 206 / 391, loss: 1.79, 			Accumulated loss: 443.25
-	 Minibatch 207 / 391, loss: 2.02, 			Accumulated loss: 445.27
-	 Minibatch 208 / 391, loss: 1.73, 			Accumulated loss: 447.00
-	 Minibatch 209 / 391, loss: 1.69, 			Accumulated loss: 448.69
-	 Minibatch 210 / 391, loss: 1.84, 			Accumulated loss: 450.53
-	 Minibatch 211 / 391, loss: 1.81, 			Accumulated loss: 452.34
-	 Minibatch 212 / 391, loss: 1.77, 			Accumulated loss: 454.11
-	 Minibatch 213 / 391, loss: 1.88, 			Accumulated loss: 455.99
-	 Minibatch 214 / 391, loss: 1.79, 			Accumulated loss: 457.78
-	 Minibatch 215 / 391, loss: 1.78, 			Accumulated loss: 459.55
-	 Minibatch 216 / 391, loss: 1.72, 			Accumulated loss: 461.27
-	 Minibatch 217 / 391, loss: 1.82, 			Accumulated loss: 463.10
-	 Minibatch 218 / 391, loss: 1.84, 			Accumulated loss: 464.94
-	 Minibatch 219 / 391, loss: 1.82, 			Accumulated loss: 466.76
-	 Minibatch 220 / 391, loss: 1.81, 			Accumulated loss: 468.57
-	 Minibatch 221 / 391, loss: 1.70, 			Accumulated loss: 470.28
-	 Minibatch 222 / 391, loss: 1.76, 			Accumulated loss: 472.03
-	 Minibatch 223 / 391, loss: 1.73, 			Accumulated loss: 473.77
-	 Minibatch 224 / 391, loss: 1.74, 			Accumulated loss: 475.51
-	 Minibatch 225 / 391, loss: 1.66, 			Accumulated loss: 477.17
-	 Minibatch 226 / 391, loss: 1.57, 			Accumulated loss: 478.75
-	 Minibatch 227 / 391, loss: 1.81, 			Accumulated loss: 480.55
-	 Minibatch 228 / 391, loss: 1.60, 			Accumulated loss: 482.16
-	 Minibatch 229 / 391, loss: 1.75, 			Accumulated loss: 483.91
-	 Minibatch 230 / 391, loss: 1.64, 			Accumulated loss: 485.55
-	 Minibatch 231 / 391, loss: 1.76, 			Accumulated loss: 487.31
-	 Minibatch 232 / 391, loss: 1.63, 			Accumulated loss: 488.94
-	 Minibatch 233 / 391, loss: 1.59, 			Accumulated loss: 490.53
-	 Minibatch 234 / 391, loss: 1.60, 			Accumulated loss: 492.14
-	 Minibatch 235 / 391, loss: 1.67, 			Accumulated loss: 493.81
-	 Minibatch 236 / 391, loss: 1.90, 			Accumulated loss: 495.71
-	 Minibatch 237 / 391, loss: 1.77, 			Accumulated loss: 497.48
-	 Minibatch 238 / 391, loss: 1.77, 			Accumulated loss: 499.25
-	 Minibatch 239 / 391, loss: 1.63, 			Accumulated loss: 500.88
-	 Minibatch 240 / 391, loss: 1.65, 			Accumulated loss: 502.54
-	 Minibatch 241 / 391, loss: 1.81, 			Accumulated loss: 504.35
-	 Minibatch 242 / 391, loss: 1.70, 			Accumulated loss: 506.05
-	 Minibatch 243 / 391, loss: 1.81, 			Accumulated loss: 507.86
-	 Minibatch 244 / 391, loss: 1.60, 			Accumulated loss: 509.47
-	 Minibatch 245 / 391, loss: 1.82, 			Accumulated loss: 511.28
-	 Minibatch 246 / 391, loss: 1.82, 			Accumulated loss: 513.10
-	 Minibatch 247 / 391, loss: 1.56, 			Accumulated loss: 514.66
-	 Minibatch 248 / 391, loss: 1.68, 			Accumulated loss: 516.34
-	 Minibatch 249 / 391, loss: 1.60, 			Accumulated loss: 517.94
-	 Minibatch 250 / 391, loss: 1.65, 			Accumulated loss: 519.59
-	 Minibatch 251 / 391, loss: 1.63, 			Accumulated loss: 521.22
-	 Minibatch 252 / 391, loss: 1.72, 			Accumulated loss: 522.94
-	 Minibatch 253 / 391, loss: 1.66, 			Accumulated loss: 524.60
-	 Minibatch 254 / 391, loss: 1.85, 			Accumulated loss: 526.46
-	 Minibatch 255 / 391, loss: 1.81, 			Accumulated loss: 528.27
-	 Minibatch 256 / 391, loss: 1.75, 			Accumulated loss: 530.01
-	 Minibatch 257 / 391, loss: 1.72, 			Accumulated loss: 531.74
-	 Minibatch 258 / 391, loss: 1.77, 			Accumulated loss: 533.50
-	 Minibatch 259 / 391, loss: 1.67, 			Accumulated loss: 535.17
-	 Minibatch 260 / 391, loss: 1.67, 			Accumulated loss: 536.84
-	 Minibatch 261 / 391, loss: 1.67, 			Accumulated loss: 538.51
-	 Minibatch 262 / 391, loss: 1.65, 			Accumulated loss: 540.16
-	 Minibatch 263 / 391, loss: 1.82, 			Accumulated loss: 541.98
-	 Minibatch 264 / 391, loss: 1.56, 			Accumulated loss: 543.54
-	 Minibatch 265 / 391, loss: 1.84, 			Accumulated loss: 545.38
-	 Minibatch 266 / 391, loss: 1.72, 			Accumulated loss: 547.10
-	 Minibatch 267 / 391, loss: 1.63, 			Accumulated loss: 548.72
-	 Minibatch 268 / 391, loss: 1.65, 			Accumulated loss: 550.37
-	 Minibatch 269 / 391, loss: 1.85, 			Accumulated loss: 552.22
-	 Minibatch 270 / 391, loss: 1.64, 			Accumulated loss: 553.85
-	 Minibatch 271 / 391, loss: 1.61, 			Accumulated loss: 555.47
-	 Minibatch 272 / 391, loss: 1.69, 			Accumulated loss: 557.16
-	 Minibatch 273 / 391, loss: 1.63, 			Accumulated loss: 558.79
-	 Minibatch 274 / 391, loss: 1.74, 			Accumulated loss: 560.53
-	 Minibatch 275 / 391, loss: 1.60, 			Accumulated loss: 562.13
-	 Minibatch 276 / 391, loss: 1.66, 			Accumulated loss: 563.79
-	 Minibatch 277 / 391, loss: 1.57, 			Accumulated loss: 565.36
-	 Minibatch 278 / 391, loss: 1.59, 			Accumulated loss: 566.95
-	 Minibatch 279 / 391, loss: 1.48, 			Accumulated loss: 568.43
-	 Minibatch 280 / 391, loss: 1.63, 			Accumulated loss: 570.05
-	 Minibatch 281 / 391, loss: 1.71, 			Accumulated loss: 571.77
-	 Minibatch 282 / 391, loss: 1.82, 			Accumulated loss: 573.58
-	 Minibatch 283 / 391, loss: 1.68, 			Accumulated loss: 575.26
-	 Minibatch 284 / 391, loss: 1.65, 			Accumulated loss: 576.92
-	 Minibatch 285 / 391, loss: 1.59, 			Accumulated loss: 578.51
-	 Minibatch 286 / 391, loss: 1.67, 			Accumulated loss: 580.18
-	 Minibatch 287 / 391, loss: 1.45, 			Accumulated loss: 581.63
-	 Minibatch 288 / 391, loss: 1.72, 			Accumulated loss: 583.35
-	 Minibatch 289 / 391, loss: 1.52, 			Accumulated loss: 584.87
-	 Minibatch 290 / 391, loss: 1.56, 			Accumulated loss: 586.43
-	 Minibatch 291 / 391, loss: 1.46, 			Accumulated loss: 587.89
-	 Minibatch 292 / 391, loss: 1.65, 			Accumulated loss: 589.54
-	 Minibatch 293 / 391, loss: 1.72, 			Accumulated loss: 591.26
-	 Minibatch 294 / 391, loss: 1.59, 			Accumulated loss: 592.85
-	 Minibatch 295 / 391, loss: 1.54, 			Accumulated loss: 594.39
-	 Minibatch 296 / 391, loss: 1.55, 			Accumulated loss: 595.94
-	 Minibatch 297 / 391, loss: 1.45, 			Accumulated loss: 597.39
-	 Minibatch 298 / 391, loss: 1.64, 			Accumulated loss: 599.03
-	 Minibatch 299 / 391, loss: 1.52, 			Accumulated loss: 600.55
-	 Minibatch 300 / 391, loss: 1.35, 			Accumulated loss: 601.90
-	 Minibatch 301 / 391, loss: 1.56, 			Accumulated loss: 603.46
-	 Minibatch 302 / 391, loss: 1.54, 			Accumulated loss: 605.00
-	 Minibatch 303 / 391, loss: 1.86, 			Accumulated loss: 606.86
-	 Minibatch 304 / 391, loss: 1.64, 			Accumulated loss: 608.50
-	 Minibatch 305 / 391, loss: 1.73, 			Accumulated loss: 610.22
-	 Minibatch 306 / 391, loss: 1.76, 			Accumulated loss: 611.98
-	 Minibatch 307 / 391, loss: 1.67, 			Accumulated loss: 613.65
-	 Minibatch 308 / 391, loss: 1.63, 			Accumulated loss: 615.28
-	 Minibatch 309 / 391, loss: 1.61, 			Accumulated loss: 616.90
-	 Minibatch 310 / 391, loss: 1.47, 			Accumulated loss: 618.36
-	 Minibatch 311 / 391, loss: 1.60, 			Accumulated loss: 619.96
-	 Minibatch 312 / 391, loss: 1.57, 			Accumulated loss: 621.53
-	 Minibatch 313 / 391, loss: 1.71, 			Accumulated loss: 623.24
-	 Minibatch 314 / 391, loss: 1.68, 			Accumulated loss: 624.92
-	 Minibatch 315 / 391, loss: 1.67, 			Accumulated loss: 626.59
-	 Minibatch 316 / 391, loss: 1.39, 			Accumulated loss: 627.98
-	 Minibatch 317 / 391, loss: 1.64, 			Accumulated loss: 629.63
-	 Minibatch 318 / 391, loss: 1.59, 			Accumulated loss: 631.22
-	 Minibatch 319 / 391, loss: 1.65, 			Accumulated loss: 632.86
-	 Minibatch 320 / 391, loss: 1.66, 			Accumulated loss: 634.52
-	 Minibatch 321 / 391, loss: 1.53, 			Accumulated loss: 636.05
-	 Minibatch 322 / 391, loss: 1.42, 			Accumulated loss: 637.47
-	 Minibatch 323 / 391, loss: 1.58, 			Accumulated loss: 639.05
-	 Minibatch 324 / 391, loss: 1.70, 			Accumulated loss: 640.75
-	 Minibatch 325 / 391, loss: 1.59, 			Accumulated loss: 642.35
-	 Minibatch 326 / 391, loss: 1.37, 			Accumulated loss: 643.72
-	 Minibatch 327 / 391, loss: 1.73, 			Accumulated loss: 645.44
-	 Minibatch 328 / 391, loss: 1.48, 			Accumulated loss: 646.92
-	 Minibatch 329 / 391, loss: 1.63, 			Accumulated loss: 648.55
-	 Minibatch 330 / 391, loss: 1.55, 			Accumulated loss: 650.10
-	 Minibatch 331 / 391, loss: 1.54, 			Accumulated loss: 651.65
-	 Minibatch 332 / 391, loss: 1.67, 			Accumulated loss: 653.32
-	 Minibatch 333 / 391, loss: 1.62, 			Accumulated loss: 654.93
-	 Minibatch 334 / 391, loss: 1.61, 			Accumulated loss: 656.54
-	 Minibatch 335 / 391, loss: 1.61, 			Accumulated loss: 658.15
-	 Minibatch 336 / 391, loss: 1.61, 			Accumulated loss: 659.76
-	 Minibatch 337 / 391, loss: 1.47, 			Accumulated loss: 661.22
-	 Minibatch 338 / 391, loss: 1.43, 			Accumulated loss: 662.66
-	 Minibatch 339 / 391, loss: 1.65, 			Accumulated loss: 664.31
-	 Minibatch 340 / 391, loss: 1.64, 			Accumulated loss: 665.95
-	 Minibatch 341 / 391, loss: 1.73, 			Accumulated loss: 667.67
-	 Minibatch 342 / 391, loss: 1.61, 			Accumulated loss: 669.29
-	 Minibatch 343 / 391, loss: 1.74, 			Accumulated loss: 671.03
-	 Minibatch 344 / 391, loss: 1.56, 			Accumulated loss: 672.59
-	 Minibatch 345 / 391, loss: 1.62, 			Accumulated loss: 674.21
-	 Minibatch 346 / 391, loss: 1.46, 			Accumulated loss: 675.66
-	 Minibatch 347 / 391, loss: 1.79, 			Accumulated loss: 677.46
-	 Minibatch 348 / 391, loss: 1.63, 			Accumulated loss: 679.09
-	 Minibatch 349 / 391, loss: 1.58, 			Accumulated loss: 680.67
-	 Minibatch 350 / 391, loss: 1.65, 			Accumulated loss: 682.32
-	 Minibatch 351 / 391, loss: 1.53, 			Accumulated loss: 683.84
-	 Minibatch 352 / 391, loss: 1.43, 			Accumulated loss: 685.27
-	 Minibatch 353 / 391, loss: 1.65, 			Accumulated loss: 686.93
-	 Minibatch 354 / 391, loss: 1.70, 			Accumulated loss: 688.62
-	 Minibatch 355 / 391, loss: 1.49, 			Accumulated loss: 690.12
-	 Minibatch 356 / 391, loss: 1.51, 			Accumulated loss: 691.63
-	 Minibatch 357 / 391, loss: 1.62, 			Accumulated loss: 693.25
-	 Minibatch 358 / 391, loss: 1.53, 			Accumulated loss: 694.78
-	 Minibatch 359 / 391, loss: 1.54, 			Accumulated loss: 696.32
-	 Minibatch 360 / 391, loss: 1.63, 			Accumulated loss: 697.95
-	 Minibatch 361 / 391, loss: 1.60, 			Accumulated loss: 699.55
-	 Minibatch 362 / 391, loss: 1.58, 			Accumulated loss: 701.13
-	 Minibatch 363 / 391, loss: 1.93, 			Accumulated loss: 703.05
-	 Minibatch 364 / 391, loss: 1.42, 			Accumulated loss: 704.47
-	 Minibatch 365 / 391, loss: 1.46, 			Accumulated loss: 705.93
-	 Minibatch 366 / 391, loss: 1.54, 			Accumulated loss: 707.47
-	 Minibatch 367 / 391, loss: 1.51, 			Accumulated loss: 708.98
-	 Minibatch 368 / 391, loss: 1.76, 			Accumulated loss: 710.73
-	 Minibatch 369 / 391, loss: 1.64, 			Accumulated loss: 712.37
-	 Minibatch 370 / 391, loss: 1.45, 			Accumulated loss: 713.82
-	 Minibatch 371 / 391, loss: 1.53, 			Accumulated loss: 715.36
-	 Minibatch 372 / 391, loss: 1.44, 			Accumulated loss: 716.80
-	 Minibatch 373 / 391, loss: 1.63, 			Accumulated loss: 718.42
-	 Minibatch 374 / 391, loss: 1.67, 			Accumulated loss: 720.09
-	 Minibatch 375 / 391, loss: 1.60, 			Accumulated loss: 721.69
-	 Minibatch 376 / 391, loss: 1.50, 			Accumulated loss: 723.19
-	 Minibatch 377 / 391, loss: 1.36, 			Accumulated loss: 724.54
-	 Minibatch 378 / 391, loss: 1.48, 			Accumulated loss: 726.03
-	 Minibatch 379 / 391, loss: 1.48, 			Accumulated loss: 727.50
-	 Minibatch 380 / 391, loss: 1.76, 			Accumulated loss: 729.26
-	 Minibatch 381 / 391, loss: 1.54, 			Accumulated loss: 730.80
-	 Minibatch 382 / 391, loss: 1.75, 			Accumulated loss: 732.55
-	 Minibatch 383 / 391, loss: 1.57, 			Accumulated loss: 734.12
-	 Minibatch 384 / 391, loss: 1.51, 			Accumulated loss: 735.63
-	 Minibatch 385 / 391, loss: 1.51, 			Accumulated loss: 737.14
-	 Minibatch 386 / 391, loss: 1.57, 			Accumulated loss: 738.72
-	 Minibatch 387 / 391, loss: 1.55, 			Accumulated loss: 740.27
-	 Minibatch 388 / 391, loss: 1.45, 			Accumulated loss: 741.72
-	 Minibatch 389 / 391, loss: 1.61, 			Accumulated loss: 743.33
-	 Minibatch 390 / 391, loss: 1.46, 			Accumulated loss: 744.79
-	 Minibatch 391 / 391, loss: 1.57, 			Accumulated loss: 746.36
-
-Aggregates: 
- 	 DataLoader Time: 1.4196 
- 	 		Mini-batch Time:5070.6627 
- 	 Training Epoch Time:5070.6922
- 		Averages: 
- 	 Training Loss: 1.9088
-	 Testing precision@1: 0.4169 
-
-Epoch 1
-	 Minibatch 1 / 391, loss: 1.59, 			Accumulated loss: 1.59
-	 Minibatch 2 / 391, loss: 1.37, 			Accumulated loss: 2.96
-	 Minibatch 3 / 391, loss: 1.66, 			Accumulated loss: 4.62
-	 Minibatch 4 / 391, loss: 1.56, 			Accumulated loss: 6.17
-	 Minibatch 5 / 391, loss: 1.69, 			Accumulated loss: 7.86
-	 Minibatch 6 / 391, loss: 1.53, 			Accumulated loss: 9.40
-	 Minibatch 7 / 391, loss: 1.67, 			Accumulated loss: 11.07
-	 Minibatch 8 / 391, loss: 1.56, 			Accumulated loss: 12.63
-	 Minibatch 9 / 391, loss: 1.64, 			Accumulated loss: 14.27
-	 Minibatch 10 / 391, loss: 1.61, 			Accumulated loss: 15.89
-	 Minibatch 11 / 391, loss: 1.46, 			Accumulated loss: 17.34
-	 Minibatch 12 / 391, loss: 1.51, 			Accumulated loss: 18.86
-	 Minibatch 13 / 391, loss: 1.39, 			Accumulated loss: 20.25
-	 Minibatch 14 / 391, loss: 1.64, 			Accumulated loss: 21.89
-	 Minibatch 15 / 391, loss: 1.62, 			Accumulated loss: 23.51
-	 Minibatch 16 / 391, loss: 1.55, 			Accumulated loss: 25.05
-	 Minibatch 17 / 391, loss: 1.58, 			Accumulated loss: 26.63
-	 Minibatch 18 / 391, loss: 1.51, 			Accumulated loss: 28.14
-	 Minibatch 19 / 391, loss: 1.43, 			Accumulated loss: 29.58
-	 Minibatch 20 / 391, loss: 1.56, 			Accumulated loss: 31.13
-	 Minibatch 21 / 391, loss: 1.59, 			Accumulated loss: 32.72
-	 Minibatch 22 / 391, loss: 1.62, 			Accumulated loss: 34.34
-	 Minibatch 23 / 391, loss: 1.50, 			Accumulated loss: 35.85
-	 Minibatch 24 / 391, loss: 1.55, 			Accumulated loss: 37.39
-	 Minibatch 25 / 391, loss: 1.64, 			Accumulated loss: 39.03
-	 Minibatch 26 / 391, loss: 1.62, 			Accumulated loss: 40.66
-	 Minibatch 27 / 391, loss: 1.66, 			Accumulated loss: 42.32
-	 Minibatch 28 / 391, loss: 1.48, 			Accumulated loss: 43.80
-	 Minibatch 29 / 391, loss: 1.59, 			Accumulated loss: 45.39
-	 Minibatch 30 / 391, loss: 1.42, 			Accumulated loss: 46.81
-	 Minibatch 31 / 391, loss: 1.61, 			Accumulated loss: 48.42
-	 Minibatch 32 / 391, loss: 1.49, 			Accumulated loss: 49.91
-	 Minibatch 33 / 391, loss: 1.41, 			Accumulated loss: 51.32
-	 Minibatch 34 / 391, loss: 1.52, 			Accumulated loss: 52.83
-	 Minibatch 35 / 391, loss: 1.69, 			Accumulated loss: 54.52
-	 Minibatch 36 / 391, loss: 1.53, 			Accumulated loss: 56.05
-	 Minibatch 37 / 391, loss: 1.51, 			Accumulated loss: 57.56
-	 Minibatch 38 / 391, loss: 1.56, 			Accumulated loss: 59.12
-	 Minibatch 39 / 391, loss: 1.54, 			Accumulated loss: 60.66
-	 Minibatch 40 / 391, loss: 1.48, 			Accumulated loss: 62.14
-	 Minibatch 41 / 391, loss: 1.36, 			Accumulated loss: 63.50
-	 Minibatch 42 / 391, loss: 1.58, 			Accumulated loss: 65.09
-	 Minibatch 43 / 391, loss: 1.54, 			Accumulated loss: 66.63
-	 Minibatch 44 / 391, loss: 1.59, 			Accumulated loss: 68.21
-	 Minibatch 45 / 391, loss: 1.67, 			Accumulated loss: 69.88
-	 Minibatch 46 / 391, loss: 1.57, 			Accumulated loss: 71.45
-	 Minibatch 47 / 391, loss: 1.62, 			Accumulated loss: 73.07
-	 Minibatch 48 / 391, loss: 1.59, 			Accumulated loss: 74.66
-	 Minibatch 49 / 391, loss: 1.49, 			Accumulated loss: 76.15
-	 Minibatch 50 / 391, loss: 1.42, 			Accumulated loss: 77.57
-	 Minibatch 51 / 391, loss: 1.59, 			Accumulated loss: 79.16
-	 Minibatch 52 / 391, loss: 1.52, 			Accumulated loss: 80.68
-	 Minibatch 53 / 391, loss: 1.48, 			Accumulated loss: 82.16
-	 Minibatch 54 / 391, loss: 1.48, 			Accumulated loss: 83.64
-	 Minibatch 55 / 391, loss: 1.42, 			Accumulated loss: 85.06
-	 Minibatch 56 / 391, loss: 1.49, 			Accumulated loss: 86.56
-	 Minibatch 57 / 391, loss: 1.76, 			Accumulated loss: 88.31
-	 Minibatch 58 / 391, loss: 1.24, 			Accumulated loss: 89.56
-	 Minibatch 59 / 391, loss: 1.52, 			Accumulated loss: 91.08
-	 Minibatch 60 / 391, loss: 1.56, 			Accumulated loss: 92.64
-	 Minibatch 61 / 391, loss: 1.59, 			Accumulated loss: 94.23
-	 Minibatch 62 / 391, loss: 1.62, 			Accumulated loss: 95.85
-	 Minibatch 63 / 391, loss: 1.26, 			Accumulated loss: 97.11
-	 Minibatch 64 / 391, loss: 1.32, 			Accumulated loss: 98.43
-	 Minibatch 65 / 391, loss: 1.57, 			Accumulated loss: 100.01
-	 Minibatch 66 / 391, loss: 1.35, 			Accumulated loss: 101.36
-	 Minibatch 67 / 391, loss: 1.44, 			Accumulated loss: 102.80
-	 Minibatch 68 / 391, loss: 1.40, 			Accumulated loss: 104.20
-	 Minibatch 69 / 391, loss: 1.56, 			Accumulated loss: 105.76
-	 Minibatch 70 / 391, loss: 1.61, 			Accumulated loss: 107.37
-	 Minibatch 71 / 391, loss: 1.36, 			Accumulated loss: 108.73
-	 Minibatch 72 / 391, loss: 1.61, 			Accumulated loss: 110.35
-	 Minibatch 73 / 391, loss: 1.46, 			Accumulated loss: 111.81
-	 Minibatch 74 / 391, loss: 1.49, 			Accumulated loss: 113.31
-	 Minibatch 75 / 391, loss: 1.50, 			Accumulated loss: 114.81
-	 Minibatch 76 / 391, loss: 1.42, 			Accumulated loss: 116.22
-	 Minibatch 77 / 391, loss: 1.43, 			Accumulated loss: 117.65
-	 Minibatch 78 / 391, loss: 1.52, 			Accumulated loss: 119.17
-	 Minibatch 79 / 391, loss: 1.47, 			Accumulated loss: 120.64
-	 Minibatch 80 / 391, loss: 1.52, 			Accumulated loss: 122.16
-	 Minibatch 81 / 391, loss: 1.61, 			Accumulated loss: 123.77
-	 Minibatch 82 / 391, loss: 1.57, 			Accumulated loss: 125.34
-	 Minibatch 83 / 391, loss: 1.63, 			Accumulated loss: 126.97
-	 Minibatch 84 / 391, loss: 1.46, 			Accumulated loss: 128.43
-	 Minibatch 85 / 391, loss: 1.44, 			Accumulated loss: 129.87
-	 Minibatch 86 / 391, loss: 1.50, 			Accumulated loss: 131.37
-	 Minibatch 87 / 391, loss: 1.62, 			Accumulated loss: 132.99
-	 Minibatch 88 / 391, loss: 1.56, 			Accumulated loss: 134.55
-	 Minibatch 89 / 391, loss: 1.70, 			Accumulated loss: 136.25
-	 Minibatch 90 / 391, loss: 1.42, 			Accumulated loss: 137.68
-	 Minibatch 91 / 391, loss: 1.43, 			Accumulated loss: 139.10
-	 Minibatch 92 / 391, loss: 1.46, 			Accumulated loss: 140.56
-	 Minibatch 93 / 391, loss: 1.45, 			Accumulated loss: 142.01
-	 Minibatch 94 / 391, loss: 1.51, 			Accumulated loss: 143.51
-	 Minibatch 95 / 391, loss: 1.49, 			Accumulated loss: 145.01
-	 Minibatch 96 / 391, loss: 1.48, 			Accumulated loss: 146.48
-	 Minibatch 97 / 391, loss: 1.47, 			Accumulated loss: 147.95
-	 Minibatch 98 / 391, loss: 1.38, 			Accumulated loss: 149.34
-	 Minibatch 99 / 391, loss: 1.41, 			Accumulated loss: 150.75
-	 Minibatch 100 / 391, loss: 1.51, 			Accumulated loss: 152.26
-	 Minibatch 101 / 391, loss: 1.52, 			Accumulated loss: 153.78
-	 Minibatch 102 / 391, loss: 1.34, 			Accumulated loss: 155.11
-	 Minibatch 103 / 391, loss: 1.70, 			Accumulated loss: 156.81
-	 Minibatch 104 / 391, loss: 1.44, 			Accumulated loss: 158.25
-	 Minibatch 105 / 391, loss: 1.39, 			Accumulated loss: 159.64
-	 Minibatch 106 / 391, loss: 1.44, 			Accumulated loss: 161.09
-	 Minibatch 107 / 391, loss: 1.51, 			Accumulated loss: 162.60
-	 Minibatch 108 / 391, loss: 1.55, 			Accumulated loss: 164.14
-	 Minibatch 109 / 391, loss: 1.37, 			Accumulated loss: 165.51
-	 Minibatch 110 / 391, loss: 1.46, 			Accumulated loss: 166.97
-	 Minibatch 111 / 391, loss: 1.45, 			Accumulated loss: 168.42
-	 Minibatch 112 / 391, loss: 1.48, 			Accumulated loss: 169.90
-	 Minibatch 113 / 391, loss: 1.51, 			Accumulated loss: 171.41
-	 Minibatch 114 / 391, loss: 1.53, 			Accumulated loss: 172.94
-	 Minibatch 115 / 391, loss: 1.41, 			Accumulated loss: 174.35
-	 Minibatch 116 / 391, loss: 1.44, 			Accumulated loss: 175.79
-	 Minibatch 117 / 391, loss: 1.57, 			Accumulated loss: 177.35
-	 Minibatch 118 / 391, loss: 1.46, 			Accumulated loss: 178.82
-	 Minibatch 119 / 391, loss: 1.54, 			Accumulated loss: 180.35
-	 Minibatch 120 / 391, loss: 1.51, 			Accumulated loss: 181.87
-	 Minibatch 121 / 391, loss: 1.37, 			Accumulated loss: 183.24
-	 Minibatch 122 / 391, loss: 1.40, 			Accumulated loss: 184.64
-	 Minibatch 123 / 391, loss: 1.40, 			Accumulated loss: 186.04
-	 Minibatch 124 / 391, loss: 1.26, 			Accumulated loss: 187.31
-	 Minibatch 125 / 391, loss: 1.48, 			Accumulated loss: 188.79
-	 Minibatch 126 / 391, loss: 1.50, 			Accumulated loss: 190.29
-	 Minibatch 127 / 391, loss: 1.43, 			Accumulated loss: 191.72
-	 Minibatch 128 / 391, loss: 1.49, 			Accumulated loss: 193.21
-	 Minibatch 129 / 391, loss: 1.35, 			Accumulated loss: 194.56
-	 Minibatch 130 / 391, loss: 1.55, 			Accumulated loss: 196.10
-	 Minibatch 131 / 391, loss: 1.33, 			Accumulated loss: 197.43
-	 Minibatch 132 / 391, loss: 1.50, 			Accumulated loss: 198.93
-	 Minibatch 133 / 391, loss: 1.40, 			Accumulated loss: 200.33
-	 Minibatch 134 / 391, loss: 1.41, 			Accumulated loss: 201.74
-	 Minibatch 135 / 391, loss: 1.60, 			Accumulated loss: 203.34
-	 Minibatch 136 / 391, loss: 1.50, 			Accumulated loss: 204.84
-	 Minibatch 137 / 391, loss: 1.42, 			Accumulated loss: 206.26
-	 Minibatch 138 / 391, loss: 1.51, 			Accumulated loss: 207.77
-	 Minibatch 139 / 391, loss: 1.46, 			Accumulated loss: 209.23
-	 Minibatch 140 / 391, loss: 1.43, 			Accumulated loss: 210.66
-	 Minibatch 141 / 391, loss: 1.25, 			Accumulated loss: 211.92
-	 Minibatch 142 / 391, loss: 1.48, 			Accumulated loss: 213.39
-	 Minibatch 143 / 391, loss: 1.38, 			Accumulated loss: 214.78
-	 Minibatch 144 / 391, loss: 1.36, 			Accumulated loss: 216.14
-	 Minibatch 145 / 391, loss: 1.52, 			Accumulated loss: 217.66
-	 Minibatch 146 / 391, loss: 1.27, 			Accumulated loss: 218.93
-	 Minibatch 147 / 391, loss: 1.46, 			Accumulated loss: 220.38
-	 Minibatch 148 / 391, loss: 1.51, 			Accumulated loss: 221.89
-	 Minibatch 149 / 391, loss: 1.38, 			Accumulated loss: 223.27
-	 Minibatch 150 / 391, loss: 1.50, 			Accumulated loss: 224.78
-	 Minibatch 151 / 391, loss: 1.63, 			Accumulated loss: 226.41
-	 Minibatch 152 / 391, loss: 1.56, 			Accumulated loss: 227.97
-	 Minibatch 153 / 391, loss: 1.50, 			Accumulated loss: 229.47
-	 Minibatch 154 / 391, loss: 1.28, 			Accumulated loss: 230.75
-	 Minibatch 155 / 391, loss: 1.43, 			Accumulated loss: 232.18
-	 Minibatch 156 / 391, loss: 1.54, 			Accumulated loss: 233.72
-	 Minibatch 157 / 391, loss: 1.50, 			Accumulated loss: 235.22
-	 Minibatch 158 / 391, loss: 1.31, 			Accumulated loss: 236.53
-	 Minibatch 159 / 391, loss: 1.41, 			Accumulated loss: 237.94
-	 Minibatch 160 / 391, loss: 1.31, 			Accumulated loss: 239.25
-	 Minibatch 161 / 391, loss: 1.31, 			Accumulated loss: 240.57
-	 Minibatch 162 / 391, loss: 1.35, 			Accumulated loss: 241.92
-	 Minibatch 163 / 391, loss: 1.38, 			Accumulated loss: 243.30
-	 Minibatch 164 / 391, loss: 1.40, 			Accumulated loss: 244.70
-	 Minibatch 165 / 391, loss: 1.26, 			Accumulated loss: 245.96
-	 Minibatch 166 / 391, loss: 1.35, 			Accumulated loss: 247.31
-	 Minibatch 167 / 391, loss: 1.55, 			Accumulated loss: 248.86
-	 Minibatch 168 / 391, loss: 1.44, 			Accumulated loss: 250.29
-	 Minibatch 169 / 391, loss: 1.62, 			Accumulated loss: 251.91
-	 Minibatch 170 / 391, loss: 1.38, 			Accumulated loss: 253.29
-	 Minibatch 171 / 391, loss: 1.33, 			Accumulated loss: 254.62
-	 Minibatch 172 / 391, loss: 1.45, 			Accumulated loss: 256.07
-	 Minibatch 173 / 391, loss: 1.27, 			Accumulated loss: 257.34
-	 Minibatch 174 / 391, loss: 1.34, 			Accumulated loss: 258.68
-	 Minibatch 175 / 391, loss: 1.31, 			Accumulated loss: 259.99
-	 Minibatch 176 / 391, loss: 1.41, 			Accumulated loss: 261.40
-	 Minibatch 177 / 391, loss: 1.48, 			Accumulated loss: 262.88
-	 Minibatch 178 / 391, loss: 1.40, 			Accumulated loss: 264.28
-	 Minibatch 179 / 391, loss: 1.24, 			Accumulated loss: 265.52
-	 Minibatch 180 / 391, loss: 1.40, 			Accumulated loss: 266.92
-	 Minibatch 181 / 391, loss: 1.51, 			Accumulated loss: 268.43
-	 Minibatch 182 / 391, loss: 1.33, 			Accumulated loss: 269.76
-	 Minibatch 183 / 391, loss: 1.40, 			Accumulated loss: 271.16
-	 Minibatch 184 / 391, loss: 1.26, 			Accumulated loss: 272.42
-	 Minibatch 185 / 391, loss: 1.45, 			Accumulated loss: 273.87
-	 Minibatch 186 / 391, loss: 1.29, 			Accumulated loss: 275.16
-	 Minibatch 187 / 391, loss: 1.40, 			Accumulated loss: 276.55
-	 Minibatch 188 / 391, loss: 1.25, 			Accumulated loss: 277.81
-	 Minibatch 189 / 391, loss: 1.26, 			Accumulated loss: 279.07
-	 Minibatch 190 / 391, loss: 1.29, 			Accumulated loss: 280.36
-	 Minibatch 191 / 391, loss: 1.33, 			Accumulated loss: 281.69
-	 Minibatch 192 / 391, loss: 1.49, 			Accumulated loss: 283.18
-	 Minibatch 193 / 391, loss: 1.38, 			Accumulated loss: 284.56
-	 Minibatch 194 / 391, loss: 1.35, 			Accumulated loss: 285.91
-	 Minibatch 195 / 391, loss: 1.31, 			Accumulated loss: 287.22
-	 Minibatch 196 / 391, loss: 1.38, 			Accumulated loss: 288.59
-	 Minibatch 197 / 391, loss: 1.41, 			Accumulated loss: 290.01
-	 Minibatch 198 / 391, loss: 1.31, 			Accumulated loss: 291.32
-	 Minibatch 199 / 391, loss: 1.28, 			Accumulated loss: 292.60
-	 Minibatch 200 / 391, loss: 1.26, 			Accumulated loss: 293.85
-	 Minibatch 201 / 391, loss: 1.57, 			Accumulated loss: 295.42
-	 Minibatch 202 / 391, loss: 1.35, 			Accumulated loss: 296.77
-	 Minibatch 203 / 391, loss: 1.37, 			Accumulated loss: 298.14
-	 Minibatch 204 / 391, loss: 1.28, 			Accumulated loss: 299.42
-	 Minibatch 205 / 391, loss: 1.53, 			Accumulated loss: 300.95
-	 Minibatch 206 / 391, loss: 1.32, 			Accumulated loss: 302.27
-	 Minibatch 207 / 391, loss: 1.30, 			Accumulated loss: 303.57
-	 Minibatch 208 / 391, loss: 1.42, 			Accumulated loss: 304.99
-	 Minibatch 209 / 391, loss: 1.33, 			Accumulated loss: 306.32
-	 Minibatch 210 / 391, loss: 1.35, 			Accumulated loss: 307.67
-	 Minibatch 211 / 391, loss: 1.40, 			Accumulated loss: 309.07
-	 Minibatch 212 / 391, loss: 1.47, 			Accumulated loss: 310.54
-	 Minibatch 213 / 391, loss: 1.26, 			Accumulated loss: 311.80
-	 Minibatch 214 / 391, loss: 1.34, 			Accumulated loss: 313.14
-	 Minibatch 215 / 391, loss: 1.31, 			Accumulated loss: 314.45
-	 Minibatch 216 / 391, loss: 1.42, 			Accumulated loss: 315.87
-	 Minibatch 217 / 391, loss: 1.41, 			Accumulated loss: 317.27
-	 Minibatch 218 / 391, loss: 1.37, 			Accumulated loss: 318.65
-	 Minibatch 219 / 391, loss: 1.40, 			Accumulated loss: 320.05
-	 Minibatch 220 / 391, loss: 1.36, 			Accumulated loss: 321.41
-	 Minibatch 221 / 391, loss: 1.40, 			Accumulated loss: 322.82
-	 Minibatch 222 / 391, loss: 1.44, 			Accumulated loss: 324.25
-	 Minibatch 223 / 391, loss: 1.47, 			Accumulated loss: 325.73
-	 Minibatch 224 / 391, loss: 1.23, 			Accumulated loss: 326.96
-	 Minibatch 225 / 391, loss: 1.44, 			Accumulated loss: 328.40
-	 Minibatch 226 / 391, loss: 1.27, 			Accumulated loss: 329.67
-	 Minibatch 227 / 391, loss: 1.20, 			Accumulated loss: 330.87
-	 Minibatch 228 / 391, loss: 1.31, 			Accumulated loss: 332.18
-	 Minibatch 229 / 391, loss: 1.58, 			Accumulated loss: 333.76
-	 Minibatch 230 / 391, loss: 1.54, 			Accumulated loss: 335.30
-	 Minibatch 231 / 391, loss: 1.47, 			Accumulated loss: 336.77
-	 Minibatch 232 / 391, loss: 1.25, 			Accumulated loss: 338.02
-	 Minibatch 233 / 391, loss: 1.30, 			Accumulated loss: 339.32
-	 Minibatch 234 / 391, loss: 1.18, 			Accumulated loss: 340.49
-	 Minibatch 235 / 391, loss: 1.34, 			Accumulated loss: 341.84
-	 Minibatch 236 / 391, loss: 1.39, 			Accumulated loss: 343.23
-	 Minibatch 237 / 391, loss: 1.45, 			Accumulated loss: 344.68
-	 Minibatch 238 / 391, loss: 1.37, 			Accumulated loss: 346.04
-	 Minibatch 239 / 391, loss: 1.26, 			Accumulated loss: 347.31
-	 Minibatch 240 / 391, loss: 1.15, 			Accumulated loss: 348.46
-	 Minibatch 241 / 391, loss: 1.55, 			Accumulated loss: 350.01
-	 Minibatch 242 / 391, loss: 1.35, 			Accumulated loss: 351.35
-	 Minibatch 243 / 391, loss: 1.41, 			Accumulated loss: 352.76
-	 Minibatch 244 / 391, loss: 1.30, 			Accumulated loss: 354.06
-	 Minibatch 245 / 391, loss: 1.41, 			Accumulated loss: 355.47
-	 Minibatch 246 / 391, loss: 1.20, 			Accumulated loss: 356.66
-	 Minibatch 247 / 391, loss: 1.27, 			Accumulated loss: 357.94
-	 Minibatch 248 / 391, loss: 1.48, 			Accumulated loss: 359.42
-	 Minibatch 249 / 391, loss: 1.54, 			Accumulated loss: 360.96
-	 Minibatch 250 / 391, loss: 1.23, 			Accumulated loss: 362.19
-	 Minibatch 251 / 391, loss: 1.26, 			Accumulated loss: 363.45
-	 Minibatch 252 / 391, loss: 1.38, 			Accumulated loss: 364.83
-	 Minibatch 253 / 391, loss: 1.27, 			Accumulated loss: 366.10
-	 Minibatch 254 / 391, loss: 1.39, 			Accumulated loss: 367.49
-	 Minibatch 255 / 391, loss: 1.30, 			Accumulated loss: 368.79
-	 Minibatch 256 / 391, loss: 1.27, 			Accumulated loss: 370.06
-	 Minibatch 257 / 391, loss: 1.38, 			Accumulated loss: 371.44
-	 Minibatch 258 / 391, loss: 1.33, 			Accumulated loss: 372.76
-	 Minibatch 259 / 391, loss: 1.21, 			Accumulated loss: 373.97
-	 Minibatch 260 / 391, loss: 1.41, 			Accumulated loss: 375.38
-	 Minibatch 261 / 391, loss: 1.31, 			Accumulated loss: 376.70
-	 Minibatch 262 / 391, loss: 1.33, 			Accumulated loss: 378.02
-	 Minibatch 263 / 391, loss: 1.30, 			Accumulated loss: 379.32
-	 Minibatch 264 / 391, loss: 1.29, 			Accumulated loss: 380.61
-	 Minibatch 265 / 391, loss: 1.13, 			Accumulated loss: 381.74
-	 Minibatch 266 / 391, loss: 1.28, 			Accumulated loss: 383.02
-	 Minibatch 267 / 391, loss: 1.35, 			Accumulated loss: 384.37
-	 Minibatch 268 / 391, loss: 1.38, 			Accumulated loss: 385.75
-	 Minibatch 269 / 391, loss: 1.37, 			Accumulated loss: 387.11
-	 Minibatch 270 / 391, loss: 1.16, 			Accumulated loss: 388.28
-	 Minibatch 271 / 391, loss: 1.27, 			Accumulated loss: 389.54
-	 Minibatch 272 / 391, loss: 1.48, 			Accumulated loss: 391.02
-	 Minibatch 273 / 391, loss: 1.35, 			Accumulated loss: 392.37
-	 Minibatch 274 / 391, loss: 1.38, 			Accumulated loss: 393.75
-	 Minibatch 275 / 391, loss: 1.39, 			Accumulated loss: 395.14
-	 Minibatch 276 / 391, loss: 1.34, 			Accumulated loss: 396.48
-	 Minibatch 277 / 391, loss: 1.45, 			Accumulated loss: 397.93
-	 Minibatch 278 / 391, loss: 1.36, 			Accumulated loss: 399.29
-	 Minibatch 279 / 391, loss: 1.34, 			Accumulated loss: 400.63
-	 Minibatch 280 / 391, loss: 1.30, 			Accumulated loss: 401.93
-	 Minibatch 281 / 391, loss: 1.37, 			Accumulated loss: 403.30
-	 Minibatch 282 / 391, loss: 1.51, 			Accumulated loss: 404.81
-	 Minibatch 283 / 391, loss: 1.59, 			Accumulated loss: 406.41
-	 Minibatch 284 / 391, loss: 1.25, 			Accumulated loss: 407.66
-	 Minibatch 285 / 391, loss: 1.33, 			Accumulated loss: 408.99
-	 Minibatch 286 / 391, loss: 1.22, 			Accumulated loss: 410.21
-	 Minibatch 287 / 391, loss: 1.47, 			Accumulated loss: 411.68
-	 Minibatch 288 / 391, loss: 1.43, 			Accumulated loss: 413.11
-	 Minibatch 289 / 391, loss: 1.32, 			Accumulated loss: 414.43
-	 Minibatch 290 / 391, loss: 1.41, 			Accumulated loss: 415.84
-	 Minibatch 291 / 391, loss: 1.21, 			Accumulated loss: 417.04
-	 Minibatch 292 / 391, loss: 1.40, 			Accumulated loss: 418.44
-	 Minibatch 293 / 391, loss: 1.23, 			Accumulated loss: 419.67
-	 Minibatch 294 / 391, loss: 1.27, 			Accumulated loss: 420.94
-	 Minibatch 295 / 391, loss: 1.23, 			Accumulated loss: 422.16
-	 Minibatch 296 / 391, loss: 1.43, 			Accumulated loss: 423.60
-	 Minibatch 297 / 391, loss: 1.32, 			Accumulated loss: 424.91
-	 Minibatch 298 / 391, loss: 1.33, 			Accumulated loss: 426.25
-	 Minibatch 299 / 391, loss: 1.42, 			Accumulated loss: 427.66
-	 Minibatch 300 / 391, loss: 1.38, 			Accumulated loss: 429.04
-	 Minibatch 301 / 391, loss: 1.22, 			Accumulated loss: 430.26
-	 Minibatch 302 / 391, loss: 1.36, 			Accumulated loss: 431.62
-	 Minibatch 303 / 391, loss: 1.28, 			Accumulated loss: 432.91
-	 Minibatch 304 / 391, loss: 1.24, 			Accumulated loss: 434.14
-	 Minibatch 305 / 391, loss: 1.26, 			Accumulated loss: 435.41
-	 Minibatch 306 / 391, loss: 1.20, 			Accumulated loss: 436.61
-	 Minibatch 307 / 391, loss: 1.29, 			Accumulated loss: 437.90
-	 Minibatch 308 / 391, loss: 1.35, 			Accumulated loss: 439.25
-	 Minibatch 309 / 391, loss: 1.24, 			Accumulated loss: 440.48
-	 Minibatch 310 / 391, loss: 1.26, 			Accumulated loss: 441.75
-	 Minibatch 311 / 391, loss: 1.39, 			Accumulated loss: 443.14
-	 Minibatch 312 / 391, loss: 1.20, 			Accumulated loss: 444.34
-	 Minibatch 313 / 391, loss: 1.31, 			Accumulated loss: 445.65
-	 Minibatch 314 / 391, loss: 1.15, 			Accumulated loss: 446.80
-	 Minibatch 315 / 391, loss: 1.27, 			Accumulated loss: 448.07
-	 Minibatch 316 / 391, loss: 1.19, 			Accumulated loss: 449.26
-	 Minibatch 317 / 391, loss: 1.40, 			Accumulated loss: 450.67
-	 Minibatch 318 / 391, loss: 1.55, 			Accumulated loss: 452.21
-	 Minibatch 319 / 391, loss: 1.33, 			Accumulated loss: 453.54
-	 Minibatch 320 / 391, loss: 1.33, 			Accumulated loss: 454.86
-	 Minibatch 321 / 391, loss: 1.28, 			Accumulated loss: 456.15
-	 Minibatch 322 / 391, loss: 1.31, 			Accumulated loss: 457.46
-	 Minibatch 323 / 391, loss: 1.36, 			Accumulated loss: 458.82
-	 Minibatch 324 / 391, loss: 1.28, 			Accumulated loss: 460.10
-	 Minibatch 325 / 391, loss: 1.42, 			Accumulated loss: 461.52
-	 Minibatch 326 / 391, loss: 1.30, 			Accumulated loss: 462.82
-	 Minibatch 327 / 391, loss: 1.13, 			Accumulated loss: 463.96
-	 Minibatch 328 / 391, loss: 1.39, 			Accumulated loss: 465.35
-	 Minibatch 329 / 391, loss: 1.13, 			Accumulated loss: 466.48
-	 Minibatch 330 / 391, loss: 1.33, 			Accumulated loss: 467.81
-	 Minibatch 331 / 391, loss: 1.40, 			Accumulated loss: 469.21
-	 Minibatch 332 / 391, loss: 1.43, 			Accumulated loss: 470.64
-	 Minibatch 333 / 391, loss: 1.04, 			Accumulated loss: 471.68
-	 Minibatch 334 / 391, loss: 1.17, 			Accumulated loss: 472.85
-	 Minibatch 335 / 391, loss: 1.33, 			Accumulated loss: 474.18
-	 Minibatch 336 / 391, loss: 1.18, 			Accumulated loss: 475.35
-	 Minibatch 337 / 391, loss: 1.32, 			Accumulated loss: 476.67
-	 Minibatch 338 / 391, loss: 1.32, 			Accumulated loss: 478.00
-	 Minibatch 339 / 391, loss: 1.22, 			Accumulated loss: 479.22
-	 Minibatch 340 / 391, loss: 1.24, 			Accumulated loss: 480.46
-	 Minibatch 341 / 391, loss: 1.36, 			Accumulated loss: 481.82
-	 Minibatch 342 / 391, loss: 1.30, 			Accumulated loss: 483.13
-	 Minibatch 343 / 391, loss: 1.27, 			Accumulated loss: 484.40
-	 Minibatch 344 / 391, loss: 1.11, 			Accumulated loss: 485.51
-	 Minibatch 345 / 391, loss: 1.30, 			Accumulated loss: 486.81
-	 Minibatch 346 / 391, loss: 1.22, 			Accumulated loss: 488.02
-	 Minibatch 347 / 391, loss: 1.11, 			Accumulated loss: 489.14
-	 Minibatch 348 / 391, loss: 1.17, 			Accumulated loss: 490.31
-	 Minibatch 349 / 391, loss: 1.41, 			Accumulated loss: 491.72
-	 Minibatch 350 / 391, loss: 1.19, 			Accumulated loss: 492.92
-	 Minibatch 351 / 391, loss: 1.29, 			Accumulated loss: 494.21
-	 Minibatch 352 / 391, loss: 1.34, 			Accumulated loss: 495.55
-	 Minibatch 353 / 391, loss: 1.14, 			Accumulated loss: 496.68
-	 Minibatch 354 / 391, loss: 1.25, 			Accumulated loss: 497.93
-	 Minibatch 355 / 391, loss: 1.17, 			Accumulated loss: 499.10
-	 Minibatch 356 / 391, loss: 1.08, 			Accumulated loss: 500.18
-	 Minibatch 357 / 391, loss: 1.17, 			Accumulated loss: 501.35
-	 Minibatch 358 / 391, loss: 1.15, 			Accumulated loss: 502.50
-	 Minibatch 359 / 391, loss: 1.21, 			Accumulated loss: 503.72
-	 Minibatch 360 / 391, loss: 1.16, 			Accumulated loss: 504.87
-	 Minibatch 361 / 391, loss: 1.24, 			Accumulated loss: 506.11
-	 Minibatch 362 / 391, loss: 1.27, 			Accumulated loss: 507.39
-	 Minibatch 363 / 391, loss: 1.34, 			Accumulated loss: 508.73
-	 Minibatch 364 / 391, loss: 1.21, 			Accumulated loss: 509.94
-	 Minibatch 365 / 391, loss: 1.34, 			Accumulated loss: 511.27
-	 Minibatch 366 / 391, loss: 1.25, 			Accumulated loss: 512.52
-	 Minibatch 367 / 391, loss: 1.21, 			Accumulated loss: 513.73
-	 Minibatch 368 / 391, loss: 1.42, 			Accumulated loss: 515.16
-	 Minibatch 369 / 391, loss: 1.27, 			Accumulated loss: 516.42
-	 Minibatch 370 / 391, loss: 1.47, 			Accumulated loss: 517.90
-	 Minibatch 371 / 391, loss: 1.30, 			Accumulated loss: 519.20
-	 Minibatch 372 / 391, loss: 1.21, 			Accumulated loss: 520.41
-	 Minibatch 373 / 391, loss: 1.22, 			Accumulated loss: 521.63
-	 Minibatch 374 / 391, loss: 1.63, 			Accumulated loss: 523.25
-	 Minibatch 375 / 391, loss: 1.27, 			Accumulated loss: 524.52
-	 Minibatch 376 / 391, loss: 1.15, 			Accumulated loss: 525.67
-	 Minibatch 377 / 391, loss: 1.39, 			Accumulated loss: 527.06
-	 Minibatch 378 / 391, loss: 1.22, 			Accumulated loss: 528.29
-	 Minibatch 379 / 391, loss: 1.06, 			Accumulated loss: 529.34
-	 Minibatch 380 / 391, loss: 1.33, 			Accumulated loss: 530.68
-	 Minibatch 381 / 391, loss: 1.40, 			Accumulated loss: 532.07
-	 Minibatch 382 / 391, loss: 1.29, 			Accumulated loss: 533.36
-	 Minibatch 383 / 391, loss: 1.14, 			Accumulated loss: 534.50
-	 Minibatch 384 / 391, loss: 1.39, 			Accumulated loss: 535.89
-	 Minibatch 385 / 391, loss: 1.29, 			Accumulated loss: 537.17
-	 Minibatch 386 / 391, loss: 1.25, 			Accumulated loss: 538.42
-	 Minibatch 387 / 391, loss: 1.06, 			Accumulated loss: 539.48
-	 Minibatch 388 / 391, loss: 1.11, 			Accumulated loss: 540.59
-	 Minibatch 389 / 391, loss: 1.21, 			Accumulated loss: 541.80
-	 Minibatch 390 / 391, loss: 1.29, 			Accumulated loss: 543.09
-	 Minibatch 391 / 391, loss: 1.28, 			Accumulated loss: 544.37
-
-Aggregates: 
- 	 DataLoader Time: 1.3153 
- 	 		Mini-batch Time:5086.1348 
- 	 Training Epoch Time:5086.1645
- 		Averages: 
- 	 Training Loss: 1.3923
-	 Testing precision@1: 0.5482 
-
-Epoch 2
-	 Minibatch 1 / 391, loss: 1.18, 			Accumulated loss: 1.18
-	 Minibatch 2 / 391, loss: 1.25, 			Accumulated loss: 2.43
-	 Minibatch 3 / 391, loss: 1.14, 			Accumulated loss: 3.57
-	 Minibatch 4 / 391, loss: 1.43, 			Accumulated loss: 4.99
-	 Minibatch 5 / 391, loss: 1.45, 			Accumulated loss: 6.44
-	 Minibatch 6 / 391, loss: 1.33, 			Accumulated loss: 7.77
-	 Minibatch 7 / 391, loss: 1.24, 			Accumulated loss: 9.01
-	 Minibatch 8 / 391, loss: 1.17, 			Accumulated loss: 10.18
-	 Minibatch 9 / 391, loss: 1.15, 			Accumulated loss: 11.34
-	 Minibatch 10 / 391, loss: 1.24, 			Accumulated loss: 12.58
-	 Minibatch 11 / 391, loss: 1.20, 			Accumulated loss: 13.78
-	 Minibatch 12 / 391, loss: 1.28, 			Accumulated loss: 15.06
-	 Minibatch 13 / 391, loss: 1.25, 			Accumulated loss: 16.31
-	 Minibatch 14 / 391, loss: 1.23, 			Accumulated loss: 17.54
-	 Minibatch 15 / 391, loss: 1.35, 			Accumulated loss: 18.89
-	 Minibatch 16 / 391, loss: 1.27, 			Accumulated loss: 20.15
-	 Minibatch 17 / 391, loss: 1.08, 			Accumulated loss: 21.23
-	 Minibatch 18 / 391, loss: 1.26, 			Accumulated loss: 22.50
-	 Minibatch 19 / 391, loss: 1.17, 			Accumulated loss: 23.67
-	 Minibatch 20 / 391, loss: 1.17, 			Accumulated loss: 24.83
-	 Minibatch 21 / 391, loss: 1.05, 			Accumulated loss: 25.88
-	 Minibatch 22 / 391, loss: 1.34, 			Accumulated loss: 27.22
-	 Minibatch 23 / 391, loss: 1.10, 			Accumulated loss: 28.31
-	 Minibatch 24 / 391, loss: 1.09, 			Accumulated loss: 29.40
-	 Minibatch 25 / 391, loss: 1.19, 			Accumulated loss: 30.59
-	 Minibatch 26 / 391, loss: 0.99, 			Accumulated loss: 31.58
-	 Minibatch 27 / 391, loss: 1.30, 			Accumulated loss: 32.88
-	 Minibatch 28 / 391, loss: 1.08, 			Accumulated loss: 33.96
-	 Minibatch 29 / 391, loss: 1.21, 			Accumulated loss: 35.17
-	 Minibatch 30 / 391, loss: 1.22, 			Accumulated loss: 36.38
-	 Minibatch 31 / 391, loss: 1.09, 			Accumulated loss: 37.48
-	 Minibatch 32 / 391, loss: 1.31, 			Accumulated loss: 38.79
-	 Minibatch 33 / 391, loss: 1.24, 			Accumulated loss: 40.03
-	 Minibatch 34 / 391, loss: 1.11, 			Accumulated loss: 41.14
-	 Minibatch 35 / 391, loss: 1.17, 			Accumulated loss: 42.31
-	 Minibatch 36 / 391, loss: 1.30, 			Accumulated loss: 43.61
-	 Minibatch 37 / 391, loss: 1.08, 			Accumulated loss: 44.70
-	 Minibatch 38 / 391, loss: 1.19, 			Accumulated loss: 45.89
-	 Minibatch 39 / 391, loss: 1.29, 			Accumulated loss: 47.18
-	 Minibatch 40 / 391, loss: 1.21, 			Accumulated loss: 48.39
-	 Minibatch 41 / 391, loss: 1.07, 			Accumulated loss: 49.46
-	 Minibatch 42 / 391, loss: 1.18, 			Accumulated loss: 50.64
-	 Minibatch 43 / 391, loss: 1.16, 			Accumulated loss: 51.80
-	 Minibatch 44 / 391, loss: 1.24, 			Accumulated loss: 53.05
-	 Minibatch 45 / 391, loss: 1.36, 			Accumulated loss: 54.40
-	 Minibatch 46 / 391, loss: 1.11, 			Accumulated loss: 55.51
-	 Minibatch 47 / 391, loss: 1.14, 			Accumulated loss: 56.65
-	 Minibatch 48 / 391, loss: 1.18, 			Accumulated loss: 57.84
-	 Minibatch 49 / 391, loss: 1.13, 			Accumulated loss: 58.97
-	 Minibatch 50 / 391, loss: 1.29, 			Accumulated loss: 60.27
-	 Minibatch 51 / 391, loss: 1.22, 			Accumulated loss: 61.49
-	 Minibatch 52 / 391, loss: 0.96, 			Accumulated loss: 62.44
-	 Minibatch 53 / 391, loss: 1.14, 			Accumulated loss: 63.58
-	 Minibatch 54 / 391, loss: 1.16, 			Accumulated loss: 64.74
-	 Minibatch 55 / 391, loss: 1.22, 			Accumulated loss: 65.96
-	 Minibatch 56 / 391, loss: 1.13, 			Accumulated loss: 67.09
-	 Minibatch 57 / 391, loss: 1.16, 			Accumulated loss: 68.24
-	 Minibatch 58 / 391, loss: 1.18, 			Accumulated loss: 69.42
-	 Minibatch 59 / 391, loss: 1.07, 			Accumulated loss: 70.49
-	 Minibatch 60 / 391, loss: 1.17, 			Accumulated loss: 71.66
-	 Minibatch 61 / 391, loss: 1.23, 			Accumulated loss: 72.89
-	 Minibatch 62 / 391, loss: 1.20, 			Accumulated loss: 74.09
-	 Minibatch 63 / 391, loss: 1.16, 			Accumulated loss: 75.25
-	 Minibatch 64 / 391, loss: 1.11, 			Accumulated loss: 76.36
-	 Minibatch 65 / 391, loss: 1.23, 			Accumulated loss: 77.58
-	 Minibatch 66 / 391, loss: 1.32, 			Accumulated loss: 78.90
-	 Minibatch 67 / 391, loss: 1.16, 			Accumulated loss: 80.06
-	 Minibatch 68 / 391, loss: 1.28, 			Accumulated loss: 81.34
-	 Minibatch 69 / 391, loss: 1.10, 			Accumulated loss: 82.45
-	 Minibatch 70 / 391, loss: 1.24, 			Accumulated loss: 83.68
-	 Minibatch 71 / 391, loss: 1.22, 			Accumulated loss: 84.90
-	 Minibatch 72 / 391, loss: 1.03, 			Accumulated loss: 85.93
-	 Minibatch 73 / 391, loss: 1.19, 			Accumulated loss: 87.12
-	 Minibatch 74 / 391, loss: 1.30, 			Accumulated loss: 88.42
-	 Minibatch 75 / 391, loss: 1.13, 			Accumulated loss: 89.55
-	 Minibatch 76 / 391, loss: 1.30, 			Accumulated loss: 90.85
-	 Minibatch 77 / 391, loss: 1.17, 			Accumulated loss: 92.02
-	 Minibatch 78 / 391, loss: 1.09, 			Accumulated loss: 93.12
-	 Minibatch 79 / 391, loss: 1.14, 			Accumulated loss: 94.26
-	 Minibatch 80 / 391, loss: 1.26, 			Accumulated loss: 95.51
-	 Minibatch 81 / 391, loss: 1.27, 			Accumulated loss: 96.78
-	 Minibatch 82 / 391, loss: 1.09, 			Accumulated loss: 97.87
-	 Minibatch 83 / 391, loss: 1.10, 			Accumulated loss: 98.97
-	 Minibatch 84 / 391, loss: 0.97, 			Accumulated loss: 99.93
-	 Minibatch 85 / 391, loss: 1.13, 			Accumulated loss: 101.07
-	 Minibatch 86 / 391, loss: 1.21, 			Accumulated loss: 102.28
-	 Minibatch 87 / 391, loss: 1.16, 			Accumulated loss: 103.44
-	 Minibatch 88 / 391, loss: 1.21, 			Accumulated loss: 104.64
-	 Minibatch 89 / 391, loss: 1.12, 			Accumulated loss: 105.76
-	 Minibatch 90 / 391, loss: 1.11, 			Accumulated loss: 106.87
-	 Minibatch 91 / 391, loss: 1.12, 			Accumulated loss: 107.99
-	 Minibatch 92 / 391, loss: 1.23, 			Accumulated loss: 109.22
-	 Minibatch 93 / 391, loss: 1.28, 			Accumulated loss: 110.50
-	 Minibatch 94 / 391, loss: 1.01, 			Accumulated loss: 111.51
-	 Minibatch 95 / 391, loss: 1.21, 			Accumulated loss: 112.72
-	 Minibatch 96 / 391, loss: 1.10, 			Accumulated loss: 113.82
-	 Minibatch 97 / 391, loss: 1.24, 			Accumulated loss: 115.06
-	 Minibatch 98 / 391, loss: 1.38, 			Accumulated loss: 116.44
-	 Minibatch 99 / 391, loss: 1.28, 			Accumulated loss: 117.72
-	 Minibatch 100 / 391, loss: 1.11, 			Accumulated loss: 118.83
-	 Minibatch 101 / 391, loss: 1.24, 			Accumulated loss: 120.07
-	 Minibatch 102 / 391, loss: 1.21, 			Accumulated loss: 121.28
-	 Minibatch 103 / 391, loss: 1.00, 			Accumulated loss: 122.28
-	 Minibatch 104 / 391, loss: 1.21, 			Accumulated loss: 123.48
-	 Minibatch 105 / 391, loss: 1.09, 			Accumulated loss: 124.58
-	 Minibatch 106 / 391, loss: 1.19, 			Accumulated loss: 125.77
-	 Minibatch 107 / 391, loss: 1.09, 			Accumulated loss: 126.86
-	 Minibatch 108 / 391, loss: 1.27, 			Accumulated loss: 128.13
-	 Minibatch 109 / 391, loss: 1.10, 			Accumulated loss: 129.23
-	 Minibatch 110 / 391, loss: 1.28, 			Accumulated loss: 130.51
-	 Minibatch 111 / 391, loss: 1.11, 			Accumulated loss: 131.62
-	 Minibatch 112 / 391, loss: 1.23, 			Accumulated loss: 132.85
-	 Minibatch 113 / 391, loss: 1.12, 			Accumulated loss: 133.98
-	 Minibatch 114 / 391, loss: 1.01, 			Accumulated loss: 134.99
-	 Minibatch 115 / 391, loss: 1.12, 			Accumulated loss: 136.11
-	 Minibatch 116 / 391, loss: 1.15, 			Accumulated loss: 137.26
-	 Minibatch 117 / 391, loss: 1.00, 			Accumulated loss: 138.26
-	 Minibatch 118 / 391, loss: 1.16, 			Accumulated loss: 139.42
-	 Minibatch 119 / 391, loss: 1.02, 			Accumulated loss: 140.43
-	 Minibatch 120 / 391, loss: 1.22, 			Accumulated loss: 141.65
-	 Minibatch 121 / 391, loss: 1.13, 			Accumulated loss: 142.78
-	 Minibatch 122 / 391, loss: 1.17, 			Accumulated loss: 143.95
-	 Minibatch 123 / 391, loss: 1.11, 			Accumulated loss: 145.07
-	 Minibatch 124 / 391, loss: 1.21, 			Accumulated loss: 146.27
-	 Minibatch 125 / 391, loss: 1.01, 			Accumulated loss: 147.28
-	 Minibatch 126 / 391, loss: 1.19, 			Accumulated loss: 148.47
-	 Minibatch 127 / 391, loss: 1.26, 			Accumulated loss: 149.73
-	 Minibatch 128 / 391, loss: 1.31, 			Accumulated loss: 151.04
-	 Minibatch 129 / 391, loss: 1.05, 			Accumulated loss: 152.09
-	 Minibatch 130 / 391, loss: 1.39, 			Accumulated loss: 153.48
-	 Minibatch 131 / 391, loss: 1.05, 			Accumulated loss: 154.54
-	 Minibatch 132 / 391, loss: 1.12, 			Accumulated loss: 155.66
-	 Minibatch 133 / 391, loss: 1.35, 			Accumulated loss: 157.01
-	 Minibatch 134 / 391, loss: 1.12, 			Accumulated loss: 158.12
-	 Minibatch 135 / 391, loss: 1.19, 			Accumulated loss: 159.31
-	 Minibatch 136 / 391, loss: 1.21, 			Accumulated loss: 160.51
-	 Minibatch 137 / 391, loss: 1.17, 			Accumulated loss: 161.68
-	 Minibatch 138 / 391, loss: 1.04, 			Accumulated loss: 162.72
-	 Minibatch 139 / 391, loss: 1.09, 			Accumulated loss: 163.82
-	 Minibatch 140 / 391, loss: 1.24, 			Accumulated loss: 165.06
-	 Minibatch 141 / 391, loss: 1.17, 			Accumulated loss: 166.22
-	 Minibatch 142 / 391, loss: 1.24, 			Accumulated loss: 167.46
-	 Minibatch 143 / 391, loss: 1.20, 			Accumulated loss: 168.66
-	 Minibatch 144 / 391, loss: 1.12, 			Accumulated loss: 169.78
-	 Minibatch 145 / 391, loss: 1.30, 			Accumulated loss: 171.08
-	 Minibatch 146 / 391, loss: 1.27, 			Accumulated loss: 172.36
-	 Minibatch 147 / 391, loss: 1.12, 			Accumulated loss: 173.47
-	 Minibatch 148 / 391, loss: 1.07, 			Accumulated loss: 174.54
-	 Minibatch 149 / 391, loss: 1.23, 			Accumulated loss: 175.77
-	 Minibatch 150 / 391, loss: 1.15, 			Accumulated loss: 176.92
-	 Minibatch 151 / 391, loss: 1.24, 			Accumulated loss: 178.16
-	 Minibatch 152 / 391, loss: 1.12, 			Accumulated loss: 179.28
-	 Minibatch 153 / 391, loss: 1.12, 			Accumulated loss: 180.40
-	 Minibatch 154 / 391, loss: 1.27, 			Accumulated loss: 181.67
-	 Minibatch 155 / 391, loss: 1.09, 			Accumulated loss: 182.76
-	 Minibatch 156 / 391, loss: 1.03, 			Accumulated loss: 183.79
-	 Minibatch 157 / 391, loss: 1.21, 			Accumulated loss: 185.00
-	 Minibatch 158 / 391, loss: 1.15, 			Accumulated loss: 186.14
-	 Minibatch 159 / 391, loss: 1.17, 			Accumulated loss: 187.31
-	 Minibatch 160 / 391, loss: 1.02, 			Accumulated loss: 188.33
-	 Minibatch 161 / 391, loss: 1.00, 			Accumulated loss: 189.32
-	 Minibatch 162 / 391, loss: 1.15, 			Accumulated loss: 190.47
-	 Minibatch 163 / 391, loss: 1.14, 			Accumulated loss: 191.61
-	 Minibatch 164 / 391, loss: 1.12, 			Accumulated loss: 192.73
-	 Minibatch 165 / 391, loss: 1.14, 			Accumulated loss: 193.87
-	 Minibatch 166 / 391, loss: 1.16, 			Accumulated loss: 195.03
-	 Minibatch 167 / 391, loss: 1.22, 			Accumulated loss: 196.25
-	 Minibatch 168 / 391, loss: 0.96, 			Accumulated loss: 197.21
-	 Minibatch 169 / 391, loss: 1.17, 			Accumulated loss: 198.38
-	 Minibatch 170 / 391, loss: 1.12, 			Accumulated loss: 199.50
-	 Minibatch 171 / 391, loss: 1.11, 			Accumulated loss: 200.61
-	 Minibatch 172 / 391, loss: 1.14, 			Accumulated loss: 201.75
-	 Minibatch 173 / 391, loss: 1.15, 			Accumulated loss: 202.90
-	 Minibatch 174 / 391, loss: 1.08, 			Accumulated loss: 203.98
-	 Minibatch 175 / 391, loss: 1.13, 			Accumulated loss: 205.11
-	 Minibatch 176 / 391, loss: 1.13, 			Accumulated loss: 206.24
-	 Minibatch 177 / 391, loss: 1.12, 			Accumulated loss: 207.36
-	 Minibatch 178 / 391, loss: 0.91, 			Accumulated loss: 208.27
-	 Minibatch 179 / 391, loss: 1.13, 			Accumulated loss: 209.40
-	 Minibatch 180 / 391, loss: 0.98, 			Accumulated loss: 210.39
-	 Minibatch 181 / 391, loss: 1.10, 			Accumulated loss: 211.48
-	 Minibatch 182 / 391, loss: 1.05, 			Accumulated loss: 212.53
-	 Minibatch 183 / 391, loss: 1.03, 			Accumulated loss: 213.57
-	 Minibatch 184 / 391, loss: 1.12, 			Accumulated loss: 214.69
-	 Minibatch 185 / 391, loss: 1.04, 			Accumulated loss: 215.73
-	 Minibatch 186 / 391, loss: 1.09, 			Accumulated loss: 216.82
-	 Minibatch 187 / 391, loss: 1.24, 			Accumulated loss: 218.07
-	 Minibatch 188 / 391, loss: 1.00, 			Accumulated loss: 219.07
-	 Minibatch 189 / 391, loss: 1.06, 			Accumulated loss: 220.13
-	 Minibatch 190 / 391, loss: 1.28, 			Accumulated loss: 221.41
-	 Minibatch 191 / 391, loss: 1.01, 			Accumulated loss: 222.43
-	 Minibatch 192 / 391, loss: 1.25, 			Accumulated loss: 223.68
-	 Minibatch 193 / 391, loss: 1.15, 			Accumulated loss: 224.83
-	 Minibatch 194 / 391, loss: 1.13, 			Accumulated loss: 225.96
-	 Minibatch 195 / 391, loss: 1.20, 			Accumulated loss: 227.16
-	 Minibatch 196 / 391, loss: 1.05, 			Accumulated loss: 228.21
-	 Minibatch 197 / 391, loss: 1.20, 			Accumulated loss: 229.41
-	 Minibatch 198 / 391, loss: 1.04, 			Accumulated loss: 230.46
-	 Minibatch 199 / 391, loss: 1.08, 			Accumulated loss: 231.54
-	 Minibatch 200 / 391, loss: 1.26, 			Accumulated loss: 232.80
-	 Minibatch 201 / 391, loss: 1.23, 			Accumulated loss: 234.03
-	 Minibatch 202 / 391, loss: 1.06, 			Accumulated loss: 235.09
-	 Minibatch 203 / 391, loss: 1.02, 			Accumulated loss: 236.11
-	 Minibatch 204 / 391, loss: 1.18, 			Accumulated loss: 237.29
-	 Minibatch 205 / 391, loss: 1.12, 			Accumulated loss: 238.40
-	 Minibatch 206 / 391, loss: 0.99, 			Accumulated loss: 239.40
-	 Minibatch 207 / 391, loss: 1.24, 			Accumulated loss: 240.64
-	 Minibatch 208 / 391, loss: 0.97, 			Accumulated loss: 241.61
-	 Minibatch 209 / 391, loss: 1.11, 			Accumulated loss: 242.72
-	 Minibatch 210 / 391, loss: 1.08, 			Accumulated loss: 243.79
-	 Minibatch 211 / 391, loss: 0.91, 			Accumulated loss: 244.70
-	 Minibatch 212 / 391, loss: 0.77, 			Accumulated loss: 245.47
-	 Minibatch 213 / 391, loss: 1.24, 			Accumulated loss: 246.72
-	 Minibatch 214 / 391, loss: 1.25, 			Accumulated loss: 247.97
-	 Minibatch 215 / 391, loss: 1.06, 			Accumulated loss: 249.03
-	 Minibatch 216 / 391, loss: 1.12, 			Accumulated loss: 250.15
-	 Minibatch 217 / 391, loss: 1.09, 			Accumulated loss: 251.24
-	 Minibatch 218 / 391, loss: 1.15, 			Accumulated loss: 252.39
-	 Minibatch 219 / 391, loss: 1.04, 			Accumulated loss: 253.43
-	 Minibatch 220 / 391, loss: 1.00, 			Accumulated loss: 254.44
-	 Minibatch 221 / 391, loss: 1.13, 			Accumulated loss: 255.57
-	 Minibatch 222 / 391, loss: 1.00, 			Accumulated loss: 256.57
-	 Minibatch 223 / 391, loss: 1.07, 			Accumulated loss: 257.63
-	 Minibatch 224 / 391, loss: 1.04, 			Accumulated loss: 258.67
-	 Minibatch 225 / 391, loss: 1.07, 			Accumulated loss: 259.74
-	 Minibatch 226 / 391, loss: 0.99, 			Accumulated loss: 260.74
-	 Minibatch 227 / 391, loss: 1.12, 			Accumulated loss: 261.85
-	 Minibatch 228 / 391, loss: 1.22, 			Accumulated loss: 263.07
-	 Minibatch 229 / 391, loss: 1.17, 			Accumulated loss: 264.24
-	 Minibatch 230 / 391, loss: 0.87, 			Accumulated loss: 265.12
-	 Minibatch 231 / 391, loss: 1.03, 			Accumulated loss: 266.15
-	 Minibatch 232 / 391, loss: 1.02, 			Accumulated loss: 267.17
-	 Minibatch 233 / 391, loss: 1.15, 			Accumulated loss: 268.31
-	 Minibatch 234 / 391, loss: 0.99, 			Accumulated loss: 269.30
-	 Minibatch 235 / 391, loss: 1.18, 			Accumulated loss: 270.49
-	 Minibatch 236 / 391, loss: 1.11, 			Accumulated loss: 271.60
-	 Minibatch 237 / 391, loss: 1.04, 			Accumulated loss: 272.64
-	 Minibatch 238 / 391, loss: 1.12, 			Accumulated loss: 273.76
-	 Minibatch 239 / 391, loss: 0.95, 			Accumulated loss: 274.71
-	 Minibatch 240 / 391, loss: 0.95, 			Accumulated loss: 275.66
-	 Minibatch 241 / 391, loss: 1.19, 			Accumulated loss: 276.85
-	 Minibatch 242 / 391, loss: 1.00, 			Accumulated loss: 277.85
-	 Minibatch 243 / 391, loss: 1.04, 			Accumulated loss: 278.89
-	 Minibatch 244 / 391, loss: 0.98, 			Accumulated loss: 279.87
-	 Minibatch 245 / 391, loss: 1.00, 			Accumulated loss: 280.87
-	 Minibatch 246 / 391, loss: 1.04, 			Accumulated loss: 281.90
-	 Minibatch 247 / 391, loss: 1.14, 			Accumulated loss: 283.04
-	 Minibatch 248 / 391, loss: 1.07, 			Accumulated loss: 284.12
-	 Minibatch 249 / 391, loss: 0.99, 			Accumulated loss: 285.11
-	 Minibatch 250 / 391, loss: 1.07, 			Accumulated loss: 286.18
-	 Minibatch 251 / 391, loss: 1.02, 			Accumulated loss: 287.21
-	 Minibatch 252 / 391, loss: 1.18, 			Accumulated loss: 288.38
-	 Minibatch 253 / 391, loss: 1.00, 			Accumulated loss: 289.39
-	 Minibatch 254 / 391, loss: 1.05, 			Accumulated loss: 290.43
-	 Minibatch 255 / 391, loss: 1.06, 			Accumulated loss: 291.49
-	 Minibatch 256 / 391, loss: 1.13, 			Accumulated loss: 292.63
-	 Minibatch 257 / 391, loss: 1.04, 			Accumulated loss: 293.67
-	 Minibatch 258 / 391, loss: 1.32, 			Accumulated loss: 294.99
-	 Minibatch 259 / 391, loss: 1.15, 			Accumulated loss: 296.14
-	 Minibatch 260 / 391, loss: 1.18, 			Accumulated loss: 297.32
-	 Minibatch 261 / 391, loss: 1.13, 			Accumulated loss: 298.45
-	 Minibatch 262 / 391, loss: 1.21, 			Accumulated loss: 299.66
-	 Minibatch 263 / 391, loss: 1.12, 			Accumulated loss: 300.78
-	 Minibatch 264 / 391, loss: 1.22, 			Accumulated loss: 302.00
-	 Minibatch 265 / 391, loss: 1.08, 			Accumulated loss: 303.08
-	 Minibatch 266 / 391, loss: 1.23, 			Accumulated loss: 304.31
-	 Minibatch 267 / 391, loss: 1.16, 			Accumulated loss: 305.46
-	 Minibatch 268 / 391, loss: 1.09, 			Accumulated loss: 306.55
-	 Minibatch 269 / 391, loss: 1.00, 			Accumulated loss: 307.55
-	 Minibatch 270 / 391, loss: 1.10, 			Accumulated loss: 308.65
-	 Minibatch 271 / 391, loss: 1.21, 			Accumulated loss: 309.86
-	 Minibatch 272 / 391, loss: 0.97, 			Accumulated loss: 310.84
-	 Minibatch 273 / 391, loss: 1.15, 			Accumulated loss: 311.99
-	 Minibatch 274 / 391, loss: 0.90, 			Accumulated loss: 312.89
-	 Minibatch 275 / 391, loss: 0.94, 			Accumulated loss: 313.83
-	 Minibatch 276 / 391, loss: 1.09, 			Accumulated loss: 314.92
-	 Minibatch 277 / 391, loss: 1.01, 			Accumulated loss: 315.93
-	 Minibatch 278 / 391, loss: 1.12, 			Accumulated loss: 317.05
-	 Minibatch 279 / 391, loss: 1.08, 			Accumulated loss: 318.13
-	 Minibatch 280 / 391, loss: 0.84, 			Accumulated loss: 318.97
-	 Minibatch 281 / 391, loss: 1.04, 			Accumulated loss: 320.02
-	 Minibatch 282 / 391, loss: 0.97, 			Accumulated loss: 320.99
-	 Minibatch 283 / 391, loss: 1.08, 			Accumulated loss: 322.08
-	 Minibatch 284 / 391, loss: 0.89, 			Accumulated loss: 322.97
-	 Minibatch 285 / 391, loss: 1.20, 			Accumulated loss: 324.16
-	 Minibatch 286 / 391, loss: 0.93, 			Accumulated loss: 325.09
-	 Minibatch 287 / 391, loss: 0.96, 			Accumulated loss: 326.05
-	 Minibatch 288 / 391, loss: 0.96, 			Accumulated loss: 327.01
-	 Minibatch 289 / 391, loss: 1.22, 			Accumulated loss: 328.23
-	 Minibatch 290 / 391, loss: 1.01, 			Accumulated loss: 329.25
-	 Minibatch 291 / 391, loss: 1.12, 			Accumulated loss: 330.37
-	 Minibatch 292 / 391, loss: 1.26, 			Accumulated loss: 331.63
-	 Minibatch 293 / 391, loss: 1.19, 			Accumulated loss: 332.82
-	 Minibatch 294 / 391, loss: 1.21, 			Accumulated loss: 334.03
-	 Minibatch 295 / 391, loss: 1.06, 			Accumulated loss: 335.10
-	 Minibatch 296 / 391, loss: 1.00, 			Accumulated loss: 336.10
-	 Minibatch 297 / 391, loss: 1.07, 			Accumulated loss: 337.16
-	 Minibatch 298 / 391, loss: 1.01, 			Accumulated loss: 338.17
-	 Minibatch 299 / 391, loss: 1.04, 			Accumulated loss: 339.21
-	 Minibatch 300 / 391, loss: 1.02, 			Accumulated loss: 340.23
-	 Minibatch 301 / 391, loss: 1.14, 			Accumulated loss: 341.37
-	 Minibatch 302 / 391, loss: 1.23, 			Accumulated loss: 342.60
-	 Minibatch 303 / 391, loss: 1.12, 			Accumulated loss: 343.72
-	 Minibatch 304 / 391, loss: 1.23, 			Accumulated loss: 344.94
-	 Minibatch 305 / 391, loss: 1.09, 			Accumulated loss: 346.03
-	 Minibatch 306 / 391, loss: 1.08, 			Accumulated loss: 347.11
-	 Minibatch 307 / 391, loss: 1.02, 			Accumulated loss: 348.13
-	 Minibatch 308 / 391, loss: 1.12, 			Accumulated loss: 349.25
-	 Minibatch 309 / 391, loss: 1.08, 			Accumulated loss: 350.34
-	 Minibatch 310 / 391, loss: 1.16, 			Accumulated loss: 351.50
-	 Minibatch 311 / 391, loss: 1.04, 			Accumulated loss: 352.54
-	 Minibatch 312 / 391, loss: 1.04, 			Accumulated loss: 353.58
-	 Minibatch 313 / 391, loss: 1.37, 			Accumulated loss: 354.95
-	 Minibatch 314 / 391, loss: 0.91, 			Accumulated loss: 355.86
-	 Minibatch 315 / 391, loss: 0.87, 			Accumulated loss: 356.73
-	 Minibatch 316 / 391, loss: 0.92, 			Accumulated loss: 357.65
-	 Minibatch 317 / 391, loss: 0.99, 			Accumulated loss: 358.64
-	 Minibatch 318 / 391, loss: 0.99, 			Accumulated loss: 359.63
-	 Minibatch 319 / 391, loss: 1.05, 			Accumulated loss: 360.67
-	 Minibatch 320 / 391, loss: 0.92, 			Accumulated loss: 361.59
-	 Minibatch 321 / 391, loss: 1.05, 			Accumulated loss: 362.65
-	 Minibatch 322 / 391, loss: 1.04, 			Accumulated loss: 363.68
-	 Minibatch 323 / 391, loss: 1.06, 			Accumulated loss: 364.74
-	 Minibatch 324 / 391, loss: 1.07, 			Accumulated loss: 365.81
-	 Minibatch 325 / 391, loss: 1.14, 			Accumulated loss: 366.95
-	 Minibatch 326 / 391, loss: 1.00, 			Accumulated loss: 367.95
-	 Minibatch 327 / 391, loss: 1.02, 			Accumulated loss: 368.97
-	 Minibatch 328 / 391, loss: 1.04, 			Accumulated loss: 370.01
-	 Minibatch 329 / 391, loss: 1.10, 			Accumulated loss: 371.11
-	 Minibatch 330 / 391, loss: 0.97, 			Accumulated loss: 372.08
-	 Minibatch 331 / 391, loss: 1.09, 			Accumulated loss: 373.17
-	 Minibatch 332 / 391, loss: 1.07, 			Accumulated loss: 374.25
-	 Minibatch 333 / 391, loss: 0.96, 			Accumulated loss: 375.21
-	 Minibatch 334 / 391, loss: 1.08, 			Accumulated loss: 376.28
-	 Minibatch 335 / 391, loss: 1.15, 			Accumulated loss: 377.43
-	 Minibatch 336 / 391, loss: 1.12, 			Accumulated loss: 378.55
-	 Minibatch 337 / 391, loss: 0.96, 			Accumulated loss: 379.51
-	 Minibatch 338 / 391, loss: 1.32, 			Accumulated loss: 380.83
-	 Minibatch 339 / 391, loss: 1.17, 			Accumulated loss: 382.00
-	 Minibatch 340 / 391, loss: 1.39, 			Accumulated loss: 383.39
-	 Minibatch 341 / 391, loss: 1.01, 			Accumulated loss: 384.39
-	 Minibatch 342 / 391, loss: 0.95, 			Accumulated loss: 385.34
-	 Minibatch 343 / 391, loss: 0.94, 			Accumulated loss: 386.29
-	 Minibatch 344 / 391, loss: 1.22, 			Accumulated loss: 387.50
-	 Minibatch 345 / 391, loss: 1.08, 			Accumulated loss: 388.58
-	 Minibatch 346 / 391, loss: 1.11, 			Accumulated loss: 389.70
-	 Minibatch 347 / 391, loss: 1.02, 			Accumulated loss: 390.71
-	 Minibatch 348 / 391, loss: 0.98, 			Accumulated loss: 391.70
-	 Minibatch 349 / 391, loss: 0.95, 			Accumulated loss: 392.64
-	 Minibatch 350 / 391, loss: 0.92, 			Accumulated loss: 393.56
-	 Minibatch 351 / 391, loss: 1.18, 			Accumulated loss: 394.74
-	 Minibatch 352 / 391, loss: 1.04, 			Accumulated loss: 395.78
-	 Minibatch 353 / 391, loss: 1.20, 			Accumulated loss: 396.98
-	 Minibatch 354 / 391, loss: 1.01, 			Accumulated loss: 397.99
-	 Minibatch 355 / 391, loss: 1.07, 			Accumulated loss: 399.06
-	 Minibatch 356 / 391, loss: 1.06, 			Accumulated loss: 400.12
-	 Minibatch 357 / 391, loss: 0.89, 			Accumulated loss: 401.01
-	 Minibatch 358 / 391, loss: 0.97, 			Accumulated loss: 401.98
-	 Minibatch 359 / 391, loss: 0.98, 			Accumulated loss: 402.95
-	 Minibatch 360 / 391, loss: 1.01, 			Accumulated loss: 403.96
-	 Minibatch 361 / 391, loss: 1.09, 			Accumulated loss: 405.05
-	 Minibatch 362 / 391, loss: 0.91, 			Accumulated loss: 405.96
-	 Minibatch 363 / 391, loss: 1.03, 			Accumulated loss: 406.99
-	 Minibatch 364 / 391, loss: 1.06, 			Accumulated loss: 408.05
-	 Minibatch 365 / 391, loss: 1.31, 			Accumulated loss: 409.36
-	 Minibatch 366 / 391, loss: 0.95, 			Accumulated loss: 410.31
-	 Minibatch 367 / 391, loss: 1.09, 			Accumulated loss: 411.41
-	 Minibatch 368 / 391, loss: 1.09, 			Accumulated loss: 412.49
-	 Minibatch 369 / 391, loss: 1.00, 			Accumulated loss: 413.50
-	 Minibatch 370 / 391, loss: 0.95, 			Accumulated loss: 414.45
-	 Minibatch 371 / 391, loss: 1.07, 			Accumulated loss: 415.52
-	 Minibatch 372 / 391, loss: 1.05, 			Accumulated loss: 416.56
-	 Minibatch 373 / 391, loss: 1.07, 			Accumulated loss: 417.63
-	 Minibatch 374 / 391, loss: 1.00, 			Accumulated loss: 418.64
-	 Minibatch 375 / 391, loss: 0.89, 			Accumulated loss: 419.53
-	 Minibatch 376 / 391, loss: 0.97, 			Accumulated loss: 420.50
-	 Minibatch 377 / 391, loss: 1.10, 			Accumulated loss: 421.60
-	 Minibatch 378 / 391, loss: 1.13, 			Accumulated loss: 422.73
-	 Minibatch 379 / 391, loss: 0.84, 			Accumulated loss: 423.58
-	 Minibatch 380 / 391, loss: 1.08, 			Accumulated loss: 424.65
-	 Minibatch 381 / 391, loss: 1.13, 			Accumulated loss: 425.78
-	 Minibatch 382 / 391, loss: 0.99, 			Accumulated loss: 426.77
-	 Minibatch 383 / 391, loss: 1.07, 			Accumulated loss: 427.85
-	 Minibatch 384 / 391, loss: 0.92, 			Accumulated loss: 428.77
-	 Minibatch 385 / 391, loss: 0.87, 			Accumulated loss: 429.63
-	 Minibatch 386 / 391, loss: 1.19, 			Accumulated loss: 430.82
-	 Minibatch 387 / 391, loss: 0.89, 			Accumulated loss: 431.72
-	 Minibatch 388 / 391, loss: 1.19, 			Accumulated loss: 432.90
-	 Minibatch 389 / 391, loss: 0.93, 			Accumulated loss: 433.84
-	 Minibatch 390 / 391, loss: 1.13, 			Accumulated loss: 434.97
-	 Minibatch 391 / 391, loss: 1.13, 			Accumulated loss: 436.10
-
-Aggregates: 
- 	 DataLoader Time: 1.3379 
- 	 		Mini-batch Time:5082.2251 
- 	 Training Epoch Time:5082.2547
- 		Averages: 
- 	 Training Loss: 1.1154
-	 Testing precision@1: 0.6169 
-
-Epoch 3
-	 Minibatch 1 / 391, loss: 1.01, 			Accumulated loss: 1.01
-	 Minibatch 2 / 391, loss: 0.95, 			Accumulated loss: 1.96
-	 Minibatch 3 / 391, loss: 1.09, 			Accumulated loss: 3.05
-	 Minibatch 4 / 391, loss: 0.90, 			Accumulated loss: 3.94
-	 Minibatch 5 / 391, loss: 1.06, 			Accumulated loss: 5.01
-	 Minibatch 6 / 391, loss: 1.18, 			Accumulated loss: 6.19
-	 Minibatch 7 / 391, loss: 0.95, 			Accumulated loss: 7.14
-	 Minibatch 8 / 391, loss: 1.22, 			Accumulated loss: 8.36
-	 Minibatch 9 / 391, loss: 0.99, 			Accumulated loss: 9.35
-	 Minibatch 10 / 391, loss: 1.01, 			Accumulated loss: 10.36
-	 Minibatch 11 / 391, loss: 1.10, 			Accumulated loss: 11.46
-	 Minibatch 12 / 391, loss: 1.08, 			Accumulated loss: 12.54
-	 Minibatch 13 / 391, loss: 1.03, 			Accumulated loss: 13.57
-	 Minibatch 14 / 391, loss: 1.03, 			Accumulated loss: 14.59
-	 Minibatch 15 / 391, loss: 0.88, 			Accumulated loss: 15.47
-	 Minibatch 16 / 391, loss: 1.00, 			Accumulated loss: 16.48
-	 Minibatch 17 / 391, loss: 0.96, 			Accumulated loss: 17.44
-	 Minibatch 18 / 391, loss: 0.95, 			Accumulated loss: 18.38
-	 Minibatch 19 / 391, loss: 1.08, 			Accumulated loss: 19.46
-	 Minibatch 20 / 391, loss: 0.90, 			Accumulated loss: 20.36
-	 Minibatch 21 / 391, loss: 0.78, 			Accumulated loss: 21.14
-	 Minibatch 22 / 391, loss: 0.91, 			Accumulated loss: 22.05
-	 Minibatch 23 / 391, loss: 0.90, 			Accumulated loss: 22.95
-	 Minibatch 24 / 391, loss: 0.97, 			Accumulated loss: 23.92
-	 Minibatch 25 / 391, loss: 0.95, 			Accumulated loss: 24.87
-	 Minibatch 26 / 391, loss: 1.06, 			Accumulated loss: 25.93
-	 Minibatch 27 / 391, loss: 0.97, 			Accumulated loss: 26.90
-	 Minibatch 28 / 391, loss: 0.99, 			Accumulated loss: 27.89
-	 Minibatch 29 / 391, loss: 0.85, 			Accumulated loss: 28.74
-	 Minibatch 30 / 391, loss: 0.96, 			Accumulated loss: 29.70
-	 Minibatch 31 / 391, loss: 1.02, 			Accumulated loss: 30.72
-	 Minibatch 32 / 391, loss: 0.96, 			Accumulated loss: 31.67
-	 Minibatch 33 / 391, loss: 1.07, 			Accumulated loss: 32.75
-	 Minibatch 34 / 391, loss: 0.96, 			Accumulated loss: 33.71
-	 Minibatch 35 / 391, loss: 0.91, 			Accumulated loss: 34.62
-	 Minibatch 36 / 391, loss: 0.97, 			Accumulated loss: 35.59
-	 Minibatch 37 / 391, loss: 0.93, 			Accumulated loss: 36.52
-	 Minibatch 38 / 391, loss: 0.99, 			Accumulated loss: 37.51
-	 Minibatch 39 / 391, loss: 0.86, 			Accumulated loss: 38.37
-	 Minibatch 40 / 391, loss: 0.84, 			Accumulated loss: 39.21
-	 Minibatch 41 / 391, loss: 0.84, 			Accumulated loss: 40.05
-	 Minibatch 42 / 391, loss: 0.99, 			Accumulated loss: 41.04
-	 Minibatch 43 / 391, loss: 0.94, 			Accumulated loss: 41.98
-	 Minibatch 44 / 391, loss: 0.77, 			Accumulated loss: 42.76
-	 Minibatch 45 / 391, loss: 0.85, 			Accumulated loss: 43.60
-	 Minibatch 46 / 391, loss: 0.97, 			Accumulated loss: 44.57
-	 Minibatch 47 / 391, loss: 0.87, 			Accumulated loss: 45.44
-	 Minibatch 48 / 391, loss: 1.04, 			Accumulated loss: 46.48
-	 Minibatch 49 / 391, loss: 1.01, 			Accumulated loss: 47.50
-	 Minibatch 50 / 391, loss: 0.82, 			Accumulated loss: 48.32
-	 Minibatch 51 / 391, loss: 0.99, 			Accumulated loss: 49.31
-	 Minibatch 52 / 391, loss: 1.04, 			Accumulated loss: 50.35
-	 Minibatch 53 / 391, loss: 0.88, 			Accumulated loss: 51.23
-	 Minibatch 54 / 391, loss: 0.76, 			Accumulated loss: 51.99
-	 Minibatch 55 / 391, loss: 0.95, 			Accumulated loss: 52.94
-	 Minibatch 56 / 391, loss: 0.90, 			Accumulated loss: 53.84
-	 Minibatch 57 / 391, loss: 0.97, 			Accumulated loss: 54.81
-	 Minibatch 58 / 391, loss: 0.95, 			Accumulated loss: 55.76
-	 Minibatch 59 / 391, loss: 1.08, 			Accumulated loss: 56.83
-	 Minibatch 60 / 391, loss: 0.91, 			Accumulated loss: 57.74
-	 Minibatch 61 / 391, loss: 1.11, 			Accumulated loss: 58.86
-	 Minibatch 62 / 391, loss: 0.93, 			Accumulated loss: 59.78
-	 Minibatch 63 / 391, loss: 0.92, 			Accumulated loss: 60.70
-	 Minibatch 64 / 391, loss: 1.10, 			Accumulated loss: 61.80
-	 Minibatch 65 / 391, loss: 1.10, 			Accumulated loss: 62.90
-	 Minibatch 66 / 391, loss: 0.95, 			Accumulated loss: 63.85
-	 Minibatch 67 / 391, loss: 1.09, 			Accumulated loss: 64.94
-	 Minibatch 68 / 391, loss: 0.95, 			Accumulated loss: 65.89
-	 Minibatch 69 / 391, loss: 0.87, 			Accumulated loss: 66.75
-	 Minibatch 70 / 391, loss: 1.01, 			Accumulated loss: 67.76
-	 Minibatch 71 / 391, loss: 0.92, 			Accumulated loss: 68.68
-	 Minibatch 72 / 391, loss: 1.05, 			Accumulated loss: 69.73
-	 Minibatch 73 / 391, loss: 0.92, 			Accumulated loss: 70.65
-	 Minibatch 74 / 391, loss: 1.02, 			Accumulated loss: 71.67
-	 Minibatch 75 / 391, loss: 1.08, 			Accumulated loss: 72.75
-	 Minibatch 76 / 391, loss: 0.84, 			Accumulated loss: 73.59
-	 Minibatch 77 / 391, loss: 0.93, 			Accumulated loss: 74.52
-	 Minibatch 78 / 391, loss: 1.05, 			Accumulated loss: 75.57
-	 Minibatch 79 / 391, loss: 1.08, 			Accumulated loss: 76.65
-	 Minibatch 80 / 391, loss: 0.98, 			Accumulated loss: 77.63
-	 Minibatch 81 / 391, loss: 0.95, 			Accumulated loss: 78.58
-	 Minibatch 82 / 391, loss: 0.95, 			Accumulated loss: 79.53
-	 Minibatch 83 / 391, loss: 1.04, 			Accumulated loss: 80.57
-	 Minibatch 84 / 391, loss: 1.07, 			Accumulated loss: 81.64
-	 Minibatch 85 / 391, loss: 1.06, 			Accumulated loss: 82.70
-	 Minibatch 86 / 391, loss: 0.74, 			Accumulated loss: 83.45
-	 Minibatch 87 / 391, loss: 0.89, 			Accumulated loss: 84.34
-	 Minibatch 88 / 391, loss: 1.03, 			Accumulated loss: 85.37
-	 Minibatch 89 / 391, loss: 1.07, 			Accumulated loss: 86.44
-	 Minibatch 90 / 391, loss: 0.96, 			Accumulated loss: 87.40
-	 Minibatch 91 / 391, loss: 0.84, 			Accumulated loss: 88.24
-	 Minibatch 92 / 391, loss: 1.01, 			Accumulated loss: 89.25
-	 Minibatch 93 / 391, loss: 0.81, 			Accumulated loss: 90.06
-	 Minibatch 94 / 391, loss: 0.99, 			Accumulated loss: 91.05
-	 Minibatch 95 / 391, loss: 0.78, 			Accumulated loss: 91.83
-	 Minibatch 96 / 391, loss: 1.02, 			Accumulated loss: 92.85
-	 Minibatch 97 / 391, loss: 0.98, 			Accumulated loss: 93.83
-	 Minibatch 98 / 391, loss: 0.89, 			Accumulated loss: 94.72
-	 Minibatch 99 / 391, loss: 1.05, 			Accumulated loss: 95.77
-	 Minibatch 100 / 391, loss: 1.04, 			Accumulated loss: 96.81
-	 Minibatch 101 / 391, loss: 0.95, 			Accumulated loss: 97.76
-	 Minibatch 102 / 391, loss: 1.01, 			Accumulated loss: 98.77
-	 Minibatch 103 / 391, loss: 0.90, 			Accumulated loss: 99.67
-	 Minibatch 104 / 391, loss: 0.83, 			Accumulated loss: 100.50
-	 Minibatch 105 / 391, loss: 0.76, 			Accumulated loss: 101.26
-	 Minibatch 106 / 391, loss: 0.86, 			Accumulated loss: 102.11
-	 Minibatch 107 / 391, loss: 1.10, 			Accumulated loss: 103.22
-	 Minibatch 108 / 391, loss: 0.87, 			Accumulated loss: 104.08
-	 Minibatch 109 / 391, loss: 0.80, 			Accumulated loss: 104.88
-	 Minibatch 110 / 391, loss: 0.89, 			Accumulated loss: 105.77
-	 Minibatch 111 / 391, loss: 0.84, 			Accumulated loss: 106.61
-	 Minibatch 112 / 391, loss: 1.04, 			Accumulated loss: 107.66
-	 Minibatch 113 / 391, loss: 0.76, 			Accumulated loss: 108.42
-	 Minibatch 114 / 391, loss: 0.95, 			Accumulated loss: 109.36
-	 Minibatch 115 / 391, loss: 0.87, 			Accumulated loss: 110.23
-	 Minibatch 116 / 391, loss: 0.95, 			Accumulated loss: 111.19
-	 Minibatch 117 / 391, loss: 0.89, 			Accumulated loss: 112.08
-	 Minibatch 118 / 391, loss: 0.79, 			Accumulated loss: 112.87
-	 Minibatch 119 / 391, loss: 1.01, 			Accumulated loss: 113.88
-	 Minibatch 120 / 391, loss: 0.78, 			Accumulated loss: 114.66
-	 Minibatch 121 / 391, loss: 0.92, 			Accumulated loss: 115.58
-	 Minibatch 122 / 391, loss: 0.99, 			Accumulated loss: 116.58
-	 Minibatch 123 / 391, loss: 0.83, 			Accumulated loss: 117.40
-	 Minibatch 124 / 391, loss: 0.85, 			Accumulated loss: 118.25
-	 Minibatch 125 / 391, loss: 0.91, 			Accumulated loss: 119.16
-	 Minibatch 126 / 391, loss: 1.00, 			Accumulated loss: 120.16
-	 Minibatch 127 / 391, loss: 0.90, 			Accumulated loss: 121.06
-	 Minibatch 128 / 391, loss: 0.94, 			Accumulated loss: 122.00
-	 Minibatch 129 / 391, loss: 1.17, 			Accumulated loss: 123.17
-	 Minibatch 130 / 391, loss: 0.80, 			Accumulated loss: 123.97
-	 Minibatch 131 / 391, loss: 0.91, 			Accumulated loss: 124.88
-	 Minibatch 132 / 391, loss: 0.89, 			Accumulated loss: 125.77
-	 Minibatch 133 / 391, loss: 0.87, 			Accumulated loss: 126.64
-	 Minibatch 134 / 391, loss: 0.96, 			Accumulated loss: 127.60
-	 Minibatch 135 / 391, loss: 0.89, 			Accumulated loss: 128.48
-	 Minibatch 136 / 391, loss: 0.92, 			Accumulated loss: 129.40
-	 Minibatch 137 / 391, loss: 0.85, 			Accumulated loss: 130.26
-	 Minibatch 138 / 391, loss: 0.99, 			Accumulated loss: 131.25
-	 Minibatch 139 / 391, loss: 0.86, 			Accumulated loss: 132.11
-	 Minibatch 140 / 391, loss: 0.82, 			Accumulated loss: 132.93
-	 Minibatch 141 / 391, loss: 1.14, 			Accumulated loss: 134.07
-	 Minibatch 142 / 391, loss: 0.88, 			Accumulated loss: 134.95
-	 Minibatch 143 / 391, loss: 0.95, 			Accumulated loss: 135.89
-	 Minibatch 144 / 391, loss: 0.77, 			Accumulated loss: 136.66
-	 Minibatch 145 / 391, loss: 0.97, 			Accumulated loss: 137.63
-	 Minibatch 146 / 391, loss: 1.03, 			Accumulated loss: 138.66
-	 Minibatch 147 / 391, loss: 0.97, 			Accumulated loss: 139.64
-	 Minibatch 148 / 391, loss: 1.00, 			Accumulated loss: 140.63
-	 Minibatch 149 / 391, loss: 0.93, 			Accumulated loss: 141.56
-	 Minibatch 150 / 391, loss: 0.94, 			Accumulated loss: 142.51
-	 Minibatch 151 / 391, loss: 0.96, 			Accumulated loss: 143.47
-	 Minibatch 152 / 391, loss: 1.05, 			Accumulated loss: 144.52
-	 Minibatch 153 / 391, loss: 0.93, 			Accumulated loss: 145.44
-	 Minibatch 154 / 391, loss: 1.05, 			Accumulated loss: 146.49
-	 Minibatch 155 / 391, loss: 0.87, 			Accumulated loss: 147.36
-	 Minibatch 156 / 391, loss: 0.92, 			Accumulated loss: 148.28
-	 Minibatch 157 / 391, loss: 1.03, 			Accumulated loss: 149.32
-	 Minibatch 158 / 391, loss: 1.02, 			Accumulated loss: 150.34
-	 Minibatch 159 / 391, loss: 0.90, 			Accumulated loss: 151.24
-	 Minibatch 160 / 391, loss: 0.95, 			Accumulated loss: 152.19
-	 Minibatch 161 / 391, loss: 0.93, 			Accumulated loss: 153.12
-	 Minibatch 162 / 391, loss: 0.93, 			Accumulated loss: 154.05
-	 Minibatch 163 / 391, loss: 0.88, 			Accumulated loss: 154.93
-	 Minibatch 164 / 391, loss: 1.02, 			Accumulated loss: 155.96
-	 Minibatch 165 / 391, loss: 0.88, 			Accumulated loss: 156.84
-	 Minibatch 166 / 391, loss: 0.93, 			Accumulated loss: 157.76
-	 Minibatch 167 / 391, loss: 0.97, 			Accumulated loss: 158.73
-	 Minibatch 168 / 391, loss: 1.08, 			Accumulated loss: 159.81
-	 Minibatch 169 / 391, loss: 0.93, 			Accumulated loss: 160.74
-	 Minibatch 170 / 391, loss: 1.04, 			Accumulated loss: 161.78
-	 Minibatch 171 / 391, loss: 1.08, 			Accumulated loss: 162.86
-	 Minibatch 172 / 391, loss: 1.04, 			Accumulated loss: 163.90
-	 Minibatch 173 / 391, loss: 1.01, 			Accumulated loss: 164.91
-	 Minibatch 174 / 391, loss: 0.92, 			Accumulated loss: 165.82
-	 Minibatch 175 / 391, loss: 0.95, 			Accumulated loss: 166.77
-	 Minibatch 176 / 391, loss: 1.02, 			Accumulated loss: 167.79
-	 Minibatch 177 / 391, loss: 0.85, 			Accumulated loss: 168.63
-	 Minibatch 178 / 391, loss: 0.76, 			Accumulated loss: 169.39
-	 Minibatch 179 / 391, loss: 0.90, 			Accumulated loss: 170.29
-	 Minibatch 180 / 391, loss: 1.09, 			Accumulated loss: 171.38
-	 Minibatch 181 / 391, loss: 0.92, 			Accumulated loss: 172.30
-	 Minibatch 182 / 391, loss: 0.89, 			Accumulated loss: 173.18
-	 Minibatch 183 / 391, loss: 0.87, 			Accumulated loss: 174.06
-	 Minibatch 184 / 391, loss: 0.77, 			Accumulated loss: 174.82
-	 Minibatch 185 / 391, loss: 0.89, 			Accumulated loss: 175.71
-	 Minibatch 186 / 391, loss: 0.95, 			Accumulated loss: 176.66
-	 Minibatch 187 / 391, loss: 1.10, 			Accumulated loss: 177.75
-	 Minibatch 188 / 391, loss: 0.90, 			Accumulated loss: 178.66
-	 Minibatch 189 / 391, loss: 0.76, 			Accumulated loss: 179.42
-	 Minibatch 190 / 391, loss: 0.94, 			Accumulated loss: 180.36
-	 Minibatch 191 / 391, loss: 0.95, 			Accumulated loss: 181.30
-	 Minibatch 192 / 391, loss: 0.81, 			Accumulated loss: 182.11
-	 Minibatch 193 / 391, loss: 0.78, 			Accumulated loss: 182.89
-	 Minibatch 194 / 391, loss: 1.06, 			Accumulated loss: 183.96
-	 Minibatch 195 / 391, loss: 0.80, 			Accumulated loss: 184.75
-	 Minibatch 196 / 391, loss: 0.69, 			Accumulated loss: 185.44
-	 Minibatch 197 / 391, loss: 0.93, 			Accumulated loss: 186.38
-	 Minibatch 198 / 391, loss: 0.88, 			Accumulated loss: 187.26
-	 Minibatch 199 / 391, loss: 0.94, 			Accumulated loss: 188.19
-	 Minibatch 200 / 391, loss: 1.06, 			Accumulated loss: 189.25
-	 Minibatch 201 / 391, loss: 1.11, 			Accumulated loss: 190.35
-	 Minibatch 202 / 391, loss: 0.90, 			Accumulated loss: 191.25
-	 Minibatch 203 / 391, loss: 0.92, 			Accumulated loss: 192.18
-	 Minibatch 204 / 391, loss: 1.22, 			Accumulated loss: 193.40
-	 Minibatch 205 / 391, loss: 0.81, 			Accumulated loss: 194.21
-	 Minibatch 206 / 391, loss: 0.91, 			Accumulated loss: 195.12
-	 Minibatch 207 / 391, loss: 0.72, 			Accumulated loss: 195.84
-	 Minibatch 208 / 391, loss: 0.96, 			Accumulated loss: 196.80
-	 Minibatch 209 / 391, loss: 0.86, 			Accumulated loss: 197.66
-	 Minibatch 210 / 391, loss: 0.96, 			Accumulated loss: 198.62
-	 Minibatch 211 / 391, loss: 0.99, 			Accumulated loss: 199.60
-	 Minibatch 212 / 391, loss: 0.95, 			Accumulated loss: 200.55
-	 Minibatch 213 / 391, loss: 1.03, 			Accumulated loss: 201.59
-	 Minibatch 214 / 391, loss: 1.01, 			Accumulated loss: 202.60
-	 Minibatch 215 / 391, loss: 0.89, 			Accumulated loss: 203.49
-	 Minibatch 216 / 391, loss: 1.13, 			Accumulated loss: 204.62
-	 Minibatch 217 / 391, loss: 1.07, 			Accumulated loss: 205.68
-	 Minibatch 218 / 391, loss: 0.94, 			Accumulated loss: 206.62
-	 Minibatch 219 / 391, loss: 0.99, 			Accumulated loss: 207.61
-	 Minibatch 220 / 391, loss: 0.98, 			Accumulated loss: 208.59
-	 Minibatch 221 / 391, loss: 1.06, 			Accumulated loss: 209.65
-	 Minibatch 222 / 391, loss: 0.87, 			Accumulated loss: 210.52
-	 Minibatch 223 / 391, loss: 0.98, 			Accumulated loss: 211.50
-	 Minibatch 224 / 391, loss: 1.02, 			Accumulated loss: 212.52
-	 Minibatch 225 / 391, loss: 0.75, 			Accumulated loss: 213.26
-	 Minibatch 226 / 391, loss: 0.96, 			Accumulated loss: 214.22
-	 Minibatch 227 / 391, loss: 0.93, 			Accumulated loss: 215.15
-	 Minibatch 228 / 391, loss: 0.89, 			Accumulated loss: 216.04
-	 Minibatch 229 / 391, loss: 1.02, 			Accumulated loss: 217.06
-	 Minibatch 230 / 391, loss: 0.98, 			Accumulated loss: 218.05
-	 Minibatch 231 / 391, loss: 1.00, 			Accumulated loss: 219.05
-	 Minibatch 232 / 391, loss: 0.89, 			Accumulated loss: 219.94
-	 Minibatch 233 / 391, loss: 0.87, 			Accumulated loss: 220.81
-	 Minibatch 234 / 391, loss: 0.92, 			Accumulated loss: 221.72
-	 Minibatch 235 / 391, loss: 0.87, 			Accumulated loss: 222.59
-	 Minibatch 236 / 391, loss: 0.95, 			Accumulated loss: 223.54
-	 Minibatch 237 / 391, loss: 0.89, 			Accumulated loss: 224.44
-	 Minibatch 238 / 391, loss: 0.97, 			Accumulated loss: 225.41
-	 Minibatch 239 / 391, loss: 0.94, 			Accumulated loss: 226.35
-	 Minibatch 240 / 391, loss: 0.88, 			Accumulated loss: 227.22
-	 Minibatch 241 / 391, loss: 0.91, 			Accumulated loss: 228.13
-	 Minibatch 242 / 391, loss: 0.86, 			Accumulated loss: 228.99
-	 Minibatch 243 / 391, loss: 0.98, 			Accumulated loss: 229.98
-	 Minibatch 244 / 391, loss: 0.77, 			Accumulated loss: 230.75
-	 Minibatch 245 / 391, loss: 0.90, 			Accumulated loss: 231.65
-	 Minibatch 246 / 391, loss: 0.94, 			Accumulated loss: 232.59
-	 Minibatch 247 / 391, loss: 0.94, 			Accumulated loss: 233.54
-	 Minibatch 248 / 391, loss: 0.72, 			Accumulated loss: 234.26
-	 Minibatch 249 / 391, loss: 0.87, 			Accumulated loss: 235.13
-	 Minibatch 250 / 391, loss: 0.97, 			Accumulated loss: 236.10
-	 Minibatch 251 / 391, loss: 1.06, 			Accumulated loss: 237.16
-	 Minibatch 252 / 391, loss: 0.87, 			Accumulated loss: 238.03
-	 Minibatch 253 / 391, loss: 0.97, 			Accumulated loss: 239.00
-	 Minibatch 254 / 391, loss: 1.01, 			Accumulated loss: 240.01
-	 Minibatch 255 / 391, loss: 1.10, 			Accumulated loss: 241.11
-	 Minibatch 256 / 391, loss: 0.79, 			Accumulated loss: 241.89
-	 Minibatch 257 / 391, loss: 0.94, 			Accumulated loss: 242.83
-	 Minibatch 258 / 391, loss: 0.92, 			Accumulated loss: 243.75
-	 Minibatch 259 / 391, loss: 1.03, 			Accumulated loss: 244.78
-	 Minibatch 260 / 391, loss: 0.83, 			Accumulated loss: 245.60
-	 Minibatch 261 / 391, loss: 0.73, 			Accumulated loss: 246.34
-	 Minibatch 262 / 391, loss: 0.81, 			Accumulated loss: 247.15
-	 Minibatch 263 / 391, loss: 0.93, 			Accumulated loss: 248.08
-	 Minibatch 264 / 391, loss: 0.81, 			Accumulated loss: 248.89
-	 Minibatch 265 / 391, loss: 0.91, 			Accumulated loss: 249.80
-	 Minibatch 266 / 391, loss: 0.95, 			Accumulated loss: 250.75
-	 Minibatch 267 / 391, loss: 0.80, 			Accumulated loss: 251.55
-	 Minibatch 268 / 391, loss: 0.72, 			Accumulated loss: 252.27
-	 Minibatch 269 / 391, loss: 0.81, 			Accumulated loss: 253.07
-	 Minibatch 270 / 391, loss: 0.86, 			Accumulated loss: 253.94
-	 Minibatch 271 / 391, loss: 1.00, 			Accumulated loss: 254.93
-	 Minibatch 272 / 391, loss: 1.23, 			Accumulated loss: 256.17
-	 Minibatch 273 / 391, loss: 0.86, 			Accumulated loss: 257.02
-	 Minibatch 274 / 391, loss: 0.89, 			Accumulated loss: 257.91
-	 Minibatch 275 / 391, loss: 0.85, 			Accumulated loss: 258.76
-	 Minibatch 276 / 391, loss: 0.91, 			Accumulated loss: 259.67
-	 Minibatch 277 / 391, loss: 0.76, 			Accumulated loss: 260.44
-	 Minibatch 278 / 391, loss: 1.15, 			Accumulated loss: 261.58
-	 Minibatch 279 / 391, loss: 0.98, 			Accumulated loss: 262.56
-	 Minibatch 280 / 391, loss: 1.01, 			Accumulated loss: 263.57
-	 Minibatch 281 / 391, loss: 1.03, 			Accumulated loss: 264.60
-	 Minibatch 282 / 391, loss: 0.79, 			Accumulated loss: 265.39
-	 Minibatch 283 / 391, loss: 0.71, 			Accumulated loss: 266.10
-	 Minibatch 284 / 391, loss: 0.96, 			Accumulated loss: 267.06
-	 Minibatch 285 / 391, loss: 0.69, 			Accumulated loss: 267.75
-	 Minibatch 286 / 391, loss: 0.83, 			Accumulated loss: 268.58
-	 Minibatch 287 / 391, loss: 0.87, 			Accumulated loss: 269.46
-	 Minibatch 288 / 391, loss: 0.73, 			Accumulated loss: 270.19
-	 Minibatch 289 / 391, loss: 0.92, 			Accumulated loss: 271.11
-	 Minibatch 290 / 391, loss: 0.69, 			Accumulated loss: 271.80
-	 Minibatch 291 / 391, loss: 0.85, 			Accumulated loss: 272.65
-	 Minibatch 292 / 391, loss: 0.76, 			Accumulated loss: 273.41
-	 Minibatch 293 / 391, loss: 0.68, 			Accumulated loss: 274.08
-	 Minibatch 294 / 391, loss: 0.92, 			Accumulated loss: 275.00
-	 Minibatch 295 / 391, loss: 0.64, 			Accumulated loss: 275.64
-	 Minibatch 296 / 391, loss: 0.80, 			Accumulated loss: 276.44
-	 Minibatch 297 / 391, loss: 0.98, 			Accumulated loss: 277.42
-	 Minibatch 298 / 391, loss: 1.01, 			Accumulated loss: 278.43
-	 Minibatch 299 / 391, loss: 1.08, 			Accumulated loss: 279.51
-	 Minibatch 300 / 391, loss: 1.02, 			Accumulated loss: 280.53
-	 Minibatch 301 / 391, loss: 0.99, 			Accumulated loss: 281.52
-	 Minibatch 302 / 391, loss: 0.85, 			Accumulated loss: 282.37
-	 Minibatch 303 / 391, loss: 0.91, 			Accumulated loss: 283.28
-	 Minibatch 304 / 391, loss: 0.77, 			Accumulated loss: 284.05
-	 Minibatch 305 / 391, loss: 0.91, 			Accumulated loss: 284.97
-	 Minibatch 306 / 391, loss: 0.92, 			Accumulated loss: 285.88
-	 Minibatch 307 / 391, loss: 0.99, 			Accumulated loss: 286.87
-	 Minibatch 308 / 391, loss: 0.85, 			Accumulated loss: 287.72
-	 Minibatch 309 / 391, loss: 0.79, 			Accumulated loss: 288.51
-	 Minibatch 310 / 391, loss: 0.97, 			Accumulated loss: 289.48
-	 Minibatch 311 / 391, loss: 0.80, 			Accumulated loss: 290.27
-	 Minibatch 312 / 391, loss: 1.01, 			Accumulated loss: 291.28
-	 Minibatch 313 / 391, loss: 1.06, 			Accumulated loss: 292.35
-	 Minibatch 314 / 391, loss: 0.98, 			Accumulated loss: 293.32
-	 Minibatch 315 / 391, loss: 0.93, 			Accumulated loss: 294.26
-	 Minibatch 316 / 391, loss: 0.83, 			Accumulated loss: 295.09
-	 Minibatch 317 / 391, loss: 0.99, 			Accumulated loss: 296.08
-	 Minibatch 318 / 391, loss: 0.92, 			Accumulated loss: 297.00
-	 Minibatch 319 / 391, loss: 0.86, 			Accumulated loss: 297.87
-	 Minibatch 320 / 391, loss: 0.82, 			Accumulated loss: 298.68
-	 Minibatch 321 / 391, loss: 0.84, 			Accumulated loss: 299.52
-	 Minibatch 322 / 391, loss: 1.00, 			Accumulated loss: 300.52
-	 Minibatch 323 / 391, loss: 0.80, 			Accumulated loss: 301.33
-	 Minibatch 324 / 391, loss: 0.85, 			Accumulated loss: 302.17
-	 Minibatch 325 / 391, loss: 0.95, 			Accumulated loss: 303.12
-	 Minibatch 326 / 391, loss: 0.92, 			Accumulated loss: 304.04
-	 Minibatch 327 / 391, loss: 0.82, 			Accumulated loss: 304.86
-	 Minibatch 328 / 391, loss: 0.96, 			Accumulated loss: 305.82
-	 Minibatch 329 / 391, loss: 0.67, 			Accumulated loss: 306.49
-	 Minibatch 330 / 391, loss: 0.94, 			Accumulated loss: 307.43
-	 Minibatch 331 / 391, loss: 0.81, 			Accumulated loss: 308.23
-	 Minibatch 332 / 391, loss: 0.98, 			Accumulated loss: 309.22
-	 Minibatch 333 / 391, loss: 0.88, 			Accumulated loss: 310.09
-	 Minibatch 334 / 391, loss: 0.79, 			Accumulated loss: 310.88
-	 Minibatch 335 / 391, loss: 0.95, 			Accumulated loss: 311.84
-	 Minibatch 336 / 391, loss: 0.93, 			Accumulated loss: 312.76
-	 Minibatch 337 / 391, loss: 0.95, 			Accumulated loss: 313.72
-	 Minibatch 338 / 391, loss: 0.85, 			Accumulated loss: 314.57
-	 Minibatch 339 / 391, loss: 0.87, 			Accumulated loss: 315.44
-	 Minibatch 340 / 391, loss: 0.79, 			Accumulated loss: 316.23
-	 Minibatch 341 / 391, loss: 0.93, 			Accumulated loss: 317.16
-	 Minibatch 342 / 391, loss: 0.82, 			Accumulated loss: 317.98
-	 Minibatch 343 / 391, loss: 0.85, 			Accumulated loss: 318.83
-	 Minibatch 344 / 391, loss: 0.97, 			Accumulated loss: 319.80
-	 Minibatch 345 / 391, loss: 0.90, 			Accumulated loss: 320.70
-	 Minibatch 346 / 391, loss: 0.83, 			Accumulated loss: 321.54
-	 Minibatch 347 / 391, loss: 0.71, 			Accumulated loss: 322.24
-	 Minibatch 348 / 391, loss: 0.90, 			Accumulated loss: 323.15
-	 Minibatch 349 / 391, loss: 0.82, 			Accumulated loss: 323.97
-	 Minibatch 350 / 391, loss: 0.89, 			Accumulated loss: 324.86
-	 Minibatch 351 / 391, loss: 0.88, 			Accumulated loss: 325.74
-	 Minibatch 352 / 391, loss: 0.72, 			Accumulated loss: 326.46
-	 Minibatch 353 / 391, loss: 0.89, 			Accumulated loss: 327.35
-	 Minibatch 354 / 391, loss: 0.75, 			Accumulated loss: 328.09
-	 Minibatch 355 / 391, loss: 0.79, 			Accumulated loss: 328.88
-	 Minibatch 356 / 391, loss: 0.74, 			Accumulated loss: 329.62
-	 Minibatch 357 / 391, loss: 0.67, 			Accumulated loss: 330.29
-	 Minibatch 358 / 391, loss: 0.96, 			Accumulated loss: 331.25
-	 Minibatch 359 / 391, loss: 0.65, 			Accumulated loss: 331.90
-	 Minibatch 360 / 391, loss: 0.79, 			Accumulated loss: 332.69
-	 Minibatch 361 / 391, loss: 0.78, 			Accumulated loss: 333.47
-	 Minibatch 362 / 391, loss: 0.77, 			Accumulated loss: 334.24
-	 Minibatch 363 / 391, loss: 0.82, 			Accumulated loss: 335.06
-	 Minibatch 364 / 391, loss: 0.66, 			Accumulated loss: 335.72
-	 Minibatch 365 / 391, loss: 0.76, 			Accumulated loss: 336.49
-	 Minibatch 366 / 391, loss: 0.91, 			Accumulated loss: 337.40
-	 Minibatch 367 / 391, loss: 0.85, 			Accumulated loss: 338.25
-	 Minibatch 368 / 391, loss: 0.91, 			Accumulated loss: 339.16
-	 Minibatch 369 / 391, loss: 0.87, 			Accumulated loss: 340.03
-	 Minibatch 370 / 391, loss: 0.86, 			Accumulated loss: 340.89
-	 Minibatch 371 / 391, loss: 0.80, 			Accumulated loss: 341.69
-	 Minibatch 372 / 391, loss: 0.91, 			Accumulated loss: 342.60
-	 Minibatch 373 / 391, loss: 1.03, 			Accumulated loss: 343.63
-	 Minibatch 374 / 391, loss: 0.72, 			Accumulated loss: 344.35
-	 Minibatch 375 / 391, loss: 0.83, 			Accumulated loss: 345.18
-	 Minibatch 376 / 391, loss: 0.83, 			Accumulated loss: 346.01
-	 Minibatch 377 / 391, loss: 0.72, 			Accumulated loss: 346.73
-	 Minibatch 378 / 391, loss: 0.68, 			Accumulated loss: 347.41
-	 Minibatch 379 / 391, loss: 1.04, 			Accumulated loss: 348.45
-	 Minibatch 380 / 391, loss: 1.01, 			Accumulated loss: 349.45
-	 Minibatch 381 / 391, loss: 0.87, 			Accumulated loss: 350.32
-	 Minibatch 382 / 391, loss: 0.75, 			Accumulated loss: 351.07
-	 Minibatch 383 / 391, loss: 0.95, 			Accumulated loss: 352.01
-	 Minibatch 384 / 391, loss: 0.77, 			Accumulated loss: 352.78
-	 Minibatch 385 / 391, loss: 0.94, 			Accumulated loss: 353.72
-	 Minibatch 386 / 391, loss: 1.02, 			Accumulated loss: 354.74
-	 Minibatch 387 / 391, loss: 0.87, 			Accumulated loss: 355.61
-	 Minibatch 388 / 391, loss: 0.78, 			Accumulated loss: 356.38
-	 Minibatch 389 / 391, loss: 0.82, 			Accumulated loss: 357.21
-	 Minibatch 390 / 391, loss: 0.82, 			Accumulated loss: 358.03
-	 Minibatch 391 / 391, loss: 0.87, 			Accumulated loss: 358.89
-
-Aggregates: 
- 	 DataLoader Time: 1.3299 
- 	 		Mini-batch Time:5079.6297 
- 	 Training Epoch Time:5079.6593
- 		Averages: 
- 	 Training Loss: 0.9179
-	 Testing precision@1: 0.7099 
-
-Epoch 4
-	 Minibatch 1 / 391, loss: 0.68, 			Accumulated loss: 0.68
-	 Minibatch 2 / 391, loss: 0.76, 			Accumulated loss: 1.45
-	 Minibatch 3 / 391, loss: 0.88, 			Accumulated loss: 2.32
-	 Minibatch 4 / 391, loss: 0.78, 			Accumulated loss: 3.10
-	 Minibatch 5 / 391, loss: 0.74, 			Accumulated loss: 3.84
-	 Minibatch 6 / 391, loss: 0.78, 			Accumulated loss: 4.62
-	 Minibatch 7 / 391, loss: 0.88, 			Accumulated loss: 5.50
-	 Minibatch 8 / 391, loss: 0.86, 			Accumulated loss: 6.37
-	 Minibatch 9 / 391, loss: 0.89, 			Accumulated loss: 7.26
-	 Minibatch 10 / 391, loss: 0.78, 			Accumulated loss: 8.04
-	 Minibatch 11 / 391, loss: 0.79, 			Accumulated loss: 8.84
-	 Minibatch 12 / 391, loss: 0.73, 			Accumulated loss: 9.56
-	 Minibatch 13 / 391, loss: 0.90, 			Accumulated loss: 10.46
-	 Minibatch 14 / 391, loss: 0.75, 			Accumulated loss: 11.21
-	 Minibatch 15 / 391, loss: 0.75, 			Accumulated loss: 11.96
-	 Minibatch 16 / 391, loss: 0.77, 			Accumulated loss: 12.73
-	 Minibatch 17 / 391, loss: 0.94, 			Accumulated loss: 13.67
-	 Minibatch 18 / 391, loss: 0.80, 			Accumulated loss: 14.48
-	 Minibatch 19 / 391, loss: 0.70, 			Accumulated loss: 15.18
-	 Minibatch 20 / 391, loss: 0.72, 			Accumulated loss: 15.89
-	 Minibatch 21 / 391, loss: 0.75, 			Accumulated loss: 16.64
-	 Minibatch 22 / 391, loss: 0.95, 			Accumulated loss: 17.60
-	 Minibatch 23 / 391, loss: 0.73, 			Accumulated loss: 18.33
-	 Minibatch 24 / 391, loss: 0.79, 			Accumulated loss: 19.13
-	 Minibatch 25 / 391, loss: 0.93, 			Accumulated loss: 20.06
-	 Minibatch 26 / 391, loss: 0.79, 			Accumulated loss: 20.84
-	 Minibatch 27 / 391, loss: 0.95, 			Accumulated loss: 21.79
-	 Minibatch 28 / 391, loss: 0.88, 			Accumulated loss: 22.67
-	 Minibatch 29 / 391, loss: 0.83, 			Accumulated loss: 23.51
-	 Minibatch 30 / 391, loss: 0.83, 			Accumulated loss: 24.33
-	 Minibatch 31 / 391, loss: 0.83, 			Accumulated loss: 25.17
-	 Minibatch 32 / 391, loss: 0.77, 			Accumulated loss: 25.94
-	 Minibatch 33 / 391, loss: 0.87, 			Accumulated loss: 26.81
-	 Minibatch 34 / 391, loss: 0.83, 			Accumulated loss: 27.64
-	 Minibatch 35 / 391, loss: 0.83, 			Accumulated loss: 28.47
-	 Minibatch 36 / 391, loss: 0.76, 			Accumulated loss: 29.23
-	 Minibatch 37 / 391, loss: 0.79, 			Accumulated loss: 30.02
-	 Minibatch 38 / 391, loss: 0.59, 			Accumulated loss: 30.60
-	 Minibatch 39 / 391, loss: 0.74, 			Accumulated loss: 31.34
-	 Minibatch 40 / 391, loss: 0.75, 			Accumulated loss: 32.10
-	 Minibatch 41 / 391, loss: 0.93, 			Accumulated loss: 33.03
-	 Minibatch 42 / 391, loss: 0.86, 			Accumulated loss: 33.89
-	 Minibatch 43 / 391, loss: 0.86, 			Accumulated loss: 34.75
-	 Minibatch 44 / 391, loss: 0.86, 			Accumulated loss: 35.61
-	 Minibatch 45 / 391, loss: 0.90, 			Accumulated loss: 36.50
-	 Minibatch 46 / 391, loss: 0.77, 			Accumulated loss: 37.27
-	 Minibatch 47 / 391, loss: 0.94, 			Accumulated loss: 38.21
-	 Minibatch 48 / 391, loss: 0.71, 			Accumulated loss: 38.92
-	 Minibatch 49 / 391, loss: 0.81, 			Accumulated loss: 39.74
-	 Minibatch 50 / 391, loss: 0.65, 			Accumulated loss: 40.38
-	 Minibatch 51 / 391, loss: 0.89, 			Accumulated loss: 41.27
-	 Minibatch 52 / 391, loss: 0.78, 			Accumulated loss: 42.05
-	 Minibatch 53 / 391, loss: 0.92, 			Accumulated loss: 42.97
-	 Minibatch 54 / 391, loss: 0.89, 			Accumulated loss: 43.86
-	 Minibatch 55 / 391, loss: 0.88, 			Accumulated loss: 44.73
-	 Minibatch 56 / 391, loss: 0.79, 			Accumulated loss: 45.52
-	 Minibatch 57 / 391, loss: 1.01, 			Accumulated loss: 46.53
-	 Minibatch 58 / 391, loss: 0.77, 			Accumulated loss: 47.30
-	 Minibatch 59 / 391, loss: 0.74, 			Accumulated loss: 48.05
-	 Minibatch 60 / 391, loss: 0.73, 			Accumulated loss: 48.78
-	 Minibatch 61 / 391, loss: 0.77, 			Accumulated loss: 49.55
-	 Minibatch 62 / 391, loss: 0.74, 			Accumulated loss: 50.30
-	 Minibatch 63 / 391, loss: 1.00, 			Accumulated loss: 51.30
-	 Minibatch 64 / 391, loss: 0.80, 			Accumulated loss: 52.10
-	 Minibatch 65 / 391, loss: 0.73, 			Accumulated loss: 52.83
-	 Minibatch 66 / 391, loss: 0.86, 			Accumulated loss: 53.69
-	 Minibatch 67 / 391, loss: 0.71, 			Accumulated loss: 54.40
-	 Minibatch 68 / 391, loss: 0.86, 			Accumulated loss: 55.26
-	 Minibatch 69 / 391, loss: 0.91, 			Accumulated loss: 56.17
-	 Minibatch 70 / 391, loss: 0.75, 			Accumulated loss: 56.92
-	 Minibatch 71 / 391, loss: 0.69, 			Accumulated loss: 57.61
-	 Minibatch 72 / 391, loss: 0.85, 			Accumulated loss: 58.46
-	 Minibatch 73 / 391, loss: 0.88, 			Accumulated loss: 59.33
-	 Minibatch 74 / 391, loss: 0.94, 			Accumulated loss: 60.27
-	 Minibatch 75 / 391, loss: 0.86, 			Accumulated loss: 61.13
-	 Minibatch 76 / 391, loss: 0.76, 			Accumulated loss: 61.89
-	 Minibatch 77 / 391, loss: 0.96, 			Accumulated loss: 62.85
-	 Minibatch 78 / 391, loss: 0.84, 			Accumulated loss: 63.69
-	 Minibatch 79 / 391, loss: 0.68, 			Accumulated loss: 64.38
-	 Minibatch 80 / 391, loss: 0.80, 			Accumulated loss: 65.18
-	 Minibatch 81 / 391, loss: 0.90, 			Accumulated loss: 66.07
-	 Minibatch 82 / 391, loss: 0.76, 			Accumulated loss: 66.83
-	 Minibatch 83 / 391, loss: 0.96, 			Accumulated loss: 67.79
-	 Minibatch 84 / 391, loss: 0.69, 			Accumulated loss: 68.48
-	 Minibatch 85 / 391, loss: 0.74, 			Accumulated loss: 69.22
-	 Minibatch 86 / 391, loss: 0.78, 			Accumulated loss: 70.00
-	 Minibatch 87 / 391, loss: 0.81, 			Accumulated loss: 70.82
-	 Minibatch 88 / 391, loss: 0.70, 			Accumulated loss: 71.52
-	 Minibatch 89 / 391, loss: 0.68, 			Accumulated loss: 72.19
-	 Minibatch 90 / 391, loss: 0.68, 			Accumulated loss: 72.87
-	 Minibatch 91 / 391, loss: 0.83, 			Accumulated loss: 73.70
-	 Minibatch 92 / 391, loss: 0.78, 			Accumulated loss: 74.48
-	 Minibatch 93 / 391, loss: 0.87, 			Accumulated loss: 75.35
-	 Minibatch 94 / 391, loss: 0.67, 			Accumulated loss: 76.02
-	 Minibatch 95 / 391, loss: 0.65, 			Accumulated loss: 76.68
-	 Minibatch 96 / 391, loss: 0.79, 			Accumulated loss: 77.46
-	 Minibatch 97 / 391, loss: 0.66, 			Accumulated loss: 78.12
-	 Minibatch 98 / 391, loss: 0.76, 			Accumulated loss: 78.88
-	 Minibatch 99 / 391, loss: 0.77, 			Accumulated loss: 79.65
-	 Minibatch 100 / 391, loss: 0.79, 			Accumulated loss: 80.45
-	 Minibatch 101 / 391, loss: 0.67, 			Accumulated loss: 81.11
-	 Minibatch 102 / 391, loss: 0.86, 			Accumulated loss: 81.97
-	 Minibatch 103 / 391, loss: 0.74, 			Accumulated loss: 82.71
-	 Minibatch 104 / 391, loss: 1.01, 			Accumulated loss: 83.72
-	 Minibatch 105 / 391, loss: 0.80, 			Accumulated loss: 84.52
-	 Minibatch 106 / 391, loss: 1.02, 			Accumulated loss: 85.55
-	 Minibatch 107 / 391, loss: 0.70, 			Accumulated loss: 86.25
-	 Minibatch 108 / 391, loss: 0.89, 			Accumulated loss: 87.13
-	 Minibatch 109 / 391, loss: 0.80, 			Accumulated loss: 87.93
-	 Minibatch 110 / 391, loss: 0.78, 			Accumulated loss: 88.72
-	 Minibatch 111 / 391, loss: 0.61, 			Accumulated loss: 89.33
-	 Minibatch 112 / 391, loss: 0.78, 			Accumulated loss: 90.11
-	 Minibatch 113 / 391, loss: 0.71, 			Accumulated loss: 90.82
-	 Minibatch 114 / 391, loss: 0.78, 			Accumulated loss: 91.60
-	 Minibatch 115 / 391, loss: 0.82, 			Accumulated loss: 92.42
-	 Minibatch 116 / 391, loss: 0.92, 			Accumulated loss: 93.34
-	 Minibatch 117 / 391, loss: 0.88, 			Accumulated loss: 94.22
-	 Minibatch 118 / 391, loss: 0.67, 			Accumulated loss: 94.89
-	 Minibatch 119 / 391, loss: 0.89, 			Accumulated loss: 95.79
-	 Minibatch 120 / 391, loss: 0.92, 			Accumulated loss: 96.71
-	 Minibatch 121 / 391, loss: 0.94, 			Accumulated loss: 97.65
-	 Minibatch 122 / 391, loss: 0.84, 			Accumulated loss: 98.50
-	 Minibatch 123 / 391, loss: 0.72, 			Accumulated loss: 99.22
-	 Minibatch 124 / 391, loss: 0.69, 			Accumulated loss: 99.90
-	 Minibatch 125 / 391, loss: 0.66, 			Accumulated loss: 100.57
-	 Minibatch 126 / 391, loss: 0.68, 			Accumulated loss: 101.25
-	 Minibatch 127 / 391, loss: 0.82, 			Accumulated loss: 102.08
-	 Minibatch 128 / 391, loss: 0.82, 			Accumulated loss: 102.90
-	 Minibatch 129 / 391, loss: 0.75, 			Accumulated loss: 103.65
-	 Minibatch 130 / 391, loss: 0.81, 			Accumulated loss: 104.46
-	 Minibatch 131 / 391, loss: 0.73, 			Accumulated loss: 105.19
-	 Minibatch 132 / 391, loss: 0.72, 			Accumulated loss: 105.91
-	 Minibatch 133 / 391, loss: 0.81, 			Accumulated loss: 106.72
-	 Minibatch 134 / 391, loss: 0.65, 			Accumulated loss: 107.37
-	 Minibatch 135 / 391, loss: 0.64, 			Accumulated loss: 108.01
-	 Minibatch 136 / 391, loss: 0.66, 			Accumulated loss: 108.67
-	 Minibatch 137 / 391, loss: 0.80, 			Accumulated loss: 109.47
-	 Minibatch 138 / 391, loss: 0.85, 			Accumulated loss: 110.33
-	 Minibatch 139 / 391, loss: 0.77, 			Accumulated loss: 111.10
-	 Minibatch 140 / 391, loss: 0.85, 			Accumulated loss: 111.95
-	 Minibatch 141 / 391, loss: 0.70, 			Accumulated loss: 112.65
-	 Minibatch 142 / 391, loss: 0.71, 			Accumulated loss: 113.36
-	 Minibatch 143 / 391, loss: 0.77, 			Accumulated loss: 114.13
-	 Minibatch 144 / 391, loss: 0.78, 			Accumulated loss: 114.91
-	 Minibatch 145 / 391, loss: 0.97, 			Accumulated loss: 115.88
-	 Minibatch 146 / 391, loss: 0.89, 			Accumulated loss: 116.77
-	 Minibatch 147 / 391, loss: 0.72, 			Accumulated loss: 117.48
-	 Minibatch 148 / 391, loss: 0.74, 			Accumulated loss: 118.23
-	 Minibatch 149 / 391, loss: 0.88, 			Accumulated loss: 119.11
-	 Minibatch 150 / 391, loss: 0.77, 			Accumulated loss: 119.88
-	 Minibatch 151 / 391, loss: 0.71, 			Accumulated loss: 120.59
-	 Minibatch 152 / 391, loss: 1.07, 			Accumulated loss: 121.65
-	 Minibatch 153 / 391, loss: 1.03, 			Accumulated loss: 122.69
-	 Minibatch 154 / 391, loss: 0.82, 			Accumulated loss: 123.51
-	 Minibatch 155 / 391, loss: 0.65, 			Accumulated loss: 124.15
-	 Minibatch 156 / 391, loss: 0.75, 			Accumulated loss: 124.90
-	 Minibatch 157 / 391, loss: 0.80, 			Accumulated loss: 125.70
-	 Minibatch 158 / 391, loss: 0.82, 			Accumulated loss: 126.52
-	 Minibatch 159 / 391, loss: 0.82, 			Accumulated loss: 127.33
-	 Minibatch 160 / 391, loss: 0.79, 			Accumulated loss: 128.12
-	 Minibatch 161 / 391, loss: 0.90, 			Accumulated loss: 129.02
-	 Minibatch 162 / 391, loss: 0.70, 			Accumulated loss: 129.72
-	 Minibatch 163 / 391, loss: 0.85, 			Accumulated loss: 130.57
-	 Minibatch 164 / 391, loss: 0.86, 			Accumulated loss: 131.43
-	 Minibatch 165 / 391, loss: 0.64, 			Accumulated loss: 132.07
-	 Minibatch 166 / 391, loss: 0.75, 			Accumulated loss: 132.82
-	 Minibatch 167 / 391, loss: 0.86, 			Accumulated loss: 133.68
-	 Minibatch 168 / 391, loss: 0.79, 			Accumulated loss: 134.48
-	 Minibatch 169 / 391, loss: 0.76, 			Accumulated loss: 135.23
-	 Minibatch 170 / 391, loss: 0.67, 			Accumulated loss: 135.91
-	 Minibatch 171 / 391, loss: 0.82, 			Accumulated loss: 136.72
-	 Minibatch 172 / 391, loss: 0.78, 			Accumulated loss: 137.51
-	 Minibatch 173 / 391, loss: 0.77, 			Accumulated loss: 138.27
-	 Minibatch 174 / 391, loss: 0.78, 			Accumulated loss: 139.06
-	 Minibatch 175 / 391, loss: 0.69, 			Accumulated loss: 139.74
-	 Minibatch 176 / 391, loss: 0.77, 			Accumulated loss: 140.52
-	 Minibatch 177 / 391, loss: 0.55, 			Accumulated loss: 141.07
-	 Minibatch 178 / 391, loss: 0.74, 			Accumulated loss: 141.81
-	 Minibatch 179 / 391, loss: 0.83, 			Accumulated loss: 142.64
-	 Minibatch 180 / 391, loss: 0.77, 			Accumulated loss: 143.41
-	 Minibatch 181 / 391, loss: 0.72, 			Accumulated loss: 144.13
-	 Minibatch 182 / 391, loss: 0.75, 			Accumulated loss: 144.88
-	 Minibatch 183 / 391, loss: 0.69, 			Accumulated loss: 145.58
-	 Minibatch 184 / 391, loss: 0.92, 			Accumulated loss: 146.50
-	 Minibatch 185 / 391, loss: 0.67, 			Accumulated loss: 147.17
-	 Minibatch 186 / 391, loss: 0.58, 			Accumulated loss: 147.75
-	 Minibatch 187 / 391, loss: 0.76, 			Accumulated loss: 148.52
-	 Minibatch 188 / 391, loss: 0.89, 			Accumulated loss: 149.41
-	 Minibatch 189 / 391, loss: 0.85, 			Accumulated loss: 150.26
-	 Minibatch 190 / 391, loss: 0.75, 			Accumulated loss: 151.01
-	 Minibatch 191 / 391, loss: 0.62, 			Accumulated loss: 151.63
-	 Minibatch 192 / 391, loss: 0.75, 			Accumulated loss: 152.38
-	 Minibatch 193 / 391, loss: 0.59, 			Accumulated loss: 152.97
-	 Minibatch 194 / 391, loss: 0.64, 			Accumulated loss: 153.62
-	 Minibatch 195 / 391, loss: 0.85, 			Accumulated loss: 154.47
-	 Minibatch 196 / 391, loss: 0.81, 			Accumulated loss: 155.28
-	 Minibatch 197 / 391, loss: 0.71, 			Accumulated loss: 155.98
-	 Minibatch 198 / 391, loss: 0.62, 			Accumulated loss: 156.60
-	 Minibatch 199 / 391, loss: 0.63, 			Accumulated loss: 157.23
-	 Minibatch 200 / 391, loss: 0.69, 			Accumulated loss: 157.92
-	 Minibatch 201 / 391, loss: 0.81, 			Accumulated loss: 158.72
-	 Minibatch 202 / 391, loss: 0.78, 			Accumulated loss: 159.50
-	 Minibatch 203 / 391, loss: 0.80, 			Accumulated loss: 160.31
-	 Minibatch 204 / 391, loss: 0.77, 			Accumulated loss: 161.07
-	 Minibatch 205 / 391, loss: 0.87, 			Accumulated loss: 161.94
-	 Minibatch 206 / 391, loss: 0.73, 			Accumulated loss: 162.67
-	 Minibatch 207 / 391, loss: 0.78, 			Accumulated loss: 163.45
-	 Minibatch 208 / 391, loss: 0.61, 			Accumulated loss: 164.06
-	 Minibatch 209 / 391, loss: 0.52, 			Accumulated loss: 164.58
-	 Minibatch 210 / 391, loss: 0.71, 			Accumulated loss: 165.29
-	 Minibatch 211 / 391, loss: 0.56, 			Accumulated loss: 165.85
-	 Minibatch 212 / 391, loss: 0.61, 			Accumulated loss: 166.46
-	 Minibatch 213 / 391, loss: 0.54, 			Accumulated loss: 167.00
-	 Minibatch 214 / 391, loss: 0.87, 			Accumulated loss: 167.87
-	 Minibatch 215 / 391, loss: 0.77, 			Accumulated loss: 168.64
-	 Minibatch 216 / 391, loss: 0.92, 			Accumulated loss: 169.56
-	 Minibatch 217 / 391, loss: 0.55, 			Accumulated loss: 170.11
-	 Minibatch 218 / 391, loss: 0.64, 			Accumulated loss: 170.75
-	 Minibatch 219 / 391, loss: 0.56, 			Accumulated loss: 171.31
-	 Minibatch 220 / 391, loss: 0.57, 			Accumulated loss: 171.88
-	 Minibatch 221 / 391, loss: 0.77, 			Accumulated loss: 172.65
-	 Minibatch 222 / 391, loss: 0.69, 			Accumulated loss: 173.34
-	 Minibatch 223 / 391, loss: 0.77, 			Accumulated loss: 174.11
-	 Minibatch 224 / 391, loss: 0.74, 			Accumulated loss: 174.85
-	 Minibatch 225 / 391, loss: 0.76, 			Accumulated loss: 175.60
-	 Minibatch 226 / 391, loss: 0.81, 			Accumulated loss: 176.41
-	 Minibatch 227 / 391, loss: 0.76, 			Accumulated loss: 177.17
-	 Minibatch 228 / 391, loss: 0.77, 			Accumulated loss: 177.93
-	 Minibatch 229 / 391, loss: 0.80, 			Accumulated loss: 178.73
-	 Minibatch 230 / 391, loss: 0.62, 			Accumulated loss: 179.35
-	 Minibatch 231 / 391, loss: 0.81, 			Accumulated loss: 180.16
-	 Minibatch 232 / 391, loss: 0.59, 			Accumulated loss: 180.75
-	 Minibatch 233 / 391, loss: 0.81, 			Accumulated loss: 181.56
-	 Minibatch 234 / 391, loss: 0.83, 			Accumulated loss: 182.39
-	 Minibatch 235 / 391, loss: 0.73, 			Accumulated loss: 183.12
-	 Minibatch 236 / 391, loss: 0.87, 			Accumulated loss: 183.99
-	 Minibatch 237 / 391, loss: 0.95, 			Accumulated loss: 184.93
-	 Minibatch 238 / 391, loss: 0.55, 			Accumulated loss: 185.49
-	 Minibatch 239 / 391, loss: 0.85, 			Accumulated loss: 186.33
-	 Minibatch 240 / 391, loss: 0.75, 			Accumulated loss: 187.08
-	 Minibatch 241 / 391, loss: 0.81, 			Accumulated loss: 187.90
-	 Minibatch 242 / 391, loss: 0.76, 			Accumulated loss: 188.66
-	 Minibatch 243 / 391, loss: 0.82, 			Accumulated loss: 189.48
-	 Minibatch 244 / 391, loss: 0.72, 			Accumulated loss: 190.20
-	 Minibatch 245 / 391, loss: 0.70, 			Accumulated loss: 190.90
-	 Minibatch 246 / 391, loss: 0.64, 			Accumulated loss: 191.54
-	 Minibatch 247 / 391, loss: 0.75, 			Accumulated loss: 192.29
-	 Minibatch 248 / 391, loss: 0.76, 			Accumulated loss: 193.05
-	 Minibatch 249 / 391, loss: 0.78, 			Accumulated loss: 193.83
-	 Minibatch 250 / 391, loss: 0.71, 			Accumulated loss: 194.54
-	 Minibatch 251 / 391, loss: 0.65, 			Accumulated loss: 195.19
-	 Minibatch 252 / 391, loss: 0.77, 			Accumulated loss: 195.96
-	 Minibatch 253 / 391, loss: 0.77, 			Accumulated loss: 196.73
-	 Minibatch 254 / 391, loss: 0.68, 			Accumulated loss: 197.41
-	 Minibatch 255 / 391, loss: 0.77, 			Accumulated loss: 198.18
-	 Minibatch 256 / 391, loss: 0.65, 			Accumulated loss: 198.83
-	 Minibatch 257 / 391, loss: 0.63, 			Accumulated loss: 199.47
-	 Minibatch 258 / 391, loss: 0.68, 			Accumulated loss: 200.15
-	 Minibatch 259 / 391, loss: 0.62, 			Accumulated loss: 200.77
-	 Minibatch 260 / 391, loss: 0.68, 			Accumulated loss: 201.44
-	 Minibatch 261 / 391, loss: 0.67, 			Accumulated loss: 202.11
-	 Minibatch 262 / 391, loss: 0.54, 			Accumulated loss: 202.65
-	 Minibatch 263 / 391, loss: 0.58, 			Accumulated loss: 203.24
-	 Minibatch 264 / 391, loss: 0.60, 			Accumulated loss: 203.84
-	 Minibatch 265 / 391, loss: 0.71, 			Accumulated loss: 204.55
-	 Minibatch 266 / 391, loss: 0.68, 			Accumulated loss: 205.23
-	 Minibatch 267 / 391, loss: 0.64, 			Accumulated loss: 205.87
-	 Minibatch 268 / 391, loss: 0.86, 			Accumulated loss: 206.73
-	 Minibatch 269 / 391, loss: 0.66, 			Accumulated loss: 207.39
-	 Minibatch 270 / 391, loss: 0.74, 			Accumulated loss: 208.13
-	 Minibatch 271 / 391, loss: 0.66, 			Accumulated loss: 208.79
-	 Minibatch 272 / 391, loss: 0.81, 			Accumulated loss: 209.60
-	 Minibatch 273 / 391, loss: 0.68, 			Accumulated loss: 210.28
-	 Minibatch 274 / 391, loss: 0.86, 			Accumulated loss: 211.14
-	 Minibatch 275 / 391, loss: 0.74, 			Accumulated loss: 211.88
-	 Minibatch 276 / 391, loss: 0.66, 			Accumulated loss: 212.54
-	 Minibatch 277 / 391, loss: 0.84, 			Accumulated loss: 213.37
-	 Minibatch 278 / 391, loss: 0.72, 			Accumulated loss: 214.09
-	 Minibatch 279 / 391, loss: 0.60, 			Accumulated loss: 214.69
-	 Minibatch 280 / 391, loss: 0.89, 			Accumulated loss: 215.58
-	 Minibatch 281 / 391, loss: 0.73, 			Accumulated loss: 216.31
-	 Minibatch 282 / 391, loss: 0.70, 			Accumulated loss: 217.01
-	 Minibatch 283 / 391, loss: 0.77, 			Accumulated loss: 217.78
-	 Minibatch 284 / 391, loss: 0.73, 			Accumulated loss: 218.51
-	 Minibatch 285 / 391, loss: 0.69, 			Accumulated loss: 219.20
-	 Minibatch 286 / 391, loss: 0.57, 			Accumulated loss: 219.77
-	 Minibatch 287 / 391, loss: 0.62, 			Accumulated loss: 220.38
-	 Minibatch 288 / 391, loss: 0.80, 			Accumulated loss: 221.18
-	 Minibatch 289 / 391, loss: 0.83, 			Accumulated loss: 222.01
-	 Minibatch 290 / 391, loss: 0.73, 			Accumulated loss: 222.74
-	 Minibatch 291 / 391, loss: 0.64, 			Accumulated loss: 223.38
-	 Minibatch 292 / 391, loss: 0.68, 			Accumulated loss: 224.06
-	 Minibatch 293 / 391, loss: 0.88, 			Accumulated loss: 224.94
-	 Minibatch 294 / 391, loss: 0.77, 			Accumulated loss: 225.71
-	 Minibatch 295 / 391, loss: 0.78, 			Accumulated loss: 226.49
-	 Minibatch 296 / 391, loss: 0.74, 			Accumulated loss: 227.23
-	 Minibatch 297 / 391, loss: 0.63, 			Accumulated loss: 227.86
-	 Minibatch 298 / 391, loss: 0.61, 			Accumulated loss: 228.46
-	 Minibatch 299 / 391, loss: 0.62, 			Accumulated loss: 229.09
-	 Minibatch 300 / 391, loss: 0.69, 			Accumulated loss: 229.78
-	 Minibatch 301 / 391, loss: 0.86, 			Accumulated loss: 230.64
-	 Minibatch 302 / 391, loss: 0.59, 			Accumulated loss: 231.23
-	 Minibatch 303 / 391, loss: 0.61, 			Accumulated loss: 231.84
-	 Minibatch 304 / 391, loss: 0.58, 			Accumulated loss: 232.42
-	 Minibatch 305 / 391, loss: 0.82, 			Accumulated loss: 233.24
-	 Minibatch 306 / 391, loss: 0.57, 			Accumulated loss: 233.81
-	 Minibatch 307 / 391, loss: 0.75, 			Accumulated loss: 234.56
-	 Minibatch 308 / 391, loss: 0.77, 			Accumulated loss: 235.33
-	 Minibatch 309 / 391, loss: 0.76, 			Accumulated loss: 236.08
-	 Minibatch 310 / 391, loss: 0.80, 			Accumulated loss: 236.88
-	 Minibatch 311 / 391, loss: 0.53, 			Accumulated loss: 237.41
-	 Minibatch 312 / 391, loss: 0.78, 			Accumulated loss: 238.19
-	 Minibatch 313 / 391, loss: 0.80, 			Accumulated loss: 238.98
-	 Minibatch 314 / 391, loss: 0.75, 			Accumulated loss: 239.73
-	 Minibatch 315 / 391, loss: 0.61, 			Accumulated loss: 240.34
-	 Minibatch 316 / 391, loss: 0.77, 			Accumulated loss: 241.11
-	 Minibatch 317 / 391, loss: 0.77, 			Accumulated loss: 241.87
-	 Minibatch 318 / 391, loss: 0.79, 			Accumulated loss: 242.66
-	 Minibatch 319 / 391, loss: 0.69, 			Accumulated loss: 243.35
-	 Minibatch 320 / 391, loss: 0.86, 			Accumulated loss: 244.21
-	 Minibatch 321 / 391, loss: 0.85, 			Accumulated loss: 245.06
-	 Minibatch 322 / 391, loss: 0.66, 			Accumulated loss: 245.73
-	 Minibatch 323 / 391, loss: 0.93, 			Accumulated loss: 246.65
-	 Minibatch 324 / 391, loss: 0.78, 			Accumulated loss: 247.43
-	 Minibatch 325 / 391, loss: 0.70, 			Accumulated loss: 248.13
-	 Minibatch 326 / 391, loss: 0.78, 			Accumulated loss: 248.92
-	 Minibatch 327 / 391, loss: 0.56, 			Accumulated loss: 249.47
-	 Minibatch 328 / 391, loss: 0.62, 			Accumulated loss: 250.09
-	 Minibatch 329 / 391, loss: 0.88, 			Accumulated loss: 250.97
-	 Minibatch 330 / 391, loss: 0.76, 			Accumulated loss: 251.73
-	 Minibatch 331 / 391, loss: 0.83, 			Accumulated loss: 252.56
-	 Minibatch 332 / 391, loss: 0.59, 			Accumulated loss: 253.15
-	 Minibatch 333 / 391, loss: 0.77, 			Accumulated loss: 253.91
-	 Minibatch 334 / 391, loss: 0.74, 			Accumulated loss: 254.66
-	 Minibatch 335 / 391, loss: 0.92, 			Accumulated loss: 255.58
-	 Minibatch 336 / 391, loss: 0.70, 			Accumulated loss: 256.28
-	 Minibatch 337 / 391, loss: 0.80, 			Accumulated loss: 257.08
-	 Minibatch 338 / 391, loss: 0.57, 			Accumulated loss: 257.65
-	 Minibatch 339 / 391, loss: 0.65, 			Accumulated loss: 258.30
-	 Minibatch 340 / 391, loss: 0.70, 			Accumulated loss: 259.00
-	 Minibatch 341 / 391, loss: 0.72, 			Accumulated loss: 259.72
-	 Minibatch 342 / 391, loss: 0.81, 			Accumulated loss: 260.53
-	 Minibatch 343 / 391, loss: 0.63, 			Accumulated loss: 261.16
-	 Minibatch 344 / 391, loss: 0.86, 			Accumulated loss: 262.02
-	 Minibatch 345 / 391, loss: 0.91, 			Accumulated loss: 262.93
-	 Minibatch 346 / 391, loss: 0.77, 			Accumulated loss: 263.69
-	 Minibatch 347 / 391, loss: 0.72, 			Accumulated loss: 264.41
-	 Minibatch 348 / 391, loss: 0.61, 			Accumulated loss: 265.03
-	 Minibatch 349 / 391, loss: 0.69, 			Accumulated loss: 265.71
-	 Minibatch 350 / 391, loss: 0.78, 			Accumulated loss: 266.49
-	 Minibatch 351 / 391, loss: 0.78, 			Accumulated loss: 267.27
-	 Minibatch 352 / 391, loss: 0.71, 			Accumulated loss: 267.98
-	 Minibatch 353 / 391, loss: 0.60, 			Accumulated loss: 268.58
-	 Minibatch 354 / 391, loss: 0.71, 			Accumulated loss: 269.29
-	 Minibatch 355 / 391, loss: 0.66, 			Accumulated loss: 269.95
-	 Minibatch 356 / 391, loss: 0.78, 			Accumulated loss: 270.73
-	 Minibatch 357 / 391, loss: 0.59, 			Accumulated loss: 271.32
-	 Minibatch 358 / 391, loss: 0.73, 			Accumulated loss: 272.05
-	 Minibatch 359 / 391, loss: 0.62, 			Accumulated loss: 272.67
-	 Minibatch 360 / 391, loss: 0.64, 			Accumulated loss: 273.31
-	 Minibatch 361 / 391, loss: 0.81, 			Accumulated loss: 274.12
-	 Minibatch 362 / 391, loss: 0.86, 			Accumulated loss: 274.98
-	 Minibatch 363 / 391, loss: 0.69, 			Accumulated loss: 275.68
-	 Minibatch 364 / 391, loss: 0.62, 			Accumulated loss: 276.29
-	 Minibatch 365 / 391, loss: 0.79, 			Accumulated loss: 277.09
-	 Minibatch 366 / 391, loss: 0.79, 			Accumulated loss: 277.88
-	 Minibatch 367 / 391, loss: 0.68, 			Accumulated loss: 278.56
-	 Minibatch 368 / 391, loss: 0.66, 			Accumulated loss: 279.22
-	 Minibatch 369 / 391, loss: 0.72, 			Accumulated loss: 279.94
-	 Minibatch 370 / 391, loss: 0.68, 			Accumulated loss: 280.62
-	 Minibatch 371 / 391, loss: 0.73, 			Accumulated loss: 281.35
-	 Minibatch 372 / 391, loss: 0.68, 			Accumulated loss: 282.04
-	 Minibatch 373 / 391, loss: 0.75, 			Accumulated loss: 282.78
-	 Minibatch 374 / 391, loss: 0.73, 			Accumulated loss: 283.51
-	 Minibatch 375 / 391, loss: 0.68, 			Accumulated loss: 284.20
-	 Minibatch 376 / 391, loss: 0.81, 			Accumulated loss: 285.01
-	 Minibatch 377 / 391, loss: 0.70, 			Accumulated loss: 285.71
-	 Minibatch 378 / 391, loss: 0.84, 			Accumulated loss: 286.55
-	 Minibatch 379 / 391, loss: 0.80, 			Accumulated loss: 287.35
-	 Minibatch 380 / 391, loss: 0.70, 			Accumulated loss: 288.05
-	 Minibatch 381 / 391, loss: 0.69, 			Accumulated loss: 288.74
-	 Minibatch 382 / 391, loss: 0.83, 			Accumulated loss: 289.58
-	 Minibatch 383 / 391, loss: 0.61, 			Accumulated loss: 290.19
-	 Minibatch 384 / 391, loss: 0.64, 			Accumulated loss: 290.83
-	 Minibatch 385 / 391, loss: 0.75, 			Accumulated loss: 291.58
-	 Minibatch 386 / 391, loss: 0.65, 			Accumulated loss: 292.23
-	 Minibatch 387 / 391, loss: 0.90, 			Accumulated loss: 293.13
-	 Minibatch 388 / 391, loss: 0.80, 			Accumulated loss: 293.93
-	 Minibatch 389 / 391, loss: 0.53, 			Accumulated loss: 294.46
-	 Minibatch 390 / 391, loss: 0.76, 			Accumulated loss: 295.22
-	 Minibatch 391 / 391, loss: 0.72, 			Accumulated loss: 295.94
-
-Aggregates: 
- 	 DataLoader Time: 1.3284 
- 	 		Mini-batch Time:5071.6648 
- 	 Training Epoch Time:5071.6947
- 		Averages: 
- 	 Training Loss: 0.7569
 model name	: Intel(R) Xeon(R) CPU E5-2609 v3 @ 1.90GHz
-Sun Oct 27 04:42:24 2019       
+Sun Oct 27 14:28:35 2019       
 +-----------------------------------------------------------------------------+
 | NVIDIA-SMI 418.74       Driver Version: 418.74       CUDA Version: 10.1     |
 |-------------------------------+----------------------+----------------------+
 | GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
 | Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
 |===============================+======================+======================|
-|   0  GeForce GTX 108...  On   | 00000000:02:00.0 Off |                  N/A |
-| 23%   21C    P8     9W / 250W |     11MiB / 11178MiB |      0%      Default |
+|   0  GeForce GTX TIT...  On   | 00000000:02:00.0 Off |                  N/A |
+| 22%   46C    P8    16W / 250W |      1MiB / 12212MiB |      0%      Default |
 +-------------------------------+----------------------+----------------------+
                                                                                
 +-----------------------------------------------------------------------------+
@@ -2021,5 +16,407 @@ Sun Oct 27 04:42:24 2019
 |=============================================================================|
 |  No running processes found                                                 |
 +-----------------------------------------------------------------------------+
-	 Testing precision@1: 0.7302 
+Files already downloaded and verified
+Files already downloaded and verified
+Epoch 0
+	 Minibatch 1 / 391, loss: 2.33, 				 Avg Accumulated loss: 2.33, 				 Precision: 11.72
+	 Minibatch 2 / 391, loss: 2.76, 				 Avg Accumulated loss: 2.55, 				 Precision: 13.28
+	 Minibatch 3 / 391, loss: 3.02, 				 Avg Accumulated loss: 2.70, 				 Precision: 19.53
+	 Minibatch 4 / 391, loss: 3.02, 				 Avg Accumulated loss: 2.78, 				 Precision: 9.38
+	 Minibatch 5 / 391, loss: 3.26, 				 Avg Accumulated loss: 2.88, 				 Precision: 11.72
+	 Minibatch 6 / 391, loss: 2.95, 				 Avg Accumulated loss: 2.89, 				 Precision: 10.94
+	 Minibatch 7 / 391, loss: 2.84, 				 Avg Accumulated loss: 2.88, 				 Precision: 19.53
+	 Minibatch 8 / 391, loss: 3.44, 				 Avg Accumulated loss: 2.95, 				 Precision: 18.75
+	 Minibatch 9 / 391, loss: 3.77, 				 Avg Accumulated loss: 3.04, 				 Precision: 11.72
+	 Minibatch 10 / 391, loss: 4.46, 				 Avg Accumulated loss: 3.18, 				 Precision: 14.84
+	 Minibatch 11 / 391, loss: 3.70, 				 Avg Accumulated loss: 3.23, 				 Precision: 8.59
+	 Minibatch 12 / 391, loss: 3.77, 				 Avg Accumulated loss: 3.28, 				 Precision: 8.59
+	 Minibatch 13 / 391, loss: 3.32, 				 Avg Accumulated loss: 3.28, 				 Precision: 13.28
+	 Minibatch 14 / 391, loss: 3.65, 				 Avg Accumulated loss: 3.30, 				 Precision: 8.59
+	 Minibatch 15 / 391, loss: 2.84, 				 Avg Accumulated loss: 3.27, 				 Precision: 13.28
+	 Minibatch 16 / 391, loss: 2.83, 				 Avg Accumulated loss: 3.25, 				 Precision: 17.19
+	 Minibatch 17 / 391, loss: 2.98, 				 Avg Accumulated loss: 3.23, 				 Precision: 17.97
+	 Minibatch 18 / 391, loss: 2.78, 				 Avg Accumulated loss: 3.21, 				 Precision: 9.38
+	 Minibatch 19 / 391, loss: 2.71, 				 Avg Accumulated loss: 3.18, 				 Precision: 13.28
+	 Minibatch 20 / 391, loss: 2.69, 				 Avg Accumulated loss: 3.15, 				 Precision: 14.06
+	 Minibatch 21 / 391, loss: 2.46, 				 Avg Accumulated loss: 3.12, 				 Precision: 10.16
+	 Minibatch 22 / 391, loss: 2.56, 				 Avg Accumulated loss: 3.10, 				 Precision: 15.62
+	 Minibatch 23 / 391, loss: 2.34, 				 Avg Accumulated loss: 3.06, 				 Precision: 15.62
+	 Minibatch 24 / 391, loss: 2.64, 				 Avg Accumulated loss: 3.05, 				 Precision: 14.06
+	 Minibatch 25 / 391, loss: 2.59, 				 Avg Accumulated loss: 3.03, 				 Precision: 17.97
+	 Minibatch 26 / 391, loss: 2.50, 				 Avg Accumulated loss: 3.01, 				 Precision: 14.84
+	 Minibatch 27 / 391, loss: 2.32, 				 Avg Accumulated loss: 2.98, 				 Precision: 23.44
+	 Minibatch 28 / 391, loss: 2.59, 				 Avg Accumulated loss: 2.97, 				 Precision: 16.41
+	 Minibatch 29 / 391, loss: 2.34, 				 Avg Accumulated loss: 2.95, 				 Precision: 17.97
+	 Minibatch 30 / 391, loss: 2.18, 				 Avg Accumulated loss: 2.92, 				 Precision: 18.75
+	 Minibatch 31 / 391, loss: 2.23, 				 Avg Accumulated loss: 2.90, 				 Precision: 13.28
+	 Minibatch 32 / 391, loss: 2.22, 				 Avg Accumulated loss: 2.88, 				 Precision: 20.31
+	 Minibatch 33 / 391, loss: 2.30, 				 Avg Accumulated loss: 2.86, 				 Precision: 14.84
+	 Minibatch 34 / 391, loss: 2.30, 				 Avg Accumulated loss: 2.84, 				 Precision: 10.94
+	 Minibatch 35 / 391, loss: 2.33, 				 Avg Accumulated loss: 2.83, 				 Precision: 21.88
+	 Minibatch 36 / 391, loss: 2.29, 				 Avg Accumulated loss: 2.81, 				 Precision: 20.31
+	 Minibatch 37 / 391, loss: 2.25, 				 Avg Accumulated loss: 2.80, 				 Precision: 21.09
+	 Minibatch 38 / 391, loss: 2.23, 				 Avg Accumulated loss: 2.78, 				 Precision: 17.19
+	 Minibatch 39 / 391, loss: 2.40, 				 Avg Accumulated loss: 2.77, 				 Precision: 17.19
+	 Minibatch 40 / 391, loss: 2.56, 				 Avg Accumulated loss: 2.77, 				 Precision: 20.31
+	 Minibatch 41 / 391, loss: 2.11, 				 Avg Accumulated loss: 2.75, 				 Precision: 28.12
+	 Minibatch 42 / 391, loss: 2.18, 				 Avg Accumulated loss: 2.74, 				 Precision: 15.62
+	 Minibatch 43 / 391, loss: 2.13, 				 Avg Accumulated loss: 2.72, 				 Precision: 23.44
+	 Minibatch 44 / 391, loss: 2.26, 				 Avg Accumulated loss: 2.71, 				 Precision: 27.34
+	 Minibatch 45 / 391, loss: 2.14, 				 Avg Accumulated loss: 2.70, 				 Precision: 17.97
+	 Minibatch 46 / 391, loss: 2.07, 				 Avg Accumulated loss: 2.69, 				 Precision: 25.78
+	 Minibatch 47 / 391, loss: 2.35, 				 Avg Accumulated loss: 2.68, 				 Precision: 22.66
+	 Minibatch 48 / 391, loss: 2.15, 				 Avg Accumulated loss: 2.67, 				 Precision: 25.78
+	 Minibatch 49 / 391, loss: 2.18, 				 Avg Accumulated loss: 2.66, 				 Precision: 23.44
+	 Minibatch 50 / 391, loss: 2.21, 				 Avg Accumulated loss: 2.65, 				 Precision: 19.53
+	 Minibatch 51 / 391, loss: 2.10, 				 Avg Accumulated loss: 2.64, 				 Precision: 20.31
+	 Minibatch 52 / 391, loss: 2.12, 				 Avg Accumulated loss: 2.63, 				 Precision: 18.75
+	 Minibatch 53 / 391, loss: 2.19, 				 Avg Accumulated loss: 2.62, 				 Precision: 19.53
+	 Minibatch 54 / 391, loss: 2.37, 				 Avg Accumulated loss: 2.62, 				 Precision: 20.31
+	 Minibatch 55 / 391, loss: 2.00, 				 Avg Accumulated loss: 2.61, 				 Precision: 23.44
+	 Minibatch 56 / 391, loss: 2.13, 				 Avg Accumulated loss: 2.60, 				 Precision: 16.41
+	 Minibatch 57 / 391, loss: 2.19, 				 Avg Accumulated loss: 2.59, 				 Precision: 22.66
+	 Minibatch 58 / 391, loss: 2.03, 				 Avg Accumulated loss: 2.58, 				 Precision: 28.12
+	 Minibatch 59 / 391, loss: 2.25, 				 Avg Accumulated loss: 2.57, 				 Precision: 21.88
+	 Minibatch 60 / 391, loss: 2.07, 				 Avg Accumulated loss: 2.57, 				 Precision: 18.75
+	 Minibatch 61 / 391, loss: 2.13, 				 Avg Accumulated loss: 2.56, 				 Precision: 19.53
+	 Minibatch 62 / 391, loss: 2.02, 				 Avg Accumulated loss: 2.55, 				 Precision: 19.53
+	 Minibatch 63 / 391, loss: 2.19, 				 Avg Accumulated loss: 2.54, 				 Precision: 23.44
+	 Minibatch 64 / 391, loss: 1.96, 				 Avg Accumulated loss: 2.54, 				 Precision: 25.00
+	 Minibatch 65 / 391, loss: 2.37, 				 Avg Accumulated loss: 2.53, 				 Precision: 16.41
+	 Minibatch 66 / 391, loss: 2.24, 				 Avg Accumulated loss: 2.53, 				 Precision: 19.53
+	 Minibatch 67 / 391, loss: 2.15, 				 Avg Accumulated loss: 2.52, 				 Precision: 19.53
+	 Minibatch 68 / 391, loss: 2.06, 				 Avg Accumulated loss: 2.52, 				 Precision: 19.53
+	 Minibatch 69 / 391, loss: 2.14, 				 Avg Accumulated loss: 2.51, 				 Precision: 21.09
+	 Minibatch 70 / 391, loss: 2.12, 				 Avg Accumulated loss: 2.50, 				 Precision: 21.09
+	 Minibatch 71 / 391, loss: 2.07, 				 Avg Accumulated loss: 2.50, 				 Precision: 23.44
+	 Minibatch 72 / 391, loss: 1.90, 				 Avg Accumulated loss: 2.49, 				 Precision: 25.00
+	 Minibatch 73 / 391, loss: 2.12, 				 Avg Accumulated loss: 2.49, 				 Precision: 28.91
+	 Minibatch 74 / 391, loss: 2.20, 				 Avg Accumulated loss: 2.48, 				 Precision: 21.88
+	 Minibatch 75 / 391, loss: 2.23, 				 Avg Accumulated loss: 2.48, 				 Precision: 19.53
+	 Minibatch 76 / 391, loss: 2.01, 				 Avg Accumulated loss: 2.47, 				 Precision: 28.12
+	 Minibatch 77 / 391, loss: 2.05, 				 Avg Accumulated loss: 2.47, 				 Precision: 23.44
+	 Minibatch 78 / 391, loss: 2.04, 				 Avg Accumulated loss: 2.46, 				 Precision: 22.66
+	 Minibatch 79 / 391, loss: 2.09, 				 Avg Accumulated loss: 2.46, 				 Precision: 19.53
+	 Minibatch 80 / 391, loss: 2.02, 				 Avg Accumulated loss: 2.45, 				 Precision: 29.69
+	 Minibatch 81 / 391, loss: 2.06, 				 Avg Accumulated loss: 2.45, 				 Precision: 25.00
+	 Minibatch 82 / 391, loss: 2.01, 				 Avg Accumulated loss: 2.44, 				 Precision: 18.75
+	 Minibatch 83 / 391, loss: 2.05, 				 Avg Accumulated loss: 2.44, 				 Precision: 28.91
+	 Minibatch 84 / 391, loss: 1.99, 				 Avg Accumulated loss: 2.43, 				 Precision: 28.12
+	 Minibatch 85 / 391, loss: 2.05, 				 Avg Accumulated loss: 2.43, 				 Precision: 21.88
+	 Minibatch 86 / 391, loss: 1.96, 				 Avg Accumulated loss: 2.42, 				 Precision: 25.00
+	 Minibatch 87 / 391, loss: 1.92, 				 Avg Accumulated loss: 2.42, 				 Precision: 25.00
+	 Minibatch 88 / 391, loss: 1.95, 				 Avg Accumulated loss: 2.41, 				 Precision: 25.78
+	 Minibatch 89 / 391, loss: 2.00, 				 Avg Accumulated loss: 2.41, 				 Precision: 22.66
+	 Minibatch 90 / 391, loss: 2.06, 				 Avg Accumulated loss: 2.40, 				 Precision: 21.09
+	 Minibatch 91 / 391, loss: 2.06, 				 Avg Accumulated loss: 2.40, 				 Precision: 21.09
+	 Minibatch 92 / 391, loss: 2.12, 				 Avg Accumulated loss: 2.39, 				 Precision: 23.44
+	 Minibatch 93 / 391, loss: 2.05, 				 Avg Accumulated loss: 2.39, 				 Precision: 22.66
+	 Minibatch 94 / 391, loss: 2.05, 				 Avg Accumulated loss: 2.39, 				 Precision: 28.91
+	 Minibatch 95 / 391, loss: 2.03, 				 Avg Accumulated loss: 2.38, 				 Precision: 22.66
+	 Minibatch 96 / 391, loss: 2.04, 				 Avg Accumulated loss: 2.38, 				 Precision: 22.66
+	 Minibatch 97 / 391, loss: 2.00, 				 Avg Accumulated loss: 2.38, 				 Precision: 25.00
+	 Minibatch 98 / 391, loss: 1.93, 				 Avg Accumulated loss: 2.37, 				 Precision: 23.44
+	 Minibatch 99 / 391, loss: 1.98, 				 Avg Accumulated loss: 2.37, 				 Precision: 28.91
+	 Minibatch 100 / 391, loss: 1.97, 				 Avg Accumulated loss: 2.36, 				 Precision: 29.69
+	 Minibatch 101 / 391, loss: 1.92, 				 Avg Accumulated loss: 2.36, 				 Precision: 28.12
+	 Minibatch 102 / 391, loss: 1.77, 				 Avg Accumulated loss: 2.35, 				 Precision: 36.72
+	 Minibatch 103 / 391, loss: 2.15, 				 Avg Accumulated loss: 2.35, 				 Precision: 22.66
+	 Minibatch 104 / 391, loss: 2.14, 				 Avg Accumulated loss: 2.35, 				 Precision: 25.00
+	 Minibatch 105 / 391, loss: 1.97, 				 Avg Accumulated loss: 2.35, 				 Precision: 35.16
+	 Minibatch 106 / 391, loss: 1.99, 				 Avg Accumulated loss: 2.34, 				 Precision: 33.59
+	 Minibatch 107 / 391, loss: 1.95, 				 Avg Accumulated loss: 2.34, 				 Precision: 23.44
+	 Minibatch 108 / 391, loss: 2.07, 				 Avg Accumulated loss: 2.34, 				 Precision: 20.31
+	 Minibatch 109 / 391, loss: 1.91, 				 Avg Accumulated loss: 2.33, 				 Precision: 24.22
+	 Minibatch 110 / 391, loss: 1.99, 				 Avg Accumulated loss: 2.33, 				 Precision: 29.69
+	 Minibatch 111 / 391, loss: 1.93, 				 Avg Accumulated loss: 2.33, 				 Precision: 28.91
+	 Minibatch 112 / 391, loss: 1.84, 				 Avg Accumulated loss: 2.32, 				 Precision: 27.34
+	 Minibatch 113 / 391, loss: 1.98, 				 Avg Accumulated loss: 2.32, 				 Precision: 28.12
+	 Minibatch 114 / 391, loss: 1.90, 				 Avg Accumulated loss: 2.31, 				 Precision: 28.12
+	 Minibatch 115 / 391, loss: 1.87, 				 Avg Accumulated loss: 2.31, 				 Precision: 32.81
+	 Minibatch 116 / 391, loss: 1.91, 				 Avg Accumulated loss: 2.31, 				 Precision: 25.00
+	 Minibatch 117 / 391, loss: 2.10, 				 Avg Accumulated loss: 2.31, 				 Precision: 25.00
+	 Minibatch 118 / 391, loss: 1.94, 				 Avg Accumulated loss: 2.30, 				 Precision: 28.91
+	 Minibatch 119 / 391, loss: 1.87, 				 Avg Accumulated loss: 2.30, 				 Precision: 27.34
+	 Minibatch 120 / 391, loss: 1.92, 				 Avg Accumulated loss: 2.30, 				 Precision: 30.47
+	 Minibatch 121 / 391, loss: 1.88, 				 Avg Accumulated loss: 2.29, 				 Precision: 21.88
+	 Minibatch 122 / 391, loss: 2.03, 				 Avg Accumulated loss: 2.29, 				 Precision: 24.22
+	 Minibatch 123 / 391, loss: 1.93, 				 Avg Accumulated loss: 2.29, 				 Precision: 30.47
+	 Minibatch 124 / 391, loss: 1.97, 				 Avg Accumulated loss: 2.28, 				 Precision: 28.12
+	 Minibatch 125 / 391, loss: 2.05, 				 Avg Accumulated loss: 2.28, 				 Precision: 27.34
+	 Minibatch 126 / 391, loss: 1.78, 				 Avg Accumulated loss: 2.28, 				 Precision: 35.94
+	 Minibatch 127 / 391, loss: 1.91, 				 Avg Accumulated loss: 2.28, 				 Precision: 30.47
+	 Minibatch 128 / 391, loss: 2.02, 				 Avg Accumulated loss: 2.27, 				 Precision: 29.69
+	 Minibatch 129 / 391, loss: 1.97, 				 Avg Accumulated loss: 2.27, 				 Precision: 33.59
+	 Minibatch 130 / 391, loss: 1.94, 				 Avg Accumulated loss: 2.27, 				 Precision: 32.03
+	 Minibatch 131 / 391, loss: 1.88, 				 Avg Accumulated loss: 2.27, 				 Precision: 29.69
+	 Minibatch 132 / 391, loss: 1.82, 				 Avg Accumulated loss: 2.26, 				 Precision: 30.47
+	 Minibatch 133 / 391, loss: 1.92, 				 Avg Accumulated loss: 2.26, 				 Precision: 28.12
+	 Minibatch 134 / 391, loss: 1.86, 				 Avg Accumulated loss: 2.26, 				 Precision: 33.59
+	 Minibatch 135 / 391, loss: 1.86, 				 Avg Accumulated loss: 2.25, 				 Precision: 28.91
+	 Minibatch 136 / 391, loss: 1.88, 				 Avg Accumulated loss: 2.25, 				 Precision: 34.38
+	 Minibatch 137 / 391, loss: 1.82, 				 Avg Accumulated loss: 2.25, 				 Precision: 28.12
+	 Minibatch 138 / 391, loss: 1.86, 				 Avg Accumulated loss: 2.25, 				 Precision: 25.00
+	 Minibatch 139 / 391, loss: 1.78, 				 Avg Accumulated loss: 2.24, 				 Precision: 32.81
+	 Minibatch 140 / 391, loss: 2.06, 				 Avg Accumulated loss: 2.24, 				 Precision: 28.91
+	 Minibatch 141 / 391, loss: 1.71, 				 Avg Accumulated loss: 2.24, 				 Precision: 34.38
+	 Minibatch 142 / 391, loss: 1.83, 				 Avg Accumulated loss: 2.23, 				 Precision: 27.34
+	 Minibatch 143 / 391, loss: 1.77, 				 Avg Accumulated loss: 2.23, 				 Precision: 37.50
+	 Minibatch 144 / 391, loss: 1.82, 				 Avg Accumulated loss: 2.23, 				 Precision: 28.12
+	 Minibatch 145 / 391, loss: 1.77, 				 Avg Accumulated loss: 2.22, 				 Precision: 32.03
+	 Minibatch 146 / 391, loss: 1.84, 				 Avg Accumulated loss: 2.22, 				 Precision: 32.81
+	 Minibatch 147 / 391, loss: 1.80, 				 Avg Accumulated loss: 2.22, 				 Precision: 31.25
+	 Minibatch 148 / 391, loss: 1.97, 				 Avg Accumulated loss: 2.22, 				 Precision: 26.56
+	 Minibatch 149 / 391, loss: 1.79, 				 Avg Accumulated loss: 2.21, 				 Precision: 35.16
+	 Minibatch 150 / 391, loss: 1.83, 				 Avg Accumulated loss: 2.21, 				 Precision: 31.25
+	 Minibatch 151 / 391, loss: 1.84, 				 Avg Accumulated loss: 2.21, 				 Precision: 32.03
+	 Minibatch 152 / 391, loss: 1.90, 				 Avg Accumulated loss: 2.21, 				 Precision: 29.69
+	 Minibatch 153 / 391, loss: 1.86, 				 Avg Accumulated loss: 2.21, 				 Precision: 28.91
+	 Minibatch 154 / 391, loss: 1.79, 				 Avg Accumulated loss: 2.20, 				 Precision: 31.25
+	 Minibatch 155 / 391, loss: 1.82, 				 Avg Accumulated loss: 2.20, 				 Precision: 34.38
+	 Minibatch 156 / 391, loss: 1.94, 				 Avg Accumulated loss: 2.20, 				 Precision: 21.88
+	 Minibatch 157 / 391, loss: 2.03, 				 Avg Accumulated loss: 2.20, 				 Precision: 25.78
+	 Minibatch 158 / 391, loss: 1.81, 				 Avg Accumulated loss: 2.20, 				 Precision: 36.72
+	 Minibatch 159 / 391, loss: 1.91, 				 Avg Accumulated loss: 2.19, 				 Precision: 27.34
+	 Minibatch 160 / 391, loss: 1.79, 				 Avg Accumulated loss: 2.19, 				 Precision: 33.59
+	 Minibatch 161 / 391, loss: 1.86, 				 Avg Accumulated loss: 2.19, 				 Precision: 27.34
+	 Minibatch 162 / 391, loss: 1.81, 				 Avg Accumulated loss: 2.19, 				 Precision: 28.12
+	 Minibatch 163 / 391, loss: 1.88, 				 Avg Accumulated loss: 2.18, 				 Precision: 27.34
+	 Minibatch 164 / 391, loss: 1.74, 				 Avg Accumulated loss: 2.18, 				 Precision: 42.19
+	 Minibatch 165 / 391, loss: 1.82, 				 Avg Accumulated loss: 2.18, 				 Precision: 21.88
+	 Minibatch 166 / 391, loss: 1.82, 				 Avg Accumulated loss: 2.18, 				 Precision: 31.25
+	 Minibatch 167 / 391, loss: 1.72, 				 Avg Accumulated loss: 2.17, 				 Precision: 35.94
+	 Minibatch 168 / 391, loss: 1.88, 				 Avg Accumulated loss: 2.17, 				 Precision: 31.25
+	 Minibatch 169 / 391, loss: 1.89, 				 Avg Accumulated loss: 2.17, 				 Precision: 25.78
+	 Minibatch 170 / 391, loss: 1.80, 				 Avg Accumulated loss: 2.17, 				 Precision: 32.81
+	 Minibatch 171 / 391, loss: 1.70, 				 Avg Accumulated loss: 2.17, 				 Precision: 38.28
+	 Minibatch 172 / 391, loss: 1.79, 				 Avg Accumulated loss: 2.16, 				 Precision: 38.28
+	 Minibatch 173 / 391, loss: 1.94, 				 Avg Accumulated loss: 2.16, 				 Precision: 32.03
+	 Minibatch 174 / 391, loss: 1.65, 				 Avg Accumulated loss: 2.16, 				 Precision: 32.81
+	 Minibatch 175 / 391, loss: 1.81, 				 Avg Accumulated loss: 2.16, 				 Precision: 34.38
+	 Minibatch 176 / 391, loss: 1.72, 				 Avg Accumulated loss: 2.16, 				 Precision: 36.72
+	 Minibatch 177 / 391, loss: 2.02, 				 Avg Accumulated loss: 2.15, 				 Precision: 25.78
+	 Minibatch 178 / 391, loss: 2.02, 				 Avg Accumulated loss: 2.15, 				 Precision: 31.25
+	 Minibatch 179 / 391, loss: 1.65, 				 Avg Accumulated loss: 2.15, 				 Precision: 42.19
+	 Minibatch 180 / 391, loss: 1.67, 				 Avg Accumulated loss: 2.15, 				 Precision: 39.84
+	 Minibatch 181 / 391, loss: 1.56, 				 Avg Accumulated loss: 2.15, 				 Precision: 43.75
+	 Minibatch 182 / 391, loss: 1.83, 				 Avg Accumulated loss: 2.14, 				 Precision: 32.81
+	 Minibatch 183 / 391, loss: 1.75, 				 Avg Accumulated loss: 2.14, 				 Precision: 44.53
+	 Minibatch 184 / 391, loss: 1.79, 				 Avg Accumulated loss: 2.14, 				 Precision: 36.72
+	 Minibatch 185 / 391, loss: 1.72, 				 Avg Accumulated loss: 2.14, 				 Precision: 35.94
+	 Minibatch 186 / 391, loss: 1.84, 				 Avg Accumulated loss: 2.14, 				 Precision: 23.44
+	 Minibatch 187 / 391, loss: 1.76, 				 Avg Accumulated loss: 2.13, 				 Precision: 36.72
+	 Minibatch 188 / 391, loss: 1.77, 				 Avg Accumulated loss: 2.13, 				 Precision: 32.03
+	 Minibatch 189 / 391, loss: 1.92, 				 Avg Accumulated loss: 2.13, 				 Precision: 28.12
+	 Minibatch 190 / 391, loss: 1.84, 				 Avg Accumulated loss: 2.13, 				 Precision: 32.81
+	 Minibatch 191 / 391, loss: 1.79, 				 Avg Accumulated loss: 2.13, 				 Precision: 35.94
+	 Minibatch 192 / 391, loss: 1.75, 				 Avg Accumulated loss: 2.13, 				 Precision: 39.06
+	 Minibatch 193 / 391, loss: 1.72, 				 Avg Accumulated loss: 2.12, 				 Precision: 44.53
+	 Minibatch 194 / 391, loss: 1.51, 				 Avg Accumulated loss: 2.12, 				 Precision: 50.78
+	 Minibatch 195 / 391, loss: 1.64, 				 Avg Accumulated loss: 2.12, 				 Precision: 45.31
+	 Minibatch 196 / 391, loss: 1.87, 				 Avg Accumulated loss: 2.12, 				 Precision: 26.56
+	 Minibatch 197 / 391, loss: 1.79, 				 Avg Accumulated loss: 2.11, 				 Precision: 32.03
+	 Minibatch 198 / 391, loss: 1.83, 				 Avg Accumulated loss: 2.11, 				 Precision: 34.38
+	 Minibatch 199 / 391, loss: 1.68, 				 Avg Accumulated loss: 2.11, 				 Precision: 35.16
+	 Minibatch 200 / 391, loss: 1.83, 				 Avg Accumulated loss: 2.11, 				 Precision: 29.69
+	 Minibatch 201 / 391, loss: 1.78, 				 Avg Accumulated loss: 2.11, 				 Precision: 31.25
+	 Minibatch 202 / 391, loss: 1.75, 				 Avg Accumulated loss: 2.11, 				 Precision: 32.81
+	 Minibatch 203 / 391, loss: 1.79, 				 Avg Accumulated loss: 2.10, 				 Precision: 35.16
+	 Minibatch 204 / 391, loss: 1.64, 				 Avg Accumulated loss: 2.10, 				 Precision: 35.94
+	 Minibatch 205 / 391, loss: 1.69, 				 Avg Accumulated loss: 2.10, 				 Precision: 34.38
+	 Minibatch 206 / 391, loss: 1.77, 				 Avg Accumulated loss: 2.10, 				 Precision: 32.81
+	 Minibatch 207 / 391, loss: 1.77, 				 Avg Accumulated loss: 2.10, 				 Precision: 35.16
+	 Minibatch 208 / 391, loss: 1.57, 				 Avg Accumulated loss: 2.09, 				 Precision: 43.75
+	 Minibatch 209 / 391, loss: 1.76, 				 Avg Accumulated loss: 2.09, 				 Precision: 39.06
+	 Minibatch 210 / 391, loss: 1.81, 				 Avg Accumulated loss: 2.09, 				 Precision: 35.94
+	 Minibatch 211 / 391, loss: 1.77, 				 Avg Accumulated loss: 2.09, 				 Precision: 35.16
+	 Minibatch 212 / 391, loss: 1.70, 				 Avg Accumulated loss: 2.09, 				 Precision: 31.25
+	 Minibatch 213 / 391, loss: 1.87, 				 Avg Accumulated loss: 2.09, 				 Precision: 35.16
+	 Minibatch 214 / 391, loss: 1.78, 				 Avg Accumulated loss: 2.09, 				 Precision: 34.38
+	 Minibatch 215 / 391, loss: 1.67, 				 Avg Accumulated loss: 2.08, 				 Precision: 42.19
+	 Minibatch 216 / 391, loss: 1.81, 				 Avg Accumulated loss: 2.08, 				 Precision: 25.78
+	 Minibatch 217 / 391, loss: 1.84, 				 Avg Accumulated loss: 2.08, 				 Precision: 31.25
+	 Minibatch 218 / 391, loss: 1.71, 				 Avg Accumulated loss: 2.08, 				 Precision: 39.84
+	 Minibatch 219 / 391, loss: 1.86, 				 Avg Accumulated loss: 2.08, 				 Precision: 28.12
+	 Minibatch 220 / 391, loss: 1.67, 				 Avg Accumulated loss: 2.08, 				 Precision: 37.50
+	 Minibatch 221 / 391, loss: 1.74, 				 Avg Accumulated loss: 2.08, 				 Precision: 41.41
+	 Minibatch 222 / 391, loss: 1.72, 				 Avg Accumulated loss: 2.07, 				 Precision: 35.94
+	 Minibatch 223 / 391, loss: 1.83, 				 Avg Accumulated loss: 2.07, 				 Precision: 35.94
+	 Minibatch 224 / 391, loss: 1.59, 				 Avg Accumulated loss: 2.07, 				 Precision: 39.84
+	 Minibatch 225 / 391, loss: 1.66, 				 Avg Accumulated loss: 2.07, 				 Precision: 39.06
+	 Minibatch 226 / 391, loss: 1.67, 				 Avg Accumulated loss: 2.07, 				 Precision: 39.06
+	 Minibatch 227 / 391, loss: 1.84, 				 Avg Accumulated loss: 2.07, 				 Precision: 31.25
+	 Minibatch 228 / 391, loss: 1.68, 				 Avg Accumulated loss: 2.06, 				 Precision: 32.03
+	 Minibatch 229 / 391, loss: 1.71, 				 Avg Accumulated loss: 2.06, 				 Precision: 39.06
+	 Minibatch 230 / 391, loss: 1.89, 				 Avg Accumulated loss: 2.06, 				 Precision: 30.47
+	 Minibatch 231 / 391, loss: 1.71, 				 Avg Accumulated loss: 2.06, 				 Precision: 33.59
+	 Minibatch 232 / 391, loss: 1.79, 				 Avg Accumulated loss: 2.06, 				 Precision: 35.94
+	 Minibatch 233 / 391, loss: 1.83, 				 Avg Accumulated loss: 2.06, 				 Precision: 29.69
+	 Minibatch 234 / 391, loss: 1.74, 				 Avg Accumulated loss: 2.06, 				 Precision: 32.81
+	 Minibatch 235 / 391, loss: 1.79, 				 Avg Accumulated loss: 2.06, 				 Precision: 35.94
+	 Minibatch 236 / 391, loss: 1.76, 				 Avg Accumulated loss: 2.05, 				 Precision: 33.59
+	 Minibatch 237 / 391, loss: 1.75, 				 Avg Accumulated loss: 2.05, 				 Precision: 36.72
+	 Minibatch 238 / 391, loss: 1.79, 				 Avg Accumulated loss: 2.05, 				 Precision: 33.59
+	 Minibatch 239 / 391, loss: 1.69, 				 Avg Accumulated loss: 2.05, 				 Precision: 42.19
+	 Minibatch 240 / 391, loss: 1.82, 				 Avg Accumulated loss: 2.05, 				 Precision: 39.06
+	 Minibatch 241 / 391, loss: 1.60, 				 Avg Accumulated loss: 2.05, 				 Precision: 49.22
+	 Minibatch 242 / 391, loss: 1.80, 				 Avg Accumulated loss: 2.05, 				 Precision: 39.84
+	 Minibatch 243 / 391, loss: 1.73, 				 Avg Accumulated loss: 2.05, 				 Precision: 37.50
+	 Minibatch 244 / 391, loss: 1.87, 				 Avg Accumulated loss: 2.04, 				 Precision: 27.34
+	 Minibatch 245 / 391, loss: 1.90, 				 Avg Accumulated loss: 2.04, 				 Precision: 30.47
+	 Minibatch 246 / 391, loss: 1.73, 				 Avg Accumulated loss: 2.04, 				 Precision: 35.16
+	 Minibatch 247 / 391, loss: 1.73, 				 Avg Accumulated loss: 2.04, 				 Precision: 39.06
+	 Minibatch 248 / 391, loss: 1.84, 				 Avg Accumulated loss: 2.04, 				 Precision: 35.94
+	 Minibatch 249 / 391, loss: 1.78, 				 Avg Accumulated loss: 2.04, 				 Precision: 35.94
+	 Minibatch 250 / 391, loss: 1.76, 				 Avg Accumulated loss: 2.04, 				 Precision: 35.16
+	 Minibatch 251 / 391, loss: 1.86, 				 Avg Accumulated loss: 2.04, 				 Precision: 28.12
+	 Minibatch 252 / 391, loss: 1.89, 				 Avg Accumulated loss: 2.04, 				 Precision: 29.69
+	 Minibatch 253 / 391, loss: 1.61, 				 Avg Accumulated loss: 2.04, 				 Precision: 46.88
+	 Minibatch 254 / 391, loss: 1.61, 				 Avg Accumulated loss: 2.03, 				 Precision: 38.28
+	 Minibatch 255 / 391, loss: 1.63, 				 Avg Accumulated loss: 2.03, 				 Precision: 38.28
+	 Minibatch 256 / 391, loss: 1.85, 				 Avg Accumulated loss: 2.03, 				 Precision: 29.69
+	 Minibatch 257 / 391, loss: 1.75, 				 Avg Accumulated loss: 2.03, 				 Precision: 32.03
+	 Minibatch 258 / 391, loss: 1.59, 				 Avg Accumulated loss: 2.03, 				 Precision: 39.84
+	 Minibatch 259 / 391, loss: 1.67, 				 Avg Accumulated loss: 2.03, 				 Precision: 37.50
+	 Minibatch 260 / 391, loss: 1.85, 				 Avg Accumulated loss: 2.03, 				 Precision: 28.91
+	 Minibatch 261 / 391, loss: 1.51, 				 Avg Accumulated loss: 2.03, 				 Precision: 42.97
+	 Minibatch 262 / 391, loss: 1.76, 				 Avg Accumulated loss: 2.02, 				 Precision: 35.94
+	 Minibatch 263 / 391, loss: 1.80, 				 Avg Accumulated loss: 2.02, 				 Precision: 36.72
+	 Minibatch 264 / 391, loss: 1.96, 				 Avg Accumulated loss: 2.02, 				 Precision: 27.34
+	 Minibatch 265 / 391, loss: 1.72, 				 Avg Accumulated loss: 2.02, 				 Precision: 34.38
+	 Minibatch 266 / 391, loss: 1.69, 				 Avg Accumulated loss: 2.02, 				 Precision: 40.62
+	 Minibatch 267 / 391, loss: 1.68, 				 Avg Accumulated loss: 2.02, 				 Precision: 42.19
+	 Minibatch 268 / 391, loss: 1.66, 				 Avg Accumulated loss: 2.02, 				 Precision: 38.28
+	 Minibatch 269 / 391, loss: 1.66, 				 Avg Accumulated loss: 2.02, 				 Precision: 37.50
+	 Minibatch 270 / 391, loss: 1.72, 				 Avg Accumulated loss: 2.02, 				 Precision: 31.25
+	 Minibatch 271 / 391, loss: 1.70, 				 Avg Accumulated loss: 2.01, 				 Precision: 40.62
+	 Minibatch 272 / 391, loss: 1.84, 				 Avg Accumulated loss: 2.01, 				 Precision: 32.03
+	 Minibatch 273 / 391, loss: 1.66, 				 Avg Accumulated loss: 2.01, 				 Precision: 38.28
+	 Minibatch 274 / 391, loss: 1.66, 				 Avg Accumulated loss: 2.01, 				 Precision: 39.06
+	 Minibatch 275 / 391, loss: 1.60, 				 Avg Accumulated loss: 2.01, 				 Precision: 35.94
+	 Minibatch 276 / 391, loss: 1.54, 				 Avg Accumulated loss: 2.01, 				 Precision: 42.19
+	 Minibatch 277 / 391, loss: 1.66, 				 Avg Accumulated loss: 2.01, 				 Precision: 32.81
+	 Minibatch 278 / 391, loss: 1.68, 				 Avg Accumulated loss: 2.01, 				 Precision: 40.62
+	 Minibatch 279 / 391, loss: 1.65, 				 Avg Accumulated loss: 2.00, 				 Precision: 39.06
+	 Minibatch 280 / 391, loss: 1.61, 				 Avg Accumulated loss: 2.00, 				 Precision: 41.41
+	 Minibatch 281 / 391, loss: 1.66, 				 Avg Accumulated loss: 2.00, 				 Precision: 34.38
+	 Minibatch 282 / 391, loss: 1.77, 				 Avg Accumulated loss: 2.00, 				 Precision: 30.47
+	 Minibatch 283 / 391, loss: 1.62, 				 Avg Accumulated loss: 2.00, 				 Precision: 37.50
+	 Minibatch 284 / 391, loss: 1.63, 				 Avg Accumulated loss: 2.00, 				 Precision: 42.19
+	 Minibatch 285 / 391, loss: 1.78, 				 Avg Accumulated loss: 2.00, 				 Precision: 39.06
+	 Minibatch 286 / 391, loss: 1.77, 				 Avg Accumulated loss: 2.00, 				 Precision: 36.72
+	 Minibatch 287 / 391, loss: 1.66, 				 Avg Accumulated loss: 2.00, 				 Precision: 34.38
+	 Minibatch 288 / 391, loss: 1.53, 				 Avg Accumulated loss: 1.99, 				 Precision: 39.84
+	 Minibatch 289 / 391, loss: 1.62, 				 Avg Accumulated loss: 1.99, 				 Precision: 37.50
+	 Minibatch 290 / 391, loss: 1.80, 				 Avg Accumulated loss: 1.99, 				 Precision: 36.72
+	 Minibatch 291 / 391, loss: 1.78, 				 Avg Accumulated loss: 1.99, 				 Precision: 32.03
+	 Minibatch 292 / 391, loss: 1.68, 				 Avg Accumulated loss: 1.99, 				 Precision: 32.03
+	 Minibatch 293 / 391, loss: 1.67, 				 Avg Accumulated loss: 1.99, 				 Precision: 35.94
+	 Minibatch 294 / 391, loss: 1.57, 				 Avg Accumulated loss: 1.99, 				 Precision: 46.09
+	 Minibatch 295 / 391, loss: 1.61, 				 Avg Accumulated loss: 1.99, 				 Precision: 44.53
+	 Minibatch 296 / 391, loss: 1.69, 				 Avg Accumulated loss: 1.99, 				 Precision: 36.72
+	 Minibatch 297 / 391, loss: 1.67, 				 Avg Accumulated loss: 1.98, 				 Precision: 36.72
+	 Minibatch 298 / 391, loss: 1.62, 				 Avg Accumulated loss: 1.98, 				 Precision: 38.28
+	 Minibatch 299 / 391, loss: 1.63, 				 Avg Accumulated loss: 1.98, 				 Precision: 41.41
+	 Minibatch 300 / 391, loss: 1.70, 				 Avg Accumulated loss: 1.98, 				 Precision: 38.28
+	 Minibatch 301 / 391, loss: 1.63, 				 Avg Accumulated loss: 1.98, 				 Precision: 38.28
+	 Minibatch 302 / 391, loss: 1.64, 				 Avg Accumulated loss: 1.98, 				 Precision: 42.97
+	 Minibatch 303 / 391, loss: 1.62, 				 Avg Accumulated loss: 1.98, 				 Precision: 42.97
+	 Minibatch 304 / 391, loss: 1.81, 				 Avg Accumulated loss: 1.98, 				 Precision: 39.06
+	 Minibatch 305 / 391, loss: 1.72, 				 Avg Accumulated loss: 1.98, 				 Precision: 35.16
+	 Minibatch 306 / 391, loss: 1.83, 				 Avg Accumulated loss: 1.98, 				 Precision: 36.72
+	 Minibatch 307 / 391, loss: 1.53, 				 Avg Accumulated loss: 1.97, 				 Precision: 50.78
+	 Minibatch 308 / 391, loss: 1.72, 				 Avg Accumulated loss: 1.97, 				 Precision: 32.03
+	 Minibatch 309 / 391, loss: 1.64, 				 Avg Accumulated loss: 1.97, 				 Precision: 43.75
+	 Minibatch 310 / 391, loss: 1.63, 				 Avg Accumulated loss: 1.97, 				 Precision: 40.62
+	 Minibatch 311 / 391, loss: 1.75, 				 Avg Accumulated loss: 1.97, 				 Precision: 40.62
+	 Minibatch 312 / 391, loss: 1.58, 				 Avg Accumulated loss: 1.97, 				 Precision: 36.72
+	 Minibatch 313 / 391, loss: 1.67, 				 Avg Accumulated loss: 1.97, 				 Precision: 35.94
+	 Minibatch 314 / 391, loss: 1.65, 				 Avg Accumulated loss: 1.97, 				 Precision: 37.50
+	 Minibatch 315 / 391, loss: 1.74, 				 Avg Accumulated loss: 1.97, 				 Precision: 42.19
+	 Minibatch 316 / 391, loss: 1.65, 				 Avg Accumulated loss: 1.97, 				 Precision: 39.84
+	 Minibatch 317 / 391, loss: 1.77, 				 Avg Accumulated loss: 1.96, 				 Precision: 36.72
+	 Minibatch 318 / 391, loss: 1.55, 				 Avg Accumulated loss: 1.96, 				 Precision: 41.41
+	 Minibatch 319 / 391, loss: 1.65, 				 Avg Accumulated loss: 1.96, 				 Precision: 38.28
+	 Minibatch 320 / 391, loss: 1.72, 				 Avg Accumulated loss: 1.96, 				 Precision: 34.38
+	 Minibatch 321 / 391, loss: 1.67, 				 Avg Accumulated loss: 1.96, 				 Precision: 40.62
+	 Minibatch 322 / 391, loss: 1.62, 				 Avg Accumulated loss: 1.96, 				 Precision: 38.28
+	 Minibatch 323 / 391, loss: 1.55, 				 Avg Accumulated loss: 1.96, 				 Precision: 46.88
+	 Minibatch 324 / 391, loss: 1.71, 				 Avg Accumulated loss: 1.96, 				 Precision: 39.06
+	 Minibatch 325 / 391, loss: 1.63, 				 Avg Accumulated loss: 1.96, 				 Precision: 39.84
+	 Minibatch 326 / 391, loss: 1.63, 				 Avg Accumulated loss: 1.96, 				 Precision: 41.41
+	 Minibatch 327 / 391, loss: 1.58, 				 Avg Accumulated loss: 1.95, 				 Precision: 36.72
+	 Minibatch 328 / 391, loss: 1.64, 				 Avg Accumulated loss: 1.95, 				 Precision: 39.06
+	 Minibatch 329 / 391, loss: 1.56, 				 Avg Accumulated loss: 1.95, 				 Precision: 42.19
+	 Minibatch 330 / 391, loss: 1.51, 				 Avg Accumulated loss: 1.95, 				 Precision: 44.53
+	 Minibatch 331 / 391, loss: 1.70, 				 Avg Accumulated loss: 1.95, 				 Precision: 32.81
+	 Minibatch 332 / 391, loss: 1.61, 				 Avg Accumulated loss: 1.95, 				 Precision: 40.62
+	 Minibatch 333 / 391, loss: 1.65, 				 Avg Accumulated loss: 1.95, 				 Precision: 42.97
+	 Minibatch 334 / 391, loss: 1.60, 				 Avg Accumulated loss: 1.95, 				 Precision: 45.31
+	 Minibatch 335 / 391, loss: 1.71, 				 Avg Accumulated loss: 1.95, 				 Precision: 28.91
+	 Minibatch 336 / 391, loss: 1.60, 				 Avg Accumulated loss: 1.95, 				 Precision: 33.59
+	 Minibatch 337 / 391, loss: 1.66, 				 Avg Accumulated loss: 1.94, 				 Precision: 37.50
+	 Minibatch 338 / 391, loss: 1.69, 				 Avg Accumulated loss: 1.94, 				 Precision: 33.59
+	 Minibatch 339 / 391, loss: 1.63, 				 Avg Accumulated loss: 1.94, 				 Precision: 40.62
+	 Minibatch 340 / 391, loss: 1.75, 				 Avg Accumulated loss: 1.94, 				 Precision: 37.50
+	 Minibatch 341 / 391, loss: 1.68, 				 Avg Accumulated loss: 1.94, 				 Precision: 39.06
+	 Minibatch 342 / 391, loss: 1.60, 				 Avg Accumulated loss: 1.94, 				 Precision: 40.62
+	 Minibatch 343 / 391, loss: 1.76, 				 Avg Accumulated loss: 1.94, 				 Precision: 39.84
+	 Minibatch 344 / 391, loss: 1.69, 				 Avg Accumulated loss: 1.94, 				 Precision: 41.41
+	 Minibatch 345 / 391, loss: 1.73, 				 Avg Accumulated loss: 1.94, 				 Precision: 35.94
+	 Minibatch 346 / 391, loss: 1.65, 				 Avg Accumulated loss: 1.94, 				 Precision: 41.41
+	 Minibatch 347 / 391, loss: 1.53, 				 Avg Accumulated loss: 1.94, 				 Precision: 46.88
+	 Minibatch 348 / 391, loss: 1.68, 				 Avg Accumulated loss: 1.94, 				 Precision: 33.59
+	 Minibatch 349 / 391, loss: 1.41, 				 Avg Accumulated loss: 1.93, 				 Precision: 49.22
+	 Minibatch 350 / 391, loss: 1.79, 				 Avg Accumulated loss: 1.93, 				 Precision: 38.28
+	 Minibatch 351 / 391, loss: 1.62, 				 Avg Accumulated loss: 1.93, 				 Precision: 39.84
+	 Minibatch 352 / 391, loss: 1.66, 				 Avg Accumulated loss: 1.93, 				 Precision: 35.16
+	 Minibatch 353 / 391, loss: 1.71, 				 Avg Accumulated loss: 1.93, 				 Precision: 38.28
+	 Minibatch 354 / 391, loss: 1.59, 				 Avg Accumulated loss: 1.93, 				 Precision: 45.31
+	 Minibatch 355 / 391, loss: 1.62, 				 Avg Accumulated loss: 1.93, 				 Precision: 40.62
+	 Minibatch 356 / 391, loss: 1.63, 				 Avg Accumulated loss: 1.93, 				 Precision: 38.28
+	 Minibatch 357 / 391, loss: 1.57, 				 Avg Accumulated loss: 1.93, 				 Precision: 39.84
+	 Minibatch 358 / 391, loss: 1.56, 				 Avg Accumulated loss: 1.93, 				 Precision: 42.97
+	 Minibatch 359 / 391, loss: 1.45, 				 Avg Accumulated loss: 1.93, 				 Precision: 43.75
+	 Minibatch 360 / 391, loss: 1.45, 				 Avg Accumulated loss: 1.92, 				 Precision: 47.66
+	 Minibatch 361 / 391, loss: 1.54, 				 Avg Accumulated loss: 1.92, 				 Precision: 46.88
+	 Minibatch 362 / 391, loss: 1.49, 				 Avg Accumulated loss: 1.92, 				 Precision: 45.31
+	 Minibatch 363 / 391, loss: 1.62, 				 Avg Accumulated loss: 1.92, 				 Precision: 39.84
+	 Minibatch 364 / 391, loss: 1.68, 				 Avg Accumulated loss: 1.92, 				 Precision: 40.62
+	 Minibatch 365 / 391, loss: 1.56, 				 Avg Accumulated loss: 1.92, 				 Precision: 41.41
+	 Minibatch 366 / 391, loss: 1.52, 				 Avg Accumulated loss: 1.92, 				 Precision: 42.19
+	 Minibatch 367 / 391, loss: 1.82, 				 Avg Accumulated loss: 1.92, 				 Precision: 38.28
+	 Minibatch 368 / 391, loss: 1.69, 				 Avg Accumulated loss: 1.92, 				 Precision: 37.50
+	 Minibatch 369 / 391, loss: 1.69, 				 Avg Accumulated loss: 1.92, 				 Precision: 35.94
+	 Minibatch 370 / 391, loss: 1.36, 				 Avg Accumulated loss: 1.92, 				 Precision: 53.91
+	 Minibatch 371 / 391, loss: 1.66, 				 Avg Accumulated loss: 1.91, 				 Precision: 41.41
+	 Minibatch 372 / 391, loss: 1.62, 				 Avg Accumulated loss: 1.91, 				 Precision: 40.62
+	 Minibatch 373 / 391, loss: 1.56, 				 Avg Accumulated loss: 1.91, 				 Precision: 49.22
+	 Minibatch 374 / 391, loss: 1.49, 				 Avg Accumulated loss: 1.91, 				 Precision: 46.09
+	 Minibatch 375 / 391, loss: 1.55, 				 Avg Accumulated loss: 1.91, 				 Precision: 42.97
+	 Minibatch 376 / 391, loss: 1.53, 				 Avg Accumulated loss: 1.91, 				 Precision: 45.31
+	 Minibatch 377 / 391, loss: 1.63, 				 Avg Accumulated loss: 1.91, 				 Precision: 43.75
+	 Minibatch 378 / 391, loss: 1.46, 				 Avg Accumulated loss: 1.91, 				 Precision: 40.62
+	 Minibatch 379 / 391, loss: 1.40, 				 Avg Accumulated loss: 1.91, 				 Precision: 46.09
+	 Minibatch 380 / 391, loss: 1.62, 				 Avg Accumulated loss: 1.91, 				 Precision: 41.41
+	 Minibatch 381 / 391, loss: 1.63, 				 Avg Accumulated loss: 1.91, 				 Precision: 40.62
+	 Minibatch 382 / 391, loss: 1.57, 				 Avg Accumulated loss: 1.90, 				 Precision: 43.75
+	 Minibatch 383 / 391, loss: 1.77, 				 Avg Accumulated loss: 1.90, 				 Precision: 39.84
+	 Minibatch 384 / 391, loss: 1.64, 				 Avg Accumulated loss: 1.90, 				 Precision: 35.94
+	 Minibatch 385 / 391, loss: 1.64, 				 Avg Accumulated loss: 1.90, 				 Precision: 39.84
+	 Minibatch 386 / 391, loss: 1.50, 				 Avg Accumulated loss: 1.90, 				 Precision: 48.44
+	 Minibatch 387 / 391, loss: 1.63, 				 Avg Accumulated loss: 1.90, 				 Precision: 40.62
+	 Minibatch 388 / 391, loss: 1.57, 				 Avg Accumulated loss: 1.90, 				 Precision: 42.19
+	 Minibatch 389 / 391, loss: 1.47, 				 Avg Accumulated loss: 1.90, 				 Precision: 48.44
+	 Minibatch 390 / 391, loss: 1.55, 				 Avg Accumulated loss: 1.90, 				 Precision: 42.97
+	 Minibatch 391 / 391, loss: 1.68, 				 Avg Accumulated loss: 1.90, 				 Precision: 36.25
+
+Aggregates: 			
+ 	 DataLoader Time: 1.3979 			
+ 	 Mini-batch Time:5099.2653 			
+ 	 Training Epoch Time:5099.5810
+ 			
+ Averages: 			
+ 	 Training Loss: 1.8976
+	 Testing precision@1: 40.1500 
 

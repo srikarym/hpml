@@ -64,8 +64,9 @@ def precision(k, output, target):
 	res = correct_k.mul_(100.0)
 	return res
 
+
 def train(epoch):
-	
+	global avg_dataloading_time
 	n_batches = len(trainloader)
 		# Statistics Tracking Variables
 	epoch_loss = 0.0
@@ -101,25 +102,27 @@ def train(epoch):
 		loss_scalar = loss.detach().cpu().item()
 		epoch_loss += loss_scalar
 
-		precision_1 += precision(1, out, labels) / image.shape(0)
+		precision_1 = precision(1, out, labels).cpu().item() / image.shape[0]
 
 		epoch_loader_time += (load_end - load_start)
 		epoch_minibatch_time += (batch_end - load_start)
 
 		print(f'\t Minibatch {mini_batch+1} / {n_batches}, loss: {loss_scalar:.2f}, \
-			Avg Accumulated loss: {epoch_loss / (mini_batch+1):.2f}, Accumulated precision: {precision_1/(mini_batch+1):.2f}')
+			\t Avg Accumulated loss: {epoch_loss / (mini_batch+1):.2f}, \
+			\t Precision: {precision_1:.2f}')
 
 	epoch_time = time.perf_counter() - epoch_start
 
 	epoch_loss /= n_batches
 
 	print(f'\nAggregates: \
-			\t DataLoader Time: {epoch_loader_time:.4f} \
-			\t Mini-batch Time:{epoch_minibatch_time:.4f} \
-			\t Training Epoch Time:{epoch_time:.4f}\n \
-			Averages: \
-			\t Training Loss: {epoch_loss:.4f}')
+			\n \t DataLoader Time: {epoch_loader_time:.4f} \
+			\n \t Mini-batch Time:{epoch_minibatch_time:.4f} \
+			\n \t Training Epoch Time:{epoch_time:.4f}\n \
+			\n Averages: \
+			\n \t Training Loss: {epoch_loss:.4f}')
 
+	avg_dataloading_time += epoch_loader_time
 
 def test():
 	n_batches = len(testloader)
@@ -150,9 +153,13 @@ def test():
 	print(report)
 
 if __name__ == '__main__':
+	avg_dataloading_time = 0.0
 	
+	os.system("grep 'model name' /proc/cpuinfo |head -1")
+	os.system('nvidia-smi')
+
 	for epoch in range(args.epochs):
 		train(epoch)
 		test()
-	os.system("grep 'model name' /proc/cpuinfo |head -1")
-	os.system('nvidia-smi')
+
+	print(f'Average dataloader time is {avg_dataloading_time/(args.epochs):.2f}')
