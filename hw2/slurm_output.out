@@ -19,3 +19,26 @@ Known labextensions:
     Copy/paste this URL into your browser when you connect for the first time,
     to login with a token:
         http://localhost:10395/?token=6d355ca9571228c1b7803a4baa4ded5d597d700b73253d3e
+[I 16:37:43.276 NotebookApp] 302 GET /?token=6d355ca9571228c1b7803a4baa4ded5d597d700b73253d3e (127.0.0.1) 1.86ms
+[I 16:37:58.304 NotebookApp] Creating new notebook in 
+/misc/kcgscratch1/ChoGroup/srikar/.pyenv/versions/anaconda3-5.0.0/lib/python3.6/site-packages/jupyter_client/connect.py:167: RuntimeWarning: Failed to set sticky bit on '/home/msy290/.local/share/jupyter/runtime/kernel-167a7b36-262e-481b-b367-95fa681f47dc.json': [Errno 5] Input/output error: '/home/msy290/.local/share/jupyter/runtime/kernel-167a7b36-262e-481b-b367-95fa681f47dc.json'
+Probably not a big deal, but runtime files may be cleaned up periodically.
+  RuntimeWarning,
+[I 16:38:00.163 NotebookApp] Kernel started: 167a7b36-262e-481b-b367-95fa681f47dc
+[I 16:38:02.626 NotebookApp] Adapting to protocol v5.1 for kernel 167a7b36-262e-481b-b367-95fa681f47dc
+[I 16:40:00.464 NotebookApp] Saving file at /report.ipynb
+[I 16:42:00.146 NotebookApp] Saving file at /report.ipynb
+[I 16:44:00.190 NotebookApp] Saving file at /report.ipynb
+[I 16:45:20.285 NotebookApp] Starting buffering for 167a7b36-262e-481b-b367-95fa681f47dc:ef109992078449bb93c109044bfb5610
+/misc/kcgscratch1/ChoGroup/srikar/.pyenv/versions/anaconda3-5.0.0/lib/python3.6/site-packages/jupyter_client/connect.py:167: RuntimeWarning: Failed to set sticky bit on '/home/msy290/.local/share/jupyter/runtime/kernel-167a7b36-262e-481b-b367-95fa681f47dc.json': [Errno 5] Input/output error: '/home/msy290/.local/share/jupyter/runtime/kernel-167a7b36-262e-481b-b367-95fa681f47dc.json'
+Probably not a big deal, but runtime files may be cleaned up periodically.
+  RuntimeWarning,
+[I 16:45:20.707 NotebookApp] Kernel restarted: 167a7b36-262e-481b-b367-95fa681f47dc
+[I 16:45:23.286 NotebookApp] Adapting to protocol v5.1 for kernel 167a7b36-262e-481b-b367-95fa681f47dc
+[I 16:45:23.287 NotebookApp] Restoring connection for 167a7b36-262e-481b-b367-95fa681f47dc:ef109992078449bb93c109044bfb5610
+[I 16:45:23.287 NotebookApp] Replaying 6 buffered messages
+[I 16:46:00.158 NotebookApp] Saving file at /report.ipynb
+[I 16:48:00.448 NotebookApp] Saving file at /report.ipynb
+[I 16:50:00.150 NotebookApp] Saving file at /report.ipynb
+[I 16:52:00.148 NotebookApp] Saving file at /report.ipynb
+[I 16:54:00.443 NotebookApp] Saving file at /report.ipynb

@@ -12,7 +12,8 @@ import torch.nn.functional as F
 
 from arguments import parse_args
 
-args = parse_args()
+class args:
+    batch_norm = True
 
 class BasicBlock(nn.Module):
     expansion = 1
