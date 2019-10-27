@@ -17,16 +17,6 @@ def get_transforms():
 	])
 	return transform_train, transform_test
 
-def precision(k, output, target):
-
-	batch_size = target.size(0)
-	_, pred = output.topk(k,1,True,True)
-	pred = pred.t()
-	correct = pred.eq(target.view(1,-1).expand_as(pred))
-
-	correct_k = correct[:k].view(-1).float().sum(0,keepdim = True)
-	res = correct_k.mul_(100.0)
-	return res
 
 def get_optimizer(net):
 	if args.optimizer == 'sgd':
