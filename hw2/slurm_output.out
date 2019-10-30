@@ -69,3 +69,4 @@ Probably not a big deal, but runtime files may be cleaned up periodically.
 [I 18:06:00.155 NotebookApp] Saving file at /report.ipynb
 [I 18:17:39.627 NotebookApp] Saving file at /report.ipynb
 [I 18:17:40.998 NotebookApp] Saving file at /report.ipynb
+slurmstepd: error: *** JOB 310551 ON lion9 CANCELLED AT 2019-10-27T18:45:49 ***

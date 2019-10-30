@@ -42,12 +42,12 @@ def train(flags, jobname=None, time=24):
 	os.system(s)
 
 
-job = {'num-workers':4}
+job = {'num-workers':12}
 
 
 time = 48
 
-cuda = [0,1]
+cuda = [1]
 
 for c in cuda:
 	job['cuda']=c

@@ -42,6 +42,8 @@ def train(epoch):
 	epoch_minibatch_time = 0.0
 	print_time = 0.0
 
+	metrics_time = 0.0
+
 	iter_loader = iter(trainloader)
 
 	preprocess_time = time.perf_counter() - preprocess_start
@@ -60,15 +62,19 @@ def train(epoch):
 		loss.backward()
 		optimizer.step()
 
+		batch_end = time.perf_counter()
+
 		train_loss += loss.item()
 		_, predicted = outputs.max(1)
 		total += targets.size(0)
 		correct += predicted.eq(targets).sum().item()
-
-		batch_end = time.perf_counter()
+		
+		metrics_end = time.perf_counter()
 
 		epoch_loader_time += (load_end - load_start)
 		epoch_minibatch_time += (batch_end - load_start)
+
+		metrics_time += metrics_end - batch_end
 
 		print_start = time.perf_counter()
 		print('Loss: %.3f | Precision@1: %.3f%% (%d/%d)'
@@ -77,14 +83,16 @@ def train(epoch):
 
 		print_time += print_end - print_start
 
-	epoch_time =  epoch_minibatch_time + preprocess_time - print_time
+	epoch_end = time.perf_counter()
+
+	epoch_time =  epoch_end - preprocess_start + print_time
 
 	train_loss /= n_batches
 
 	print(f'\nAggregates: \
 			\n \t DataLoader Time: {epoch_loader_time:.4f} \
-			\n \t Mini-batch Time:{epoch_minibatch_time:.4f} \
-			\n \t Training Epoch Time:{epoch_time:.4f}\n \
+			\n \t Mini-batch Time: {epoch_minibatch_time:.4f} \
+			\n \t Training Epoch Time: {epoch_time:.4f}\n \
 			\n Averages: \
 			\n \t Training Loss: {train_loss:.4f}')
 

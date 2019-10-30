@@ -32,6 +32,7 @@ def train(flags, jobname=None, time=24):
 		f.write("#SBATCH --job-name" + "=" +jobname + "\n")
 		f.write("#SBATCH --output=%s\n" % os.path.join(slurm_logs, jobname + ".out"))
 		f.write("#SBATCH --gres=gpu:1\n")
+		f.write('#SBATCH --constraint="gpu_12gb&turing"\n')
 		f.write("source /misc/kcgscratch1/ChoGroup/srikar/my_venv/bin/activate\n")
 		f.write("#SBATCH --time=20:00:00\n")
 		f.write("#SBATCH --mem=60GB\n")
@@ -42,7 +43,7 @@ def train(flags, jobname=None, time=24):
 	os.system(s)
 
 
-job = {'num-workers':4, 'cuda':1, 'batch-norm':0}
+job = {'num-workers':12, 'cuda':1, 'batch-norm':0}
 
 time = 48
 

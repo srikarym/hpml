@@ -6,4 +6,4 @@ source /misc/kcgscratch1/ChoGroup/srikar/my_venv/bin/activate
 #SBATCH --time=20:00:00
 #SBATCH --mem=60GB
 #SBATCH --nodes=1
-python3 -B lab2.py --cuda 0 --num-workers 4
+python3 -B lab2.py --cuda 0 --num-workers 12

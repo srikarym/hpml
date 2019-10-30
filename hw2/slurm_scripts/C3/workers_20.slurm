@@ -2,6 +2,7 @@
 #SBATCH --job-name=workers_20
 #SBATCH --output=/misc/kcgscratch1/ChoGroup/srikar/hpml/hw2/slurm_logs/C3/workers_20.out
 #SBATCH --gres=gpu:1
+#SBATCH --constraint="gpu_12gb&turing"
 source /misc/kcgscratch1/ChoGroup/srikar/my_venv/bin/activate
 #SBATCH --time=20:00:00
 #SBATCH --mem=60GB

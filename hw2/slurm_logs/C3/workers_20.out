@@ -1,1212 +1,2036 @@
-model name	: Intel(R) Xeon(R) CPU E5-2609 v3 @ 1.90GHz
-Sun Oct 27 14:22:54 2019       
+model name	: Intel(R) Xeon(R) Gold 6152 CPU @ 2.10GHz
+Tue Oct 29 18:59:50 2019       
 +-----------------------------------------------------------------------------+
 | NVIDIA-SMI 418.74       Driver Version: 418.74       CUDA Version: 10.1     |
 |-------------------------------+----------------------+----------------------+
 | GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
 | Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
 |===============================+======================+======================|
-|   0  GeForce GTX TIT...  On   | 00000000:02:00.0 Off |                  N/A |
-| 22%   35C    P2    69W / 250W |    588MiB / 12212MiB |      6%      Default |
+|   0  GeForce RTX 208...  On   | 00000000:3B:00.0 Off |                  N/A |
+| 34%   48C    P2    76W / 250W |    990MiB / 10989MiB |      5%      Default |
 +-------------------------------+----------------------+----------------------+
                                                                                
 +-----------------------------------------------------------------------------+
 | Processes:                                                       GPU Memory |
 |  GPU       PID   Type   Process name                             Usage      |
 |=============================================================================|
-|    0     29428      C   python3                                      576MiB |
+|    0    255085      C   python3                                      979MiB |
 +-----------------------------------------------------------------------------+
 Files already downloaded and verified
 Files already downloaded and verified
-Epoch 0
-	 Minibatch 1 / 391, loss: 2.56, 			Avg Accumulated loss: 2.56, Precision: 10.16
-	 Minibatch 2 / 391, loss: 3.56, 			Avg Accumulated loss: 3.06, Precision: 15.62
-	 Minibatch 3 / 391, loss: 3.53, 			Avg Accumulated loss: 3.22, Precision: 14.84
-	 Minibatch 4 / 391, loss: 5.23, 			Avg Accumulated loss: 3.72, Precision: 12.50
-	 Minibatch 5 / 391, loss: 7.04, 			Avg Accumulated loss: 4.38, Precision: 20.31
-	 Minibatch 6 / 391, loss: 3.95, 			Avg Accumulated loss: 4.31, Precision: 10.16
-	 Minibatch 7 / 391, loss: 5.24, 			Avg Accumulated loss: 4.45, Precision: 5.47
-	 Minibatch 8 / 391, loss: 3.01, 			Avg Accumulated loss: 4.27, Precision: 12.50
-	 Minibatch 9 / 391, loss: 4.03, 			Avg Accumulated loss: 4.24, Precision: 9.38
-	 Minibatch 10 / 391, loss: 4.95, 			Avg Accumulated loss: 4.31, Precision: 8.59
-	 Minibatch 11 / 391, loss: 3.98, 			Avg Accumulated loss: 4.28, Precision: 14.06
-	 Minibatch 12 / 391, loss: 3.59, 			Avg Accumulated loss: 4.22, Precision: 9.38
-	 Minibatch 13 / 391, loss: 3.43, 			Avg Accumulated loss: 4.16, Precision: 17.97
-	 Minibatch 14 / 391, loss: 3.04, 			Avg Accumulated loss: 4.08, Precision: 13.28
-	 Minibatch 15 / 391, loss: 3.47, 			Avg Accumulated loss: 4.04, Precision: 14.84
-	 Minibatch 16 / 391, loss: 3.39, 			Avg Accumulated loss: 4.00, Precision: 12.50
-	 Minibatch 17 / 391, loss: 2.84, 			Avg Accumulated loss: 3.93, Precision: 17.19
-	 Minibatch 18 / 391, loss: 2.58, 			Avg Accumulated loss: 3.86, Precision: 14.06
-	 Minibatch 19 / 391, loss: 2.43, 			Avg Accumulated loss: 3.78, Precision: 17.97
-	 Minibatch 20 / 391, loss: 2.75, 			Avg Accumulated loss: 3.73, Precision: 12.50
-	 Minibatch 21 / 391, loss: 2.43, 			Avg Accumulated loss: 3.67, Precision: 20.31
-	 Minibatch 22 / 391, loss: 2.35, 			Avg Accumulated loss: 3.61, Precision: 21.09
-	 Minibatch 23 / 391, loss: 2.38, 			Avg Accumulated loss: 3.56, Precision: 19.53
-	 Minibatch 24 / 391, loss: 2.48, 			Avg Accumulated loss: 3.51, Precision: 14.84
-	 Minibatch 25 / 391, loss: 3.37, 			Avg Accumulated loss: 3.50, Precision: 14.84
-	 Minibatch 26 / 391, loss: 2.41, 			Avg Accumulated loss: 3.46, Precision: 19.53
-	 Minibatch 27 / 391, loss: 2.55, 			Avg Accumulated loss: 3.43, Precision: 14.06
-	 Minibatch 28 / 391, loss: 2.22, 			Avg Accumulated loss: 3.39, Precision: 19.53
-	 Minibatch 29 / 391, loss: 2.28, 			Avg Accumulated loss: 3.35, Precision: 21.88
-	 Minibatch 30 / 391, loss: 2.83, 			Avg Accumulated loss: 3.33, Precision: 17.19
-	 Minibatch 31 / 391, loss: 2.62, 			Avg Accumulated loss: 3.31, Precision: 21.88
-	 Minibatch 32 / 391, loss: 2.39, 			Avg Accumulated loss: 3.28, Precision: 24.22
-	 Minibatch 33 / 391, loss: 2.36, 			Avg Accumulated loss: 3.25, Precision: 15.62
-	 Minibatch 34 / 391, loss: 2.34, 			Avg Accumulated loss: 3.22, Precision: 18.75
-	 Minibatch 35 / 391, loss: 2.54, 			Avg Accumulated loss: 3.20, Precision: 25.00
-	 Minibatch 36 / 391, loss: 2.05, 			Avg Accumulated loss: 3.17, Precision: 28.12
-	 Minibatch 37 / 391, loss: 2.17, 			Avg Accumulated loss: 3.14, Precision: 25.00
-	 Minibatch 38 / 391, loss: 2.03, 			Avg Accumulated loss: 3.12, Precision: 29.69
-	 Minibatch 39 / 391, loss: 2.13, 			Avg Accumulated loss: 3.09, Precision: 22.66
-	 Minibatch 40 / 391, loss: 2.16, 			Avg Accumulated loss: 3.07, Precision: 16.41
-	 Minibatch 41 / 391, loss: 2.12, 			Avg Accumulated loss: 3.04, Precision: 21.09
-	 Minibatch 42 / 391, loss: 2.45, 			Avg Accumulated loss: 3.03, Precision: 17.19
-	 Minibatch 43 / 391, loss: 2.02, 			Avg Accumulated loss: 3.01, Precision: 29.69
-	 Minibatch 44 / 391, loss: 2.05, 			Avg Accumulated loss: 2.98, Precision: 19.53
-	 Minibatch 45 / 391, loss: 2.43, 			Avg Accumulated loss: 2.97, Precision: 14.84
-	 Minibatch 46 / 391, loss: 1.96, 			Avg Accumulated loss: 2.95, Precision: 20.31
-	 Minibatch 47 / 391, loss: 2.04, 			Avg Accumulated loss: 2.93, Precision: 20.31
-	 Minibatch 48 / 391, loss: 2.07, 			Avg Accumulated loss: 2.91, Precision: 14.06
-	 Minibatch 49 / 391, loss: 2.11, 			Avg Accumulated loss: 2.90, Precision: 21.09
-	 Minibatch 50 / 391, loss: 2.02, 			Avg Accumulated loss: 2.88, Precision: 18.75
-	 Minibatch 51 / 391, loss: 2.10, 			Avg Accumulated loss: 2.86, Precision: 14.06
-	 Minibatch 52 / 391, loss: 2.14, 			Avg Accumulated loss: 2.85, Precision: 15.62
-	 Minibatch 53 / 391, loss: 2.15, 			Avg Accumulated loss: 2.84, Precision: 14.06
-	 Minibatch 54 / 391, loss: 1.96, 			Avg Accumulated loss: 2.82, Precision: 24.22
-	 Minibatch 55 / 391, loss: 2.20, 			Avg Accumulated loss: 2.81, Precision: 19.53
-	 Minibatch 56 / 391, loss: 2.19, 			Avg Accumulated loss: 2.80, Precision: 18.75
-	 Minibatch 57 / 391, loss: 2.00, 			Avg Accumulated loss: 2.78, Precision: 25.00
-	 Minibatch 58 / 391, loss: 2.05, 			Avg Accumulated loss: 2.77, Precision: 25.00
-	 Minibatch 59 / 391, loss: 2.08, 			Avg Accumulated loss: 2.76, Precision: 20.31
-	 Minibatch 60 / 391, loss: 1.94, 			Avg Accumulated loss: 2.75, Precision: 35.16
-	 Minibatch 61 / 391, loss: 2.15, 			Avg Accumulated loss: 2.74, Precision: 22.66
-	 Minibatch 62 / 391, loss: 1.96, 			Avg Accumulated loss: 2.72, Precision: 22.66
-	 Minibatch 63 / 391, loss: 1.93, 			Avg Accumulated loss: 2.71, Precision: 32.03
-	 Minibatch 64 / 391, loss: 2.04, 			Avg Accumulated loss: 2.70, Precision: 23.44
-	 Minibatch 65 / 391, loss: 2.06, 			Avg Accumulated loss: 2.69, Precision: 26.56
-	 Minibatch 66 / 391, loss: 2.05, 			Avg Accumulated loss: 2.68, Precision: 22.66
-	 Minibatch 67 / 391, loss: 2.02, 			Avg Accumulated loss: 2.67, Precision: 24.22
-	 Minibatch 68 / 391, loss: 2.02, 			Avg Accumulated loss: 2.66, Precision: 27.34
-	 Minibatch 69 / 391, loss: 1.97, 			Avg Accumulated loss: 2.65, Precision: 23.44
-	 Minibatch 70 / 391, loss: 1.87, 			Avg Accumulated loss: 2.64, Precision: 27.34
-	 Minibatch 71 / 391, loss: 1.90, 			Avg Accumulated loss: 2.63, Precision: 27.34
-	 Minibatch 72 / 391, loss: 2.07, 			Avg Accumulated loss: 2.62, Precision: 23.44
-	 Minibatch 73 / 391, loss: 2.06, 			Avg Accumulated loss: 2.61, Precision: 22.66
-	 Minibatch 74 / 391, loss: 1.97, 			Avg Accumulated loss: 2.61, Precision: 21.88
-	 Minibatch 75 / 391, loss: 2.01, 			Avg Accumulated loss: 2.60, Precision: 25.00
-	 Minibatch 76 / 391, loss: 2.07, 			Avg Accumulated loss: 2.59, Precision: 21.88
-	 Minibatch 77 / 391, loss: 2.13, 			Avg Accumulated loss: 2.58, Precision: 22.66
-	 Minibatch 78 / 391, loss: 1.99, 			Avg Accumulated loss: 2.58, Precision: 29.69
-	 Minibatch 79 / 391, loss: 1.91, 			Avg Accumulated loss: 2.57, Precision: 30.47
-	 Minibatch 80 / 391, loss: 1.96, 			Avg Accumulated loss: 2.56, Precision: 28.12
-	 Minibatch 81 / 391, loss: 1.88, 			Avg Accumulated loss: 2.55, Precision: 32.03
-	 Minibatch 82 / 391, loss: 1.98, 			Avg Accumulated loss: 2.55, Precision: 26.56
-	 Minibatch 83 / 391, loss: 1.97, 			Avg Accumulated loss: 2.54, Precision: 21.09
-	 Minibatch 84 / 391, loss: 1.89, 			Avg Accumulated loss: 2.53, Precision: 25.78
-	 Minibatch 85 / 391, loss: 1.90, 			Avg Accumulated loss: 2.52, Precision: 32.81
-	 Minibatch 86 / 391, loss: 1.97, 			Avg Accumulated loss: 2.52, Precision: 25.00
-	 Minibatch 87 / 391, loss: 2.11, 			Avg Accumulated loss: 2.51, Precision: 25.78
-	 Minibatch 88 / 391, loss: 1.95, 			Avg Accumulated loss: 2.51, Precision: 32.81
-	 Minibatch 89 / 391, loss: 1.99, 			Avg Accumulated loss: 2.50, Precision: 25.78
-	 Minibatch 90 / 391, loss: 1.96, 			Avg Accumulated loss: 2.49, Precision: 25.00
-	 Minibatch 91 / 391, loss: 1.91, 			Avg Accumulated loss: 2.49, Precision: 36.72
-	 Minibatch 92 / 391, loss: 1.95, 			Avg Accumulated loss: 2.48, Precision: 32.03
-	 Minibatch 93 / 391, loss: 1.85, 			Avg Accumulated loss: 2.48, Precision: 28.91
-	 Minibatch 94 / 391, loss: 1.97, 			Avg Accumulated loss: 2.47, Precision: 20.31
-	 Minibatch 95 / 391, loss: 1.84, 			Avg Accumulated loss: 2.46, Precision: 35.16
-	 Minibatch 96 / 391, loss: 1.95, 			Avg Accumulated loss: 2.46, Precision: 32.03
-	 Minibatch 97 / 391, loss: 1.93, 			Avg Accumulated loss: 2.45, Precision: 24.22
-	 Minibatch 98 / 391, loss: 2.05, 			Avg Accumulated loss: 2.45, Precision: 25.78
-	 Minibatch 99 / 391, loss: 1.91, 			Avg Accumulated loss: 2.44, Precision: 29.69
-	 Minibatch 100 / 391, loss: 1.85, 			Avg Accumulated loss: 2.44, Precision: 32.81
-	 Minibatch 101 / 391, loss: 2.00, 			Avg Accumulated loss: 2.43, Precision: 25.78
-	 Minibatch 102 / 391, loss: 1.96, 			Avg Accumulated loss: 2.43, Precision: 25.78
-	 Minibatch 103 / 391, loss: 1.91, 			Avg Accumulated loss: 2.42, Precision: 21.88
-	 Minibatch 104 / 391, loss: 1.95, 			Avg Accumulated loss: 2.42, Precision: 33.59
-	 Minibatch 105 / 391, loss: 1.84, 			Avg Accumulated loss: 2.41, Precision: 35.16
-	 Minibatch 106 / 391, loss: 2.05, 			Avg Accumulated loss: 2.41, Precision: 25.78
-	 Minibatch 107 / 391, loss: 2.08, 			Avg Accumulated loss: 2.41, Precision: 24.22
-	 Minibatch 108 / 391, loss: 1.96, 			Avg Accumulated loss: 2.40, Precision: 30.47
-	 Minibatch 109 / 391, loss: 2.03, 			Avg Accumulated loss: 2.40, Precision: 23.44
-	 Minibatch 110 / 391, loss: 1.89, 			Avg Accumulated loss: 2.39, Precision: 28.12
-	 Minibatch 111 / 391, loss: 1.92, 			Avg Accumulated loss: 2.39, Precision: 27.34
-	 Minibatch 112 / 391, loss: 1.96, 			Avg Accumulated loss: 2.39, Precision: 26.56
-	 Minibatch 113 / 391, loss: 1.92, 			Avg Accumulated loss: 2.38, Precision: 33.59
-	 Minibatch 114 / 391, loss: 1.98, 			Avg Accumulated loss: 2.38, Precision: 25.78
-	 Minibatch 115 / 391, loss: 1.93, 			Avg Accumulated loss: 2.37, Precision: 29.69
-	 Minibatch 116 / 391, loss: 1.87, 			Avg Accumulated loss: 2.37, Precision: 31.25
-	 Minibatch 117 / 391, loss: 1.88, 			Avg Accumulated loss: 2.37, Precision: 30.47
-	 Minibatch 118 / 391, loss: 1.92, 			Avg Accumulated loss: 2.36, Precision: 28.12
-	 Minibatch 119 / 391, loss: 1.81, 			Avg Accumulated loss: 2.36, Precision: 30.47
-	 Minibatch 120 / 391, loss: 1.91, 			Avg Accumulated loss: 2.35, Precision: 30.47
-	 Minibatch 121 / 391, loss: 1.89, 			Avg Accumulated loss: 2.35, Precision: 19.53
-	 Minibatch 122 / 391, loss: 1.78, 			Avg Accumulated loss: 2.35, Precision: 35.94
-	 Minibatch 123 / 391, loss: 1.79, 			Avg Accumulated loss: 2.34, Precision: 33.59
-	 Minibatch 124 / 391, loss: 1.88, 			Avg Accumulated loss: 2.34, Precision: 35.94
-	 Minibatch 125 / 391, loss: 1.91, 			Avg Accumulated loss: 2.33, Precision: 29.69
-	 Minibatch 126 / 391, loss: 1.92, 			Avg Accumulated loss: 2.33, Precision: 25.78
-	 Minibatch 127 / 391, loss: 1.85, 			Avg Accumulated loss: 2.33, Precision: 32.81
-	 Minibatch 128 / 391, loss: 1.88, 			Avg Accumulated loss: 2.32, Precision: 32.81
-	 Minibatch 129 / 391, loss: 1.90, 			Avg Accumulated loss: 2.32, Precision: 34.38
-	 Minibatch 130 / 391, loss: 1.87, 			Avg Accumulated loss: 2.32, Precision: 28.91
-	 Minibatch 131 / 391, loss: 1.96, 			Avg Accumulated loss: 2.31, Precision: 28.91
-	 Minibatch 132 / 391, loss: 1.80, 			Avg Accumulated loss: 2.31, Precision: 29.69
-	 Minibatch 133 / 391, loss: 1.88, 			Avg Accumulated loss: 2.31, Precision: 28.12
-	 Minibatch 134 / 391, loss: 1.86, 			Avg Accumulated loss: 2.30, Precision: 28.12
-	 Minibatch 135 / 391, loss: 1.81, 			Avg Accumulated loss: 2.30, Precision: 24.22
-	 Minibatch 136 / 391, loss: 2.08, 			Avg Accumulated loss: 2.30, Precision: 25.00
-	 Minibatch 137 / 391, loss: 1.92, 			Avg Accumulated loss: 2.30, Precision: 18.75
-	 Minibatch 138 / 391, loss: 1.90, 			Avg Accumulated loss: 2.29, Precision: 30.47
-	 Minibatch 139 / 391, loss: 1.85, 			Avg Accumulated loss: 2.29, Precision: 26.56
-	 Minibatch 140 / 391, loss: 1.96, 			Avg Accumulated loss: 2.29, Precision: 29.69
-	 Minibatch 141 / 391, loss: 1.82, 			Avg Accumulated loss: 2.28, Precision: 37.50
-	 Minibatch 142 / 391, loss: 1.80, 			Avg Accumulated loss: 2.28, Precision: 32.81
-	 Minibatch 143 / 391, loss: 1.91, 			Avg Accumulated loss: 2.28, Precision: 33.59
-	 Minibatch 144 / 391, loss: 1.80, 			Avg Accumulated loss: 2.27, Precision: 33.59
-	 Minibatch 145 / 391, loss: 1.79, 			Avg Accumulated loss: 2.27, Precision: 31.25
-	 Minibatch 146 / 391, loss: 1.82, 			Avg Accumulated loss: 2.27, Precision: 29.69
-	 Minibatch 147 / 391, loss: 1.80, 			Avg Accumulated loss: 2.26, Precision: 35.94
-	 Minibatch 148 / 391, loss: 1.78, 			Avg Accumulated loss: 2.26, Precision: 26.56
-	 Minibatch 149 / 391, loss: 1.80, 			Avg Accumulated loss: 2.26, Precision: 31.25
-	 Minibatch 150 / 391, loss: 1.90, 			Avg Accumulated loss: 2.26, Precision: 28.12
-	 Minibatch 151 / 391, loss: 1.79, 			Avg Accumulated loss: 2.25, Precision: 30.47
-	 Minibatch 152 / 391, loss: 1.86, 			Avg Accumulated loss: 2.25, Precision: 28.12
-	 Minibatch 153 / 391, loss: 1.95, 			Avg Accumulated loss: 2.25, Precision: 27.34
-	 Minibatch 154 / 391, loss: 2.08, 			Avg Accumulated loss: 2.25, Precision: 24.22
-	 Minibatch 155 / 391, loss: 2.10, 			Avg Accumulated loss: 2.25, Precision: 28.91
-	 Minibatch 156 / 391, loss: 2.03, 			Avg Accumulated loss: 2.24, Precision: 23.44
-	 Minibatch 157 / 391, loss: 1.95, 			Avg Accumulated loss: 2.24, Precision: 25.00
-	 Minibatch 158 / 391, loss: 1.91, 			Avg Accumulated loss: 2.24, Precision: 27.34
-	 Minibatch 159 / 391, loss: 1.85, 			Avg Accumulated loss: 2.24, Precision: 24.22
-	 Minibatch 160 / 391, loss: 1.94, 			Avg Accumulated loss: 2.24, Precision: 30.47
-	 Minibatch 161 / 391, loss: 1.72, 			Avg Accumulated loss: 2.23, Precision: 39.84
-	 Minibatch 162 / 391, loss: 1.78, 			Avg Accumulated loss: 2.23, Precision: 31.25
-	 Minibatch 163 / 391, loss: 1.90, 			Avg Accumulated loss: 2.23, Precision: 24.22
-	 Minibatch 164 / 391, loss: 1.81, 			Avg Accumulated loss: 2.23, Precision: 30.47
-	 Minibatch 165 / 391, loss: 1.87, 			Avg Accumulated loss: 2.22, Precision: 31.25
-	 Minibatch 166 / 391, loss: 1.90, 			Avg Accumulated loss: 2.22, Precision: 26.56
-	 Minibatch 167 / 391, loss: 1.89, 			Avg Accumulated loss: 2.22, Precision: 21.09
-	 Minibatch 168 / 391, loss: 1.81, 			Avg Accumulated loss: 2.22, Precision: 26.56
-	 Minibatch 169 / 391, loss: 1.68, 			Avg Accumulated loss: 2.21, Precision: 40.62
-	 Minibatch 170 / 391, loss: 1.84, 			Avg Accumulated loss: 2.21, Precision: 35.94
-	 Minibatch 171 / 391, loss: 1.82, 			Avg Accumulated loss: 2.21, Precision: 25.78
-	 Minibatch 172 / 391, loss: 1.89, 			Avg Accumulated loss: 2.21, Precision: 27.34
-	 Minibatch 173 / 391, loss: 1.73, 			Avg Accumulated loss: 2.21, Precision: 34.38
-	 Minibatch 174 / 391, loss: 1.97, 			Avg Accumulated loss: 2.20, Precision: 28.12
-	 Minibatch 175 / 391, loss: 1.82, 			Avg Accumulated loss: 2.20, Precision: 36.72
-	 Minibatch 176 / 391, loss: 1.67, 			Avg Accumulated loss: 2.20, Precision: 36.72
-	 Minibatch 177 / 391, loss: 1.80, 			Avg Accumulated loss: 2.20, Precision: 32.81
-	 Minibatch 178 / 391, loss: 1.76, 			Avg Accumulated loss: 2.19, Precision: 40.62
-	 Minibatch 179 / 391, loss: 1.69, 			Avg Accumulated loss: 2.19, Precision: 42.97
-	 Minibatch 180 / 391, loss: 1.89, 			Avg Accumulated loss: 2.19, Precision: 28.91
-	 Minibatch 181 / 391, loss: 1.83, 			Avg Accumulated loss: 2.19, Precision: 25.78
-	 Minibatch 182 / 391, loss: 1.78, 			Avg Accumulated loss: 2.19, Precision: 32.81
-	 Minibatch 183 / 391, loss: 1.68, 			Avg Accumulated loss: 2.18, Precision: 35.16
-	 Minibatch 184 / 391, loss: 1.72, 			Avg Accumulated loss: 2.18, Precision: 35.16
-	 Minibatch 185 / 391, loss: 1.90, 			Avg Accumulated loss: 2.18, Precision: 25.00
-	 Minibatch 186 / 391, loss: 1.90, 			Avg Accumulated loss: 2.18, Precision: 25.00
-	 Minibatch 187 / 391, loss: 1.83, 			Avg Accumulated loss: 2.17, Precision: 29.69
-	 Minibatch 188 / 391, loss: 1.73, 			Avg Accumulated loss: 2.17, Precision: 38.28
-	 Minibatch 189 / 391, loss: 1.73, 			Avg Accumulated loss: 2.17, Precision: 29.69
-	 Minibatch 190 / 391, loss: 1.86, 			Avg Accumulated loss: 2.17, Precision: 35.94
-	 Minibatch 191 / 391, loss: 1.82, 			Avg Accumulated loss: 2.17, Precision: 28.12
-	 Minibatch 192 / 391, loss: 1.94, 			Avg Accumulated loss: 2.17, Precision: 21.09
-	 Minibatch 193 / 391, loss: 1.78, 			Avg Accumulated loss: 2.16, Precision: 32.81
-	 Minibatch 194 / 391, loss: 1.88, 			Avg Accumulated loss: 2.16, Precision: 25.00
-	 Minibatch 195 / 391, loss: 1.73, 			Avg Accumulated loss: 2.16, Precision: 35.94
-	 Minibatch 196 / 391, loss: 1.57, 			Avg Accumulated loss: 2.16, Precision: 46.88
-	 Minibatch 197 / 391, loss: 1.83, 			Avg Accumulated loss: 2.16, Precision: 31.25
-	 Minibatch 198 / 391, loss: 1.85, 			Avg Accumulated loss: 2.15, Precision: 31.25
-	 Minibatch 199 / 391, loss: 1.72, 			Avg Accumulated loss: 2.15, Precision: 36.72
-	 Minibatch 200 / 391, loss: 1.71, 			Avg Accumulated loss: 2.15, Precision: 39.84
-	 Minibatch 201 / 391, loss: 1.81, 			Avg Accumulated loss: 2.15, Precision: 30.47
-	 Minibatch 202 / 391, loss: 1.63, 			Avg Accumulated loss: 2.15, Precision: 39.06
-	 Minibatch 203 / 391, loss: 1.83, 			Avg Accumulated loss: 2.14, Precision: 27.34
-	 Minibatch 204 / 391, loss: 1.95, 			Avg Accumulated loss: 2.14, Precision: 28.12
-	 Minibatch 205 / 391, loss: 1.71, 			Avg Accumulated loss: 2.14, Precision: 35.16
-	 Minibatch 206 / 391, loss: 1.69, 			Avg Accumulated loss: 2.14, Precision: 34.38
-	 Minibatch 207 / 391, loss: 1.66, 			Avg Accumulated loss: 2.14, Precision: 42.19
-	 Minibatch 208 / 391, loss: 1.82, 			Avg Accumulated loss: 2.13, Precision: 32.03
-	 Minibatch 209 / 391, loss: 1.89, 			Avg Accumulated loss: 2.13, Precision: 24.22
-	 Minibatch 210 / 391, loss: 1.73, 			Avg Accumulated loss: 2.13, Precision: 34.38
-	 Minibatch 211 / 391, loss: 1.73, 			Avg Accumulated loss: 2.13, Precision: 34.38
-	 Minibatch 212 / 391, loss: 1.87, 			Avg Accumulated loss: 2.13, Precision: 25.00
-	 Minibatch 213 / 391, loss: 1.81, 			Avg Accumulated loss: 2.13, Precision: 28.12
-	 Minibatch 214 / 391, loss: 1.77, 			Avg Accumulated loss: 2.13, Precision: 27.34
-	 Minibatch 215 / 391, loss: 1.69, 			Avg Accumulated loss: 2.12, Precision: 26.56
-	 Minibatch 216 / 391, loss: 1.75, 			Avg Accumulated loss: 2.12, Precision: 35.94
-	 Minibatch 217 / 391, loss: 1.74, 			Avg Accumulated loss: 2.12, Precision: 33.59
-	 Minibatch 218 / 391, loss: 1.71, 			Avg Accumulated loss: 2.12, Precision: 33.59
-	 Minibatch 219 / 391, loss: 1.64, 			Avg Accumulated loss: 2.12, Precision: 38.28
-	 Minibatch 220 / 391, loss: 1.57, 			Avg Accumulated loss: 2.11, Precision: 48.44
-	 Minibatch 221 / 391, loss: 1.73, 			Avg Accumulated loss: 2.11, Precision: 34.38
-	 Minibatch 222 / 391, loss: 1.78, 			Avg Accumulated loss: 2.11, Precision: 30.47
-	 Minibatch 223 / 391, loss: 1.87, 			Avg Accumulated loss: 2.11, Precision: 37.50
-	 Minibatch 224 / 391, loss: 1.78, 			Avg Accumulated loss: 2.11, Precision: 33.59
-	 Minibatch 225 / 391, loss: 1.79, 			Avg Accumulated loss: 2.11, Precision: 34.38
-	 Minibatch 226 / 391, loss: 1.79, 			Avg Accumulated loss: 2.10, Precision: 34.38
-	 Minibatch 227 / 391, loss: 1.79, 			Avg Accumulated loss: 2.10, Precision: 33.59
-	 Minibatch 228 / 391, loss: 1.80, 			Avg Accumulated loss: 2.10, Precision: 30.47
-	 Minibatch 229 / 391, loss: 1.69, 			Avg Accumulated loss: 2.10, Precision: 32.03
-	 Minibatch 230 / 391, loss: 1.78, 			Avg Accumulated loss: 2.10, Precision: 35.16
-	 Minibatch 231 / 391, loss: 1.80, 			Avg Accumulated loss: 2.10, Precision: 32.81
-	 Minibatch 232 / 391, loss: 1.75, 			Avg Accumulated loss: 2.10, Precision: 35.94
-	 Minibatch 233 / 391, loss: 1.59, 			Avg Accumulated loss: 2.09, Precision: 42.19
-	 Minibatch 234 / 391, loss: 1.78, 			Avg Accumulated loss: 2.09, Precision: 31.25
-	 Minibatch 235 / 391, loss: 1.62, 			Avg Accumulated loss: 2.09, Precision: 37.50
-	 Minibatch 236 / 391, loss: 1.76, 			Avg Accumulated loss: 2.09, Precision: 32.03
-	 Minibatch 237 / 391, loss: 1.65, 			Avg Accumulated loss: 2.09, Precision: 32.03
-	 Minibatch 238 / 391, loss: 1.90, 			Avg Accumulated loss: 2.09, Precision: 30.47
-	 Minibatch 239 / 391, loss: 1.89, 			Avg Accumulated loss: 2.09, Precision: 30.47
-	 Minibatch 240 / 391, loss: 1.74, 			Avg Accumulated loss: 2.08, Precision: 36.72
-	 Minibatch 241 / 391, loss: 1.78, 			Avg Accumulated loss: 2.08, Precision: 32.03
-	 Minibatch 242 / 391, loss: 1.83, 			Avg Accumulated loss: 2.08, Precision: 37.50
-	 Minibatch 243 / 391, loss: 1.61, 			Avg Accumulated loss: 2.08, Precision: 39.84
-	 Minibatch 244 / 391, loss: 1.83, 			Avg Accumulated loss: 2.08, Precision: 28.91
-	 Minibatch 245 / 391, loss: 1.70, 			Avg Accumulated loss: 2.08, Precision: 39.84
-	 Minibatch 246 / 391, loss: 1.76, 			Avg Accumulated loss: 2.08, Precision: 32.03
-	 Minibatch 247 / 391, loss: 1.65, 			Avg Accumulated loss: 2.07, Precision: 43.75
-	 Minibatch 248 / 391, loss: 1.64, 			Avg Accumulated loss: 2.07, Precision: 38.28
-	 Minibatch 249 / 391, loss: 1.74, 			Avg Accumulated loss: 2.07, Precision: 32.81
-	 Minibatch 250 / 391, loss: 1.71, 			Avg Accumulated loss: 2.07, Precision: 35.94
-	 Minibatch 251 / 391, loss: 1.66, 			Avg Accumulated loss: 2.07, Precision: 37.50
-	 Minibatch 252 / 391, loss: 1.66, 			Avg Accumulated loss: 2.07, Precision: 42.97
-	 Minibatch 253 / 391, loss: 1.66, 			Avg Accumulated loss: 2.06, Precision: 39.06
-	 Minibatch 254 / 391, loss: 1.62, 			Avg Accumulated loss: 2.06, Precision: 42.19
-	 Minibatch 255 / 391, loss: 1.70, 			Avg Accumulated loss: 2.06, Precision: 33.59
-	 Minibatch 256 / 391, loss: 1.64, 			Avg Accumulated loss: 2.06, Precision: 35.94
-	 Minibatch 257 / 391, loss: 1.71, 			Avg Accumulated loss: 2.06, Precision: 35.16
-	 Minibatch 258 / 391, loss: 1.73, 			Avg Accumulated loss: 2.06, Precision: 38.28
-	 Minibatch 259 / 391, loss: 1.72, 			Avg Accumulated loss: 2.06, Precision: 32.81
-	 Minibatch 260 / 391, loss: 1.67, 			Avg Accumulated loss: 2.05, Precision: 34.38
-	 Minibatch 261 / 391, loss: 1.67, 			Avg Accumulated loss: 2.05, Precision: 33.59
-	 Minibatch 262 / 391, loss: 1.63, 			Avg Accumulated loss: 2.05, Precision: 41.41
-	 Minibatch 263 / 391, loss: 1.50, 			Avg Accumulated loss: 2.05, Precision: 46.09
-	 Minibatch 264 / 391, loss: 1.50, 			Avg Accumulated loss: 2.05, Precision: 46.88
-	 Minibatch 265 / 391, loss: 1.72, 			Avg Accumulated loss: 2.05, Precision: 32.03
-	 Minibatch 266 / 391, loss: 1.54, 			Avg Accumulated loss: 2.04, Precision: 46.09
-	 Minibatch 267 / 391, loss: 1.71, 			Avg Accumulated loss: 2.04, Precision: 38.28
-	 Minibatch 268 / 391, loss: 1.74, 			Avg Accumulated loss: 2.04, Precision: 31.25
-	 Minibatch 269 / 391, loss: 1.60, 			Avg Accumulated loss: 2.04, Precision: 41.41
-	 Minibatch 270 / 391, loss: 1.72, 			Avg Accumulated loss: 2.04, Precision: 28.12
-	 Minibatch 271 / 391, loss: 1.66, 			Avg Accumulated loss: 2.04, Precision: 33.59
-	 Minibatch 272 / 391, loss: 1.75, 			Avg Accumulated loss: 2.04, Precision: 35.94
-	 Minibatch 273 / 391, loss: 1.66, 			Avg Accumulated loss: 2.03, Precision: 41.41
-	 Minibatch 274 / 391, loss: 1.72, 			Avg Accumulated loss: 2.03, Precision: 30.47
-	 Minibatch 275 / 391, loss: 1.83, 			Avg Accumulated loss: 2.03, Precision: 31.25
-	 Minibatch 276 / 391, loss: 1.73, 			Avg Accumulated loss: 2.03, Precision: 36.72
-	 Minibatch 277 / 391, loss: 1.56, 			Avg Accumulated loss: 2.03, Precision: 42.19
-	 Minibatch 278 / 391, loss: 1.61, 			Avg Accumulated loss: 2.03, Precision: 41.41
-	 Minibatch 279 / 391, loss: 1.59, 			Avg Accumulated loss: 2.03, Precision: 39.84
-	 Minibatch 280 / 391, loss: 1.72, 			Avg Accumulated loss: 2.03, Precision: 36.72
-	 Minibatch 281 / 391, loss: 1.69, 			Avg Accumulated loss: 2.02, Precision: 33.59
-	 Minibatch 282 / 391, loss: 1.72, 			Avg Accumulated loss: 2.02, Precision: 37.50
-	 Minibatch 283 / 391, loss: 1.63, 			Avg Accumulated loss: 2.02, Precision: 47.66
-	 Minibatch 284 / 391, loss: 1.60, 			Avg Accumulated loss: 2.02, Precision: 41.41
-	 Minibatch 285 / 391, loss: 1.77, 			Avg Accumulated loss: 2.02, Precision: 34.38
-	 Minibatch 286 / 391, loss: 1.91, 			Avg Accumulated loss: 2.02, Precision: 32.03
-	 Minibatch 287 / 391, loss: 1.51, 			Avg Accumulated loss: 2.02, Precision: 46.88
-	 Minibatch 288 / 391, loss: 1.84, 			Avg Accumulated loss: 2.02, Precision: 42.97
-	 Minibatch 289 / 391, loss: 1.51, 			Avg Accumulated loss: 2.02, Precision: 43.75
-	 Minibatch 290 / 391, loss: 1.64, 			Avg Accumulated loss: 2.01, Precision: 42.19
-	 Minibatch 291 / 391, loss: 1.65, 			Avg Accumulated loss: 2.01, Precision: 37.50
-	 Minibatch 292 / 391, loss: 1.64, 			Avg Accumulated loss: 2.01, Precision: 39.84
-	 Minibatch 293 / 391, loss: 1.61, 			Avg Accumulated loss: 2.01, Precision: 39.06
-	 Minibatch 294 / 391, loss: 1.65, 			Avg Accumulated loss: 2.01, Precision: 32.03
-	 Minibatch 295 / 391, loss: 1.79, 			Avg Accumulated loss: 2.01, Precision: 32.03
-	 Minibatch 296 / 391, loss: 1.66, 			Avg Accumulated loss: 2.01, Precision: 35.94
-	 Minibatch 297 / 391, loss: 1.53, 			Avg Accumulated loss: 2.01, Precision: 39.84
-	 Minibatch 298 / 391, loss: 1.68, 			Avg Accumulated loss: 2.00, Precision: 31.25
-	 Minibatch 299 / 391, loss: 1.63, 			Avg Accumulated loss: 2.00, Precision: 33.59
-	 Minibatch 300 / 391, loss: 1.67, 			Avg Accumulated loss: 2.00, Precision: 31.25
-	 Minibatch 301 / 391, loss: 1.64, 			Avg Accumulated loss: 2.00, Precision: 38.28
-	 Minibatch 302 / 391, loss: 1.67, 			Avg Accumulated loss: 2.00, Precision: 34.38
-	 Minibatch 303 / 391, loss: 1.71, 			Avg Accumulated loss: 2.00, Precision: 39.06
-	 Minibatch 304 / 391, loss: 1.66, 			Avg Accumulated loss: 2.00, Precision: 33.59
-	 Minibatch 305 / 391, loss: 1.50, 			Avg Accumulated loss: 2.00, Precision: 42.97
-	 Minibatch 306 / 391, loss: 1.52, 			Avg Accumulated loss: 1.99, Precision: 46.09
-	 Minibatch 307 / 391, loss: 1.64, 			Avg Accumulated loss: 1.99, Precision: 36.72
-	 Minibatch 308 / 391, loss: 1.69, 			Avg Accumulated loss: 1.99, Precision: 40.62
-	 Minibatch 309 / 391, loss: 1.67, 			Avg Accumulated loss: 1.99, Precision: 36.72
-	 Minibatch 310 / 391, loss: 1.64, 			Avg Accumulated loss: 1.99, Precision: 33.59
-	 Minibatch 311 / 391, loss: 1.65, 			Avg Accumulated loss: 1.99, Precision: 37.50
-	 Minibatch 312 / 391, loss: 1.63, 			Avg Accumulated loss: 1.99, Precision: 35.94
-	 Minibatch 313 / 391, loss: 1.56, 			Avg Accumulated loss: 1.99, Precision: 39.06
-	 Minibatch 314 / 391, loss: 1.69, 			Avg Accumulated loss: 1.99, Precision: 32.81
-	 Minibatch 315 / 391, loss: 1.73, 			Avg Accumulated loss: 1.98, Precision: 38.28
-	 Minibatch 316 / 391, loss: 1.70, 			Avg Accumulated loss: 1.98, Precision: 38.28
-	 Minibatch 317 / 391, loss: 1.55, 			Avg Accumulated loss: 1.98, Precision: 42.97
-	 Minibatch 318 / 391, loss: 1.54, 			Avg Accumulated loss: 1.98, Precision: 44.53
-	 Minibatch 319 / 391, loss: 1.54, 			Avg Accumulated loss: 1.98, Precision: 43.75
-	 Minibatch 320 / 391, loss: 1.45, 			Avg Accumulated loss: 1.98, Precision: 42.97
-	 Minibatch 321 / 391, loss: 1.67, 			Avg Accumulated loss: 1.98, Precision: 35.16
-	 Minibatch 322 / 391, loss: 1.54, 			Avg Accumulated loss: 1.98, Precision: 38.28
-	 Minibatch 323 / 391, loss: 1.70, 			Avg Accumulated loss: 1.97, Precision: 36.72
-	 Minibatch 324 / 391, loss: 1.70, 			Avg Accumulated loss: 1.97, Precision: 36.72
-	 Minibatch 325 / 391, loss: 1.61, 			Avg Accumulated loss: 1.97, Precision: 35.16
-	 Minibatch 326 / 391, loss: 1.52, 			Avg Accumulated loss: 1.97, Precision: 46.88
-	 Minibatch 327 / 391, loss: 1.71, 			Avg Accumulated loss: 1.97, Precision: 35.16
-	 Minibatch 328 / 391, loss: 1.72, 			Avg Accumulated loss: 1.97, Precision: 39.06
-	 Minibatch 329 / 391, loss: 1.51, 			Avg Accumulated loss: 1.97, Precision: 42.19
-	 Minibatch 330 / 391, loss: 1.79, 			Avg Accumulated loss: 1.97, Precision: 27.34
-	 Minibatch 331 / 391, loss: 1.63, 			Avg Accumulated loss: 1.97, Precision: 37.50
-	 Minibatch 332 / 391, loss: 1.77, 			Avg Accumulated loss: 1.97, Precision: 39.06
-	 Minibatch 333 / 391, loss: 1.72, 			Avg Accumulated loss: 1.97, Precision: 32.81
-	 Minibatch 334 / 391, loss: 1.57, 			Avg Accumulated loss: 1.96, Precision: 38.28
-	 Minibatch 335 / 391, loss: 1.57, 			Avg Accumulated loss: 1.96, Precision: 43.75
-	 Minibatch 336 / 391, loss: 1.70, 			Avg Accumulated loss: 1.96, Precision: 30.47
-	 Minibatch 337 / 391, loss: 1.82, 			Avg Accumulated loss: 1.96, Precision: 29.69
-	 Minibatch 338 / 391, loss: 1.77, 			Avg Accumulated loss: 1.96, Precision: 38.28
-	 Minibatch 339 / 391, loss: 1.66, 			Avg Accumulated loss: 1.96, Precision: 30.47
-	 Minibatch 340 / 391, loss: 1.45, 			Avg Accumulated loss: 1.96, Precision: 41.41
-	 Minibatch 341 / 391, loss: 1.52, 			Avg Accumulated loss: 1.96, Precision: 45.31
-	 Minibatch 342 / 391, loss: 1.56, 			Avg Accumulated loss: 1.96, Precision: 40.62
-	 Minibatch 343 / 391, loss: 1.54, 			Avg Accumulated loss: 1.96, Precision: 35.16
-	 Minibatch 344 / 391, loss: 1.64, 			Avg Accumulated loss: 1.95, Precision: 35.94
-	 Minibatch 345 / 391, loss: 1.68, 			Avg Accumulated loss: 1.95, Precision: 41.41
-	 Minibatch 346 / 391, loss: 1.76, 			Avg Accumulated loss: 1.95, Precision: 36.72
-	 Minibatch 347 / 391, loss: 1.56, 			Avg Accumulated loss: 1.95, Precision: 39.06
-	 Minibatch 348 / 391, loss: 1.50, 			Avg Accumulated loss: 1.95, Precision: 42.97
-	 Minibatch 349 / 391, loss: 1.70, 			Avg Accumulated loss: 1.95, Precision: 40.62
-	 Minibatch 350 / 391, loss: 1.48, 			Avg Accumulated loss: 1.95, Precision: 43.75
-	 Minibatch 351 / 391, loss: 1.72, 			Avg Accumulated loss: 1.95, Precision: 42.19
-	 Minibatch 352 / 391, loss: 1.61, 			Avg Accumulated loss: 1.95, Precision: 44.53
-	 Minibatch 353 / 391, loss: 1.70, 			Avg Accumulated loss: 1.95, Precision: 34.38
-	 Minibatch 354 / 391, loss: 1.60, 			Avg Accumulated loss: 1.95, Precision: 41.41
-	 Minibatch 355 / 391, loss: 1.43, 			Avg Accumulated loss: 1.94, Precision: 43.75
-	 Minibatch 356 / 391, loss: 1.60, 			Avg Accumulated loss: 1.94, Precision: 39.06
-	 Minibatch 357 / 391, loss: 1.65, 			Avg Accumulated loss: 1.94, Precision: 30.47
-	 Minibatch 358 / 391, loss: 1.60, 			Avg Accumulated loss: 1.94, Precision: 42.97
-	 Minibatch 359 / 391, loss: 1.47, 			Avg Accumulated loss: 1.94, Precision: 47.66
-	 Minibatch 360 / 391, loss: 1.57, 			Avg Accumulated loss: 1.94, Precision: 41.41
-	 Minibatch 361 / 391, loss: 1.70, 			Avg Accumulated loss: 1.94, Precision: 35.94
-	 Minibatch 362 / 391, loss: 1.62, 			Avg Accumulated loss: 1.94, Precision: 32.81
-	 Minibatch 363 / 391, loss: 1.72, 			Avg Accumulated loss: 1.94, Precision: 36.72
-	 Minibatch 364 / 391, loss: 1.41, 			Avg Accumulated loss: 1.94, Precision: 42.19
-	 Minibatch 365 / 391, loss: 1.56, 			Avg Accumulated loss: 1.93, Precision: 44.53
-	 Minibatch 366 / 391, loss: 1.61, 			Avg Accumulated loss: 1.93, Precision: 42.19
-	 Minibatch 367 / 391, loss: 1.54, 			Avg Accumulated loss: 1.93, Precision: 46.88
-	 Minibatch 368 / 391, loss: 1.74, 			Avg Accumulated loss: 1.93, Precision: 37.50
-	 Minibatch 369 / 391, loss: 1.52, 			Avg Accumulated loss: 1.93, Precision: 42.97
-	 Minibatch 370 / 391, loss: 1.56, 			Avg Accumulated loss: 1.93, Precision: 40.62
-	 Minibatch 371 / 391, loss: 1.70, 			Avg Accumulated loss: 1.93, Precision: 32.81
-	 Minibatch 372 / 391, loss: 1.93, 			Avg Accumulated loss: 1.93, Precision: 31.25
-	 Minibatch 373 / 391, loss: 1.76, 			Avg Accumulated loss: 1.93, Precision: 36.72
-	 Minibatch 374 / 391, loss: 1.57, 			Avg Accumulated loss: 1.93, Precision: 39.06
-	 Minibatch 375 / 391, loss: 1.79, 			Avg Accumulated loss: 1.93, Precision: 38.28
-	 Minibatch 376 / 391, loss: 1.56, 			Avg Accumulated loss: 1.93, Precision: 40.62
-	 Minibatch 377 / 391, loss: 1.70, 			Avg Accumulated loss: 1.93, Precision: 40.62
-	 Minibatch 378 / 391, loss: 1.44, 			Avg Accumulated loss: 1.92, Precision: 44.53
-	 Minibatch 379 / 391, loss: 1.49, 			Avg Accumulated loss: 1.92, Precision: 45.31
-	 Minibatch 380 / 391, loss: 1.61, 			Avg Accumulated loss: 1.92, Precision: 30.47
-	 Minibatch 381 / 391, loss: 1.58, 			Avg Accumulated loss: 1.92, Precision: 45.31
-	 Minibatch 382 / 391, loss: 1.53, 			Avg Accumulated loss: 1.92, Precision: 35.94
-	 Minibatch 383 / 391, loss: 1.66, 			Avg Accumulated loss: 1.92, Precision: 37.50
-	 Minibatch 384 / 391, loss: 1.59, 			Avg Accumulated loss: 1.92, Precision: 46.09
-	 Minibatch 385 / 391, loss: 1.62, 			Avg Accumulated loss: 1.92, Precision: 36.72
-	 Minibatch 386 / 391, loss: 1.53, 			Avg Accumulated loss: 1.92, Precision: 46.88
-	 Minibatch 387 / 391, loss: 1.59, 			Avg Accumulated loss: 1.92, Precision: 39.84
-	 Minibatch 388 / 391, loss: 1.68, 			Avg Accumulated loss: 1.92, Precision: 45.31
-	 Minibatch 389 / 391, loss: 1.59, 			Avg Accumulated loss: 1.92, Precision: 38.28
-	 Minibatch 390 / 391, loss: 1.53, 			Avg Accumulated loss: 1.91, Precision: 42.97
-	 Minibatch 391 / 391, loss: 1.53, 			Avg Accumulated loss: 1.91, Precision: 35.00
 
-Aggregates: 				 DataLoader Time: 0.7517 				 Mini-batch Time:20.8217 				 Training Epoch Time:50.2439
- 			Averages: 				 Training Loss: 1.9131
-	 Testing precision@1: 39.9900 
+Epoch: 0
+Loss: 2.390 | Precision@1: 5.469% (7/128)
+Loss: 2.730 | Precision@1: 8.984% (23/256)
+Loss: 3.393 | Precision@1: 10.156% (39/384)
+Loss: 3.530 | Precision@1: 10.742% (55/512)
+Loss: 3.541 | Precision@1: 11.562% (74/640)
+Loss: 3.741 | Precision@1: 11.328% (87/768)
+Loss: 3.806 | Precision@1: 12.054% (108/896)
+Loss: 3.970 | Precision@1: 12.109% (124/1024)
+Loss: 4.245 | Precision@1: 11.632% (134/1152)
+Loss: 4.131 | Precision@1: 12.031% (154/1280)
+Loss: 4.187 | Precision@1: 11.364% (160/1408)
+Loss: 4.157 | Precision@1: 11.198% (172/1536)
+Loss: 4.100 | Precision@1: 11.118% (185/1664)
+Loss: 4.093 | Precision@1: 10.938% (196/1792)
+Loss: 4.047 | Precision@1: 10.781% (207/1920)
+Loss: 4.017 | Precision@1: 11.182% (229/2048)
+Loss: 3.944 | Precision@1: 11.443% (249/2176)
+Loss: 3.863 | Precision@1: 11.762% (271/2304)
+Loss: 3.810 | Precision@1: 11.760% (286/2432)
+Loss: 3.737 | Precision@1: 11.914% (305/2560)
+Loss: 3.686 | Precision@1: 11.756% (316/2688)
+Loss: 3.625 | Precision@1: 11.825% (333/2816)
+Loss: 3.582 | Precision@1: 11.821% (348/2944)
+Loss: 3.534 | Precision@1: 12.174% (374/3072)
+Loss: 3.476 | Precision@1: 12.469% (399/3200)
+Loss: 3.430 | Precision@1: 12.620% (420/3328)
+Loss: 3.409 | Precision@1: 12.645% (437/3456)
+Loss: 3.471 | Precision@1: 12.863% (461/3584)
+Loss: 3.481 | Precision@1: 13.120% (487/3712)
+Loss: 3.444 | Precision@1: 13.151% (505/3840)
+Loss: 3.412 | Precision@1: 13.180% (523/3968)
+Loss: 3.394 | Precision@1: 13.086% (536/4096)
+Loss: 3.373 | Precision@1: 13.092% (553/4224)
+Loss: 3.355 | Precision@1: 13.373% (582/4352)
+Loss: 3.338 | Precision@1: 13.415% (601/4480)
+Loss: 3.319 | Precision@1: 13.433% (619/4608)
+Loss: 3.295 | Precision@1: 13.682% (648/4736)
+Loss: 3.286 | Precision@1: 13.610% (662/4864)
+Loss: 3.275 | Precision@1: 13.642% (681/4992)
+Loss: 3.257 | Precision@1: 13.730% (703/5120)
+Loss: 3.237 | Precision@1: 13.815% (725/5248)
+Loss: 3.213 | Precision@1: 13.895% (747/5376)
+Loss: 3.192 | Precision@1: 14.008% (771/5504)
+Loss: 3.173 | Precision@1: 14.116% (795/5632)
+Loss: 3.161 | Precision@1: 14.253% (821/5760)
+Loss: 3.139 | Precision@1: 14.300% (842/5888)
+Loss: 3.136 | Precision@1: 14.412% (867/6016)
+Loss: 3.126 | Precision@1: 14.404% (885/6144)
+Loss: 3.113 | Precision@1: 14.413% (904/6272)
+Loss: 3.100 | Precision@1: 14.578% (933/6400)
+Loss: 3.086 | Precision@1: 14.660% (957/6528)
+Loss: 3.070 | Precision@1: 14.784% (984/6656)
+Loss: 3.051 | Precision@1: 14.947% (1014/6784)
+Loss: 3.041 | Precision@1: 14.988% (1036/6912)
+Loss: 3.026 | Precision@1: 15.099% (1063/7040)
+Loss: 3.013 | Precision@1: 15.248% (1093/7168)
+Loss: 2.999 | Precision@1: 15.392% (1123/7296)
+Loss: 2.986 | Precision@1: 15.450% (1147/7424)
+Loss: 2.974 | Precision@1: 15.506% (1171/7552)
+Loss: 2.963 | Precision@1: 15.534% (1193/7680)
+Loss: 2.953 | Precision@1: 15.625% (1220/7808)
+Loss: 2.938 | Precision@1: 15.726% (1248/7936)
+Loss: 2.928 | Precision@1: 15.910% (1283/8064)
+Loss: 2.918 | Precision@1: 16.016% (1312/8192)
+Loss: 2.909 | Precision@1: 16.082% (1338/8320)
+Loss: 2.904 | Precision@1: 16.075% (1358/8448)
+Loss: 2.892 | Precision@1: 16.126% (1383/8576)
+Loss: 2.882 | Precision@1: 16.234% (1413/8704)
+Loss: 2.871 | Precision@1: 16.293% (1439/8832)
+Loss: 2.861 | Precision@1: 16.306% (1461/8960)
+Loss: 2.851 | Precision@1: 16.417% (1492/9088)
+Loss: 2.844 | Precision@1: 16.504% (1521/9216)
+Loss: 2.835 | Precision@1: 16.620% (1553/9344)
+Loss: 2.826 | Precision@1: 16.660% (1578/9472)
+Loss: 2.818 | Precision@1: 16.635% (1597/9600)
+Loss: 2.810 | Precision@1: 16.704% (1625/9728)
+Loss: 2.801 | Precision@1: 16.853% (1661/9856)
+Loss: 2.794 | Precision@1: 16.847% (1682/9984)
+Loss: 2.785 | Precision@1: 16.851% (1704/10112)
+Loss: 2.778 | Precision@1: 16.865% (1727/10240)
+Loss: 2.769 | Precision@1: 16.879% (1750/10368)
+Loss: 2.762 | Precision@1: 16.892% (1773/10496)
+Loss: 2.754 | Precision@1: 16.877% (1793/10624)
+Loss: 2.747 | Precision@1: 17.011% (1829/10752)
+Loss: 2.738 | Precision@1: 17.050% (1855/10880)
+Loss: 2.731 | Precision@1: 17.142% (1887/11008)
+Loss: 2.725 | Precision@1: 17.188% (1914/11136)
+Loss: 2.719 | Precision@1: 17.214% (1939/11264)
+Loss: 2.712 | Precision@1: 17.188% (1958/11392)
+Loss: 2.706 | Precision@1: 17.222% (1984/11520)
+Loss: 2.700 | Precision@1: 17.291% (2014/11648)
+Loss: 2.693 | Precision@1: 17.289% (2036/11776)
+Loss: 2.685 | Precision@1: 17.414% (2073/11904)
+Loss: 2.678 | Precision@1: 17.470% (2102/12032)
+Loss: 2.672 | Precision@1: 17.533% (2132/12160)
+Loss: 2.666 | Precision@1: 17.594% (2162/12288)
+Loss: 2.660 | Precision@1: 17.598% (2185/12416)
+Loss: 2.653 | Precision@1: 17.674% (2217/12544)
+Loss: 2.645 | Precision@1: 17.756% (2250/12672)
+Loss: 2.640 | Precision@1: 17.766% (2274/12800)
+Loss: 2.634 | Precision@1: 17.868% (2310/12928)
+Loss: 2.628 | Precision@1: 17.915% (2339/13056)
+Loss: 2.623 | Precision@1: 17.992% (2372/13184)
+Loss: 2.618 | Precision@1: 18.051% (2403/13312)
+Loss: 2.613 | Precision@1: 18.103% (2433/13440)
+Loss: 2.607 | Precision@1: 18.212% (2471/13568)
+Loss: 2.601 | Precision@1: 18.246% (2499/13696)
+Loss: 2.596 | Precision@1: 18.273% (2526/13824)
+Loss: 2.591 | Precision@1: 18.341% (2559/13952)
+Loss: 2.588 | Precision@1: 18.381% (2588/14080)
+Loss: 2.583 | Precision@1: 18.412% (2616/14208)
+Loss: 2.580 | Precision@1: 18.457% (2646/14336)
+Loss: 2.576 | Precision@1: 18.473% (2672/14464)
+Loss: 2.571 | Precision@1: 18.544% (2706/14592)
+Loss: 2.567 | Precision@1: 18.560% (2732/14720)
+Loss: 2.562 | Precision@1: 18.622% (2765/14848)
+Loss: 2.557 | Precision@1: 18.677% (2797/14976)
+Loss: 2.552 | Precision@1: 18.730% (2829/15104)
+Loss: 2.548 | Precision@1: 18.763% (2858/15232)
+Loss: 2.544 | Precision@1: 18.763% (2882/15360)
+Loss: 2.539 | Precision@1: 18.821% (2915/15488)
+Loss: 2.537 | Precision@1: 18.846% (2943/15616)
+Loss: 2.533 | Precision@1: 18.902% (2976/15744)
+Loss: 2.529 | Precision@1: 18.939% (3006/15872)
+Loss: 2.525 | Precision@1: 18.950% (3032/16000)
+Loss: 2.520 | Precision@1: 19.004% (3065/16128)
+Loss: 2.517 | Precision@1: 19.015% (3091/16256)
+Loss: 2.513 | Precision@1: 19.019% (3116/16384)
+Loss: 2.510 | Precision@1: 19.065% (3148/16512)
+Loss: 2.505 | Precision@1: 19.165% (3189/16640)
+Loss: 2.500 | Precision@1: 19.245% (3227/16768)
+Loss: 2.496 | Precision@1: 19.336% (3267/16896)
+Loss: 2.493 | Precision@1: 19.343% (3293/17024)
+Loss: 2.488 | Precision@1: 19.438% (3334/17152)
+Loss: 2.485 | Precision@1: 19.525% (3374/17280)
+Loss: 2.481 | Precision@1: 19.548% (3403/17408)
+Loss: 2.478 | Precision@1: 19.577% (3433/17536)
+Loss: 2.476 | Precision@1: 19.594% (3461/17664)
+Loss: 2.472 | Precision@1: 19.661% (3498/17792)
+Loss: 2.469 | Precision@1: 19.688% (3528/17920)
+Loss: 2.465 | Precision@1: 19.775% (3569/18048)
+Loss: 2.461 | Precision@1: 19.916% (3620/18176)
+Loss: 2.457 | Precision@1: 19.946% (3651/18304)
+Loss: 2.454 | Precision@1: 19.960% (3679/18432)
+Loss: 2.451 | Precision@1: 19.995% (3711/18560)
+Loss: 2.447 | Precision@1: 20.045% (3746/18688)
+Loss: 2.445 | Precision@1: 20.089% (3780/18816)
+Loss: 2.441 | Precision@1: 20.191% (3825/18944)
+Loss: 2.437 | Precision@1: 20.292% (3870/19072)
+Loss: 2.433 | Precision@1: 20.354% (3908/19200)
+Loss: 2.430 | Precision@1: 20.406% (3944/19328)
+Loss: 2.427 | Precision@1: 20.415% (3972/19456)
+Loss: 2.423 | Precision@1: 20.481% (4011/19584)
+Loss: 2.420 | Precision@1: 20.520% (4045/19712)
+Loss: 2.417 | Precision@1: 20.600% (4087/19840)
+Loss: 2.414 | Precision@1: 20.643% (4122/19968)
+Loss: 2.412 | Precision@1: 20.661% (4152/20096)
+Loss: 2.409 | Precision@1: 20.708% (4188/20224)
+Loss: 2.406 | Precision@1: 20.784% (4230/20352)
+Loss: 2.403 | Precision@1: 20.806% (4261/20480)
+Loss: 2.401 | Precision@1: 20.837% (4294/20608)
+Loss: 2.398 | Precision@1: 20.920% (4338/20736)
+Loss: 2.395 | Precision@1: 20.936% (4368/20864)
+Loss: 2.393 | Precision@1: 20.975% (4403/20992)
+Loss: 2.390 | Precision@1: 21.009% (4437/21120)
+Loss: 2.388 | Precision@1: 21.051% (4473/21248)
+Loss: 2.385 | Precision@1: 21.098% (4510/21376)
+Loss: 2.382 | Precision@1: 21.150% (4548/21504)
+Loss: 2.379 | Precision@1: 21.158% (4577/21632)
+Loss: 2.376 | Precision@1: 21.199% (4613/21760)
+Loss: 2.374 | Precision@1: 21.213% (4643/21888)
+Loss: 2.371 | Precision@1: 21.194% (4666/22016)
+Loss: 2.370 | Precision@1: 21.216% (4698/22144)
+Loss: 2.368 | Precision@1: 21.278% (4739/22272)
+Loss: 2.366 | Precision@1: 21.295% (4770/22400)
+Loss: 2.364 | Precision@1: 21.316% (4802/22528)
+Loss: 2.362 | Precision@1: 21.372% (4842/22656)
+Loss: 2.359 | Precision@1: 21.388% (4873/22784)
+Loss: 2.357 | Precision@1: 21.421% (4908/22912)
+Loss: 2.354 | Precision@1: 21.471% (4947/23040)
+Loss: 2.352 | Precision@1: 21.517% (4985/23168)
+Loss: 2.349 | Precision@1: 21.566% (5024/23296)
+Loss: 2.346 | Precision@1: 21.615% (5063/23424)
+Loss: 2.344 | Precision@1: 21.663% (5102/23552)
+Loss: 2.341 | Precision@1: 21.689% (5136/23680)
+Loss: 2.340 | Precision@1: 21.711% (5169/23808)
+Loss: 2.338 | Precision@1: 21.783% (5214/23936)
+Loss: 2.335 | Precision@1: 21.825% (5252/24064)
+Loss: 2.334 | Precision@1: 21.867% (5290/24192)
+Loss: 2.332 | Precision@1: 21.904% (5327/24320)
+Loss: 2.330 | Precision@1: 21.932% (5362/24448)
+Loss: 2.328 | Precision@1: 21.952% (5395/24576)
+Loss: 2.325 | Precision@1: 21.996% (5434/24704)
+Loss: 2.323 | Precision@1: 22.036% (5472/24832)
+Loss: 2.321 | Precision@1: 22.071% (5509/24960)
+Loss: 2.319 | Precision@1: 22.110% (5547/25088)
+Loss: 2.317 | Precision@1: 22.129% (5580/25216)
+Loss: 2.315 | Precision@1: 22.187% (5623/25344)
+Loss: 2.313 | Precision@1: 22.162% (5645/25472)
+Loss: 2.311 | Precision@1: 22.184% (5679/25600)
+Loss: 2.309 | Precision@1: 22.178% (5706/25728)
+Loss: 2.307 | Precision@1: 22.208% (5742/25856)
+Loss: 2.305 | Precision@1: 22.233% (5777/25984)
+Loss: 2.304 | Precision@1: 22.254% (5811/26112)
+Loss: 2.302 | Precision@1: 22.283% (5847/26240)
+Loss: 2.301 | Precision@1: 22.311% (5883/26368)
+Loss: 2.299 | Precision@1: 22.328% (5916/26496)
+Loss: 2.297 | Precision@1: 22.386% (5960/26624)
+Loss: 2.294 | Precision@1: 22.421% (5998/26752)
+Loss: 2.293 | Precision@1: 22.403% (6022/26880)
+Loss: 2.291 | Precision@1: 22.416% (6054/27008)
+Loss: 2.290 | Precision@1: 22.409% (6081/27136)
+Loss: 2.289 | Precision@1: 22.444% (6119/27264)
+Loss: 2.286 | Precision@1: 22.518% (6168/27392)
+Loss: 2.284 | Precision@1: 22.587% (6216/27520)
+Loss: 2.282 | Precision@1: 22.624% (6255/27648)
+Loss: 2.280 | Precision@1: 22.663% (6295/27776)
+Loss: 2.279 | Precision@1: 22.699% (6334/27904)
+Loss: 2.277 | Precision@1: 22.728% (6371/28032)
+Loss: 2.274 | Precision@1: 22.777% (6414/28160)
+Loss: 2.273 | Precision@1: 22.840% (6461/28288)
+Loss: 2.271 | Precision@1: 22.878% (6501/28416)
+Loss: 2.270 | Precision@1: 22.884% (6532/28544)
+Loss: 2.269 | Precision@1: 22.904% (6567/28672)
+Loss: 2.267 | Precision@1: 22.965% (6614/28800)
+Loss: 2.265 | Precision@1: 23.009% (6656/28928)
+Loss: 2.263 | Precision@1: 23.055% (6699/29056)
+Loss: 2.262 | Precision@1: 23.071% (6733/29184)
+Loss: 2.260 | Precision@1: 23.083% (6766/29312)
+Loss: 2.259 | Precision@1: 23.091% (6798/29440)
+Loss: 2.257 | Precision@1: 23.106% (6832/29568)
+Loss: 2.255 | Precision@1: 23.131% (6869/29696)
+Loss: 2.253 | Precision@1: 23.186% (6915/29824)
+Loss: 2.251 | Precision@1: 23.217% (6954/29952)
+Loss: 2.249 | Precision@1: 23.228% (6987/30080)
+Loss: 2.247 | Precision@1: 23.252% (7024/30208)
+Loss: 2.246 | Precision@1: 23.306% (7070/30336)
+Loss: 2.244 | Precision@1: 23.346% (7112/30464)
+Loss: 2.242 | Precision@1: 23.359% (7146/30592)
+Loss: 2.241 | Precision@1: 23.382% (7183/30720)
+Loss: 2.239 | Precision@1: 23.418% (7224/30848)
+Loss: 2.238 | Precision@1: 23.463% (7268/30976)
+Loss: 2.236 | Precision@1: 23.483% (7304/31104)
+Loss: 2.234 | Precision@1: 23.562% (7359/31232)
+Loss: 2.232 | Precision@1: 23.607% (7403/31360)
+Loss: 2.231 | Precision@1: 23.631% (7441/31488)
+Loss: 2.229 | Precision@1: 23.672% (7484/31616)
+Loss: 2.228 | Precision@1: 23.690% (7520/31744)
+Loss: 2.226 | Precision@1: 23.732% (7564/31872)
+Loss: 2.225 | Precision@1: 23.747% (7599/32000)
+Loss: 2.224 | Precision@1: 23.780% (7640/32128)
+Loss: 2.222 | Precision@1: 23.822% (7684/32256)
+Loss: 2.220 | Precision@1: 23.870% (7730/32384)
+Loss: 2.218 | Precision@1: 23.905% (7772/32512)
+Loss: 2.217 | Precision@1: 23.928% (7810/32640)
+Loss: 2.215 | Precision@1: 23.956% (7850/32768)
+Loss: 2.214 | Precision@1: 23.963% (7883/32896)
+Loss: 2.213 | Precision@1: 23.967% (7915/33024)
+Loss: 2.211 | Precision@1: 23.996% (7955/33152)
+Loss: 2.210 | Precision@1: 24.032% (7998/33280)
+Loss: 2.209 | Precision@1: 24.063% (8039/33408)
+Loss: 2.207 | Precision@1: 24.117% (8088/33536)
+Loss: 2.206 | Precision@1: 24.171% (8137/33664)
+Loss: 2.204 | Precision@1: 24.160% (8164/33792)
+Loss: 2.203 | Precision@1: 24.169% (8198/33920)
+Loss: 2.201 | Precision@1: 24.184% (8234/34048)
+Loss: 2.200 | Precision@1: 24.216% (8276/34176)
+Loss: 2.198 | Precision@1: 24.265% (8324/34304)
+Loss: 2.197 | Precision@1: 24.306% (8369/34432)
+Loss: 2.196 | Precision@1: 24.346% (8414/34560)
+Loss: 2.194 | Precision@1: 24.383% (8458/34688)
+Loss: 2.193 | Precision@1: 24.403% (8496/34816)
+Loss: 2.192 | Precision@1: 24.436% (8539/34944)
+Loss: 2.191 | Precision@1: 24.467% (8581/35072)
+Loss: 2.189 | Precision@1: 24.486% (8619/35200)
+Loss: 2.188 | Precision@1: 24.516% (8661/35328)
+Loss: 2.186 | Precision@1: 24.554% (8706/35456)
+Loss: 2.185 | Precision@1: 24.581% (8747/35584)
+Loss: 2.184 | Precision@1: 24.619% (8792/35712)
+Loss: 2.182 | Precision@1: 24.662% (8839/35840)
+Loss: 2.181 | Precision@1: 24.666% (8872/35968)
+Loss: 2.180 | Precision@1: 24.662% (8902/36096)
+Loss: 2.178 | Precision@1: 24.699% (8947/36224)
+Loss: 2.177 | Precision@1: 24.728% (8989/36352)
+Loss: 2.175 | Precision@1: 24.751% (9029/36480)
+Loss: 2.173 | Precision@1: 24.803% (9080/36608)
+Loss: 2.173 | Precision@1: 24.815% (9116/36736)
+Loss: 2.171 | Precision@1: 24.848% (9160/36864)
+Loss: 2.170 | Precision@1: 24.878% (9203/36992)
+Loss: 2.169 | Precision@1: 24.906% (9245/37120)
+Loss: 2.168 | Precision@1: 24.925% (9284/37248)
+Loss: 2.167 | Precision@1: 24.955% (9327/37376)
+Loss: 2.165 | Precision@1: 24.997% (9375/37504)
+Loss: 2.164 | Precision@1: 25.011% (9412/37632)
+Loss: 2.163 | Precision@1: 25.037% (9454/37760)
+Loss: 2.162 | Precision@1: 25.066% (9497/37888)
+Loss: 2.161 | Precision@1: 25.076% (9533/38016)
+Loss: 2.159 | Precision@1: 25.092% (9571/38144)
+Loss: 2.158 | Precision@1: 25.131% (9618/38272)
+Loss: 2.157 | Precision@1: 25.159% (9661/38400)
+Loss: 2.155 | Precision@1: 25.215% (9715/38528)
+Loss: 2.154 | Precision@1: 25.243% (9758/38656)
+Loss: 2.153 | Precision@1: 25.245% (9791/38784)
+Loss: 2.152 | Precision@1: 25.272% (9834/38912)
+Loss: 2.150 | Precision@1: 25.307% (9880/39040)
+Loss: 2.149 | Precision@1: 25.329% (9921/39168)
+Loss: 2.148 | Precision@1: 25.364% (9967/39296)
+Loss: 2.147 | Precision@1: 25.396% (10012/39424)
+Loss: 2.145 | Precision@1: 25.407% (10049/39552)
+Loss: 2.144 | Precision@1: 25.439% (10094/39680)
+Loss: 2.143 | Precision@1: 25.450% (10131/39808)
+Loss: 2.142 | Precision@1: 25.461% (10168/39936)
+Loss: 2.141 | Precision@1: 25.484% (10210/40064)
+Loss: 2.140 | Precision@1: 25.503% (10250/40192)
+Loss: 2.139 | Precision@1: 25.531% (10294/40320)
+Loss: 2.138 | Precision@1: 25.546% (10333/40448)
+Loss: 2.137 | Precision@1: 25.589% (10383/40576)
+Loss: 2.135 | Precision@1: 25.631% (10433/40704)
+Loss: 2.134 | Precision@1: 25.683% (10487/40832)
+Loss: 2.133 | Precision@1: 25.701% (10527/40960)
+Loss: 2.132 | Precision@1: 25.701% (10560/41088)
+Loss: 2.131 | Precision@1: 25.713% (10598/41216)
+Loss: 2.130 | Precision@1: 25.743% (10643/41344)
+Loss: 2.129 | Precision@1: 25.760% (10683/41472)
+Loss: 2.128 | Precision@1: 25.755% (10714/41600)
+Loss: 2.127 | Precision@1: 25.774% (10755/41728)
+Loss: 2.126 | Precision@1: 25.803% (10800/41856)
+Loss: 2.125 | Precision@1: 25.853% (10854/41984)
+Loss: 2.124 | Precision@1: 25.881% (10899/42112)
+Loss: 2.123 | Precision@1: 25.907% (10943/42240)
+Loss: 2.122 | Precision@1: 25.909% (10977/42368)
+Loss: 2.121 | Precision@1: 25.915% (11013/42496)
+Loss: 2.120 | Precision@1: 25.920% (11048/42624)
+Loss: 2.119 | Precision@1: 25.957% (11097/42752)
+Loss: 2.118 | Precision@1: 26.014% (11155/42880)
+Loss: 2.116 | Precision@1: 26.032% (11196/43008)
+Loss: 2.116 | Precision@1: 26.027% (11227/43136)
+Loss: 2.115 | Precision@1: 26.061% (11275/43264)
+Loss: 2.114 | Precision@1: 26.081% (11317/43392)
+Loss: 2.113 | Precision@1: 26.105% (11361/43520)
+Loss: 2.112 | Precision@1: 26.111% (11397/43648)
+Loss: 2.111 | Precision@1: 26.128% (11438/43776)
+Loss: 2.110 | Precision@1: 26.146% (11479/43904)
+Loss: 2.108 | Precision@1: 26.165% (11521/44032)
+Loss: 2.108 | Precision@1: 26.182% (11562/44160)
+Loss: 2.107 | Precision@1: 26.213% (11609/44288)
+Loss: 2.106 | Precision@1: 26.225% (11648/44416)
+Loss: 2.104 | Precision@1: 26.257% (11696/44544)
+Loss: 2.103 | Precision@1: 26.285% (11742/44672)
+Loss: 2.103 | Precision@1: 26.310% (11787/44800)
+Loss: 2.102 | Precision@1: 26.333% (11831/44928)
+Loss: 2.101 | Precision@1: 26.349% (11872/45056)
+Loss: 2.100 | Precision@1: 26.368% (11914/45184)
+Loss: 2.099 | Precision@1: 26.390% (11958/45312)
+Loss: 2.098 | Precision@1: 26.419% (12005/45440)
+Loss: 2.097 | Precision@1: 26.448% (12052/45568)
+Loss: 2.096 | Precision@1: 26.486% (12103/45696)
+Loss: 2.095 | Precision@1: 26.514% (12150/45824)
+Loss: 2.094 | Precision@1: 26.528% (12190/45952)
+Loss: 2.093 | Precision@1: 26.547% (12233/46080)
+Loss: 2.092 | Precision@1: 26.580% (12282/46208)
+Loss: 2.091 | Precision@1: 26.573% (12313/46336)
+Loss: 2.090 | Precision@1: 26.575% (12348/46464)
+Loss: 2.089 | Precision@1: 26.599% (12393/46592)
+Loss: 2.088 | Precision@1: 26.610% (12432/46720)
+Loss: 2.087 | Precision@1: 26.614% (12468/46848)
+Loss: 2.087 | Precision@1: 26.626% (12508/46976)
+Loss: 2.085 | Precision@1: 26.656% (12556/47104)
+Loss: 2.085 | Precision@1: 26.673% (12598/47232)
+Loss: 2.083 | Precision@1: 26.693% (12642/47360)
+Loss: 2.082 | Precision@1: 26.716% (12687/47488)
+Loss: 2.081 | Precision@1: 26.724% (12725/47616)
+Loss: 2.080 | Precision@1: 26.757% (12775/47744)
+Loss: 2.079 | Precision@1: 26.782% (12821/47872)
+Loss: 2.078 | Precision@1: 26.815% (12871/48000)
+Loss: 2.077 | Precision@1: 26.820% (12908/48128)
+Loss: 2.076 | Precision@1: 26.863% (12963/48256)
+Loss: 2.075 | Precision@1: 26.887% (13009/48384)
+Loss: 2.074 | Precision@1: 26.909% (13054/48512)
+Loss: 2.074 | Precision@1: 26.920% (13094/48640)
+Loss: 2.072 | Precision@1: 26.966% (13151/48768)
+Loss: 2.071 | Precision@1: 27.006% (13205/48896)
+Loss: 2.070 | Precision@1: 27.042% (13257/49024)
+Loss: 2.069 | Precision@1: 27.077% (13309/49152)
+Loss: 2.068 | Precision@1: 27.082% (13346/49280)
+Loss: 2.067 | Precision@1: 27.091% (13385/49408)
+Loss: 2.066 | Precision@1: 27.130% (13439/49536)
+Loss: 2.065 | Precision@1: 27.140% (13479/49664)
+Loss: 2.064 | Precision@1: 27.177% (13532/49792)
+Loss: 2.063 | Precision@1: 27.220% (13588/49920)
+Loss: 2.062 | Precision@1: 27.232% (13616/50000)
 
-Epoch 1
-	 Minibatch 1 / 391, loss: 1.54, 			Avg Accumulated loss: 1.54, Precision: 43.75
-	 Minibatch 2 / 391, loss: 1.42, 			Avg Accumulated loss: 1.48, Precision: 51.56
-	 Minibatch 3 / 391, loss: 1.60, 			Avg Accumulated loss: 1.52, Precision: 39.84
-	 Minibatch 4 / 391, loss: 1.59, 			Avg Accumulated loss: 1.54, Precision: 39.06
-	 Minibatch 5 / 391, loss: 1.70, 			Avg Accumulated loss: 1.57, Precision: 34.38
-	 Minibatch 6 / 391, loss: 1.50, 			Avg Accumulated loss: 1.56, Precision: 42.97
-	 Minibatch 7 / 391, loss: 1.66, 			Avg Accumulated loss: 1.57, Precision: 43.75
-	 Minibatch 8 / 391, loss: 1.56, 			Avg Accumulated loss: 1.57, Precision: 49.22
-	 Minibatch 9 / 391, loss: 1.39, 			Avg Accumulated loss: 1.55, Precision: 47.66
-	 Minibatch 10 / 391, loss: 1.76, 			Avg Accumulated loss: 1.57, Precision: 32.03
-	 Minibatch 11 / 391, loss: 1.56, 			Avg Accumulated loss: 1.57, Precision: 43.75
-	 Minibatch 12 / 391, loss: 1.57, 			Avg Accumulated loss: 1.57, Precision: 40.62
-	 Minibatch 13 / 391, loss: 1.95, 			Avg Accumulated loss: 1.60, Precision: 27.34
-	 Minibatch 14 / 391, loss: 1.57, 			Avg Accumulated loss: 1.60, Precision: 36.72
-	 Minibatch 15 / 391, loss: 1.66, 			Avg Accumulated loss: 1.60, Precision: 41.41
-	 Minibatch 16 / 391, loss: 1.57, 			Avg Accumulated loss: 1.60, Precision: 40.62
-	 Minibatch 17 / 391, loss: 1.66, 			Avg Accumulated loss: 1.60, Precision: 42.19
-	 Minibatch 18 / 391, loss: 1.56, 			Avg Accumulated loss: 1.60, Precision: 38.28
-	 Minibatch 19 / 391, loss: 1.49, 			Avg Accumulated loss: 1.60, Precision: 43.75
-	 Minibatch 20 / 391, loss: 1.54, 			Avg Accumulated loss: 1.59, Precision: 42.19
-	 Minibatch 21 / 391, loss: 1.55, 			Avg Accumulated loss: 1.59, Precision: 42.97
-	 Minibatch 22 / 391, loss: 1.47, 			Avg Accumulated loss: 1.59, Precision: 50.78
-	 Minibatch 23 / 391, loss: 1.53, 			Avg Accumulated loss: 1.58, Precision: 47.66
-	 Minibatch 24 / 391, loss: 1.50, 			Avg Accumulated loss: 1.58, Precision: 44.53
-	 Minibatch 25 / 391, loss: 1.44, 			Avg Accumulated loss: 1.57, Precision: 55.47
-	 Minibatch 26 / 391, loss: 1.69, 			Avg Accumulated loss: 1.58, Precision: 32.81
-	 Minibatch 27 / 391, loss: 1.52, 			Avg Accumulated loss: 1.58, Precision: 37.50
-	 Minibatch 28 / 391, loss: 1.43, 			Avg Accumulated loss: 1.57, Precision: 45.31
-	 Minibatch 29 / 391, loss: 1.48, 			Avg Accumulated loss: 1.57, Precision: 41.41
-	 Minibatch 30 / 391, loss: 1.57, 			Avg Accumulated loss: 1.57, Precision: 40.62
-	 Minibatch 31 / 391, loss: 1.53, 			Avg Accumulated loss: 1.57, Precision: 39.84
-	 Minibatch 32 / 391, loss: 1.60, 			Avg Accumulated loss: 1.57, Precision: 42.19
-	 Minibatch 33 / 391, loss: 1.60, 			Avg Accumulated loss: 1.57, Precision: 35.94
-	 Minibatch 34 / 391, loss: 1.69, 			Avg Accumulated loss: 1.57, Precision: 34.38
-	 Minibatch 35 / 391, loss: 1.63, 			Avg Accumulated loss: 1.57, Precision: 43.75
-	 Minibatch 36 / 391, loss: 1.58, 			Avg Accumulated loss: 1.57, Precision: 37.50
-	 Minibatch 37 / 391, loss: 1.59, 			Avg Accumulated loss: 1.57, Precision: 46.88
-	 Minibatch 38 / 391, loss: 1.60, 			Avg Accumulated loss: 1.58, Precision: 39.06
-	 Minibatch 39 / 391, loss: 1.72, 			Avg Accumulated loss: 1.58, Precision: 36.72
-	 Minibatch 40 / 391, loss: 1.56, 			Avg Accumulated loss: 1.58, Precision: 36.72
-	 Minibatch 41 / 391, loss: 1.49, 			Avg Accumulated loss: 1.58, Precision: 42.97
-	 Minibatch 42 / 391, loss: 1.45, 			Avg Accumulated loss: 1.57, Precision: 43.75
-	 Minibatch 43 / 391, loss: 1.55, 			Avg Accumulated loss: 1.57, Precision: 47.66
-	 Minibatch 44 / 391, loss: 1.43, 			Avg Accumulated loss: 1.57, Precision: 49.22
-	 Minibatch 45 / 391, loss: 1.66, 			Avg Accumulated loss: 1.57, Precision: 38.28
-	 Minibatch 46 / 391, loss: 1.60, 			Avg Accumulated loss: 1.57, Precision: 39.84
-	 Minibatch 47 / 391, loss: 1.47, 			Avg Accumulated loss: 1.57, Precision: 46.88
-	 Minibatch 48 / 391, loss: 1.65, 			Avg Accumulated loss: 1.57, Precision: 44.53
-	 Minibatch 49 / 391, loss: 1.43, 			Avg Accumulated loss: 1.57, Precision: 43.75
-	 Minibatch 50 / 391, loss: 1.63, 			Avg Accumulated loss: 1.57, Precision: 37.50
-	 Minibatch 51 / 391, loss: 1.51, 			Avg Accumulated loss: 1.57, Precision: 41.41
-	 Minibatch 52 / 391, loss: 1.55, 			Avg Accumulated loss: 1.57, Precision: 35.16
-	 Minibatch 53 / 391, loss: 1.43, 			Avg Accumulated loss: 1.57, Precision: 47.66
-	 Minibatch 54 / 391, loss: 1.66, 			Avg Accumulated loss: 1.57, Precision: 37.50
-	 Minibatch 55 / 391, loss: 1.45, 			Avg Accumulated loss: 1.57, Precision: 54.69
-	 Minibatch 56 / 391, loss: 1.52, 			Avg Accumulated loss: 1.56, Precision: 46.88
-	 Minibatch 57 / 391, loss: 1.65, 			Avg Accumulated loss: 1.57, Precision: 41.41
-	 Minibatch 58 / 391, loss: 1.39, 			Avg Accumulated loss: 1.56, Precision: 46.88
-	 Minibatch 59 / 391, loss: 1.46, 			Avg Accumulated loss: 1.56, Precision: 46.88
-	 Minibatch 60 / 391, loss: 1.51, 			Avg Accumulated loss: 1.56, Precision: 47.66
-	 Minibatch 61 / 391, loss: 1.63, 			Avg Accumulated loss: 1.56, Precision: 35.16
-	 Minibatch 62 / 391, loss: 1.61, 			Avg Accumulated loss: 1.56, Precision: 43.75
-	 Minibatch 63 / 391, loss: 1.48, 			Avg Accumulated loss: 1.56, Precision: 45.31
-	 Minibatch 64 / 391, loss: 1.72, 			Avg Accumulated loss: 1.56, Precision: 35.16
-	 Minibatch 65 / 391, loss: 1.53, 			Avg Accumulated loss: 1.56, Precision: 36.72
-	 Minibatch 66 / 391, loss: 1.58, 			Avg Accumulated loss: 1.56, Precision: 42.97
-	 Minibatch 67 / 391, loss: 1.67, 			Avg Accumulated loss: 1.57, Precision: 39.06
-	 Minibatch 68 / 391, loss: 1.59, 			Avg Accumulated loss: 1.57, Precision: 35.94
-	 Minibatch 69 / 391, loss: 1.69, 			Avg Accumulated loss: 1.57, Precision: 39.06
-	 Minibatch 70 / 391, loss: 1.49, 			Avg Accumulated loss: 1.57, Precision: 45.31
-	 Minibatch 71 / 391, loss: 1.45, 			Avg Accumulated loss: 1.56, Precision: 46.88
-	 Minibatch 72 / 391, loss: 1.51, 			Avg Accumulated loss: 1.56, Precision: 42.19
-	 Minibatch 73 / 391, loss: 1.54, 			Avg Accumulated loss: 1.56, Precision: 43.75
-	 Minibatch 74 / 391, loss: 1.42, 			Avg Accumulated loss: 1.56, Precision: 46.88
-	 Minibatch 75 / 391, loss: 1.55, 			Avg Accumulated loss: 1.56, Precision: 42.19
-	 Minibatch 76 / 391, loss: 1.58, 			Avg Accumulated loss: 1.56, Precision: 43.75
-	 Minibatch 77 / 391, loss: 1.69, 			Avg Accumulated loss: 1.56, Precision: 39.06
-	 Minibatch 78 / 391, loss: 1.38, 			Avg Accumulated loss: 1.56, Precision: 54.69
-	 Minibatch 79 / 391, loss: 1.46, 			Avg Accumulated loss: 1.56, Precision: 43.75
-	 Minibatch 80 / 391, loss: 1.46, 			Avg Accumulated loss: 1.56, Precision: 44.53
-	 Minibatch 81 / 391, loss: 1.60, 			Avg Accumulated loss: 1.56, Precision: 41.41
-	 Minibatch 82 / 391, loss: 1.52, 			Avg Accumulated loss: 1.56, Precision: 49.22
-	 Minibatch 83 / 391, loss: 1.60, 			Avg Accumulated loss: 1.56, Precision: 38.28
-	 Minibatch 84 / 391, loss: 1.56, 			Avg Accumulated loss: 1.56, Precision: 41.41
-	 Minibatch 85 / 391, loss: 1.47, 			Avg Accumulated loss: 1.56, Precision: 47.66
-	 Minibatch 86 / 391, loss: 1.57, 			Avg Accumulated loss: 1.56, Precision: 42.19
-	 Minibatch 87 / 391, loss: 1.46, 			Avg Accumulated loss: 1.56, Precision: 43.75
-	 Minibatch 88 / 391, loss: 1.52, 			Avg Accumulated loss: 1.56, Precision: 47.66
-	 Minibatch 89 / 391, loss: 1.55, 			Avg Accumulated loss: 1.56, Precision: 42.19
-	 Minibatch 90 / 391, loss: 1.47, 			Avg Accumulated loss: 1.56, Precision: 46.88
-	 Minibatch 91 / 391, loss: 1.57, 			Avg Accumulated loss: 1.56, Precision: 42.97
-	 Minibatch 92 / 391, loss: 1.32, 			Avg Accumulated loss: 1.55, Precision: 53.12
-	 Minibatch 93 / 391, loss: 1.54, 			Avg Accumulated loss: 1.55, Precision: 46.88
-	 Minibatch 94 / 391, loss: 1.48, 			Avg Accumulated loss: 1.55, Precision: 44.53
-	 Minibatch 95 / 391, loss: 1.39, 			Avg Accumulated loss: 1.55, Precision: 47.66
-	 Minibatch 96 / 391, loss: 1.59, 			Avg Accumulated loss: 1.55, Precision: 46.09
-	 Minibatch 97 / 391, loss: 1.62, 			Avg Accumulated loss: 1.55, Precision: 34.38
-	 Minibatch 98 / 391, loss: 1.74, 			Avg Accumulated loss: 1.55, Precision: 38.28
-	 Minibatch 99 / 391, loss: 1.50, 			Avg Accumulated loss: 1.55, Precision: 46.88
-	 Minibatch 100 / 391, loss: 1.51, 			Avg Accumulated loss: 1.55, Precision: 44.53
-	 Minibatch 101 / 391, loss: 1.48, 			Avg Accumulated loss: 1.55, Precision: 43.75
-	 Minibatch 102 / 391, loss: 1.57, 			Avg Accumulated loss: 1.55, Precision: 42.19
-	 Minibatch 103 / 391, loss: 1.54, 			Avg Accumulated loss: 1.55, Precision: 41.41
-	 Minibatch 104 / 391, loss: 1.48, 			Avg Accumulated loss: 1.55, Precision: 46.88
-	 Minibatch 105 / 391, loss: 1.53, 			Avg Accumulated loss: 1.55, Precision: 41.41
-	 Minibatch 106 / 391, loss: 1.51, 			Avg Accumulated loss: 1.55, Precision: 49.22
-	 Minibatch 107 / 391, loss: 1.56, 			Avg Accumulated loss: 1.55, Precision: 39.84
-	 Minibatch 108 / 391, loss: 1.60, 			Avg Accumulated loss: 1.55, Precision: 45.31
-	 Minibatch 109 / 391, loss: 1.67, 			Avg Accumulated loss: 1.55, Precision: 33.59
-	 Minibatch 110 / 391, loss: 1.53, 			Avg Accumulated loss: 1.55, Precision: 41.41
-	 Minibatch 111 / 391, loss: 1.45, 			Avg Accumulated loss: 1.55, Precision: 47.66
-	 Minibatch 112 / 391, loss: 1.42, 			Avg Accumulated loss: 1.55, Precision: 49.22
-	 Minibatch 113 / 391, loss: 1.62, 			Avg Accumulated loss: 1.55, Precision: 34.38
-	 Minibatch 114 / 391, loss: 1.49, 			Avg Accumulated loss: 1.55, Precision: 50.00
-	 Minibatch 115 / 391, loss: 1.55, 			Avg Accumulated loss: 1.55, Precision: 46.88
-	 Minibatch 116 / 391, loss: 1.40, 			Avg Accumulated loss: 1.55, Precision: 46.88
-	 Minibatch 117 / 391, loss: 1.40, 			Avg Accumulated loss: 1.55, Precision: 45.31
-	 Minibatch 118 / 391, loss: 1.41, 			Avg Accumulated loss: 1.55, Precision: 46.09
-	 Minibatch 119 / 391, loss: 1.42, 			Avg Accumulated loss: 1.55, Precision: 49.22
-	 Minibatch 120 / 391, loss: 1.36, 			Avg Accumulated loss: 1.54, Precision: 47.66
-	 Minibatch 121 / 391, loss: 1.46, 			Avg Accumulated loss: 1.54, Precision: 47.66
-	 Minibatch 122 / 391, loss: 1.54, 			Avg Accumulated loss: 1.54, Precision: 42.97
-	 Minibatch 123 / 391, loss: 1.41, 			Avg Accumulated loss: 1.54, Precision: 46.88
-	 Minibatch 124 / 391, loss: 1.44, 			Avg Accumulated loss: 1.54, Precision: 46.09
-	 Minibatch 125 / 391, loss: 1.45, 			Avg Accumulated loss: 1.54, Precision: 46.88
-	 Minibatch 126 / 391, loss: 1.48, 			Avg Accumulated loss: 1.54, Precision: 45.31
-	 Minibatch 127 / 391, loss: 1.53, 			Avg Accumulated loss: 1.54, Precision: 42.97
-	 Minibatch 128 / 391, loss: 1.56, 			Avg Accumulated loss: 1.54, Precision: 42.97
-	 Minibatch 129 / 391, loss: 1.60, 			Avg Accumulated loss: 1.54, Precision: 41.41
-	 Minibatch 130 / 391, loss: 1.47, 			Avg Accumulated loss: 1.54, Precision: 42.19
-	 Minibatch 131 / 391, loss: 1.37, 			Avg Accumulated loss: 1.54, Precision: 50.00
-	 Minibatch 132 / 391, loss: 1.41, 			Avg Accumulated loss: 1.54, Precision: 42.97
-	 Minibatch 133 / 391, loss: 1.60, 			Avg Accumulated loss: 1.54, Precision: 42.97
-	 Minibatch 134 / 391, loss: 1.52, 			Avg Accumulated loss: 1.54, Precision: 47.66
-	 Minibatch 135 / 391, loss: 1.52, 			Avg Accumulated loss: 1.54, Precision: 45.31
-	 Minibatch 136 / 391, loss: 1.72, 			Avg Accumulated loss: 1.54, Precision: 39.06
-	 Minibatch 137 / 391, loss: 1.51, 			Avg Accumulated loss: 1.54, Precision: 42.19
-	 Minibatch 138 / 391, loss: 1.56, 			Avg Accumulated loss: 1.54, Precision: 44.53
-	 Minibatch 139 / 391, loss: 1.52, 			Avg Accumulated loss: 1.54, Precision: 49.22
-	 Minibatch 140 / 391, loss: 1.47, 			Avg Accumulated loss: 1.54, Precision: 52.34
-	 Minibatch 141 / 391, loss: 1.49, 			Avg Accumulated loss: 1.54, Precision: 48.44
-	 Minibatch 142 / 391, loss: 1.41, 			Avg Accumulated loss: 1.54, Precision: 50.00
-	 Minibatch 143 / 391, loss: 1.39, 			Avg Accumulated loss: 1.54, Precision: 46.09
-	 Minibatch 144 / 391, loss: 1.48, 			Avg Accumulated loss: 1.54, Precision: 47.66
-	 Minibatch 145 / 391, loss: 1.60, 			Avg Accumulated loss: 1.54, Precision: 41.41
-	 Minibatch 146 / 391, loss: 1.48, 			Avg Accumulated loss: 1.54, Precision: 48.44
-	 Minibatch 147 / 391, loss: 1.56, 			Avg Accumulated loss: 1.54, Precision: 43.75
-	 Minibatch 148 / 391, loss: 1.50, 			Avg Accumulated loss: 1.54, Precision: 48.44
-	 Minibatch 149 / 391, loss: 1.44, 			Avg Accumulated loss: 1.54, Precision: 42.19
-	 Minibatch 150 / 391, loss: 1.55, 			Avg Accumulated loss: 1.54, Precision: 43.75
-	 Minibatch 151 / 391, loss: 1.59, 			Avg Accumulated loss: 1.54, Precision: 36.72
-	 Minibatch 152 / 391, loss: 1.37, 			Avg Accumulated loss: 1.53, Precision: 47.66
-	 Minibatch 153 / 391, loss: 1.49, 			Avg Accumulated loss: 1.53, Precision: 43.75
-	 Minibatch 154 / 391, loss: 1.47, 			Avg Accumulated loss: 1.53, Precision: 49.22
-	 Minibatch 155 / 391, loss: 1.37, 			Avg Accumulated loss: 1.53, Precision: 52.34
-	 Minibatch 156 / 391, loss: 1.51, 			Avg Accumulated loss: 1.53, Precision: 49.22
-	 Minibatch 157 / 391, loss: 1.60, 			Avg Accumulated loss: 1.53, Precision: 44.53
-	 Minibatch 158 / 391, loss: 1.45, 			Avg Accumulated loss: 1.53, Precision: 43.75
-	 Minibatch 159 / 391, loss: 1.44, 			Avg Accumulated loss: 1.53, Precision: 43.75
-	 Minibatch 160 / 391, loss: 1.42, 			Avg Accumulated loss: 1.53, Precision: 48.44
-	 Minibatch 161 / 391, loss: 1.26, 			Avg Accumulated loss: 1.53, Precision: 54.69
-	 Minibatch 162 / 391, loss: 1.48, 			Avg Accumulated loss: 1.53, Precision: 48.44
-	 Minibatch 163 / 391, loss: 1.40, 			Avg Accumulated loss: 1.53, Precision: 46.88
-	 Minibatch 164 / 391, loss: 1.32, 			Avg Accumulated loss: 1.53, Precision: 45.31
-	 Minibatch 165 / 391, loss: 1.44, 			Avg Accumulated loss: 1.53, Precision: 47.66
-	 Minibatch 166 / 391, loss: 1.60, 			Avg Accumulated loss: 1.53, Precision: 39.84
-	 Minibatch 167 / 391, loss: 1.64, 			Avg Accumulated loss: 1.53, Precision: 35.16
-	 Minibatch 168 / 391, loss: 1.43, 			Avg Accumulated loss: 1.53, Precision: 46.09
-	 Minibatch 169 / 391, loss: 1.53, 			Avg Accumulated loss: 1.53, Precision: 50.00
-	 Minibatch 170 / 391, loss: 1.52, 			Avg Accumulated loss: 1.53, Precision: 40.62
-	 Minibatch 171 / 391, loss: 1.58, 			Avg Accumulated loss: 1.53, Precision: 46.09
-	 Minibatch 172 / 391, loss: 1.43, 			Avg Accumulated loss: 1.53, Precision: 51.56
-	 Minibatch 173 / 391, loss: 1.47, 			Avg Accumulated loss: 1.53, Precision: 50.78
-	 Minibatch 174 / 391, loss: 1.54, 			Avg Accumulated loss: 1.53, Precision: 43.75
-	 Minibatch 175 / 391, loss: 1.48, 			Avg Accumulated loss: 1.53, Precision: 45.31
-	 Minibatch 176 / 391, loss: 1.55, 			Avg Accumulated loss: 1.53, Precision: 42.19
-	 Minibatch 177 / 391, loss: 1.27, 			Avg Accumulated loss: 1.53, Precision: 57.03
-	 Minibatch 178 / 391, loss: 1.36, 			Avg Accumulated loss: 1.52, Precision: 46.88
-	 Minibatch 179 / 391, loss: 1.40, 			Avg Accumulated loss: 1.52, Precision: 55.47
-	 Minibatch 180 / 391, loss: 1.33, 			Avg Accumulated loss: 1.52, Precision: 50.78
-	 Minibatch 181 / 391, loss: 1.52, 			Avg Accumulated loss: 1.52, Precision: 43.75
-	 Minibatch 182 / 391, loss: 1.37, 			Avg Accumulated loss: 1.52, Precision: 49.22
-	 Minibatch 183 / 391, loss: 1.46, 			Avg Accumulated loss: 1.52, Precision: 43.75
-	 Minibatch 184 / 391, loss: 1.48, 			Avg Accumulated loss: 1.52, Precision: 45.31
-	 Minibatch 185 / 391, loss: 1.23, 			Avg Accumulated loss: 1.52, Precision: 60.16
-	 Minibatch 186 / 391, loss: 1.60, 			Avg Accumulated loss: 1.52, Precision: 42.19
-	 Minibatch 187 / 391, loss: 1.66, 			Avg Accumulated loss: 1.52, Precision: 42.97
-	 Minibatch 188 / 391, loss: 1.44, 			Avg Accumulated loss: 1.52, Precision: 43.75
-	 Minibatch 189 / 391, loss: 1.41, 			Avg Accumulated loss: 1.52, Precision: 47.66
-	 Minibatch 190 / 391, loss: 1.62, 			Avg Accumulated loss: 1.52, Precision: 38.28
-	 Minibatch 191 / 391, loss: 1.35, 			Avg Accumulated loss: 1.52, Precision: 52.34
-	 Minibatch 192 / 391, loss: 1.43, 			Avg Accumulated loss: 1.52, Precision: 47.66
-	 Minibatch 193 / 391, loss: 1.47, 			Avg Accumulated loss: 1.52, Precision: 46.88
-	 Minibatch 194 / 391, loss: 1.34, 			Avg Accumulated loss: 1.52, Precision: 50.78
-	 Minibatch 195 / 391, loss: 1.50, 			Avg Accumulated loss: 1.52, Precision: 48.44
-	 Minibatch 196 / 391, loss: 1.58, 			Avg Accumulated loss: 1.52, Precision: 40.62
-	 Minibatch 197 / 391, loss: 1.48, 			Avg Accumulated loss: 1.52, Precision: 45.31
-	 Minibatch 198 / 391, loss: 1.44, 			Avg Accumulated loss: 1.52, Precision: 46.88
-	 Minibatch 199 / 391, loss: 1.44, 			Avg Accumulated loss: 1.52, Precision: 45.31
-	 Minibatch 200 / 391, loss: 1.53, 			Avg Accumulated loss: 1.52, Precision: 39.06
-	 Minibatch 201 / 391, loss: 1.44, 			Avg Accumulated loss: 1.52, Precision: 40.62
-	 Minibatch 202 / 391, loss: 1.52, 			Avg Accumulated loss: 1.52, Precision: 46.09
-	 Minibatch 203 / 391, loss: 1.45, 			Avg Accumulated loss: 1.52, Precision: 43.75
-	 Minibatch 204 / 391, loss: 1.62, 			Avg Accumulated loss: 1.52, Precision: 45.31
-	 Minibatch 205 / 391, loss: 1.62, 			Avg Accumulated loss: 1.52, Precision: 39.84
-	 Minibatch 206 / 391, loss: 1.35, 			Avg Accumulated loss: 1.52, Precision: 50.78
-	 Minibatch 207 / 391, loss: 1.38, 			Avg Accumulated loss: 1.52, Precision: 48.44
-	 Minibatch 208 / 391, loss: 1.47, 			Avg Accumulated loss: 1.52, Precision: 50.78
-	 Minibatch 209 / 391, loss: 1.55, 			Avg Accumulated loss: 1.52, Precision: 42.97
-	 Minibatch 210 / 391, loss: 1.40, 			Avg Accumulated loss: 1.52, Precision: 53.91
-	 Minibatch 211 / 391, loss: 1.46, 			Avg Accumulated loss: 1.51, Precision: 42.19
-	 Minibatch 212 / 391, loss: 1.38, 			Avg Accumulated loss: 1.51, Precision: 50.00
-	 Minibatch 213 / 391, loss: 1.54, 			Avg Accumulated loss: 1.51, Precision: 46.09
-	 Minibatch 214 / 391, loss: 1.28, 			Avg Accumulated loss: 1.51, Precision: 48.44
-	 Minibatch 215 / 391, loss: 1.45, 			Avg Accumulated loss: 1.51, Precision: 41.41
-	 Minibatch 216 / 391, loss: 1.28, 			Avg Accumulated loss: 1.51, Precision: 53.91
-	 Minibatch 217 / 391, loss: 1.31, 			Avg Accumulated loss: 1.51, Precision: 44.53
-	 Minibatch 218 / 391, loss: 1.60, 			Avg Accumulated loss: 1.51, Precision: 42.97
-	 Minibatch 219 / 391, loss: 1.44, 			Avg Accumulated loss: 1.51, Precision: 46.88
-	 Minibatch 220 / 391, loss: 1.43, 			Avg Accumulated loss: 1.51, Precision: 45.31
-	 Minibatch 221 / 391, loss: 1.47, 			Avg Accumulated loss: 1.51, Precision: 46.88
-	 Minibatch 222 / 391, loss: 1.53, 			Avg Accumulated loss: 1.51, Precision: 44.53
-	 Minibatch 223 / 391, loss: 1.43, 			Avg Accumulated loss: 1.51, Precision: 50.00
-	 Minibatch 224 / 391, loss: 1.54, 			Avg Accumulated loss: 1.51, Precision: 44.53
-	 Minibatch 225 / 391, loss: 1.51, 			Avg Accumulated loss: 1.51, Precision: 43.75
-	 Minibatch 226 / 391, loss: 1.28, 			Avg Accumulated loss: 1.51, Precision: 53.91
-	 Minibatch 227 / 391, loss: 1.41, 			Avg Accumulated loss: 1.51, Precision: 43.75
-	 Minibatch 228 / 391, loss: 1.50, 			Avg Accumulated loss: 1.51, Precision: 41.41
-	 Minibatch 229 / 391, loss: 1.51, 			Avg Accumulated loss: 1.51, Precision: 45.31
-	 Minibatch 230 / 391, loss: 1.22, 			Avg Accumulated loss: 1.51, Precision: 52.34
-	 Minibatch 231 / 391, loss: 1.49, 			Avg Accumulated loss: 1.51, Precision: 44.53
-	 Minibatch 232 / 391, loss: 1.65, 			Avg Accumulated loss: 1.51, Precision: 38.28
-	 Minibatch 233 / 391, loss: 1.40, 			Avg Accumulated loss: 1.51, Precision: 47.66
-	 Minibatch 234 / 391, loss: 1.21, 			Avg Accumulated loss: 1.51, Precision: 54.69
-	 Minibatch 235 / 391, loss: 1.38, 			Avg Accumulated loss: 1.51, Precision: 51.56
-	 Minibatch 236 / 391, loss: 1.52, 			Avg Accumulated loss: 1.51, Precision: 41.41
-	 Minibatch 237 / 391, loss: 1.28, 			Avg Accumulated loss: 1.50, Precision: 53.12
-	 Minibatch 238 / 391, loss: 1.35, 			Avg Accumulated loss: 1.50, Precision: 49.22
-	 Minibatch 239 / 391, loss: 1.42, 			Avg Accumulated loss: 1.50, Precision: 44.53
-	 Minibatch 240 / 391, loss: 1.47, 			Avg Accumulated loss: 1.50, Precision: 42.97
-	 Minibatch 241 / 391, loss: 1.45, 			Avg Accumulated loss: 1.50, Precision: 50.00
-	 Minibatch 242 / 391, loss: 1.57, 			Avg Accumulated loss: 1.50, Precision: 45.31
-	 Minibatch 243 / 391, loss: 1.41, 			Avg Accumulated loss: 1.50, Precision: 51.56
-	 Minibatch 244 / 391, loss: 1.32, 			Avg Accumulated loss: 1.50, Precision: 53.12
-	 Minibatch 245 / 391, loss: 1.33, 			Avg Accumulated loss: 1.50, Precision: 52.34
-	 Minibatch 246 / 391, loss: 1.38, 			Avg Accumulated loss: 1.50, Precision: 50.00
-	 Minibatch 247 / 391, loss: 1.47, 			Avg Accumulated loss: 1.50, Precision: 43.75
-	 Minibatch 248 / 391, loss: 1.58, 			Avg Accumulated loss: 1.50, Precision: 42.19
-	 Minibatch 249 / 391, loss: 1.47, 			Avg Accumulated loss: 1.50, Precision: 45.31
-	 Minibatch 250 / 391, loss: 1.58, 			Avg Accumulated loss: 1.50, Precision: 39.84
-	 Minibatch 251 / 391, loss: 1.39, 			Avg Accumulated loss: 1.50, Precision: 45.31
-	 Minibatch 252 / 391, loss: 1.43, 			Avg Accumulated loss: 1.50, Precision: 49.22
-	 Minibatch 253 / 391, loss: 1.46, 			Avg Accumulated loss: 1.50, Precision: 42.97
-	 Minibatch 254 / 391, loss: 1.59, 			Avg Accumulated loss: 1.50, Precision: 41.41
-	 Minibatch 255 / 391, loss: 1.53, 			Avg Accumulated loss: 1.50, Precision: 46.09
-	 Minibatch 256 / 391, loss: 1.37, 			Avg Accumulated loss: 1.50, Precision: 52.34
-	 Minibatch 257 / 391, loss: 1.49, 			Avg Accumulated loss: 1.50, Precision: 42.97
-	 Minibatch 258 / 391, loss: 1.41, 			Avg Accumulated loss: 1.50, Precision: 41.41
-	 Minibatch 259 / 391, loss: 1.54, 			Avg Accumulated loss: 1.50, Precision: 47.66
-	 Minibatch 260 / 391, loss: 1.41, 			Avg Accumulated loss: 1.50, Precision: 48.44
-	 Minibatch 261 / 391, loss: 1.39, 			Avg Accumulated loss: 1.50, Precision: 46.88
-	 Minibatch 262 / 391, loss: 1.31, 			Avg Accumulated loss: 1.50, Precision: 51.56
-	 Minibatch 263 / 391, loss: 1.45, 			Avg Accumulated loss: 1.50, Precision: 46.09
-	 Minibatch 264 / 391, loss: 1.42, 			Avg Accumulated loss: 1.50, Precision: 46.09
-	 Minibatch 265 / 391, loss: 1.55, 			Avg Accumulated loss: 1.50, Precision: 39.84
-	 Minibatch 266 / 391, loss: 1.52, 			Avg Accumulated loss: 1.50, Precision: 42.97
-	 Minibatch 267 / 391, loss: 1.47, 			Avg Accumulated loss: 1.50, Precision: 46.88
-	 Minibatch 268 / 391, loss: 1.35, 			Avg Accumulated loss: 1.50, Precision: 50.00
-	 Minibatch 269 / 391, loss: 1.49, 			Avg Accumulated loss: 1.50, Precision: 45.31
-	 Minibatch 270 / 391, loss: 1.34, 			Avg Accumulated loss: 1.50, Precision: 47.66
-	 Minibatch 271 / 391, loss: 1.40, 			Avg Accumulated loss: 1.50, Precision: 41.41
-	 Minibatch 272 / 391, loss: 1.32, 			Avg Accumulated loss: 1.50, Precision: 53.91
-	 Minibatch 273 / 391, loss: 1.39, 			Avg Accumulated loss: 1.50, Precision: 42.97
-	 Minibatch 274 / 391, loss: 1.38, 			Avg Accumulated loss: 1.50, Precision: 48.44
-	 Minibatch 275 / 391, loss: 1.42, 			Avg Accumulated loss: 1.50, Precision: 43.75
-	 Minibatch 276 / 391, loss: 1.31, 			Avg Accumulated loss: 1.49, Precision: 50.00
-	 Minibatch 277 / 391, loss: 1.38, 			Avg Accumulated loss: 1.49, Precision: 46.88
-	 Minibatch 278 / 391, loss: 1.34, 			Avg Accumulated loss: 1.49, Precision: 52.34
-	 Minibatch 279 / 391, loss: 1.41, 			Avg Accumulated loss: 1.49, Precision: 47.66
-	 Minibatch 280 / 391, loss: 1.37, 			Avg Accumulated loss: 1.49, Precision: 50.00
-	 Minibatch 281 / 391, loss: 1.45, 			Avg Accumulated loss: 1.49, Precision: 46.88
-	 Minibatch 282 / 391, loss: 1.34, 			Avg Accumulated loss: 1.49, Precision: 50.78
-	 Minibatch 283 / 391, loss: 1.58, 			Avg Accumulated loss: 1.49, Precision: 35.16
-	 Minibatch 284 / 391, loss: 1.51, 			Avg Accumulated loss: 1.49, Precision: 50.00
-	 Minibatch 285 / 391, loss: 1.45, 			Avg Accumulated loss: 1.49, Precision: 49.22
-	 Minibatch 286 / 391, loss: 1.43, 			Avg Accumulated loss: 1.49, Precision: 49.22
-	 Minibatch 287 / 391, loss: 1.41, 			Avg Accumulated loss: 1.49, Precision: 46.09
-	 Minibatch 288 / 391, loss: 1.29, 			Avg Accumulated loss: 1.49, Precision: 50.00
-	 Minibatch 289 / 391, loss: 1.42, 			Avg Accumulated loss: 1.49, Precision: 46.88
-	 Minibatch 290 / 391, loss: 1.32, 			Avg Accumulated loss: 1.49, Precision: 57.81
-	 Minibatch 291 / 391, loss: 1.36, 			Avg Accumulated loss: 1.49, Precision: 51.56
-	 Minibatch 292 / 391, loss: 1.50, 			Avg Accumulated loss: 1.49, Precision: 45.31
-	 Minibatch 293 / 391, loss: 1.41, 			Avg Accumulated loss: 1.49, Precision: 50.78
-	 Minibatch 294 / 391, loss: 1.42, 			Avg Accumulated loss: 1.49, Precision: 41.41
-	 Minibatch 295 / 391, loss: 1.47, 			Avg Accumulated loss: 1.49, Precision: 46.88
-	 Minibatch 296 / 391, loss: 1.60, 			Avg Accumulated loss: 1.49, Precision: 46.88
-	 Minibatch 297 / 391, loss: 1.30, 			Avg Accumulated loss: 1.49, Precision: 50.00
-	 Minibatch 298 / 391, loss: 1.51, 			Avg Accumulated loss: 1.49, Precision: 42.19
-	 Minibatch 299 / 391, loss: 1.43, 			Avg Accumulated loss: 1.49, Precision: 46.88
-	 Minibatch 300 / 391, loss: 1.38, 			Avg Accumulated loss: 1.49, Precision: 46.88
-	 Minibatch 301 / 391, loss: 1.27, 			Avg Accumulated loss: 1.49, Precision: 56.25
-	 Minibatch 302 / 391, loss: 1.35, 			Avg Accumulated loss: 1.49, Precision: 53.12
-	 Minibatch 303 / 391, loss: 1.32, 			Avg Accumulated loss: 1.49, Precision: 53.91
-	 Minibatch 304 / 391, loss: 1.43, 			Avg Accumulated loss: 1.49, Precision: 50.00
-	 Minibatch 305 / 391, loss: 1.44, 			Avg Accumulated loss: 1.49, Precision: 47.66
-	 Minibatch 306 / 391, loss: 1.52, 			Avg Accumulated loss: 1.49, Precision: 44.53
-	 Minibatch 307 / 391, loss: 1.61, 			Avg Accumulated loss: 1.49, Precision: 40.62
-	 Minibatch 308 / 391, loss: 1.26, 			Avg Accumulated loss: 1.49, Precision: 53.91
-	 Minibatch 309 / 391, loss: 1.35, 			Avg Accumulated loss: 1.49, Precision: 52.34
-	 Minibatch 310 / 391, loss: 1.33, 			Avg Accumulated loss: 1.49, Precision: 53.91
-	 Minibatch 311 / 391, loss: 1.34, 			Avg Accumulated loss: 1.48, Precision: 50.00
-	 Minibatch 312 / 391, loss: 1.47, 			Avg Accumulated loss: 1.48, Precision: 47.66
-	 Minibatch 313 / 391, loss: 1.55, 			Avg Accumulated loss: 1.49, Precision: 50.78
-	 Minibatch 314 / 391, loss: 1.57, 			Avg Accumulated loss: 1.49, Precision: 43.75
-	 Minibatch 315 / 391, loss: 1.48, 			Avg Accumulated loss: 1.49, Precision: 49.22
-	 Minibatch 316 / 391, loss: 1.59, 			Avg Accumulated loss: 1.49, Precision: 40.62
-	 Minibatch 317 / 391, loss: 1.44, 			Avg Accumulated loss: 1.49, Precision: 48.44
-	 Minibatch 318 / 391, loss: 1.42, 			Avg Accumulated loss: 1.49, Precision: 53.91
-	 Minibatch 319 / 391, loss: 1.49, 			Avg Accumulated loss: 1.49, Precision: 46.88
-	 Minibatch 320 / 391, loss: 1.34, 			Avg Accumulated loss: 1.48, Precision: 52.34
-	 Minibatch 321 / 391, loss: 1.49, 			Avg Accumulated loss: 1.48, Precision: 49.22
-	 Minibatch 322 / 391, loss: 1.33, 			Avg Accumulated loss: 1.48, Precision: 46.88
-	 Minibatch 323 / 391, loss: 1.26, 			Avg Accumulated loss: 1.48, Precision: 53.12
-	 Minibatch 324 / 391, loss: 1.43, 			Avg Accumulated loss: 1.48, Precision: 50.00
-	 Minibatch 325 / 391, loss: 1.48, 			Avg Accumulated loss: 1.48, Precision: 42.19
-	 Minibatch 326 / 391, loss: 1.37, 			Avg Accumulated loss: 1.48, Precision: 48.44
-	 Minibatch 327 / 391, loss: 1.43, 			Avg Accumulated loss: 1.48, Precision: 49.22
-	 Minibatch 328 / 391, loss: 1.46, 			Avg Accumulated loss: 1.48, Precision: 51.56
-	 Minibatch 329 / 391, loss: 1.60, 			Avg Accumulated loss: 1.48, Precision: 41.41
-	 Minibatch 330 / 391, loss: 1.27, 			Avg Accumulated loss: 1.48, Precision: 59.38
-	 Minibatch 331 / 391, loss: 1.34, 			Avg Accumulated loss: 1.48, Precision: 48.44
-	 Minibatch 332 / 391, loss: 1.28, 			Avg Accumulated loss: 1.48, Precision: 47.66
-	 Minibatch 333 / 391, loss: 1.41, 			Avg Accumulated loss: 1.48, Precision: 53.91
-	 Minibatch 334 / 391, loss: 1.55, 			Avg Accumulated loss: 1.48, Precision: 38.28
-	 Minibatch 335 / 391, loss: 1.32, 			Avg Accumulated loss: 1.48, Precision: 51.56
-	 Minibatch 336 / 391, loss: 1.32, 			Avg Accumulated loss: 1.48, Precision: 52.34
-	 Minibatch 337 / 391, loss: 1.46, 			Avg Accumulated loss: 1.48, Precision: 43.75
-	 Minibatch 338 / 391, loss: 1.48, 			Avg Accumulated loss: 1.48, Precision: 42.19
-	 Minibatch 339 / 391, loss: 1.36, 			Avg Accumulated loss: 1.48, Precision: 51.56
-	 Minibatch 340 / 391, loss: 1.39, 			Avg Accumulated loss: 1.48, Precision: 50.00
-	 Minibatch 341 / 391, loss: 1.37, 			Avg Accumulated loss: 1.48, Precision: 52.34
-	 Minibatch 342 / 391, loss: 1.43, 			Avg Accumulated loss: 1.48, Precision: 47.66
-	 Minibatch 343 / 391, loss: 1.35, 			Avg Accumulated loss: 1.48, Precision: 50.00
-	 Minibatch 344 / 391, loss: 1.41, 			Avg Accumulated loss: 1.48, Precision: 48.44
-	 Minibatch 345 / 391, loss: 1.43, 			Avg Accumulated loss: 1.48, Precision: 43.75
-	 Minibatch 346 / 391, loss: 1.21, 			Avg Accumulated loss: 1.48, Precision: 56.25
-	 Minibatch 347 / 391, loss: 1.42, 			Avg Accumulated loss: 1.48, Precision: 50.00
-	 Minibatch 348 / 391, loss: 1.53, 			Avg Accumulated loss: 1.48, Precision: 42.97
-	 Minibatch 349 / 391, loss: 1.32, 			Avg Accumulated loss: 1.48, Precision: 47.66
-	 Minibatch 350 / 391, loss: 1.47, 			Avg Accumulated loss: 1.48, Precision: 42.19
-	 Minibatch 351 / 391, loss: 1.43, 			Avg Accumulated loss: 1.48, Precision: 47.66
-	 Minibatch 352 / 391, loss: 1.23, 			Avg Accumulated loss: 1.48, Precision: 58.59
-	 Minibatch 353 / 391, loss: 1.37, 			Avg Accumulated loss: 1.48, Precision: 50.00
-	 Minibatch 354 / 391, loss: 1.45, 			Avg Accumulated loss: 1.48, Precision: 44.53
-	 Minibatch 355 / 391, loss: 1.39, 			Avg Accumulated loss: 1.48, Precision: 49.22
-	 Minibatch 356 / 391, loss: 1.43, 			Avg Accumulated loss: 1.48, Precision: 43.75
-	 Minibatch 357 / 391, loss: 1.46, 			Avg Accumulated loss: 1.48, Precision: 46.09
-	 Minibatch 358 / 391, loss: 1.23, 			Avg Accumulated loss: 1.48, Precision: 53.12
-	 Minibatch 359 / 391, loss: 1.29, 			Avg Accumulated loss: 1.47, Precision: 52.34
-	 Minibatch 360 / 391, loss: 1.35, 			Avg Accumulated loss: 1.47, Precision: 51.56
-	 Minibatch 361 / 391, loss: 1.36, 			Avg Accumulated loss: 1.47, Precision: 49.22
-	 Minibatch 362 / 391, loss: 1.44, 			Avg Accumulated loss: 1.47, Precision: 47.66
-	 Minibatch 363 / 391, loss: 1.31, 			Avg Accumulated loss: 1.47, Precision: 54.69
-	 Minibatch 364 / 391, loss: 1.13, 			Avg Accumulated loss: 1.47, Precision: 55.47
-	 Minibatch 365 / 391, loss: 1.41, 			Avg Accumulated loss: 1.47, Precision: 50.00
-	 Minibatch 366 / 391, loss: 1.33, 			Avg Accumulated loss: 1.47, Precision: 49.22
-	 Minibatch 367 / 391, loss: 1.21, 			Avg Accumulated loss: 1.47, Precision: 56.25
-	 Minibatch 368 / 391, loss: 1.28, 			Avg Accumulated loss: 1.47, Precision: 52.34
-	 Minibatch 369 / 391, loss: 1.39, 			Avg Accumulated loss: 1.47, Precision: 48.44
-	 Minibatch 370 / 391, loss: 1.40, 			Avg Accumulated loss: 1.47, Precision: 49.22
-	 Minibatch 371 / 391, loss: 1.31, 			Avg Accumulated loss: 1.47, Precision: 51.56
-	 Minibatch 372 / 391, loss: 1.20, 			Avg Accumulated loss: 1.47, Precision: 54.69
-	 Minibatch 373 / 391, loss: 1.37, 			Avg Accumulated loss: 1.47, Precision: 52.34
-	 Minibatch 374 / 391, loss: 1.36, 			Avg Accumulated loss: 1.47, Precision: 50.78
-	 Minibatch 375 / 391, loss: 1.29, 			Avg Accumulated loss: 1.47, Precision: 46.88
-	 Minibatch 376 / 391, loss: 1.26, 			Avg Accumulated loss: 1.47, Precision: 50.78
-	 Minibatch 377 / 391, loss: 1.40, 			Avg Accumulated loss: 1.47, Precision: 52.34
-	 Minibatch 378 / 391, loss: 1.34, 			Avg Accumulated loss: 1.47, Precision: 54.69
-	 Minibatch 379 / 391, loss: 1.32, 			Avg Accumulated loss: 1.47, Precision: 51.56
-	 Minibatch 380 / 391, loss: 1.29, 			Avg Accumulated loss: 1.47, Precision: 58.59
-	 Minibatch 381 / 391, loss: 1.33, 			Avg Accumulated loss: 1.47, Precision: 53.12
-	 Minibatch 382 / 391, loss: 1.28, 			Avg Accumulated loss: 1.47, Precision: 48.44
-	 Minibatch 383 / 391, loss: 1.34, 			Avg Accumulated loss: 1.47, Precision: 50.78
-	 Minibatch 384 / 391, loss: 1.25, 			Avg Accumulated loss: 1.46, Precision: 48.44
-	 Minibatch 385 / 391, loss: 1.45, 			Avg Accumulated loss: 1.46, Precision: 50.00
-	 Minibatch 386 / 391, loss: 1.27, 			Avg Accumulated loss: 1.46, Precision: 53.12
-	 Minibatch 387 / 391, loss: 1.41, 			Avg Accumulated loss: 1.46, Precision: 47.66
-	 Minibatch 388 / 391, loss: 1.32, 			Avg Accumulated loss: 1.46, Precision: 50.00
-	 Minibatch 389 / 391, loss: 1.45, 			Avg Accumulated loss: 1.46, Precision: 46.88
-	 Minibatch 390 / 391, loss: 1.39, 			Avg Accumulated loss: 1.46, Precision: 45.31
-	 Minibatch 391 / 391, loss: 1.49, 			Avg Accumulated loss: 1.46, Precision: 45.00
+Aggregates: 			
+ 	 DataLoader Time: 0.4458 			
+ 	 Mini-batch Time: 12.3175 			
+ 	 Training Epoch Time: 30.8876
+ 			
+ Averages: 			
+ 	 Training Loss: 2.0620
 
-Aggregates: 				 DataLoader Time: 1.0747 				 Mini-batch Time:21.1048 				 Training Epoch Time:51.1350
- 			Averages: 				 Training Loss: 1.4634
-	 Testing precision@1: 47.4700 
+ Test set Averages: Loss: 1.681 | Precision@1: 37.330% (3733/10000)
 
-Epoch 2
-	 Minibatch 1 / 391, loss: 1.24, 			Avg Accumulated loss: 1.24, Precision: 55.47
-	 Minibatch 2 / 391, loss: 1.22, 			Avg Accumulated loss: 1.23, Precision: 55.47
-	 Minibatch 3 / 391, loss: 1.33, 			Avg Accumulated loss: 1.26, Precision: 51.56
-	 Minibatch 4 / 391, loss: 1.31, 			Avg Accumulated loss: 1.27, Precision: 42.97
-	 Minibatch 5 / 391, loss: 1.35, 			Avg Accumulated loss: 1.29, Precision: 46.88
-	 Minibatch 6 / 391, loss: 1.26, 			Avg Accumulated loss: 1.28, Precision: 56.25
-	 Minibatch 7 / 391, loss: 1.28, 			Avg Accumulated loss: 1.28, Precision: 57.81
-	 Minibatch 8 / 391, loss: 1.42, 			Avg Accumulated loss: 1.30, Precision: 47.66
-	 Minibatch 9 / 391, loss: 1.40, 			Avg Accumulated loss: 1.31, Precision: 47.66
-	 Minibatch 10 / 391, loss: 1.33, 			Avg Accumulated loss: 1.31, Precision: 50.00
-	 Minibatch 11 / 391, loss: 1.51, 			Avg Accumulated loss: 1.33, Precision: 49.22
-	 Minibatch 12 / 391, loss: 1.17, 			Avg Accumulated loss: 1.32, Precision: 64.06
-	 Minibatch 13 / 391, loss: 1.33, 			Avg Accumulated loss: 1.32, Precision: 51.56
-	 Minibatch 14 / 391, loss: 1.27, 			Avg Accumulated loss: 1.31, Precision: 60.94
-	 Minibatch 15 / 391, loss: 1.35, 			Avg Accumulated loss: 1.32, Precision: 53.12
-	 Minibatch 16 / 391, loss: 1.36, 			Avg Accumulated loss: 1.32, Precision: 50.78
-	 Minibatch 17 / 391, loss: 1.21, 			Avg Accumulated loss: 1.31, Precision: 56.25
-	 Minibatch 18 / 391, loss: 1.30, 			Avg Accumulated loss: 1.31, Precision: 55.47
-	 Minibatch 19 / 391, loss: 1.21, 			Avg Accumulated loss: 1.31, Precision: 52.34
-	 Minibatch 20 / 391, loss: 1.32, 			Avg Accumulated loss: 1.31, Precision: 50.00
-	 Minibatch 21 / 391, loss: 1.51, 			Avg Accumulated loss: 1.32, Precision: 42.97
-	 Minibatch 22 / 391, loss: 1.37, 			Avg Accumulated loss: 1.32, Precision: 52.34
-	 Minibatch 23 / 391, loss: 1.34, 			Avg Accumulated loss: 1.32, Precision: 53.12
-	 Minibatch 24 / 391, loss: 1.35, 			Avg Accumulated loss: 1.32, Precision: 53.91
-	 Minibatch 25 / 391, loss: 1.15, 			Avg Accumulated loss: 1.32, Precision: 59.38
-	 Minibatch 26 / 391, loss: 1.33, 			Avg Accumulated loss: 1.32, Precision: 49.22
-	 Minibatch 27 / 391, loss: 1.40, 			Avg Accumulated loss: 1.32, Precision: 48.44
-	 Minibatch 28 / 391, loss: 1.35, 			Avg Accumulated loss: 1.32, Precision: 46.09
-	 Minibatch 29 / 391, loss: 1.37, 			Avg Accumulated loss: 1.32, Precision: 51.56
-	 Minibatch 30 / 391, loss: 1.42, 			Avg Accumulated loss: 1.33, Precision: 44.53
-	 Minibatch 31 / 391, loss: 1.37, 			Avg Accumulated loss: 1.33, Precision: 46.09
-	 Minibatch 32 / 391, loss: 1.41, 			Avg Accumulated loss: 1.33, Precision: 53.91
-	 Minibatch 33 / 391, loss: 1.14, 			Avg Accumulated loss: 1.32, Precision: 57.81
-	 Minibatch 34 / 391, loss: 1.39, 			Avg Accumulated loss: 1.33, Precision: 47.66
-	 Minibatch 35 / 391, loss: 1.22, 			Avg Accumulated loss: 1.32, Precision: 49.22
-	 Minibatch 36 / 391, loss: 1.30, 			Avg Accumulated loss: 1.32, Precision: 50.00
-	 Minibatch 37 / 391, loss: 1.32, 			Avg Accumulated loss: 1.32, Precision: 54.69
-	 Minibatch 38 / 391, loss: 1.34, 			Avg Accumulated loss: 1.32, Precision: 49.22
-	 Minibatch 39 / 391, loss: 1.32, 			Avg Accumulated loss: 1.32, Precision: 46.09
-	 Minibatch 40 / 391, loss: 1.60, 			Avg Accumulated loss: 1.33, Precision: 46.09
-	 Minibatch 41 / 391, loss: 1.29, 			Avg Accumulated loss: 1.33, Precision: 50.00
-	 Minibatch 42 / 391, loss: 1.24, 			Avg Accumulated loss: 1.33, Precision: 51.56
-	 Minibatch 43 / 391, loss: 1.23, 			Avg Accumulated loss: 1.32, Precision: 56.25
-	 Minibatch 44 / 391, loss: 1.05, 			Avg Accumulated loss: 1.32, Precision: 67.97
-	 Minibatch 45 / 391, loss: 1.32, 			Avg Accumulated loss: 1.32, Precision: 53.91
-	 Minibatch 46 / 391, loss: 1.38, 			Avg Accumulated loss: 1.32, Precision: 53.91
-	 Minibatch 47 / 391, loss: 1.45, 			Avg Accumulated loss: 1.32, Precision: 48.44
-	 Minibatch 48 / 391, loss: 1.11, 			Avg Accumulated loss: 1.32, Precision: 56.25
-	 Minibatch 49 / 391, loss: 1.43, 			Avg Accumulated loss: 1.32, Precision: 52.34
-	 Minibatch 50 / 391, loss: 1.31, 			Avg Accumulated loss: 1.32, Precision: 44.53
-	 Minibatch 51 / 391, loss: 1.18, 			Avg Accumulated loss: 1.32, Precision: 60.16
-	 Minibatch 52 / 391, loss: 1.33, 			Avg Accumulated loss: 1.32, Precision: 51.56
-	 Minibatch 53 / 391, loss: 1.45, 			Avg Accumulated loss: 1.32, Precision: 42.97
-	 Minibatch 54 / 391, loss: 1.50, 			Avg Accumulated loss: 1.32, Precision: 44.53
-	 Minibatch 55 / 391, loss: 1.34, 			Avg Accumulated loss: 1.32, Precision: 48.44
-	 Minibatch 56 / 391, loss: 1.41, 			Avg Accumulated loss: 1.32, Precision: 52.34
-	 Minibatch 57 / 391, loss: 1.52, 			Avg Accumulated loss: 1.33, Precision: 45.31
-	 Minibatch 58 / 391, loss: 1.29, 			Avg Accumulated loss: 1.33, Precision: 53.12
-	 Minibatch 59 / 391, loss: 1.34, 			Avg Accumulated loss: 1.33, Precision: 52.34
-	 Minibatch 60 / 391, loss: 1.18, 			Avg Accumulated loss: 1.33, Precision: 59.38
-	 Minibatch 61 / 391, loss: 1.39, 			Avg Accumulated loss: 1.33, Precision: 44.53
-	 Minibatch 62 / 391, loss: 1.30, 			Avg Accumulated loss: 1.33, Precision: 52.34
-	 Minibatch 63 / 391, loss: 1.38, 			Avg Accumulated loss: 1.33, Precision: 47.66
-	 Minibatch 64 / 391, loss: 1.48, 			Avg Accumulated loss: 1.33, Precision: 46.88
-	 Minibatch 65 / 391, loss: 1.31, 			Avg Accumulated loss: 1.33, Precision: 53.12
-	 Minibatch 66 / 391, loss: 1.42, 			Avg Accumulated loss: 1.33, Precision: 49.22
-	 Minibatch 67 / 391, loss: 1.50, 			Avg Accumulated loss: 1.33, Precision: 41.41
-	 Minibatch 68 / 391, loss: 1.20, 			Avg Accumulated loss: 1.33, Precision: 55.47
-	 Minibatch 69 / 391, loss: 1.36, 			Avg Accumulated loss: 1.33, Precision: 51.56
-	 Minibatch 70 / 391, loss: 1.21, 			Avg Accumulated loss: 1.33, Precision: 57.81
-	 Minibatch 71 / 391, loss: 1.34, 			Avg Accumulated loss: 1.33, Precision: 50.78
-	 Minibatch 72 / 391, loss: 1.25, 			Avg Accumulated loss: 1.33, Precision: 57.03
-	 Minibatch 73 / 391, loss: 1.28, 			Avg Accumulated loss: 1.33, Precision: 53.12
-	 Minibatch 74 / 391, loss: 1.56, 			Avg Accumulated loss: 1.33, Precision: 46.09
-	 Minibatch 75 / 391, loss: 1.35, 			Avg Accumulated loss: 1.33, Precision: 47.66
-	 Minibatch 76 / 391, loss: 1.18, 			Avg Accumulated loss: 1.33, Precision: 53.91
-	 Minibatch 77 / 391, loss: 1.22, 			Avg Accumulated loss: 1.33, Precision: 56.25
-	 Minibatch 78 / 391, loss: 1.37, 			Avg Accumulated loss: 1.33, Precision: 50.00
-	 Minibatch 79 / 391, loss: 1.12, 			Avg Accumulated loss: 1.33, Precision: 62.50
-	 Minibatch 80 / 391, loss: 1.20, 			Avg Accumulated loss: 1.32, Precision: 53.91
-	 Minibatch 81 / 391, loss: 1.15, 			Avg Accumulated loss: 1.32, Precision: 60.16
-	 Minibatch 82 / 391, loss: 1.22, 			Avg Accumulated loss: 1.32, Precision: 51.56
-	 Minibatch 83 / 391, loss: 1.27, 			Avg Accumulated loss: 1.32, Precision: 57.03
-	 Minibatch 84 / 391, loss: 1.20, 			Avg Accumulated loss: 1.32, Precision: 57.81
-	 Minibatch 85 / 391, loss: 1.28, 			Avg Accumulated loss: 1.32, Precision: 53.12
-	 Minibatch 86 / 391, loss: 1.46, 			Avg Accumulated loss: 1.32, Precision: 49.22
-	 Minibatch 87 / 391, loss: 1.38, 			Avg Accumulated loss: 1.32, Precision: 50.00
-	 Minibatch 88 / 391, loss: 1.43, 			Avg Accumulated loss: 1.32, Precision: 50.78
-	 Minibatch 89 / 391, loss: 1.25, 			Avg Accumulated loss: 1.32, Precision: 58.59
-	 Minibatch 90 / 391, loss: 1.38, 			Avg Accumulated loss: 1.32, Precision: 51.56
-	 Minibatch 91 / 391, loss: 1.28, 			Avg Accumulated loss: 1.32, Precision: 47.66
-	 Minibatch 92 / 391, loss: 1.30, 			Avg Accumulated loss: 1.32, Precision: 49.22
-	 Minibatch 93 / 391, loss: 1.28, 			Avg Accumulated loss: 1.32, Precision: 53.91
-	 Minibatch 94 / 391, loss: 1.14, 			Avg Accumulated loss: 1.32, Precision: 60.94
-	 Minibatch 95 / 391, loss: 1.28, 			Avg Accumulated loss: 1.32, Precision: 53.91
-	 Minibatch 96 / 391, loss: 1.17, 			Avg Accumulated loss: 1.32, Precision: 57.03
-	 Minibatch 97 / 391, loss: 1.53, 			Avg Accumulated loss: 1.32, Precision: 47.66
-	 Minibatch 98 / 391, loss: 1.36, 			Avg Accumulated loss: 1.32, Precision: 53.12
-	 Minibatch 99 / 391, loss: 1.46, 			Avg Accumulated loss: 1.32, Precision: 42.97
-	 Minibatch 100 / 391, loss: 1.50, 			Avg Accumulated loss: 1.32, Precision: 48.44
-	 Minibatch 101 / 391, loss: 1.30, 			Avg Accumulated loss: 1.32, Precision: 53.12
-	 Minibatch 102 / 391, loss: 1.44, 			Avg Accumulated loss: 1.32, Precision: 46.88
-	 Minibatch 103 / 391, loss: 1.35, 			Avg Accumulated loss: 1.32, Precision: 52.34
-	 Minibatch 104 / 391, loss: 1.24, 			Avg Accumulated loss: 1.32, Precision: 53.12
-	 Minibatch 105 / 391, loss: 1.24, 			Avg Accumulated loss: 1.32, Precision: 53.91
-	 Minibatch 106 / 391, loss: 1.32, 			Avg Accumulated loss: 1.32, Precision: 53.91
-	 Minibatch 107 / 391, loss: 1.30, 			Avg Accumulated loss: 1.32, Precision: 51.56
-	 Minibatch 108 / 391, loss: 1.27, 			Avg Accumulated loss: 1.32, Precision: 53.91
-	 Minibatch 109 / 391, loss: 1.27, 			Avg Accumulated loss: 1.32, Precision: 53.91
-	 Minibatch 110 / 391, loss: 1.24, 			Avg Accumulated loss: 1.32, Precision: 57.03
-	 Minibatch 111 / 391, loss: 1.33, 			Avg Accumulated loss: 1.32, Precision: 49.22
-	 Minibatch 112 / 391, loss: 1.42, 			Avg Accumulated loss: 1.32, Precision: 49.22
-	 Minibatch 113 / 391, loss: 1.48, 			Avg Accumulated loss: 1.32, Precision: 46.88
-	 Minibatch 114 / 391, loss: 1.42, 			Avg Accumulated loss: 1.32, Precision: 47.66
-	 Minibatch 115 / 391, loss: 1.37, 			Avg Accumulated loss: 1.32, Precision: 50.78
-	 Minibatch 116 / 391, loss: 1.34, 			Avg Accumulated loss: 1.32, Precision: 52.34
-	 Minibatch 117 / 391, loss: 1.30, 			Avg Accumulated loss: 1.32, Precision: 47.66
-	 Minibatch 118 / 391, loss: 1.27, 			Avg Accumulated loss: 1.32, Precision: 47.66
-	 Minibatch 119 / 391, loss: 1.30, 			Avg Accumulated loss: 1.32, Precision: 52.34
-	 Minibatch 120 / 391, loss: 1.29, 			Avg Accumulated loss: 1.32, Precision: 55.47
-	 Minibatch 121 / 391, loss: 1.14, 			Avg Accumulated loss: 1.32, Precision: 58.59
-	 Minibatch 122 / 391, loss: 1.34, 			Avg Accumulated loss: 1.32, Precision: 48.44
-	 Minibatch 123 / 391, loss: 1.20, 			Avg Accumulated loss: 1.32, Precision: 56.25
-	 Minibatch 124 / 391, loss: 1.13, 			Avg Accumulated loss: 1.32, Precision: 60.94
-	 Minibatch 125 / 391, loss: 1.34, 			Avg Accumulated loss: 1.32, Precision: 47.66
-	 Minibatch 126 / 391, loss: 1.24, 			Avg Accumulated loss: 1.32, Precision: 59.38
-	 Minibatch 127 / 391, loss: 1.26, 			Avg Accumulated loss: 1.32, Precision: 48.44
-	 Minibatch 128 / 391, loss: 1.37, 			Avg Accumulated loss: 1.32, Precision: 46.88
-	 Minibatch 129 / 391, loss: 1.39, 			Avg Accumulated loss: 1.32, Precision: 57.81
-	 Minibatch 130 / 391, loss: 1.32, 			Avg Accumulated loss: 1.32, Precision: 54.69
-	 Minibatch 131 / 391, loss: 1.18, 			Avg Accumulated loss: 1.32, Precision: 58.59
-	 Minibatch 132 / 391, loss: 1.39, 			Avg Accumulated loss: 1.32, Precision: 53.12
-	 Minibatch 133 / 391, loss: 1.12, 			Avg Accumulated loss: 1.32, Precision: 63.28
-	 Minibatch 134 / 391, loss: 1.14, 			Avg Accumulated loss: 1.32, Precision: 59.38
-	 Minibatch 135 / 391, loss: 1.42, 			Avg Accumulated loss: 1.32, Precision: 51.56
-	 Minibatch 136 / 391, loss: 1.19, 			Avg Accumulated loss: 1.32, Precision: 54.69
-	 Minibatch 137 / 391, loss: 1.34, 			Avg Accumulated loss: 1.32, Precision: 50.78
-	 Minibatch 138 / 391, loss: 1.31, 			Avg Accumulated loss: 1.32, Precision: 52.34
-	 Minibatch 139 / 391, loss: 1.31, 			Avg Accumulated loss: 1.32, Precision: 47.66
-	 Minibatch 140 / 391, loss: 1.35, 			Avg Accumulated loss: 1.32, Precision: 49.22
-	 Minibatch 141 / 391, loss: 1.49, 			Avg Accumulated loss: 1.32, Precision: 47.66
-	 Minibatch 142 / 391, loss: 1.23, 			Avg Accumulated loss: 1.32, Precision: 50.78
-	 Minibatch 143 / 391, loss: 1.20, 			Avg Accumulated loss: 1.32, Precision: 61.72
-	 Minibatch 144 / 391, loss: 1.26, 			Avg Accumulated loss: 1.32, Precision: 50.78
-	 Minibatch 145 / 391, loss: 1.27, 			Avg Accumulated loss: 1.32, Precision: 54.69
-	 Minibatch 146 / 391, loss: 1.07, 			Avg Accumulated loss: 1.31, Precision: 60.94
-	 Minibatch 147 / 391, loss: 1.21, 			Avg Accumulated loss: 1.31, Precision: 50.78
-	 Minibatch 148 / 391, loss: 1.30, 			Avg Accumulated loss: 1.31, Precision: 56.25
-	 Minibatch 149 / 391, loss: 1.29, 			Avg Accumulated loss: 1.31, Precision: 50.00
-	 Minibatch 150 / 391, loss: 1.28, 			Avg Accumulated loss: 1.31, Precision: 58.59
-	 Minibatch 151 / 391, loss: 1.30, 			Avg Accumulated loss: 1.31, Precision: 52.34
-	 Minibatch 152 / 391, loss: 1.35, 			Avg Accumulated loss: 1.31, Precision: 50.00
-	 Minibatch 153 / 391, loss: 1.22, 			Avg Accumulated loss: 1.31, Precision: 54.69
-	 Minibatch 154 / 391, loss: 1.18, 			Avg Accumulated loss: 1.31, Precision: 53.12
-	 Minibatch 155 / 391, loss: 1.25, 			Avg Accumulated loss: 1.31, Precision: 55.47
-	 Minibatch 156 / 391, loss: 1.34, 			Avg Accumulated loss: 1.31, Precision: 51.56
-	 Minibatch 157 / 391, loss: 1.24, 			Avg Accumulated loss: 1.31, Precision: 51.56
-	 Minibatch 158 / 391, loss: 1.28, 			Avg Accumulated loss: 1.31, Precision: 50.78
-	 Minibatch 159 / 391, loss: 1.11, 			Avg Accumulated loss: 1.31, Precision: 64.06
-	 Minibatch 160 / 391, loss: 1.30, 			Avg Accumulated loss: 1.31, Precision: 54.69
-	 Minibatch 161 / 391, loss: 1.20, 			Avg Accumulated loss: 1.31, Precision: 58.59
-	 Minibatch 162 / 391, loss: 1.06, 			Avg Accumulated loss: 1.31, Precision: 63.28
-	 Minibatch 163 / 391, loss: 1.19, 			Avg Accumulated loss: 1.31, Precision: 53.91
-	 Minibatch 164 / 391, loss: 1.16, 			Avg Accumulated loss: 1.31, Precision: 60.94
-	 Minibatch 165 / 391, loss: 1.25, 			Avg Accumulated loss: 1.30, Precision: 54.69
-	 Minibatch 166 / 391, loss: 1.21, 			Avg Accumulated loss: 1.30, Precision: 55.47
-	 Minibatch 167 / 391, loss: 1.36, 			Avg Accumulated loss: 1.30, Precision: 48.44
-	 Minibatch 168 / 391, loss: 1.11, 			Avg Accumulated loss: 1.30, Precision: 62.50
-	 Minibatch 169 / 391, loss: 1.14, 			Avg Accumulated loss: 1.30, Precision: 60.16
-	 Minibatch 170 / 391, loss: 1.39, 			Avg Accumulated loss: 1.30, Precision: 50.00
-	 Minibatch 171 / 391, loss: 1.33, 			Avg Accumulated loss: 1.30, Precision: 48.44
-	 Minibatch 172 / 391, loss: 1.26, 			Avg Accumulated loss: 1.30, Precision: 56.25
-	 Minibatch 173 / 391, loss: 1.24, 			Avg Accumulated loss: 1.30, Precision: 56.25
-	 Minibatch 174 / 391, loss: 1.18, 			Avg Accumulated loss: 1.30, Precision: 57.81
-	 Minibatch 175 / 391, loss: 1.17, 			Avg Accumulated loss: 1.30, Precision: 57.81
-	 Minibatch 176 / 391, loss: 1.35, 			Avg Accumulated loss: 1.30, Precision: 51.56
-	 Minibatch 177 / 391, loss: 1.50, 			Avg Accumulated loss: 1.30, Precision: 43.75
-	 Minibatch 178 / 391, loss: 1.17, 			Avg Accumulated loss: 1.30, Precision: 57.81
-	 Minibatch 179 / 391, loss: 1.04, 			Avg Accumulated loss: 1.30, Precision: 57.81
-	 Minibatch 180 / 391, loss: 1.09, 			Avg Accumulated loss: 1.30, Precision: 56.25
-	 Minibatch 181 / 391, loss: 1.20, 			Avg Accumulated loss: 1.30, Precision: 54.69
-	 Minibatch 182 / 391, loss: 1.10, 			Avg Accumulated loss: 1.30, Precision: 60.16
-	 Minibatch 183 / 391, loss: 1.26, 			Avg Accumulated loss: 1.30, Precision: 50.00
-	 Minibatch 184 / 391, loss: 1.12, 			Avg Accumulated loss: 1.30, Precision: 52.34
-	 Minibatch 185 / 391, loss: 1.20, 			Avg Accumulated loss: 1.30, Precision: 56.25
-	 Minibatch 186 / 391, loss: 1.32, 			Avg Accumulated loss: 1.30, Precision: 52.34
-	 Minibatch 187 / 391, loss: 1.15, 			Avg Accumulated loss: 1.29, Precision: 57.81
-	 Minibatch 188 / 391, loss: 0.96, 			Avg Accumulated loss: 1.29, Precision: 66.41
-	 Minibatch 189 / 391, loss: 1.08, 			Avg Accumulated loss: 1.29, Precision: 57.03
-	 Minibatch 190 / 391, loss: 1.19, 			Avg Accumulated loss: 1.29, Precision: 59.38
-	 Minibatch 191 / 391, loss: 1.20, 			Avg Accumulated loss: 1.29, Precision: 57.03
-	 Minibatch 192 / 391, loss: 1.27, 			Avg Accumulated loss: 1.29, Precision: 50.00
-	 Minibatch 193 / 391, loss: 1.06, 			Avg Accumulated loss: 1.29, Precision: 60.16
-	 Minibatch 194 / 391, loss: 1.10, 			Avg Accumulated loss: 1.29, Precision: 57.81
-	 Minibatch 195 / 391, loss: 1.38, 			Avg Accumulated loss: 1.29, Precision: 52.34
-	 Minibatch 196 / 391, loss: 1.34, 			Avg Accumulated loss: 1.29, Precision: 47.66
-	 Minibatch 197 / 391, loss: 1.30, 			Avg Accumulated loss: 1.29, Precision: 49.22
-	 Minibatch 198 / 391, loss: 1.47, 			Avg Accumulated loss: 1.29, Precision: 51.56
-	 Minibatch 199 / 391, loss: 1.13, 			Avg Accumulated loss: 1.29, Precision: 53.12
-	 Minibatch 200 / 391, loss: 1.30, 			Avg Accumulated loss: 1.29, Precision: 48.44
-	 Minibatch 201 / 391, loss: 1.23, 			Avg Accumulated loss: 1.29, Precision: 55.47
-	 Minibatch 202 / 391, loss: 1.18, 			Avg Accumulated loss: 1.29, Precision: 57.03
-	 Minibatch 203 / 391, loss: 1.31, 			Avg Accumulated loss: 1.29, Precision: 57.81
-	 Minibatch 204 / 391, loss: 1.19, 			Avg Accumulated loss: 1.29, Precision: 61.72
-	 Minibatch 205 / 391, loss: 1.32, 			Avg Accumulated loss: 1.29, Precision: 50.00
-	 Minibatch 206 / 391, loss: 1.26, 			Avg Accumulated loss: 1.29, Precision: 56.25
-	 Minibatch 207 / 391, loss: 1.26, 			Avg Accumulated loss: 1.29, Precision: 49.22
-	 Minibatch 208 / 391, loss: 1.18, 			Avg Accumulated loss: 1.29, Precision: 56.25
-	 Minibatch 209 / 391, loss: 1.10, 			Avg Accumulated loss: 1.29, Precision: 53.12
-	 Minibatch 210 / 391, loss: 1.22, 			Avg Accumulated loss: 1.29, Precision: 54.69
-	 Minibatch 211 / 391, loss: 1.46, 			Avg Accumulated loss: 1.29, Precision: 41.41
-	 Minibatch 212 / 391, loss: 1.24, 			Avg Accumulated loss: 1.29, Precision: 57.81
-	 Minibatch 213 / 391, loss: 1.43, 			Avg Accumulated loss: 1.29, Precision: 48.44
-	 Minibatch 214 / 391, loss: 1.20, 			Avg Accumulated loss: 1.29, Precision: 51.56
-	 Minibatch 215 / 391, loss: 1.32, 			Avg Accumulated loss: 1.29, Precision: 53.12
-	 Minibatch 216 / 391, loss: 1.32, 			Avg Accumulated loss: 1.29, Precision: 50.00
-	 Minibatch 217 / 391, loss: 1.21, 			Avg Accumulated loss: 1.29, Precision: 55.47
-	 Minibatch 218 / 391, loss: 1.31, 			Avg Accumulated loss: 1.29, Precision: 56.25
-	 Minibatch 219 / 391, loss: 1.22, 			Avg Accumulated loss: 1.29, Precision: 56.25
-	 Minibatch 220 / 391, loss: 1.30, 			Avg Accumulated loss: 1.29, Precision: 53.12
-	 Minibatch 221 / 391, loss: 1.34, 			Avg Accumulated loss: 1.29, Precision: 48.44
-	 Minibatch 222 / 391, loss: 1.30, 			Avg Accumulated loss: 1.29, Precision: 51.56
-	 Minibatch 223 / 391, loss: 1.15, 			Avg Accumulated loss: 1.29, Precision: 62.50
-	 Minibatch 224 / 391, loss: 1.35, 			Avg Accumulated loss: 1.29, Precision: 53.12
-	 Minibatch 225 / 391, loss: 1.22, 			Avg Accumulated loss: 1.29, Precision: 60.16
-	 Minibatch 226 / 391, loss: 1.20, 			Avg Accumulated loss: 1.29, Precision: 53.91
-	 Minibatch 227 / 391, loss: 1.20, 			Avg Accumulated loss: 1.29, Precision: 57.81
-	 Minibatch 228 / 391, loss: 1.30, 			Avg Accumulated loss: 1.29, Precision: 56.25
-	 Minibatch 229 / 391, loss: 1.41, 			Avg Accumulated loss: 1.29, Precision: 51.56
-	 Minibatch 230 / 391, loss: 1.26, 			Avg Accumulated loss: 1.29, Precision: 53.12
-	 Minibatch 231 / 391, loss: 1.13, 			Avg Accumulated loss: 1.29, Precision: 59.38
-	 Minibatch 232 / 391, loss: 1.20, 			Avg Accumulated loss: 1.29, Precision: 56.25
-	 Minibatch 233 / 391, loss: 1.10, 			Avg Accumulated loss: 1.28, Precision: 59.38
-	 Minibatch 234 / 391, loss: 1.18, 			Avg Accumulated loss: 1.28, Precision: 59.38
-	 Minibatch 235 / 391, loss: 1.18, 			Avg Accumulated loss: 1.28, Precision: 57.81
-	 Minibatch 236 / 391, loss: 1.23, 			Avg Accumulated loss: 1.28, Precision: 59.38
-	 Minibatch 237 / 391, loss: 1.02, 			Avg Accumulated loss: 1.28, Precision: 60.94
-	 Minibatch 238 / 391, loss: 1.16, 			Avg Accumulated loss: 1.28, Precision: 52.34
-	 Minibatch 239 / 391, loss: 1.12, 			Avg Accumulated loss: 1.28, Precision: 57.81
-	 Minibatch 240 / 391, loss: 1.18, 			Avg Accumulated loss: 1.28, Precision: 58.59
-	 Minibatch 241 / 391, loss: 1.11, 			Avg Accumulated loss: 1.28, Precision: 57.81
-	 Minibatch 242 / 391, loss: 0.99, 			Avg Accumulated loss: 1.28, Precision: 65.62
-	 Minibatch 243 / 391, loss: 1.06, 			Avg Accumulated loss: 1.28, Precision: 60.94
-	 Minibatch 244 / 391, loss: 1.15, 			Avg Accumulated loss: 1.28, Precision: 58.59
-	 Minibatch 245 / 391, loss: 1.43, 			Avg Accumulated loss: 1.28, Precision: 52.34
-	 Minibatch 246 / 391, loss: 1.20, 			Avg Accumulated loss: 1.28, Precision: 60.16
-	 Minibatch 247 / 391, loss: 1.20, 			Avg Accumulated loss: 1.28, Precision: 53.12
-	 Minibatch 248 / 391, loss: 1.19, 			Avg Accumulated loss: 1.28, Precision: 57.03
-	 Minibatch 249 / 391, loss: 1.23, 			Avg Accumulated loss: 1.28, Precision: 50.00
-	 Minibatch 250 / 391, loss: 1.36, 			Avg Accumulated loss: 1.28, Precision: 46.09
-	 Minibatch 251 / 391, loss: 1.32, 			Avg Accumulated loss: 1.28, Precision: 51.56
-	 Minibatch 252 / 391, loss: 1.14, 			Avg Accumulated loss: 1.28, Precision: 58.59
-	 Minibatch 253 / 391, loss: 1.27, 			Avg Accumulated loss: 1.28, Precision: 49.22
-	 Minibatch 254 / 391, loss: 1.14, 			Avg Accumulated loss: 1.28, Precision: 57.03
-	 Minibatch 255 / 391, loss: 1.11, 			Avg Accumulated loss: 1.28, Precision: 64.84
-	 Minibatch 256 / 391, loss: 1.12, 			Avg Accumulated loss: 1.28, Precision: 58.59
-	 Minibatch 257 / 391, loss: 1.19, 			Avg Accumulated loss: 1.27, Precision: 58.59
-	 Minibatch 258 / 391, loss: 1.22, 			Avg Accumulated loss: 1.27, Precision: 50.78
-	 Minibatch 259 / 391, loss: 1.33, 			Avg Accumulated loss: 1.27, Precision: 49.22
-	 Minibatch 260 / 391, loss: 1.44, 			Avg Accumulated loss: 1.28, Precision: 51.56
-	 Minibatch 261 / 391, loss: 1.23, 			Avg Accumulated loss: 1.28, Precision: 52.34
-	 Minibatch 262 / 391, loss: 1.19, 			Avg Accumulated loss: 1.27, Precision: 57.81
-	 Minibatch 263 / 391, loss: 1.28, 			Avg Accumulated loss: 1.27, Precision: 57.81
-	 Minibatch 264 / 391, loss: 1.29, 			Avg Accumulated loss: 1.28, Precision: 51.56
-	 Minibatch 265 / 391, loss: 1.26, 			Avg Accumulated loss: 1.27, Precision: 50.78
-	 Minibatch 266 / 391, loss: 1.11, 			Avg Accumulated loss: 1.27, Precision: 62.50
-	 Minibatch 267 / 391, loss: 1.36, 			Avg Accumulated loss: 1.27, Precision: 50.78
-	 Minibatch 268 / 391, loss: 1.10, 			Avg Accumulated loss: 1.27, Precision: 61.72
-	 Minibatch 269 / 391, loss: 1.10, 			Avg Accumulated loss: 1.27, Precision: 64.84
-	 Minibatch 270 / 391, loss: 1.22, 			Avg Accumulated loss: 1.27, Precision: 54.69
-	 Minibatch 271 / 391, loss: 1.32, 			Avg Accumulated loss: 1.27, Precision: 53.91
-	 Minibatch 272 / 391, loss: 1.31, 			Avg Accumulated loss: 1.27, Precision: 52.34
-	 Minibatch 273 / 391, loss: 1.12, 			Avg Accumulated loss: 1.27, Precision: 60.94
-	 Minibatch 274 / 391, loss: 1.18, 			Avg Accumulated loss: 1.27, Precision: 55.47
-	 Minibatch 275 / 391, loss: 1.25, 			Avg Accumulated loss: 1.27, Precision: 51.56
-	 Minibatch 276 / 391, loss: 1.18, 			Avg Accumulated loss: 1.27, Precision: 53.91
-	 Minibatch 277 / 391, loss: 1.11, 			Avg Accumulated loss: 1.27, Precision: 60.94
-	 Minibatch 278 / 391, loss: 1.23, 			Avg Accumulated loss: 1.27, Precision: 54.69
-	 Minibatch 279 / 391, loss: 0.91, 			Avg Accumulated loss: 1.27, Precision: 69.53
-	 Minibatch 280 / 391, loss: 1.28, 			Avg Accumulated loss: 1.27, Precision: 57.03
-	 Minibatch 281 / 391, loss: 1.21, 			Avg Accumulated loss: 1.27, Precision: 54.69
-	 Minibatch 282 / 391, loss: 1.15, 			Avg Accumulated loss: 1.27, Precision: 62.50
-	 Minibatch 283 / 391, loss: 1.16, 			Avg Accumulated loss: 1.27, Precision: 60.16
-	 Minibatch 284 / 391, loss: 1.30, 			Avg Accumulated loss: 1.27, Precision: 57.03
-	 Minibatch 285 / 391, loss: 1.32, 			Avg Accumulated loss: 1.27, Precision: 59.38
-	 Minibatch 286 / 391, loss: 1.32, 			Avg Accumulated loss: 1.27, Precision: 50.78
-	 Minibatch 287 / 391, loss: 1.12, 			Avg Accumulated loss: 1.27, Precision: 57.03
-	 Minibatch 288 / 391, loss: 1.24, 			Avg Accumulated loss: 1.27, Precision: 54.69
-	 Minibatch 289 / 391, loss: 1.21, 			Avg Accumulated loss: 1.27, Precision: 56.25
-	 Minibatch 290 / 391, loss: 1.13, 			Avg Accumulated loss: 1.27, Precision: 60.94
-	 Minibatch 291 / 391, loss: 1.07, 			Avg Accumulated loss: 1.27, Precision: 62.50
-	 Minibatch 292 / 391, loss: 1.26, 			Avg Accumulated loss: 1.27, Precision: 52.34
-	 Minibatch 293 / 391, loss: 1.23, 			Avg Accumulated loss: 1.27, Precision: 58.59
-	 Minibatch 294 / 391, loss: 1.23, 			Avg Accumulated loss: 1.27, Precision: 57.81
-	 Minibatch 295 / 391, loss: 1.16, 			Avg Accumulated loss: 1.27, Precision: 57.81
-	 Minibatch 296 / 391, loss: 1.18, 			Avg Accumulated loss: 1.27, Precision: 56.25
-	 Minibatch 297 / 391, loss: 1.26, 			Avg Accumulated loss: 1.27, Precision: 57.81
-	 Minibatch 298 / 391, loss: 1.09, 			Avg Accumulated loss: 1.27, Precision: 65.62
-	 Minibatch 299 / 391, loss: 1.13, 			Avg Accumulated loss: 1.27, Precision: 57.81
-	 Minibatch 300 / 391, loss: 1.12, 			Avg Accumulated loss: 1.27, Precision: 55.47
-	 Minibatch 301 / 391, loss: 1.36, 			Avg Accumulated loss: 1.27, Precision: 51.56
-	 Minibatch 302 / 391, loss: 1.28, 			Avg Accumulated loss: 1.27, Precision: 50.78
-	 Minibatch 303 / 391, loss: 1.17, 			Avg Accumulated loss: 1.27, Precision: 55.47
-	 Minibatch 304 / 391, loss: 1.26, 			Avg Accumulated loss: 1.27, Precision: 53.91
-	 Minibatch 305 / 391, loss: 1.17, 			Avg Accumulated loss: 1.26, Precision: 57.81
-	 Minibatch 306 / 391, loss: 1.04, 			Avg Accumulated loss: 1.26, Precision: 60.16
-	 Minibatch 307 / 391, loss: 1.12, 			Avg Accumulated loss: 1.26, Precision: 60.16
-	 Minibatch 308 / 391, loss: 1.28, 			Avg Accumulated loss: 1.26, Precision: 50.78
-	 Minibatch 309 / 391, loss: 1.01, 			Avg Accumulated loss: 1.26, Precision: 59.38
-	 Minibatch 310 / 391, loss: 1.07, 			Avg Accumulated loss: 1.26, Precision: 64.84
-	 Minibatch 311 / 391, loss: 1.06, 			Avg Accumulated loss: 1.26, Precision: 60.16
-	 Minibatch 312 / 391, loss: 1.16, 			Avg Accumulated loss: 1.26, Precision: 57.81
-	 Minibatch 313 / 391, loss: 1.20, 			Avg Accumulated loss: 1.26, Precision: 60.94
-	 Minibatch 314 / 391, loss: 1.12, 			Avg Accumulated loss: 1.26, Precision: 59.38
-	 Minibatch 315 / 391, loss: 1.12, 			Avg Accumulated loss: 1.26, Precision: 60.16
-	 Minibatch 316 / 391, loss: 1.38, 			Avg Accumulated loss: 1.26, Precision: 46.88
-	 Minibatch 317 / 391, loss: 1.27, 			Avg Accumulated loss: 1.26, Precision: 51.56
-	 Minibatch 318 / 391, loss: 1.06, 			Avg Accumulated loss: 1.26, Precision: 61.72
-	 Minibatch 319 / 391, loss: 1.24, 			Avg Accumulated loss: 1.26, Precision: 54.69
-	 Minibatch 320 / 391, loss: 1.20, 			Avg Accumulated loss: 1.26, Precision: 60.16
-	 Minibatch 321 / 391, loss: 1.23, 			Avg Accumulated loss: 1.26, Precision: 59.38
-	 Minibatch 322 / 391, loss: 1.20, 			Avg Accumulated loss: 1.26, Precision: 55.47
-	 Minibatch 323 / 391, loss: 1.19, 			Avg Accumulated loss: 1.26, Precision: 61.72
-	 Minibatch 324 / 391, loss: 1.18, 			Avg Accumulated loss: 1.26, Precision: 54.69
-	 Minibatch 325 / 391, loss: 1.26, 			Avg Accumulated loss: 1.26, Precision: 51.56
-	 Minibatch 326 / 391, loss: 1.15, 			Avg Accumulated loss: 1.26, Precision: 62.50
-	 Minibatch 327 / 391, loss: 1.15, 			Avg Accumulated loss: 1.26, Precision: 60.16
-	 Minibatch 328 / 391, loss: 1.20, 			Avg Accumulated loss: 1.26, Precision: 56.25
-	 Minibatch 329 / 391, loss: 1.01, 			Avg Accumulated loss: 1.26, Precision: 69.53
-	 Minibatch 330 / 391, loss: 1.03, 			Avg Accumulated loss: 1.26, Precision: 61.72
-	 Minibatch 331 / 391, loss: 1.17, 			Avg Accumulated loss: 1.26, Precision: 61.72
-	 Minibatch 332 / 391, loss: 1.10, 			Avg Accumulated loss: 1.26, Precision: 60.16
-	 Minibatch 333 / 391, loss: 1.16, 			Avg Accumulated loss: 1.26, Precision: 54.69
-	 Minibatch 334 / 391, loss: 1.22, 			Avg Accumulated loss: 1.26, Precision: 53.12
-	 Minibatch 335 / 391, loss: 1.10, 			Avg Accumulated loss: 1.26, Precision: 63.28
-	 Minibatch 336 / 391, loss: 1.26, 			Avg Accumulated loss: 1.26, Precision: 55.47
-	 Minibatch 337 / 391, loss: 0.96, 			Avg Accumulated loss: 1.25, Precision: 60.94
-	 Minibatch 338 / 391, loss: 1.05, 			Avg Accumulated loss: 1.25, Precision: 65.62
-	 Minibatch 339 / 391, loss: 1.17, 			Avg Accumulated loss: 1.25, Precision: 57.81
-	 Minibatch 340 / 391, loss: 1.06, 			Avg Accumulated loss: 1.25, Precision: 60.94
-	 Minibatch 341 / 391, loss: 1.05, 			Avg Accumulated loss: 1.25, Precision: 65.62
-	 Minibatch 342 / 391, loss: 0.99, 			Avg Accumulated loss: 1.25, Precision: 66.41
-	 Minibatch 343 / 391, loss: 1.08, 			Avg Accumulated loss: 1.25, Precision: 63.28
-	 Minibatch 344 / 391, loss: 1.20, 			Avg Accumulated loss: 1.25, Precision: 56.25
-	 Minibatch 345 / 391, loss: 0.82, 			Avg Accumulated loss: 1.25, Precision: 75.00
-	 Minibatch 346 / 391, loss: 1.33, 			Avg Accumulated loss: 1.25, Precision: 53.91
-	 Minibatch 347 / 391, loss: 0.95, 			Avg Accumulated loss: 1.25, Precision: 70.31
-	 Minibatch 348 / 391, loss: 1.24, 			Avg Accumulated loss: 1.25, Precision: 57.81
-	 Minibatch 349 / 391, loss: 1.08, 			Avg Accumulated loss: 1.25, Precision: 60.16
-	 Minibatch 350 / 391, loss: 1.08, 			Avg Accumulated loss: 1.25, Precision: 59.38
-	 Minibatch 351 / 391, loss: 1.27, 			Avg Accumulated loss: 1.25, Precision: 51.56
-	 Minibatch 352 / 391, loss: 1.20, 			Avg Accumulated loss: 1.25, Precision: 60.94
-	 Minibatch 353 / 391, loss: 1.26, 			Avg Accumulated loss: 1.25, Precision: 54.69
-	 Minibatch 354 / 391, loss: 1.30, 			Avg Accumulated loss: 1.25, Precision: 59.38
-	 Minibatch 355 / 391, loss: 1.12, 			Avg Accumulated loss: 1.25, Precision: 57.81
-	 Minibatch 356 / 391, loss: 1.17, 			Avg Accumulated loss: 1.25, Precision: 57.81
-	 Minibatch 357 / 391, loss: 1.08, 			Avg Accumulated loss: 1.25, Precision: 60.94
-	 Minibatch 358 / 391, loss: 1.16, 			Avg Accumulated loss: 1.25, Precision: 57.81
-	 Minibatch 359 / 391, loss: 1.05, 			Avg Accumulated loss: 1.25, Precision: 61.72
-	 Minibatch 360 / 391, loss: 1.44, 			Avg Accumulated loss: 1.25, Precision: 49.22
-	 Minibatch 361 / 391, loss: 1.11, 			Avg Accumulated loss: 1.25, Precision: 60.16
-	 Minibatch 362 / 391, loss: 1.09, 			Avg Accumulated loss: 1.25, Precision: 64.84
-	 Minibatch 363 / 391, loss: 1.27, 			Avg Accumulated loss: 1.25, Precision: 57.81
-	 Minibatch 364 / 391, loss: 1.13, 			Avg Accumulated loss: 1.25, Precision: 60.94
-	 Minibatch 365 / 391, loss: 1.08, 			Avg Accumulated loss: 1.25, Precision: 60.16
-	 Minibatch 366 / 391, loss: 0.96, 			Avg Accumulated loss: 1.24, Precision: 66.41
-	 Minibatch 367 / 391, loss: 1.17, 			Avg Accumulated loss: 1.24, Precision: 60.94
-	 Minibatch 368 / 391, loss: 1.20, 			Avg Accumulated loss: 1.24, Precision: 57.81
-	 Minibatch 369 / 391, loss: 1.20, 			Avg Accumulated loss: 1.24, Precision: 60.94
-	 Minibatch 370 / 391, loss: 0.99, 			Avg Accumulated loss: 1.24, Precision: 64.84
-	 Minibatch 371 / 391, loss: 1.13, 			Avg Accumulated loss: 1.24, Precision: 55.47
-	 Minibatch 372 / 391, loss: 1.08, 			Avg Accumulated loss: 1.24, Precision: 61.72
-	 Minibatch 373 / 391, loss: 1.21, 			Avg Accumulated loss: 1.24, Precision: 55.47
-	 Minibatch 374 / 391, loss: 1.07, 			Avg Accumulated loss: 1.24, Precision: 60.94
-	 Minibatch 375 / 391, loss: 1.11, 			Avg Accumulated loss: 1.24, Precision: 62.50
-	 Minibatch 376 / 391, loss: 1.15, 			Avg Accumulated loss: 1.24, Precision: 52.34
-	 Minibatch 377 / 391, loss: 1.08, 			Avg Accumulated loss: 1.24, Precision: 57.03
-	 Minibatch 378 / 391, loss: 1.13, 			Avg Accumulated loss: 1.24, Precision: 57.03
-	 Minibatch 379 / 391, loss: 1.18, 			Avg Accumulated loss: 1.24, Precision: 53.91
-	 Minibatch 380 / 391, loss: 1.11, 			Avg Accumulated loss: 1.24, Precision: 63.28
-	 Minibatch 381 / 391, loss: 1.10, 			Avg Accumulated loss: 1.24, Precision: 60.94
-	 Minibatch 382 / 391, loss: 1.26, 			Avg Accumulated loss: 1.24, Precision: 55.47
-	 Minibatch 383 / 391, loss: 1.05, 			Avg Accumulated loss: 1.24, Precision: 60.94
-	 Minibatch 384 / 391, loss: 1.10, 			Avg Accumulated loss: 1.24, Precision: 57.81
-	 Minibatch 385 / 391, loss: 1.24, 			Avg Accumulated loss: 1.24, Precision: 57.03
-	 Minibatch 386 / 391, loss: 1.03, 			Avg Accumulated loss: 1.24, Precision: 60.16
-	 Minibatch 387 / 391, loss: 1.04, 			Avg Accumulated loss: 1.24, Precision: 60.16
-	 Minibatch 388 / 391, loss: 1.14, 			Avg Accumulated loss: 1.24, Precision: 53.91
-	 Minibatch 389 / 391, loss: 0.97, 			Avg Accumulated loss: 1.24, Precision: 68.75
-	 Minibatch 390 / 391, loss: 1.20, 			Avg Accumulated loss: 1.24, Precision: 58.59
-	 Minibatch 391 / 391, loss: 1.00, 			Avg Accumulated loss: 1.24, Precision: 63.75
+Epoch: 1
+Loss: 1.767 | Precision@1: 37.500% (48/128)
+Loss: 1.690 | Precision@1: 37.891% (97/256)
+Loss: 1.713 | Precision@1: 37.240% (143/384)
+Loss: 1.757 | Precision@1: 35.742% (183/512)
+Loss: 1.741 | Precision@1: 35.625% (228/640)
+Loss: 1.757 | Precision@1: 35.156% (270/768)
+Loss: 1.749 | Precision@1: 35.045% (314/896)
+Loss: 1.724 | Precision@1: 35.645% (365/1024)
+Loss: 1.712 | Precision@1: 35.938% (414/1152)
+Loss: 1.693 | Precision@1: 37.109% (475/1280)
+Loss: 1.696 | Precision@1: 37.074% (522/1408)
+Loss: 1.695 | Precision@1: 37.044% (569/1536)
+Loss: 1.694 | Precision@1: 36.779% (612/1664)
+Loss: 1.696 | Precision@1: 36.775% (659/1792)
+Loss: 1.705 | Precision@1: 36.406% (699/1920)
+Loss: 1.708 | Precision@1: 36.328% (744/2048)
+Loss: 1.698 | Precision@1: 36.627% (797/2176)
+Loss: 1.699 | Precision@1: 36.675% (845/2304)
+Loss: 1.702 | Precision@1: 36.678% (892/2432)
+Loss: 1.704 | Precision@1: 36.406% (932/2560)
+Loss: 1.708 | Precision@1: 36.421% (979/2688)
+Loss: 1.716 | Precision@1: 36.222% (1020/2816)
+Loss: 1.719 | Precision@1: 35.938% (1058/2944)
+Loss: 1.727 | Precision@1: 35.579% (1093/3072)
+Loss: 1.721 | Precision@1: 35.812% (1146/3200)
+Loss: 1.721 | Precision@1: 36.028% (1199/3328)
+Loss: 1.721 | Precision@1: 35.938% (1242/3456)
+Loss: 1.726 | Precision@1: 35.770% (1282/3584)
+Loss: 1.719 | Precision@1: 36.207% (1344/3712)
+Loss: 1.722 | Precision@1: 36.094% (1386/3840)
+Loss: 1.724 | Precision@1: 35.938% (1426/3968)
+Loss: 1.719 | Precision@1: 36.255% (1485/4096)
+Loss: 1.720 | Precision@1: 36.245% (1531/4224)
+Loss: 1.717 | Precision@1: 36.397% (1584/4352)
+Loss: 1.714 | Precision@1: 36.473% (1634/4480)
+Loss: 1.716 | Precision@1: 36.393% (1677/4608)
+Loss: 1.719 | Precision@1: 36.212% (1715/4736)
+Loss: 1.722 | Precision@1: 36.040% (1753/4864)
+Loss: 1.723 | Precision@1: 35.857% (1790/4992)
+Loss: 1.721 | Precision@1: 35.996% (1843/5120)
+Loss: 1.719 | Precision@1: 36.090% (1894/5248)
+Loss: 1.715 | Precision@1: 36.161% (1944/5376)
+Loss: 1.716 | Precision@1: 36.119% (1988/5504)
+Loss: 1.713 | Precision@1: 36.257% (2042/5632)
+Loss: 1.713 | Precision@1: 36.285% (2090/5760)
+Loss: 1.712 | Precision@1: 36.311% (2138/5888)
+Loss: 1.710 | Precision@1: 36.386% (2189/6016)
+Loss: 1.710 | Precision@1: 36.361% (2234/6144)
+Loss: 1.708 | Precision@1: 36.400% (2283/6272)
+Loss: 1.710 | Precision@1: 36.391% (2329/6400)
+Loss: 1.707 | Precision@1: 36.504% (2383/6528)
+Loss: 1.708 | Precision@1: 36.478% (2428/6656)
+Loss: 1.710 | Precision@1: 36.512% (2477/6784)
+Loss: 1.710 | Precision@1: 36.646% (2533/6912)
+Loss: 1.708 | Precision@1: 36.705% (2584/7040)
+Loss: 1.708 | Precision@1: 36.621% (2625/7168)
+Loss: 1.709 | Precision@1: 36.513% (2664/7296)
+Loss: 1.708 | Precision@1: 36.476% (2708/7424)
+Loss: 1.707 | Precision@1: 36.494% (2756/7552)
+Loss: 1.705 | Precision@1: 36.523% (2805/7680)
+Loss: 1.705 | Precision@1: 36.501% (2850/7808)
+Loss: 1.705 | Precision@1: 36.605% (2905/7936)
+Loss: 1.704 | Precision@1: 36.595% (2951/8064)
+Loss: 1.704 | Precision@1: 36.621% (3000/8192)
+Loss: 1.705 | Precision@1: 36.575% (3043/8320)
+Loss: 1.705 | Precision@1: 36.612% (3093/8448)
+Loss: 1.704 | Precision@1: 36.649% (3143/8576)
+Loss: 1.704 | Precision@1: 36.627% (3188/8704)
+Loss: 1.701 | Precision@1: 36.707% (3242/8832)
+Loss: 1.701 | Precision@1: 36.641% (3283/8960)
+Loss: 1.701 | Precision@1: 36.675% (3333/9088)
+Loss: 1.702 | Precision@1: 36.589% (3372/9216)
+Loss: 1.700 | Precision@1: 36.665% (3426/9344)
+Loss: 1.702 | Precision@1: 36.571% (3464/9472)
+Loss: 1.702 | Precision@1: 36.615% (3515/9600)
+Loss: 1.702 | Precision@1: 36.657% (3566/9728)
+Loss: 1.702 | Precision@1: 36.648% (3612/9856)
+Loss: 1.701 | Precision@1: 36.639% (3658/9984)
+Loss: 1.700 | Precision@1: 36.699% (3711/10112)
+Loss: 1.697 | Precision@1: 36.826% (3771/10240)
+Loss: 1.696 | Precision@1: 36.815% (3817/10368)
+Loss: 1.696 | Precision@1: 36.833% (3866/10496)
+Loss: 1.693 | Precision@1: 36.945% (3925/10624)
+Loss: 1.692 | Precision@1: 36.942% (3972/10752)
+Loss: 1.692 | Precision@1: 36.921% (4017/10880)
+Loss: 1.692 | Precision@1: 36.882% (4060/11008)
+Loss: 1.692 | Precision@1: 36.934% (4113/11136)
+Loss: 1.692 | Precision@1: 36.896% (4156/11264)
+Loss: 1.692 | Precision@1: 36.938% (4208/11392)
+Loss: 1.691 | Precision@1: 37.023% (4265/11520)
+Loss: 1.689 | Precision@1: 37.036% (4314/11648)
+Loss: 1.691 | Precision@1: 36.974% (4354/11776)
+Loss: 1.691 | Precision@1: 36.920% (4395/11904)
+Loss: 1.690 | Precision@1: 36.976% (4449/12032)
+Loss: 1.691 | Precision@1: 36.916% (4489/12160)
+Loss: 1.690 | Precision@1: 36.930% (4538/12288)
+Loss: 1.690 | Precision@1: 36.888% (4580/12416)
+Loss: 1.689 | Precision@1: 36.958% (4636/12544)
+Loss: 1.688 | Precision@1: 37.027% (4692/12672)
+Loss: 1.687 | Precision@1: 37.109% (4750/12800)
+Loss: 1.687 | Precision@1: 37.160% (4804/12928)
+Loss: 1.687 | Precision@1: 37.155% (4851/13056)
+Loss: 1.686 | Precision@1: 37.136% (4896/13184)
+Loss: 1.686 | Precision@1: 37.102% (4939/13312)
+Loss: 1.686 | Precision@1: 37.150% (4993/13440)
+Loss: 1.685 | Precision@1: 37.124% (5037/13568)
+Loss: 1.684 | Precision@1: 37.215% (5097/13696)
+Loss: 1.684 | Precision@1: 37.196% (5142/13824)
+Loss: 1.684 | Precision@1: 37.177% (5187/13952)
+Loss: 1.684 | Precision@1: 37.173% (5234/14080)
+Loss: 1.684 | Precision@1: 37.141% (5277/14208)
+Loss: 1.683 | Precision@1: 37.200% (5333/14336)
+Loss: 1.683 | Precision@1: 37.217% (5383/14464)
+Loss: 1.683 | Precision@1: 37.205% (5429/14592)
+Loss: 1.683 | Precision@1: 37.181% (5473/14720)
+Loss: 1.682 | Precision@1: 37.325% (5542/14848)
+Loss: 1.682 | Precision@1: 37.280% (5583/14976)
+Loss: 1.682 | Precision@1: 37.262% (5628/15104)
+Loss: 1.681 | Precision@1: 37.244% (5673/15232)
+Loss: 1.681 | Precision@1: 37.201% (5714/15360)
+Loss: 1.681 | Precision@1: 37.203% (5762/15488)
+Loss: 1.681 | Precision@1: 37.167% (5804/15616)
+Loss: 1.681 | Precision@1: 37.170% (5852/15744)
+Loss: 1.680 | Precision@1: 37.210% (5906/15872)
+Loss: 1.680 | Precision@1: 37.175% (5948/16000)
+Loss: 1.680 | Precision@1: 37.171% (5995/16128)
+Loss: 1.680 | Precision@1: 37.211% (6049/16256)
+Loss: 1.680 | Precision@1: 37.256% (6104/16384)
+Loss: 1.679 | Precision@1: 37.264% (6153/16512)
+Loss: 1.678 | Precision@1: 37.314% (6209/16640)
+Loss: 1.678 | Precision@1: 37.309% (6256/16768)
+Loss: 1.677 | Precision@1: 37.322% (6306/16896)
+Loss: 1.678 | Precision@1: 37.341% (6357/17024)
+Loss: 1.677 | Precision@1: 37.331% (6403/17152)
+Loss: 1.678 | Precision@1: 37.309% (6447/17280)
+Loss: 1.678 | Precision@1: 37.328% (6498/17408)
+Loss: 1.679 | Precision@1: 37.289% (6539/17536)
+Loss: 1.678 | Precision@1: 37.308% (6590/17664)
+Loss: 1.678 | Precision@1: 37.303% (6637/17792)
+Loss: 1.678 | Precision@1: 37.282% (6681/17920)
+Loss: 1.678 | Precision@1: 37.278% (6728/18048)
+Loss: 1.678 | Precision@1: 37.252% (6771/18176)
+Loss: 1.677 | Precision@1: 37.221% (6813/18304)
+Loss: 1.677 | Precision@1: 37.250% (6866/18432)
+Loss: 1.677 | Precision@1: 37.198% (6904/18560)
+Loss: 1.677 | Precision@1: 37.174% (6947/18688)
+Loss: 1.677 | Precision@1: 37.170% (6994/18816)
+Loss: 1.677 | Precision@1: 37.231% (7053/18944)
+Loss: 1.677 | Precision@1: 37.196% (7094/19072)
+Loss: 1.676 | Precision@1: 37.219% (7146/19200)
+Loss: 1.675 | Precision@1: 37.303% (7210/19328)
+Loss: 1.674 | Precision@1: 37.351% (7267/19456)
+Loss: 1.675 | Precision@1: 37.377% (7320/19584)
+Loss: 1.675 | Precision@1: 37.368% (7366/19712)
+Loss: 1.675 | Precision@1: 37.394% (7419/19840)
+Loss: 1.675 | Precision@1: 37.410% (7470/19968)
+Loss: 1.674 | Precision@1: 37.450% (7526/20096)
+Loss: 1.673 | Precision@1: 37.495% (7583/20224)
+Loss: 1.672 | Precision@1: 37.584% (7649/20352)
+Loss: 1.672 | Precision@1: 37.583% (7697/20480)
+Loss: 1.672 | Precision@1: 37.563% (7741/20608)
+Loss: 1.672 | Precision@1: 37.601% (7797/20736)
+Loss: 1.672 | Precision@1: 37.548% (7834/20864)
+Loss: 1.673 | Precision@1: 37.519% (7876/20992)
+Loss: 1.673 | Precision@1: 37.509% (7922/21120)
+Loss: 1.672 | Precision@1: 37.552% (7979/21248)
+Loss: 1.672 | Precision@1: 37.547% (8026/21376)
+Loss: 1.672 | Precision@1: 37.537% (8072/21504)
+Loss: 1.672 | Precision@1: 37.560% (8125/21632)
+Loss: 1.671 | Precision@1: 37.583% (8178/21760)
+Loss: 1.671 | Precision@1: 37.601% (8230/21888)
+Loss: 1.670 | Precision@1: 37.632% (8285/22016)
+Loss: 1.671 | Precision@1: 37.608% (8328/22144)
+Loss: 1.671 | Precision@1: 37.626% (8380/22272)
+Loss: 1.670 | Precision@1: 37.656% (8435/22400)
+Loss: 1.671 | Precision@1: 37.638% (8479/22528)
+Loss: 1.670 | Precision@1: 37.672% (8535/22656)
+Loss: 1.670 | Precision@1: 37.698% (8589/22784)
+Loss: 1.669 | Precision@1: 37.749% (8649/22912)
+Loss: 1.668 | Precision@1: 37.808% (8711/23040)
+Loss: 1.668 | Precision@1: 37.819% (8762/23168)
+Loss: 1.668 | Precision@1: 37.826% (8812/23296)
+Loss: 1.667 | Precision@1: 37.854% (8867/23424)
+Loss: 1.666 | Precision@1: 37.861% (8917/23552)
+Loss: 1.665 | Precision@1: 37.914% (8978/23680)
+Loss: 1.665 | Precision@1: 37.895% (9022/23808)
+Loss: 1.665 | Precision@1: 37.901% (9072/23936)
+Loss: 1.666 | Precision@1: 37.870% (9113/24064)
+Loss: 1.666 | Precision@1: 37.880% (9164/24192)
+Loss: 1.665 | Precision@1: 37.932% (9225/24320)
+Loss: 1.664 | Precision@1: 37.958% (9280/24448)
+Loss: 1.663 | Precision@1: 37.988% (9336/24576)
+Loss: 1.663 | Precision@1: 38.018% (9392/24704)
+Loss: 1.663 | Precision@1: 38.032% (9444/24832)
+Loss: 1.663 | Precision@1: 38.045% (9496/24960)
+Loss: 1.662 | Precision@1: 38.094% (9557/25088)
+Loss: 1.662 | Precision@1: 38.123% (9613/25216)
+Loss: 1.662 | Precision@1: 38.143% (9667/25344)
+Loss: 1.661 | Precision@1: 38.140% (9715/25472)
+Loss: 1.661 | Precision@1: 38.148% (9766/25600)
+Loss: 1.661 | Precision@1: 38.149% (9815/25728)
+Loss: 1.660 | Precision@1: 38.161% (9867/25856)
+Loss: 1.660 | Precision@1: 38.185% (9922/25984)
+Loss: 1.660 | Precision@1: 38.205% (9976/26112)
+Loss: 1.660 | Precision@1: 38.228% (10031/26240)
+Loss: 1.659 | Precision@1: 38.262% (10089/26368)
+Loss: 1.659 | Precision@1: 38.270% (10140/26496)
+Loss: 1.658 | Precision@1: 38.270% (10189/26624)
+Loss: 1.657 | Precision@1: 38.307% (10248/26752)
+Loss: 1.658 | Precision@1: 38.289% (10292/26880)
+Loss: 1.659 | Precision@1: 38.303% (10345/27008)
+Loss: 1.659 | Precision@1: 38.289% (10390/27136)
+Loss: 1.659 | Precision@1: 38.333% (10451/27264)
+Loss: 1.659 | Precision@1: 38.343% (10503/27392)
+Loss: 1.659 | Precision@1: 38.347% (10553/27520)
+Loss: 1.658 | Precision@1: 38.390% (10614/27648)
+Loss: 1.658 | Precision@1: 38.371% (10658/27776)
+Loss: 1.658 | Precision@1: 38.385% (10711/27904)
+Loss: 1.658 | Precision@1: 38.392% (10762/28032)
+Loss: 1.657 | Precision@1: 38.416% (10818/28160)
+Loss: 1.656 | Precision@1: 38.451% (10877/28288)
+Loss: 1.656 | Precision@1: 38.454% (10927/28416)
+Loss: 1.655 | Precision@1: 38.456% (10977/28544)
+Loss: 1.655 | Precision@1: 38.466% (11029/28672)
+Loss: 1.655 | Precision@1: 38.486% (11084/28800)
+Loss: 1.656 | Precision@1: 38.437% (11119/28928)
+Loss: 1.655 | Precision@1: 38.471% (11178/29056)
+Loss: 1.654 | Precision@1: 38.501% (11236/29184)
+Loss: 1.653 | Precision@1: 38.547% (11299/29312)
+Loss: 1.653 | Precision@1: 38.546% (11348/29440)
+Loss: 1.654 | Precision@1: 38.555% (11400/29568)
+Loss: 1.653 | Precision@1: 38.581% (11457/29696)
+Loss: 1.654 | Precision@1: 38.553% (11498/29824)
+Loss: 1.654 | Precision@1: 38.568% (11552/29952)
+Loss: 1.654 | Precision@1: 38.580% (11605/30080)
+Loss: 1.653 | Precision@1: 38.616% (11665/30208)
+Loss: 1.653 | Precision@1: 38.598% (11709/30336)
+Loss: 1.653 | Precision@1: 38.573% (11751/30464)
+Loss: 1.652 | Precision@1: 38.592% (11806/30592)
+Loss: 1.652 | Precision@1: 38.597% (11857/30720)
+Loss: 1.652 | Precision@1: 38.589% (11904/30848)
+Loss: 1.651 | Precision@1: 38.591% (11954/30976)
+Loss: 1.651 | Precision@1: 38.612% (12010/31104)
+Loss: 1.651 | Precision@1: 38.611% (12059/31232)
+Loss: 1.650 | Precision@1: 38.661% (12124/31360)
+Loss: 1.649 | Precision@1: 38.700% (12186/31488)
+Loss: 1.649 | Precision@1: 38.724% (12243/31616)
+Loss: 1.649 | Precision@1: 38.757% (12303/31744)
+Loss: 1.648 | Precision@1: 38.780% (12360/31872)
+Loss: 1.648 | Precision@1: 38.794% (12414/32000)
+Loss: 1.647 | Precision@1: 38.804% (12467/32128)
+Loss: 1.647 | Precision@1: 38.814% (12520/32256)
+Loss: 1.646 | Precision@1: 38.812% (12569/32384)
+Loss: 1.646 | Precision@1: 38.804% (12616/32512)
+Loss: 1.646 | Precision@1: 38.814% (12669/32640)
+Loss: 1.645 | Precision@1: 38.849% (12730/32768)
+Loss: 1.645 | Precision@1: 38.856% (12782/32896)
+Loss: 1.645 | Precision@1: 38.872% (12837/33024)
+Loss: 1.644 | Precision@1: 38.882% (12890/33152)
+Loss: 1.645 | Precision@1: 38.858% (12932/33280)
+Loss: 1.644 | Precision@1: 38.868% (12985/33408)
+Loss: 1.644 | Precision@1: 38.857% (13031/33536)
+Loss: 1.644 | Precision@1: 38.852% (13079/33664)
+Loss: 1.644 | Precision@1: 38.876% (13137/33792)
+Loss: 1.643 | Precision@1: 38.897% (13194/33920)
+Loss: 1.643 | Precision@1: 38.886% (13240/34048)
+Loss: 1.643 | Precision@1: 38.878% (13287/34176)
+Loss: 1.642 | Precision@1: 38.896% (13343/34304)
+Loss: 1.641 | Precision@1: 38.917% (13400/34432)
+Loss: 1.641 | Precision@1: 38.953% (13462/34560)
+Loss: 1.640 | Precision@1: 38.970% (13518/34688)
+Loss: 1.640 | Precision@1: 38.962% (13565/34816)
+Loss: 1.640 | Precision@1: 38.965% (13616/34944)
+Loss: 1.639 | Precision@1: 38.988% (13674/35072)
+Loss: 1.639 | Precision@1: 39.014% (13733/35200)
+Loss: 1.639 | Precision@1: 39.003% (13779/35328)
+Loss: 1.638 | Precision@1: 39.015% (13833/35456)
+Loss: 1.638 | Precision@1: 39.034% (13890/35584)
+Loss: 1.638 | Precision@1: 39.009% (13931/35712)
+Loss: 1.637 | Precision@1: 39.021% (13985/35840)
+Loss: 1.637 | Precision@1: 39.012% (14032/35968)
+Loss: 1.636 | Precision@1: 39.043% (14093/36096)
+Loss: 1.636 | Precision@1: 39.065% (14151/36224)
+Loss: 1.636 | Precision@1: 39.082% (14207/36352)
+Loss: 1.636 | Precision@1: 39.082% (14257/36480)
+Loss: 1.636 | Precision@1: 39.079% (14306/36608)
+Loss: 1.635 | Precision@1: 39.084% (14358/36736)
+Loss: 1.636 | Precision@1: 39.054% (14397/36864)
+Loss: 1.636 | Precision@1: 39.052% (14446/36992)
+Loss: 1.635 | Precision@1: 39.068% (14502/37120)
+Loss: 1.635 | Precision@1: 39.081% (14557/37248)
+Loss: 1.635 | Precision@1: 39.095% (14612/37376)
+Loss: 1.635 | Precision@1: 39.102% (14665/37504)
+Loss: 1.635 | Precision@1: 39.110% (14718/37632)
+Loss: 1.635 | Precision@1: 39.123% (14773/37760)
+Loss: 1.634 | Precision@1: 39.139% (14829/37888)
+Loss: 1.634 | Precision@1: 39.141% (14880/38016)
+Loss: 1.634 | Precision@1: 39.167% (14940/38144)
+Loss: 1.633 | Precision@1: 39.180% (14995/38272)
+Loss: 1.633 | Precision@1: 39.216% (15059/38400)
+Loss: 1.633 | Precision@1: 39.195% (15101/38528)
+Loss: 1.633 | Precision@1: 39.213% (15158/38656)
+Loss: 1.633 | Precision@1: 39.222% (15212/38784)
+Loss: 1.632 | Precision@1: 39.237% (15268/38912)
+Loss: 1.632 | Precision@1: 39.249% (15323/39040)
+Loss: 1.632 | Precision@1: 39.244% (15371/39168)
+Loss: 1.631 | Precision@1: 39.279% (15435/39296)
+Loss: 1.631 | Precision@1: 39.286% (15488/39424)
+Loss: 1.631 | Precision@1: 39.295% (15542/39552)
+Loss: 1.630 | Precision@1: 39.320% (15602/39680)
+Loss: 1.630 | Precision@1: 39.336% (15659/39808)
+Loss: 1.630 | Precision@1: 39.338% (15710/39936)
+Loss: 1.629 | Precision@1: 39.357% (15768/40064)
+Loss: 1.629 | Precision@1: 39.371% (15824/40192)
+Loss: 1.629 | Precision@1: 39.368% (15873/40320)
+Loss: 1.629 | Precision@1: 39.379% (15928/40448)
+Loss: 1.628 | Precision@1: 39.398% (15986/40576)
+Loss: 1.628 | Precision@1: 39.416% (16044/40704)
+Loss: 1.628 | Precision@1: 39.400% (16088/40832)
+Loss: 1.627 | Precision@1: 39.417% (16145/40960)
+Loss: 1.627 | Precision@1: 39.425% (16199/41088)
+Loss: 1.627 | Precision@1: 39.434% (16253/41216)
+Loss: 1.627 | Precision@1: 39.408% (16293/41344)
+Loss: 1.627 | Precision@1: 39.419% (16348/41472)
+Loss: 1.627 | Precision@1: 39.433% (16404/41600)
+Loss: 1.626 | Precision@1: 39.446% (16460/41728)
+Loss: 1.626 | Precision@1: 39.464% (16518/41856)
+Loss: 1.626 | Precision@1: 39.470% (16571/41984)
+Loss: 1.625 | Precision@1: 39.511% (16639/42112)
+Loss: 1.625 | Precision@1: 39.524% (16695/42240)
+Loss: 1.624 | Precision@1: 39.546% (16755/42368)
+Loss: 1.624 | Precision@1: 39.571% (16816/42496)
+Loss: 1.623 | Precision@1: 39.588% (16874/42624)
+Loss: 1.623 | Precision@1: 39.589% (16925/42752)
+Loss: 1.623 | Precision@1: 39.608% (16984/42880)
+Loss: 1.623 | Precision@1: 39.621% (17040/43008)
+Loss: 1.623 | Precision@1: 39.628% (17094/43136)
+Loss: 1.623 | Precision@1: 39.601% (17133/43264)
+Loss: 1.623 | Precision@1: 39.609% (17187/43392)
+Loss: 1.622 | Precision@1: 39.619% (17242/43520)
+Loss: 1.622 | Precision@1: 39.626% (17296/43648)
+Loss: 1.622 | Precision@1: 39.624% (17346/43776)
+Loss: 1.621 | Precision@1: 39.650% (17408/43904)
+Loss: 1.621 | Precision@1: 39.646% (17457/44032)
+Loss: 1.621 | Precision@1: 39.644% (17507/44160)
+Loss: 1.620 | Precision@1: 39.665% (17567/44288)
+Loss: 1.621 | Precision@1: 39.670% (17620/44416)
+Loss: 1.621 | Precision@1: 39.678% (17674/44544)
+Loss: 1.621 | Precision@1: 39.685% (17728/44672)
+Loss: 1.620 | Precision@1: 39.699% (17785/44800)
+Loss: 1.619 | Precision@1: 39.724% (17847/44928)
+Loss: 1.619 | Precision@1: 39.711% (17892/45056)
+Loss: 1.620 | Precision@1: 39.707% (17941/45184)
+Loss: 1.619 | Precision@1: 39.711% (17994/45312)
+Loss: 1.619 | Precision@1: 39.732% (18054/45440)
+Loss: 1.619 | Precision@1: 39.721% (18100/45568)
+Loss: 1.619 | Precision@1: 39.715% (18148/45696)
+Loss: 1.619 | Precision@1: 39.706% (18195/45824)
+Loss: 1.618 | Precision@1: 39.741% (18262/45952)
+Loss: 1.618 | Precision@1: 39.744% (18314/46080)
+Loss: 1.618 | Precision@1: 39.762% (18373/46208)
+Loss: 1.617 | Precision@1: 39.788% (18436/46336)
+Loss: 1.617 | Precision@1: 39.790% (18488/46464)
+Loss: 1.617 | Precision@1: 39.801% (18544/46592)
+Loss: 1.617 | Precision@1: 39.807% (18598/46720)
+Loss: 1.616 | Precision@1: 39.816% (18653/46848)
+Loss: 1.616 | Precision@1: 39.816% (18704/46976)
+Loss: 1.616 | Precision@1: 39.837% (18765/47104)
+Loss: 1.616 | Precision@1: 39.863% (18828/47232)
+Loss: 1.616 | Precision@1: 39.859% (18877/47360)
+Loss: 1.615 | Precision@1: 39.884% (18940/47488)
+Loss: 1.615 | Precision@1: 39.896% (18997/47616)
+Loss: 1.615 | Precision@1: 39.911% (19055/47744)
+Loss: 1.615 | Precision@1: 39.915% (19108/47872)
+Loss: 1.615 | Precision@1: 39.929% (19166/48000)
+Loss: 1.614 | Precision@1: 39.952% (19228/48128)
+Loss: 1.614 | Precision@1: 39.962% (19284/48256)
+Loss: 1.614 | Precision@1: 39.951% (19330/48384)
+Loss: 1.613 | Precision@1: 39.982% (19396/48512)
+Loss: 1.613 | Precision@1: 39.990% (19451/48640)
+Loss: 1.613 | Precision@1: 40.000% (19507/48768)
+Loss: 1.612 | Precision@1: 40.022% (19569/48896)
+Loss: 1.612 | Precision@1: 40.068% (19643/49024)
+Loss: 1.612 | Precision@1: 40.068% (19694/49152)
+Loss: 1.611 | Precision@1: 40.067% (19745/49280)
+Loss: 1.611 | Precision@1: 40.072% (19799/49408)
+Loss: 1.611 | Precision@1: 40.096% (19862/49536)
+Loss: 1.610 | Precision@1: 40.106% (19918/49664)
+Loss: 1.610 | Precision@1: 40.109% (19971/49792)
+Loss: 1.610 | Precision@1: 40.112% (20024/49920)
+Loss: 1.610 | Precision@1: 40.116% (20058/50000)
 
-Aggregates: 				 DataLoader Time: 1.2155 				 Mini-batch Time:20.7061 				 Training Epoch Time:52.3580
- 			Averages: 				 Training Loss: 1.2364
-	 Testing precision@1: 53.6500 
+Aggregates: 			
+ 	 DataLoader Time: 0.4696 			
+ 	 Mini-batch Time: 12.1448 			
+ 	 Training Epoch Time: 30.6810
+ 			
+ Averages: 			
+ 	 Training Loss: 1.6099
 
-slurmstepd: error: *** JOB 310522 ON weaver3 CANCELLED AT 2019-10-27T14:26:21 ***
+ Test set Averages: Loss: 1.453 | Precision@1: 46.210% (4621/10000)
+
+Epoch: 2
+Loss: 1.632 | Precision@1: 36.719% (47/128)
+Loss: 1.521 | Precision@1: 43.359% (111/256)
+Loss: 1.504 | Precision@1: 44.010% (169/384)
+Loss: 1.521 | Precision@1: 42.578% (218/512)
+Loss: 1.516 | Precision@1: 42.500% (272/640)
+Loss: 1.508 | Precision@1: 43.880% (337/768)
+Loss: 1.516 | Precision@1: 43.750% (392/896)
+Loss: 1.503 | Precision@1: 44.336% (454/1024)
+Loss: 1.495 | Precision@1: 45.486% (524/1152)
+Loss: 1.492 | Precision@1: 45.469% (582/1280)
+Loss: 1.485 | Precision@1: 45.597% (642/1408)
+Loss: 1.489 | Precision@1: 45.703% (702/1536)
+Loss: 1.485 | Precision@1: 45.913% (764/1664)
+Loss: 1.479 | Precision@1: 46.038% (825/1792)
+Loss: 1.479 | Precision@1: 46.042% (884/1920)
+Loss: 1.489 | Precision@1: 46.045% (943/2048)
+Loss: 1.490 | Precision@1: 45.726% (995/2176)
+Loss: 1.493 | Precision@1: 45.486% (1048/2304)
+Loss: 1.490 | Precision@1: 45.271% (1101/2432)
+Loss: 1.484 | Precision@1: 45.391% (1162/2560)
+Loss: 1.490 | Precision@1: 44.940% (1208/2688)
+Loss: 1.482 | Precision@1: 45.135% (1271/2816)
+Loss: 1.477 | Precision@1: 45.380% (1336/2944)
+Loss: 1.476 | Precision@1: 45.540% (1399/3072)
+Loss: 1.475 | Precision@1: 45.594% (1459/3200)
+Loss: 1.474 | Precision@1: 45.493% (1514/3328)
+Loss: 1.478 | Precision@1: 45.312% (1566/3456)
+Loss: 1.474 | Precision@1: 45.368% (1626/3584)
+Loss: 1.473 | Precision@1: 45.312% (1682/3712)
+Loss: 1.478 | Precision@1: 45.208% (1736/3840)
+Loss: 1.477 | Precision@1: 45.363% (1800/3968)
+Loss: 1.478 | Precision@1: 45.361% (1858/4096)
+Loss: 1.478 | Precision@1: 45.431% (1919/4224)
+Loss: 1.482 | Precision@1: 45.267% (1970/4352)
+Loss: 1.480 | Precision@1: 45.379% (2033/4480)
+Loss: 1.478 | Precision@1: 45.378% (2091/4608)
+Loss: 1.480 | Precision@1: 45.355% (2148/4736)
+Loss: 1.483 | Precision@1: 45.107% (2194/4864)
+Loss: 1.484 | Precision@1: 45.112% (2252/4992)
+Loss: 1.482 | Precision@1: 45.234% (2316/5120)
+Loss: 1.481 | Precision@1: 45.274% (2376/5248)
+Loss: 1.482 | Precision@1: 45.182% (2429/5376)
+Loss: 1.482 | Precision@1: 45.185% (2487/5504)
+Loss: 1.479 | Precision@1: 45.011% (2535/5632)
+Loss: 1.472 | Precision@1: 45.347% (2612/5760)
+Loss: 1.472 | Precision@1: 45.363% (2671/5888)
+Loss: 1.472 | Precision@1: 45.495% (2737/6016)
+Loss: 1.468 | Precision@1: 45.736% (2810/6144)
+Loss: 1.468 | Precision@1: 45.695% (2866/6272)
+Loss: 1.473 | Precision@1: 45.578% (2917/6400)
+Loss: 1.473 | Precision@1: 45.573% (2975/6528)
+Loss: 1.471 | Precision@1: 45.643% (3038/6656)
+Loss: 1.475 | Precision@1: 45.637% (3096/6784)
+Loss: 1.476 | Precision@1: 45.573% (3150/6912)
+Loss: 1.477 | Precision@1: 45.483% (3202/7040)
+Loss: 1.472 | Precision@1: 45.717% (3277/7168)
+Loss: 1.473 | Precision@1: 45.724% (3336/7296)
+Loss: 1.474 | Precision@1: 45.717% (3394/7424)
+Loss: 1.472 | Precision@1: 45.776% (3457/7552)
+Loss: 1.472 | Precision@1: 45.859% (3522/7680)
+Loss: 1.472 | Precision@1: 45.863% (3581/7808)
+Loss: 1.472 | Precision@1: 45.880% (3641/7936)
+Loss: 1.470 | Precision@1: 45.920% (3703/8064)
+Loss: 1.470 | Precision@1: 45.972% (3766/8192)
+Loss: 1.471 | Precision@1: 45.913% (3820/8320)
+Loss: 1.472 | Precision@1: 45.810% (3870/8448)
+Loss: 1.470 | Precision@1: 45.872% (3934/8576)
+Loss: 1.471 | Precision@1: 45.852% (3991/8704)
+Loss: 1.472 | Precision@1: 45.788% (4044/8832)
+Loss: 1.470 | Precision@1: 45.848% (4108/8960)
+Loss: 1.470 | Precision@1: 45.918% (4173/9088)
+Loss: 1.470 | Precision@1: 45.985% (4238/9216)
+Loss: 1.471 | Precision@1: 45.858% (4285/9344)
+Loss: 1.471 | Precision@1: 45.840% (4342/9472)
+Loss: 1.471 | Precision@1: 45.833% (4400/9600)
+Loss: 1.471 | Precision@1: 45.816% (4457/9728)
+Loss: 1.472 | Precision@1: 45.739% (4508/9856)
+Loss: 1.469 | Precision@1: 45.883% (4581/9984)
+Loss: 1.467 | Precision@1: 45.906% (4642/10112)
+Loss: 1.465 | Precision@1: 45.996% (4710/10240)
+Loss: 1.463 | Precision@1: 46.026% (4772/10368)
+Loss: 1.463 | Precision@1: 46.084% (4837/10496)
+Loss: 1.461 | Precision@1: 46.094% (4897/10624)
+Loss: 1.462 | Precision@1: 46.112% (4958/10752)
+Loss: 1.463 | Precision@1: 46.048% (5010/10880)
+Loss: 1.464 | Precision@1: 45.994% (5063/11008)
+Loss: 1.464 | Precision@1: 45.968% (5119/11136)
+Loss: 1.462 | Precision@1: 46.085% (5191/11264)
+Loss: 1.461 | Precision@1: 46.199% (5263/11392)
+Loss: 1.459 | Precision@1: 46.259% (5329/11520)
+Loss: 1.460 | Precision@1: 46.137% (5374/11648)
+Loss: 1.458 | Precision@1: 46.221% (5443/11776)
+Loss: 1.457 | Precision@1: 46.220% (5502/11904)
+Loss: 1.457 | Precision@1: 46.235% (5563/12032)
+Loss: 1.460 | Precision@1: 46.135% (5610/12160)
+Loss: 1.459 | Precision@1: 46.216% (5679/12288)
+Loss: 1.459 | Precision@1: 46.198% (5736/12416)
+Loss: 1.460 | Precision@1: 46.150% (5789/12544)
+Loss: 1.460 | Precision@1: 46.110% (5843/12672)
+Loss: 1.460 | Precision@1: 46.086% (5899/12800)
+Loss: 1.461 | Precision@1: 46.086% (5958/12928)
+Loss: 1.461 | Precision@1: 46.071% (6015/13056)
+Loss: 1.461 | Precision@1: 46.086% (6076/13184)
+Loss: 1.460 | Precision@1: 46.139% (6142/13312)
+Loss: 1.459 | Precision@1: 46.161% (6204/13440)
+Loss: 1.457 | Precision@1: 46.212% (6270/13568)
+Loss: 1.458 | Precision@1: 46.152% (6321/13696)
+Loss: 1.457 | Precision@1: 46.195% (6386/13824)
+Loss: 1.458 | Precision@1: 46.223% (6449/13952)
+Loss: 1.457 | Precision@1: 46.286% (6517/14080)
+Loss: 1.457 | Precision@1: 46.312% (6580/14208)
+Loss: 1.457 | Precision@1: 46.324% (6641/14336)
+Loss: 1.457 | Precision@1: 46.377% (6708/14464)
+Loss: 1.456 | Precision@1: 46.375% (6767/14592)
+Loss: 1.455 | Precision@1: 46.386% (6828/14720)
+Loss: 1.456 | Precision@1: 46.404% (6890/14848)
+Loss: 1.457 | Precision@1: 46.441% (6955/14976)
+Loss: 1.457 | Precision@1: 46.418% (7011/15104)
+Loss: 1.457 | Precision@1: 46.402% (7068/15232)
+Loss: 1.457 | Precision@1: 46.419% (7130/15360)
+Loss: 1.456 | Precision@1: 46.449% (7194/15488)
+Loss: 1.456 | Precision@1: 46.446% (7253/15616)
+Loss: 1.455 | Precision@1: 46.507% (7322/15744)
+Loss: 1.455 | Precision@1: 46.547% (7388/15872)
+Loss: 1.455 | Precision@1: 46.531% (7445/16000)
+Loss: 1.455 | Precision@1: 46.559% (7509/16128)
+Loss: 1.455 | Precision@1: 46.531% (7564/16256)
+Loss: 1.455 | Precision@1: 46.527% (7623/16384)
+Loss: 1.453 | Precision@1: 46.590% (7693/16512)
+Loss: 1.452 | Precision@1: 46.665% (7765/16640)
+Loss: 1.452 | Precision@1: 46.690% (7829/16768)
+Loss: 1.452 | Precision@1: 46.680% (7887/16896)
+Loss: 1.452 | Precision@1: 46.646% (7941/17024)
+Loss: 1.452 | Precision@1: 46.653% (8002/17152)
+Loss: 1.452 | Precision@1: 46.626% (8057/17280)
+Loss: 1.451 | Precision@1: 46.662% (8123/17408)
+Loss: 1.450 | Precision@1: 46.658% (8182/17536)
+Loss: 1.449 | Precision@1: 46.683% (8246/17664)
+Loss: 1.449 | Precision@1: 46.628% (8296/17792)
+Loss: 1.448 | Precision@1: 46.674% (8364/17920)
+Loss: 1.448 | Precision@1: 46.670% (8423/18048)
+Loss: 1.448 | Precision@1: 46.660% (8481/18176)
+Loss: 1.447 | Precision@1: 46.706% (8549/18304)
+Loss: 1.446 | Precision@1: 46.734% (8614/18432)
+Loss: 1.446 | Precision@1: 46.730% (8673/18560)
+Loss: 1.445 | Precision@1: 46.800% (8746/18688)
+Loss: 1.445 | Precision@1: 46.864% (8818/18816)
+Loss: 1.445 | Precision@1: 46.843% (8874/18944)
+Loss: 1.444 | Precision@1: 46.901% (8945/19072)
+Loss: 1.443 | Precision@1: 46.911% (9007/19200)
+Loss: 1.443 | Precision@1: 46.937% (9072/19328)
+Loss: 1.442 | Precision@1: 46.957% (9136/19456)
+Loss: 1.442 | Precision@1: 46.998% (9204/19584)
+Loss: 1.440 | Precision@1: 47.007% (9266/19712)
+Loss: 1.441 | Precision@1: 47.011% (9327/19840)
+Loss: 1.441 | Precision@1: 47.030% (9391/19968)
+Loss: 1.440 | Precision@1: 47.059% (9457/20096)
+Loss: 1.439 | Precision@1: 47.137% (9533/20224)
+Loss: 1.437 | Precision@1: 47.199% (9606/20352)
+Loss: 1.436 | Precision@1: 47.261% (9679/20480)
+Loss: 1.437 | Precision@1: 47.249% (9737/20608)
+Loss: 1.437 | Precision@1: 47.251% (9798/20736)
+Loss: 1.436 | Precision@1: 47.273% (9863/20864)
+Loss: 1.436 | Precision@1: 47.280% (9925/20992)
+Loss: 1.436 | Precision@1: 47.249% (9979/21120)
+Loss: 1.436 | Precision@1: 47.266% (10043/21248)
+Loss: 1.436 | Precision@1: 47.249% (10100/21376)
+Loss: 1.436 | Precision@1: 47.242% (10159/21504)
+Loss: 1.436 | Precision@1: 47.245% (10220/21632)
+Loss: 1.435 | Precision@1: 47.256% (10283/21760)
+Loss: 1.434 | Precision@1: 47.227% (10337/21888)
+Loss: 1.434 | Precision@1: 47.270% (10407/22016)
+Loss: 1.432 | Precision@1: 47.322% (10479/22144)
+Loss: 1.432 | Precision@1: 47.342% (10544/22272)
+Loss: 1.432 | Precision@1: 47.375% (10612/22400)
+Loss: 1.431 | Precision@1: 47.377% (10673/22528)
+Loss: 1.431 | Precision@1: 47.405% (10740/22656)
+Loss: 1.430 | Precision@1: 47.454% (10812/22784)
+Loss: 1.430 | Precision@1: 47.495% (10882/22912)
+Loss: 1.430 | Precision@1: 47.483% (10940/23040)
+Loss: 1.430 | Precision@1: 47.509% (11007/23168)
+Loss: 1.429 | Precision@1: 47.553% (11078/23296)
+Loss: 1.428 | Precision@1: 47.562% (11141/23424)
+Loss: 1.428 | Precision@1: 47.542% (11197/23552)
+Loss: 1.429 | Precision@1: 47.534% (11256/23680)
+Loss: 1.428 | Precision@1: 47.576% (11327/23808)
+Loss: 1.428 | Precision@1: 47.594% (11392/23936)
+Loss: 1.427 | Precision@1: 47.594% (11453/24064)
+Loss: 1.427 | Precision@1: 47.607% (11517/24192)
+Loss: 1.425 | Precision@1: 47.664% (11592/24320)
+Loss: 1.425 | Precision@1: 47.689% (11659/24448)
+Loss: 1.424 | Precision@1: 47.697% (11722/24576)
+Loss: 1.424 | Precision@1: 47.729% (11791/24704)
+Loss: 1.423 | Precision@1: 47.725% (11851/24832)
+Loss: 1.424 | Precision@1: 47.740% (11916/24960)
+Loss: 1.424 | Precision@1: 47.748% (11979/25088)
+Loss: 1.424 | Precision@1: 47.736% (12037/25216)
+Loss: 1.423 | Precision@1: 47.763% (12105/25344)
+Loss: 1.423 | Precision@1: 47.754% (12164/25472)
+Loss: 1.422 | Precision@1: 47.812% (12240/25600)
+Loss: 1.421 | Precision@1: 47.866% (12315/25728)
+Loss: 1.421 | Precision@1: 47.888% (12382/25856)
+Loss: 1.421 | Precision@1: 47.903% (12447/25984)
+Loss: 1.421 | Precision@1: 47.913% (12511/26112)
+Loss: 1.420 | Precision@1: 47.946% (12581/26240)
+Loss: 1.421 | Precision@1: 47.914% (12634/26368)
+Loss: 1.421 | Precision@1: 47.909% (12694/26496)
+Loss: 1.420 | Precision@1: 47.953% (12767/26624)
+Loss: 1.419 | Precision@1: 47.989% (12838/26752)
+Loss: 1.418 | Precision@1: 48.013% (12906/26880)
+Loss: 1.418 | Precision@1: 48.041% (12975/27008)
+Loss: 1.417 | Precision@1: 48.069% (13044/27136)
+Loss: 1.417 | Precision@1: 48.082% (13109/27264)
+Loss: 1.417 | Precision@1: 48.080% (13170/27392)
+Loss: 1.417 | Precision@1: 48.070% (13229/27520)
+Loss: 1.417 | Precision@1: 48.098% (13298/27648)
+Loss: 1.417 | Precision@1: 48.085% (13356/27776)
+Loss: 1.417 | Precision@1: 48.104% (13423/27904)
+Loss: 1.417 | Precision@1: 48.156% (13499/28032)
+Loss: 1.417 | Precision@1: 48.168% (13564/28160)
+Loss: 1.416 | Precision@1: 48.208% (13637/28288)
+Loss: 1.416 | Precision@1: 48.209% (13699/28416)
+Loss: 1.416 | Precision@1: 48.210% (13761/28544)
+Loss: 1.416 | Precision@1: 48.239% (13831/28672)
+Loss: 1.416 | Precision@1: 48.226% (13889/28800)
+Loss: 1.415 | Precision@1: 48.230% (13952/28928)
+Loss: 1.415 | Precision@1: 48.231% (14014/29056)
+Loss: 1.415 | Precision@1: 48.239% (14078/29184)
+Loss: 1.415 | Precision@1: 48.219% (14134/29312)
+Loss: 1.414 | Precision@1: 48.240% (14202/29440)
+Loss: 1.413 | Precision@1: 48.265% (14271/29568)
+Loss: 1.413 | Precision@1: 48.283% (14338/29696)
+Loss: 1.413 | Precision@1: 48.290% (14402/29824)
+Loss: 1.414 | Precision@1: 48.261% (14455/29952)
+Loss: 1.414 | Precision@1: 48.265% (14518/30080)
+Loss: 1.413 | Precision@1: 48.292% (14588/30208)
+Loss: 1.413 | Precision@1: 48.292% (14650/30336)
+Loss: 1.413 | Precision@1: 48.287% (14710/30464)
+Loss: 1.413 | Precision@1: 48.300% (14776/30592)
+Loss: 1.413 | Precision@1: 48.294% (14836/30720)
+Loss: 1.413 | Precision@1: 48.311% (14903/30848)
+Loss: 1.413 | Precision@1: 48.315% (14966/30976)
+Loss: 1.413 | Precision@1: 48.331% (15033/31104)
+Loss: 1.412 | Precision@1: 48.383% (15111/31232)
+Loss: 1.411 | Precision@1: 48.418% (15184/31360)
+Loss: 1.411 | Precision@1: 48.387% (15236/31488)
+Loss: 1.412 | Precision@1: 48.374% (15294/31616)
+Loss: 1.411 | Precision@1: 48.409% (15367/31744)
+Loss: 1.410 | Precision@1: 48.444% (15440/31872)
+Loss: 1.410 | Precision@1: 48.472% (15511/32000)
+Loss: 1.409 | Precision@1: 48.490% (15579/32128)
+Loss: 1.409 | Precision@1: 48.500% (15644/32256)
+Loss: 1.409 | Precision@1: 48.487% (15702/32384)
+Loss: 1.408 | Precision@1: 48.490% (15765/32512)
+Loss: 1.408 | Precision@1: 48.496% (15829/32640)
+Loss: 1.407 | Precision@1: 48.514% (15897/32768)
+Loss: 1.407 | Precision@1: 48.510% (15958/32896)
+Loss: 1.407 | Precision@1: 48.537% (16029/33024)
+Loss: 1.406 | Precision@1: 48.573% (16103/33152)
+Loss: 1.405 | Precision@1: 48.612% (16178/33280)
+Loss: 1.405 | Precision@1: 48.641% (16250/33408)
+Loss: 1.403 | Precision@1: 48.691% (16329/33536)
+Loss: 1.403 | Precision@1: 48.690% (16391/33664)
+Loss: 1.403 | Precision@1: 48.701% (16457/33792)
+Loss: 1.403 | Precision@1: 48.712% (16523/33920)
+Loss: 1.403 | Precision@1: 48.696% (16580/34048)
+Loss: 1.402 | Precision@1: 48.724% (16652/34176)
+Loss: 1.402 | Precision@1: 48.752% (16724/34304)
+Loss: 1.401 | Precision@1: 48.786% (16798/34432)
+Loss: 1.400 | Precision@1: 48.802% (16866/34560)
+Loss: 1.400 | Precision@1: 48.801% (16928/34688)
+Loss: 1.399 | Precision@1: 48.845% (17006/34816)
+Loss: 1.399 | Precision@1: 48.861% (17074/34944)
+Loss: 1.399 | Precision@1: 48.854% (17134/35072)
+Loss: 1.399 | Precision@1: 48.881% (17206/35200)
+Loss: 1.398 | Precision@1: 48.902% (17276/35328)
+Loss: 1.398 | Precision@1: 48.903% (17339/35456)
+Loss: 1.398 | Precision@1: 48.901% (17401/35584)
+Loss: 1.398 | Precision@1: 48.891% (17460/35712)
+Loss: 1.398 | Precision@1: 48.915% (17531/35840)
+Loss: 1.397 | Precision@1: 48.927% (17598/35968)
+Loss: 1.398 | Precision@1: 48.920% (17658/36096)
+Loss: 1.398 | Precision@1: 48.954% (17733/36224)
+Loss: 1.397 | Precision@1: 48.999% (17812/36352)
+Loss: 1.396 | Precision@1: 49.024% (17884/36480)
+Loss: 1.396 | Precision@1: 49.036% (17951/36608)
+Loss: 1.395 | Precision@1: 49.074% (18028/36736)
+Loss: 1.395 | Precision@1: 49.072% (18090/36864)
+Loss: 1.395 | Precision@1: 49.100% (18163/36992)
+Loss: 1.395 | Precision@1: 49.087% (18221/37120)
+Loss: 1.394 | Precision@1: 49.079% (18281/37248)
+Loss: 1.394 | Precision@1: 49.074% (18342/37376)
+Loss: 1.394 | Precision@1: 49.093% (18412/37504)
+Loss: 1.394 | Precision@1: 49.091% (18474/37632)
+Loss: 1.394 | Precision@1: 49.092% (18537/37760)
+Loss: 1.394 | Precision@1: 49.105% (18605/37888)
+Loss: 1.394 | Precision@1: 49.103% (18667/38016)
+Loss: 1.394 | Precision@1: 49.069% (18717/38144)
+Loss: 1.394 | Precision@1: 49.062% (18777/38272)
+Loss: 1.394 | Precision@1: 49.057% (18838/38400)
+Loss: 1.393 | Precision@1: 49.089% (18913/38528)
+Loss: 1.393 | Precision@1: 49.089% (18976/38656)
+Loss: 1.393 | Precision@1: 49.105% (19045/38784)
+Loss: 1.393 | Precision@1: 49.106% (19108/38912)
+Loss: 1.393 | Precision@1: 49.109% (19172/39040)
+Loss: 1.393 | Precision@1: 49.129% (19243/39168)
+Loss: 1.393 | Precision@1: 49.132% (19307/39296)
+Loss: 1.392 | Precision@1: 49.138% (19372/39424)
+Loss: 1.392 | Precision@1: 49.145% (19438/39552)
+Loss: 1.392 | Precision@1: 49.153% (19504/39680)
+Loss: 1.392 | Precision@1: 49.163% (19571/39808)
+Loss: 1.391 | Precision@1: 49.199% (19648/39936)
+Loss: 1.390 | Precision@1: 49.216% (19718/40064)
+Loss: 1.390 | Precision@1: 49.256% (19797/40192)
+Loss: 1.389 | Precision@1: 49.278% (19869/40320)
+Loss: 1.389 | Precision@1: 49.298% (19940/40448)
+Loss: 1.389 | Precision@1: 49.285% (19998/40576)
+Loss: 1.388 | Precision@1: 49.317% (20074/40704)
+Loss: 1.388 | Precision@1: 49.336% (20145/40832)
+Loss: 1.388 | Precision@1: 49.338% (20209/40960)
+Loss: 1.388 | Precision@1: 49.338% (20272/41088)
+Loss: 1.388 | Precision@1: 49.347% (20339/41216)
+Loss: 1.388 | Precision@1: 49.359% (20407/41344)
+Loss: 1.388 | Precision@1: 49.344% (20464/41472)
+Loss: 1.388 | Precision@1: 49.346% (20528/41600)
+Loss: 1.387 | Precision@1: 49.365% (20599/41728)
+Loss: 1.387 | Precision@1: 49.364% (20662/41856)
+Loss: 1.387 | Precision@1: 49.385% (20734/41984)
+Loss: 1.387 | Precision@1: 49.402% (20804/42112)
+Loss: 1.386 | Precision@1: 49.441% (20884/42240)
+Loss: 1.385 | Precision@1: 49.450% (20951/42368)
+Loss: 1.385 | Precision@1: 49.445% (21012/42496)
+Loss: 1.385 | Precision@1: 49.456% (21080/42624)
+Loss: 1.385 | Precision@1: 49.464% (21147/42752)
+Loss: 1.384 | Precision@1: 49.494% (21223/42880)
+Loss: 1.384 | Precision@1: 49.488% (21284/43008)
+Loss: 1.384 | Precision@1: 49.520% (21361/43136)
+Loss: 1.383 | Precision@1: 49.524% (21426/43264)
+Loss: 1.383 | Precision@1: 49.514% (21485/43392)
+Loss: 1.383 | Precision@1: 49.504% (21544/43520)
+Loss: 1.383 | Precision@1: 49.496% (21604/43648)
+Loss: 1.382 | Precision@1: 49.507% (21672/43776)
+Loss: 1.381 | Precision@1: 49.513% (21738/43904)
+Loss: 1.381 | Precision@1: 49.537% (21812/44032)
+Loss: 1.380 | Precision@1: 49.549% (21881/44160)
+Loss: 1.380 | Precision@1: 49.557% (21948/44288)
+Loss: 1.379 | Precision@1: 49.577% (22020/44416)
+Loss: 1.379 | Precision@1: 49.600% (22094/44544)
+Loss: 1.378 | Precision@1: 49.617% (22165/44672)
+Loss: 1.378 | Precision@1: 49.614% (22227/44800)
+Loss: 1.377 | Precision@1: 49.633% (22299/44928)
+Loss: 1.377 | Precision@1: 49.647% (22369/45056)
+Loss: 1.376 | Precision@1: 49.657% (22437/45184)
+Loss: 1.376 | Precision@1: 49.676% (22509/45312)
+Loss: 1.376 | Precision@1: 49.696% (22582/45440)
+Loss: 1.375 | Precision@1: 49.691% (22643/45568)
+Loss: 1.375 | Precision@1: 49.709% (22715/45696)
+Loss: 1.374 | Precision@1: 49.740% (22793/45824)
+Loss: 1.374 | Precision@1: 49.772% (22871/45952)
+Loss: 1.374 | Precision@1: 49.785% (22941/46080)
+Loss: 1.373 | Precision@1: 49.810% (23016/46208)
+Loss: 1.373 | Precision@1: 49.808% (23079/46336)
+Loss: 1.373 | Precision@1: 49.832% (23154/46464)
+Loss: 1.373 | Precision@1: 49.828% (23216/46592)
+Loss: 1.373 | Precision@1: 49.833% (23282/46720)
+Loss: 1.372 | Precision@1: 49.857% (23357/46848)
+Loss: 1.372 | Precision@1: 49.862% (23423/46976)
+Loss: 1.372 | Precision@1: 49.858% (23485/47104)
+Loss: 1.372 | Precision@1: 49.873% (23556/47232)
+Loss: 1.372 | Precision@1: 49.878% (23622/47360)
+Loss: 1.371 | Precision@1: 49.899% (23696/47488)
+Loss: 1.371 | Precision@1: 49.887% (23754/47616)
+Loss: 1.371 | Precision@1: 49.899% (23824/47744)
+Loss: 1.371 | Precision@1: 49.916% (23896/47872)
+Loss: 1.370 | Precision@1: 49.927% (23965/48000)
+Loss: 1.370 | Precision@1: 49.942% (24036/48128)
+Loss: 1.369 | Precision@1: 49.963% (24110/48256)
+Loss: 1.369 | Precision@1: 49.973% (24179/48384)
+Loss: 1.369 | Precision@1: 49.990% (24251/48512)
+Loss: 1.368 | Precision@1: 49.998% (24319/48640)
+Loss: 1.368 | Precision@1: 50.002% (24385/48768)
+Loss: 1.368 | Precision@1: 50.002% (24449/48896)
+Loss: 1.367 | Precision@1: 50.006% (24515/49024)
+Loss: 1.367 | Precision@1: 50.031% (24591/49152)
+Loss: 1.367 | Precision@1: 50.055% (24667/49280)
+Loss: 1.366 | Precision@1: 50.081% (24744/49408)
+Loss: 1.366 | Precision@1: 50.095% (24815/49536)
+Loss: 1.365 | Precision@1: 50.117% (24890/49664)
+Loss: 1.365 | Precision@1: 50.131% (24961/49792)
+Loss: 1.364 | Precision@1: 50.148% (25034/49920)
+Loss: 1.364 | Precision@1: 50.150% (25075/50000)
+
+Aggregates: 			
+ 	 DataLoader Time: 0.6280 			
+ 	 Mini-batch Time: 12.1343 			
+ 	 Training Epoch Time: 30.7212
+ 			
+ Averages: 			
+ 	 Training Loss: 1.3639
+
+ Test set Averages: Loss: 1.256 | Precision@1: 54.840% (5484/10000)
+
+Epoch: 3
+Loss: 1.295 | Precision@1: 53.906% (69/128)
+Loss: 1.194 | Precision@1: 56.641% (145/256)
+Loss: 1.215 | Precision@1: 56.250% (216/384)
+Loss: 1.209 | Precision@1: 57.031% (292/512)
+Loss: 1.222 | Precision@1: 56.250% (360/640)
+Loss: 1.205 | Precision@1: 56.380% (433/768)
+Loss: 1.185 | Precision@1: 57.366% (514/896)
+Loss: 1.193 | Precision@1: 57.031% (584/1024)
+Loss: 1.185 | Precision@1: 57.378% (661/1152)
+Loss: 1.179 | Precision@1: 57.812% (740/1280)
+Loss: 1.187 | Precision@1: 57.102% (804/1408)
+Loss: 1.181 | Precision@1: 57.031% (876/1536)
+Loss: 1.198 | Precision@1: 56.490% (940/1664)
+Loss: 1.189 | Precision@1: 56.920% (1020/1792)
+Loss: 1.191 | Precision@1: 56.771% (1090/1920)
+Loss: 1.185 | Precision@1: 57.031% (1168/2048)
+Loss: 1.191 | Precision@1: 56.801% (1236/2176)
+Loss: 1.200 | Precision@1: 56.597% (1304/2304)
+Loss: 1.194 | Precision@1: 57.031% (1387/2432)
+Loss: 1.194 | Precision@1: 56.836% (1455/2560)
+Loss: 1.195 | Precision@1: 56.659% (1523/2688)
+Loss: 1.191 | Precision@1: 56.925% (1603/2816)
+Loss: 1.193 | Precision@1: 56.963% (1677/2944)
+Loss: 1.195 | Precision@1: 56.901% (1748/3072)
+Loss: 1.199 | Precision@1: 56.812% (1818/3200)
+Loss: 1.205 | Precision@1: 56.701% (1887/3328)
+Loss: 1.206 | Precision@1: 56.684% (1959/3456)
+Loss: 1.211 | Precision@1: 56.501% (2025/3584)
+Loss: 1.206 | Precision@1: 56.627% (2102/3712)
+Loss: 1.206 | Precision@1: 56.589% (2173/3840)
+Loss: 1.204 | Precision@1: 56.704% (2250/3968)
+Loss: 1.206 | Precision@1: 56.543% (2316/4096)
+Loss: 1.204 | Precision@1: 56.652% (2393/4224)
+Loss: 1.201 | Precision@1: 56.870% (2475/4352)
+Loss: 1.202 | Precision@1: 56.830% (2546/4480)
+Loss: 1.202 | Precision@1: 56.814% (2618/4608)
+Loss: 1.203 | Precision@1: 56.736% (2687/4736)
+Loss: 1.207 | Precision@1: 56.682% (2757/4864)
+Loss: 1.203 | Precision@1: 56.811% (2836/4992)
+Loss: 1.201 | Precision@1: 56.816% (2909/5120)
+Loss: 1.203 | Precision@1: 56.936% (2988/5248)
+Loss: 1.205 | Precision@1: 56.882% (3058/5376)
+Loss: 1.208 | Precision@1: 56.759% (3124/5504)
+Loss: 1.210 | Precision@1: 56.765% (3197/5632)
+Loss: 1.212 | Precision@1: 56.580% (3259/5760)
+Loss: 1.214 | Precision@1: 56.488% (3326/5888)
+Loss: 1.213 | Precision@1: 56.549% (3402/6016)
+Loss: 1.212 | Precision@1: 56.576% (3476/6144)
+Loss: 1.213 | Precision@1: 56.425% (3539/6272)
+Loss: 1.211 | Precision@1: 56.594% (3622/6400)
+Loss: 1.211 | Precision@1: 56.572% (3693/6528)
+Loss: 1.211 | Precision@1: 56.641% (3770/6656)
+Loss: 1.209 | Precision@1: 56.648% (3843/6784)
+Loss: 1.208 | Precision@1: 56.670% (3917/6912)
+Loss: 1.208 | Precision@1: 56.676% (3990/7040)
+Loss: 1.205 | Precision@1: 56.822% (4073/7168)
+Loss: 1.203 | Precision@1: 56.922% (4153/7296)
+Loss: 1.200 | Precision@1: 57.058% (4236/7424)
+Loss: 1.201 | Precision@1: 56.965% (4302/7552)
+Loss: 1.198 | Precision@1: 57.044% (4381/7680)
+Loss: 1.196 | Precision@1: 57.134% (4461/7808)
+Loss: 1.198 | Precision@1: 57.094% (4531/7936)
+Loss: 1.195 | Precision@1: 57.155% (4609/8064)
+Loss: 1.194 | Precision@1: 57.214% (4687/8192)
+Loss: 1.196 | Precision@1: 57.103% (4751/8320)
+Loss: 1.195 | Precision@1: 57.090% (4823/8448)
+Loss: 1.197 | Precision@1: 57.008% (4889/8576)
+Loss: 1.196 | Precision@1: 57.020% (4963/8704)
+Loss: 1.197 | Precision@1: 57.009% (5035/8832)
+Loss: 1.196 | Precision@1: 57.020% (5109/8960)
+Loss: 1.195 | Precision@1: 57.064% (5186/9088)
+Loss: 1.196 | Precision@1: 57.075% (5260/9216)
+Loss: 1.198 | Precision@1: 56.924% (5319/9344)
+Loss: 1.198 | Precision@1: 56.947% (5394/9472)
+Loss: 1.197 | Precision@1: 57.000% (5472/9600)
+Loss: 1.195 | Precision@1: 57.083% (5553/9728)
+Loss: 1.195 | Precision@1: 57.052% (5623/9856)
+Loss: 1.199 | Precision@1: 56.951% (5686/9984)
+Loss: 1.199 | Precision@1: 56.942% (5758/10112)
+Loss: 1.198 | Precision@1: 57.002% (5837/10240)
+Loss: 1.195 | Precision@1: 57.099% (5920/10368)
+Loss: 1.196 | Precision@1: 57.050% (5988/10496)
+Loss: 1.196 | Precision@1: 57.031% (6059/10624)
+Loss: 1.197 | Precision@1: 56.975% (6126/10752)
+Loss: 1.197 | Precision@1: 56.994% (6201/10880)
+Loss: 1.197 | Precision@1: 57.086% (6284/11008)
+Loss: 1.195 | Precision@1: 57.175% (6367/11136)
+Loss: 1.193 | Precision@1: 57.209% (6444/11264)
+Loss: 1.192 | Precision@1: 57.268% (6524/11392)
+Loss: 1.192 | Precision@1: 57.257% (6596/11520)
+Loss: 1.192 | Precision@1: 57.246% (6668/11648)
+Loss: 1.191 | Precision@1: 57.328% (6751/11776)
+Loss: 1.189 | Precision@1: 57.409% (6834/11904)
+Loss: 1.187 | Precision@1: 57.447% (6912/12032)
+Loss: 1.188 | Precision@1: 57.393% (6979/12160)
+Loss: 1.186 | Precision@1: 57.463% (7061/12288)
+Loss: 1.186 | Precision@1: 57.418% (7129/12416)
+Loss: 1.186 | Precision@1: 57.406% (7201/12544)
+Loss: 1.185 | Precision@1: 57.442% (7279/12672)
+Loss: 1.185 | Precision@1: 57.414% (7349/12800)
+Loss: 1.185 | Precision@1: 57.495% (7433/12928)
+Loss: 1.185 | Precision@1: 57.544% (7513/13056)
+Loss: 1.185 | Precision@1: 57.593% (7593/13184)
+Loss: 1.184 | Precision@1: 57.617% (7670/13312)
+Loss: 1.183 | Precision@1: 57.641% (7747/13440)
+Loss: 1.182 | Precision@1: 57.680% (7826/13568)
+Loss: 1.182 | Precision@1: 57.666% (7898/13696)
+Loss: 1.184 | Precision@1: 57.653% (7970/13824)
+Loss: 1.183 | Precision@1: 57.691% (8049/13952)
+Loss: 1.182 | Precision@1: 57.749% (8131/14080)
+Loss: 1.182 | Precision@1: 57.728% (8202/14208)
+Loss: 1.182 | Precision@1: 57.722% (8275/14336)
+Loss: 1.182 | Precision@1: 57.736% (8351/14464)
+Loss: 1.179 | Precision@1: 57.833% (8439/14592)
+Loss: 1.180 | Precision@1: 57.833% (8513/14720)
+Loss: 1.178 | Precision@1: 57.873% (8593/14848)
+Loss: 1.180 | Precision@1: 57.866% (8666/14976)
+Loss: 1.180 | Precision@1: 57.826% (8734/15104)
+Loss: 1.178 | Precision@1: 57.885% (8817/15232)
+Loss: 1.177 | Precision@1: 57.904% (8894/15360)
+Loss: 1.175 | Precision@1: 57.993% (8982/15488)
+Loss: 1.176 | Precision@1: 57.992% (9056/15616)
+Loss: 1.176 | Precision@1: 57.990% (9130/15744)
+Loss: 1.175 | Precision@1: 58.096% (9221/15872)
+Loss: 1.174 | Precision@1: 58.081% (9293/16000)
+Loss: 1.173 | Precision@1: 58.104% (9371/16128)
+Loss: 1.172 | Precision@1: 58.114% (9447/16256)
+Loss: 1.174 | Precision@1: 58.044% (9510/16384)
+Loss: 1.174 | Precision@1: 58.043% (9584/16512)
+Loss: 1.173 | Precision@1: 58.059% (9661/16640)
+Loss: 1.172 | Precision@1: 58.057% (9735/16768)
+Loss: 1.170 | Precision@1: 58.126% (9821/16896)
+Loss: 1.169 | Precision@1: 58.153% (9900/17024)
+Loss: 1.169 | Precision@1: 58.151% (9974/17152)
+Loss: 1.170 | Precision@1: 58.108% (10041/17280)
+Loss: 1.170 | Precision@1: 58.105% (10115/17408)
+Loss: 1.170 | Precision@1: 58.092% (10187/17536)
+Loss: 1.171 | Precision@1: 58.073% (10258/17664)
+Loss: 1.171 | Precision@1: 58.088% (10335/17792)
+Loss: 1.170 | Precision@1: 58.092% (10410/17920)
+Loss: 1.170 | Precision@1: 58.084% (10483/18048)
+Loss: 1.171 | Precision@1: 58.055% (10552/18176)
+Loss: 1.171 | Precision@1: 58.047% (10625/18304)
+Loss: 1.171 | Precision@1: 58.019% (10694/18432)
+Loss: 1.171 | Precision@1: 57.963% (10758/18560)
+Loss: 1.171 | Precision@1: 57.989% (10837/18688)
+Loss: 1.171 | Precision@1: 58.004% (10914/18816)
+Loss: 1.171 | Precision@1: 57.971% (10982/18944)
+Loss: 1.171 | Precision@1: 57.975% (11057/19072)
+Loss: 1.170 | Precision@1: 58.005% (11137/19200)
+Loss: 1.170 | Precision@1: 57.999% (11210/19328)
+Loss: 1.168 | Precision@1: 58.039% (11292/19456)
+Loss: 1.169 | Precision@1: 58.042% (11367/19584)
+Loss: 1.169 | Precision@1: 58.046% (11442/19712)
+Loss: 1.169 | Precision@1: 58.039% (11515/19840)
+Loss: 1.169 | Precision@1: 58.053% (11592/19968)
+Loss: 1.169 | Precision@1: 58.051% (11666/20096)
+Loss: 1.169 | Precision@1: 58.060% (11742/20224)
+Loss: 1.168 | Precision@1: 58.102% (11825/20352)
+Loss: 1.168 | Precision@1: 58.125% (11904/20480)
+Loss: 1.167 | Precision@1: 58.152% (11984/20608)
+Loss: 1.167 | Precision@1: 58.150% (12058/20736)
+Loss: 1.165 | Precision@1: 58.186% (12140/20864)
+Loss: 1.165 | Precision@1: 58.198% (12217/20992)
+Loss: 1.165 | Precision@1: 58.191% (12290/21120)
+Loss: 1.164 | Precision@1: 58.264% (12380/21248)
+Loss: 1.163 | Precision@1: 58.276% (12457/21376)
+Loss: 1.163 | Precision@1: 58.282% (12533/21504)
+Loss: 1.163 | Precision@1: 58.284% (12608/21632)
+Loss: 1.164 | Precision@1: 58.258% (12677/21760)
+Loss: 1.163 | Precision@1: 58.260% (12752/21888)
+Loss: 1.163 | Precision@1: 58.249% (12824/22016)
+Loss: 1.163 | Precision@1: 58.260% (12901/22144)
+Loss: 1.163 | Precision@1: 58.279% (12980/22272)
+Loss: 1.162 | Precision@1: 58.304% (13060/22400)
+Loss: 1.162 | Precision@1: 58.301% (13134/22528)
+Loss: 1.161 | Precision@1: 58.285% (13205/22656)
+Loss: 1.161 | Precision@1: 58.313% (13286/22784)
+Loss: 1.161 | Precision@1: 58.310% (13360/22912)
+Loss: 1.160 | Precision@1: 58.320% (13437/23040)
+Loss: 1.160 | Precision@1: 58.322% (13512/23168)
+Loss: 1.160 | Precision@1: 58.332% (13589/23296)
+Loss: 1.160 | Precision@1: 58.316% (13660/23424)
+Loss: 1.160 | Precision@1: 58.343% (13741/23552)
+Loss: 1.160 | Precision@1: 58.319% (13810/23680)
+Loss: 1.159 | Precision@1: 58.321% (13885/23808)
+Loss: 1.159 | Precision@1: 58.356% (13968/23936)
+Loss: 1.158 | Precision@1: 58.398% (14053/24064)
+Loss: 1.156 | Precision@1: 58.449% (14140/24192)
+Loss: 1.156 | Precision@1: 58.413% (14206/24320)
+Loss: 1.156 | Precision@1: 58.434% (14286/24448)
+Loss: 1.155 | Precision@1: 58.459% (14367/24576)
+Loss: 1.155 | Precision@1: 58.436% (14436/24704)
+Loss: 1.154 | Precision@1: 58.477% (14521/24832)
+Loss: 1.153 | Precision@1: 58.502% (14602/24960)
+Loss: 1.153 | Precision@1: 58.514% (14680/25088)
+Loss: 1.152 | Precision@1: 58.566% (14768/25216)
+Loss: 1.152 | Precision@1: 58.566% (14843/25344)
+Loss: 1.151 | Precision@1: 58.582% (14922/25472)
+Loss: 1.151 | Precision@1: 58.574% (14995/25600)
+Loss: 1.151 | Precision@1: 58.578% (15071/25728)
+Loss: 1.149 | Precision@1: 58.625% (15158/25856)
+Loss: 1.149 | Precision@1: 58.621% (15232/25984)
+Loss: 1.149 | Precision@1: 58.632% (15310/26112)
+Loss: 1.149 | Precision@1: 58.624% (15383/26240)
+Loss: 1.148 | Precision@1: 58.681% (15473/26368)
+Loss: 1.148 | Precision@1: 58.711% (15556/26496)
+Loss: 1.148 | Precision@1: 58.721% (15634/26624)
+Loss: 1.147 | Precision@1: 58.747% (15716/26752)
+Loss: 1.147 | Precision@1: 58.761% (15795/26880)
+Loss: 1.147 | Precision@1: 58.727% (15861/27008)
+Loss: 1.148 | Precision@1: 58.719% (15934/27136)
+Loss: 1.148 | Precision@1: 58.726% (16011/27264)
+Loss: 1.147 | Precision@1: 58.740% (16090/27392)
+Loss: 1.147 | Precision@1: 58.765% (16172/27520)
+Loss: 1.146 | Precision@1: 58.804% (16258/27648)
+Loss: 1.146 | Precision@1: 58.810% (16335/27776)
+Loss: 1.146 | Precision@1: 58.787% (16404/27904)
+Loss: 1.146 | Precision@1: 58.790% (16480/28032)
+Loss: 1.146 | Precision@1: 58.793% (16556/28160)
+Loss: 1.145 | Precision@1: 58.799% (16633/28288)
+Loss: 1.144 | Precision@1: 58.840% (16720/28416)
+Loss: 1.144 | Precision@1: 58.839% (16795/28544)
+Loss: 1.143 | Precision@1: 58.869% (16879/28672)
+Loss: 1.143 | Precision@1: 58.903% (16964/28800)
+Loss: 1.142 | Precision@1: 58.953% (17054/28928)
+Loss: 1.142 | Precision@1: 58.952% (17129/29056)
+Loss: 1.141 | Precision@1: 58.991% (17216/29184)
+Loss: 1.140 | Precision@1: 59.030% (17303/29312)
+Loss: 1.139 | Precision@1: 59.073% (17391/29440)
+Loss: 1.139 | Precision@1: 59.074% (17467/29568)
+Loss: 1.139 | Precision@1: 59.079% (17544/29696)
+Loss: 1.139 | Precision@1: 59.070% (17617/29824)
+Loss: 1.139 | Precision@1: 59.061% (17690/29952)
+Loss: 1.139 | Precision@1: 59.066% (17767/30080)
+Loss: 1.139 | Precision@1: 59.080% (17847/30208)
+Loss: 1.139 | Precision@1: 59.088% (17925/30336)
+Loss: 1.139 | Precision@1: 59.096% (18003/30464)
+Loss: 1.139 | Precision@1: 59.064% (18069/30592)
+Loss: 1.139 | Precision@1: 59.072% (18147/30720)
+Loss: 1.138 | Precision@1: 59.119% (18237/30848)
+Loss: 1.138 | Precision@1: 59.097% (18306/30976)
+Loss: 1.138 | Precision@1: 59.086% (18378/31104)
+Loss: 1.138 | Precision@1: 59.084% (18453/31232)
+Loss: 1.138 | Precision@1: 59.098% (18533/31360)
+Loss: 1.138 | Precision@1: 59.115% (18614/31488)
+Loss: 1.138 | Precision@1: 59.131% (18695/31616)
+Loss: 1.137 | Precision@1: 59.145% (18775/31744)
+Loss: 1.137 | Precision@1: 59.133% (18847/31872)
+Loss: 1.137 | Precision@1: 59.147% (18927/32000)
+Loss: 1.137 | Precision@1: 59.129% (18997/32128)
+Loss: 1.136 | Precision@1: 59.142% (19077/32256)
+Loss: 1.137 | Precision@1: 59.146% (19154/32384)
+Loss: 1.136 | Precision@1: 59.160% (19234/32512)
+Loss: 1.136 | Precision@1: 59.182% (19317/32640)
+Loss: 1.135 | Precision@1: 59.192% (19396/32768)
+Loss: 1.134 | Precision@1: 59.205% (19476/32896)
+Loss: 1.135 | Precision@1: 59.199% (19550/33024)
+Loss: 1.134 | Precision@1: 59.191% (19623/33152)
+Loss: 1.134 | Precision@1: 59.198% (19701/33280)
+Loss: 1.134 | Precision@1: 59.213% (19782/33408)
+Loss: 1.133 | Precision@1: 59.241% (19867/33536)
+Loss: 1.132 | Precision@1: 59.253% (19947/33664)
+Loss: 1.132 | Precision@1: 59.266% (20027/33792)
+Loss: 1.132 | Precision@1: 59.281% (20108/33920)
+Loss: 1.131 | Precision@1: 59.296% (20189/34048)
+Loss: 1.131 | Precision@1: 59.299% (20266/34176)
+Loss: 1.131 | Precision@1: 59.299% (20342/34304)
+Loss: 1.131 | Precision@1: 59.288% (20414/34432)
+Loss: 1.131 | Precision@1: 59.303% (20495/34560)
+Loss: 1.130 | Precision@1: 59.317% (20576/34688)
+Loss: 1.130 | Precision@1: 59.312% (20650/34816)
+Loss: 1.129 | Precision@1: 59.335% (20734/34944)
+Loss: 1.129 | Precision@1: 59.338% (20811/35072)
+Loss: 1.128 | Precision@1: 59.358% (20894/35200)
+Loss: 1.128 | Precision@1: 59.367% (20973/35328)
+Loss: 1.128 | Precision@1: 59.383% (21055/35456)
+Loss: 1.127 | Precision@1: 59.406% (21139/35584)
+Loss: 1.128 | Precision@1: 59.397% (21212/35712)
+Loss: 1.128 | Precision@1: 59.397% (21288/35840)
+Loss: 1.127 | Precision@1: 59.436% (21378/35968)
+Loss: 1.126 | Precision@1: 59.447% (21458/36096)
+Loss: 1.127 | Precision@1: 59.444% (21533/36224)
+Loss: 1.127 | Precision@1: 59.433% (21605/36352)
+Loss: 1.126 | Precision@1: 59.457% (21690/36480)
+Loss: 1.126 | Precision@1: 59.457% (21766/36608)
+Loss: 1.126 | Precision@1: 59.468% (21846/36736)
+Loss: 1.125 | Precision@1: 59.492% (21931/36864)
+Loss: 1.126 | Precision@1: 59.489% (22006/36992)
+Loss: 1.126 | Precision@1: 59.475% (22077/37120)
+Loss: 1.126 | Precision@1: 59.477% (22154/37248)
+Loss: 1.126 | Precision@1: 59.477% (22230/37376)
+Loss: 1.125 | Precision@1: 59.490% (22311/37504)
+Loss: 1.125 | Precision@1: 59.492% (22388/37632)
+Loss: 1.125 | Precision@1: 59.484% (22461/37760)
+Loss: 1.125 | Precision@1: 59.473% (22533/37888)
+Loss: 1.125 | Precision@1: 59.472% (22609/38016)
+Loss: 1.125 | Precision@1: 59.488% (22691/38144)
+Loss: 1.124 | Precision@1: 59.519% (22779/38272)
+Loss: 1.124 | Precision@1: 59.513% (22853/38400)
+Loss: 1.123 | Precision@1: 59.520% (22932/38528)
+Loss: 1.123 | Precision@1: 59.528% (23011/38656)
+Loss: 1.122 | Precision@1: 59.540% (23092/38784)
+Loss: 1.122 | Precision@1: 59.534% (23166/38912)
+Loss: 1.121 | Precision@1: 59.562% (23253/39040)
+Loss: 1.121 | Precision@1: 59.574% (23334/39168)
+Loss: 1.121 | Precision@1: 59.581% (23413/39296)
+Loss: 1.121 | Precision@1: 59.580% (23489/39424)
+Loss: 1.121 | Precision@1: 59.600% (23573/39552)
+Loss: 1.120 | Precision@1: 59.624% (23659/39680)
+Loss: 1.120 | Precision@1: 59.641% (23742/39808)
+Loss: 1.120 | Precision@1: 59.625% (23812/39936)
+Loss: 1.120 | Precision@1: 59.647% (23897/40064)
+Loss: 1.120 | Precision@1: 59.654% (23976/40192)
+Loss: 1.120 | Precision@1: 59.645% (24049/40320)
+Loss: 1.119 | Precision@1: 59.637% (24122/40448)
+Loss: 1.119 | Precision@1: 59.668% (24211/40576)
+Loss: 1.119 | Precision@1: 59.672% (24289/40704)
+Loss: 1.118 | Precision@1: 59.691% (24373/40832)
+Loss: 1.118 | Precision@1: 59.709% (24457/40960)
+Loss: 1.118 | Precision@1: 59.704% (24531/41088)
+Loss: 1.118 | Precision@1: 59.724% (24616/41216)
+Loss: 1.118 | Precision@1: 59.721% (24691/41344)
+Loss: 1.118 | Precision@1: 59.720% (24767/41472)
+Loss: 1.118 | Precision@1: 59.731% (24848/41600)
+Loss: 1.117 | Precision@1: 59.749% (24932/41728)
+Loss: 1.117 | Precision@1: 59.767% (25016/41856)
+Loss: 1.117 | Precision@1: 59.787% (25101/41984)
+Loss: 1.116 | Precision@1: 59.800% (25183/42112)
+Loss: 1.116 | Precision@1: 59.804% (25261/42240)
+Loss: 1.115 | Precision@1: 59.809% (25340/42368)
+Loss: 1.115 | Precision@1: 59.827% (25424/42496)
+Loss: 1.115 | Precision@1: 59.821% (25498/42624)
+Loss: 1.115 | Precision@1: 59.826% (25577/42752)
+Loss: 1.116 | Precision@1: 59.806% (25645/42880)
+Loss: 1.115 | Precision@1: 59.814% (25725/43008)
+Loss: 1.115 | Precision@1: 59.848% (25816/43136)
+Loss: 1.114 | Precision@1: 59.853% (25895/43264)
+Loss: 1.114 | Precision@1: 59.875% (25981/43392)
+Loss: 1.114 | Precision@1: 59.883% (26061/43520)
+Loss: 1.113 | Precision@1: 59.886% (26139/43648)
+Loss: 1.113 | Precision@1: 59.889% (26217/43776)
+Loss: 1.113 | Precision@1: 59.901% (26299/43904)
+Loss: 1.112 | Precision@1: 59.902% (26376/44032)
+Loss: 1.112 | Precision@1: 59.928% (26464/44160)
+Loss: 1.112 | Precision@1: 59.933% (26543/44288)
+Loss: 1.111 | Precision@1: 59.927% (26617/44416)
+Loss: 1.111 | Precision@1: 59.945% (26702/44544)
+Loss: 1.111 | Precision@1: 59.953% (26782/44672)
+Loss: 1.111 | Precision@1: 59.953% (26859/44800)
+Loss: 1.111 | Precision@1: 59.960% (26939/44928)
+Loss: 1.110 | Precision@1: 60.005% (27036/45056)
+Loss: 1.109 | Precision@1: 60.037% (27127/45184)
+Loss: 1.109 | Precision@1: 60.048% (27209/45312)
+Loss: 1.108 | Precision@1: 60.062% (27292/45440)
+Loss: 1.108 | Precision@1: 60.057% (27367/45568)
+Loss: 1.107 | Precision@1: 60.091% (27459/45696)
+Loss: 1.107 | Precision@1: 60.080% (27531/45824)
+Loss: 1.107 | Precision@1: 60.119% (27626/45952)
+Loss: 1.106 | Precision@1: 60.128% (27707/46080)
+Loss: 1.106 | Precision@1: 60.141% (27790/46208)
+Loss: 1.105 | Precision@1: 60.154% (27873/46336)
+Loss: 1.105 | Precision@1: 60.133% (27940/46464)
+Loss: 1.105 | Precision@1: 60.150% (28025/46592)
+Loss: 1.105 | Precision@1: 60.165% (28109/46720)
+Loss: 1.104 | Precision@1: 60.197% (28201/46848)
+Loss: 1.104 | Precision@1: 60.199% (28279/46976)
+Loss: 1.103 | Precision@1: 60.222% (28367/47104)
+Loss: 1.103 | Precision@1: 60.230% (28448/47232)
+Loss: 1.103 | Precision@1: 60.247% (28533/47360)
+Loss: 1.102 | Precision@1: 60.257% (28615/47488)
+Loss: 1.102 | Precision@1: 60.255% (28691/47616)
+Loss: 1.102 | Precision@1: 60.269% (28775/47744)
+Loss: 1.102 | Precision@1: 60.277% (28856/47872)
+Loss: 1.101 | Precision@1: 60.308% (28948/48000)
+Loss: 1.101 | Precision@1: 60.325% (29033/48128)
+Loss: 1.101 | Precision@1: 60.324% (29110/48256)
+Loss: 1.100 | Precision@1: 60.338% (29194/48384)
+Loss: 1.100 | Precision@1: 60.356% (29280/48512)
+Loss: 1.099 | Precision@1: 60.376% (29367/48640)
+Loss: 1.099 | Precision@1: 60.388% (29450/48768)
+Loss: 1.099 | Precision@1: 60.385% (29526/48896)
+Loss: 1.098 | Precision@1: 60.399% (29610/49024)
+Loss: 1.099 | Precision@1: 60.404% (29690/49152)
+Loss: 1.098 | Precision@1: 60.410% (29770/49280)
+Loss: 1.098 | Precision@1: 60.427% (29856/49408)
+Loss: 1.097 | Precision@1: 60.443% (29941/49536)
+Loss: 1.097 | Precision@1: 60.456% (30025/49664)
+Loss: 1.097 | Precision@1: 60.476% (30112/49792)
+Loss: 1.096 | Precision@1: 60.471% (30187/49920)
+Loss: 1.096 | Precision@1: 60.476% (30238/50000)
+
+Aggregates: 			
+ 	 DataLoader Time: 0.4965 			
+ 	 Mini-batch Time: 12.0718 			
+ 	 Training Epoch Time: 30.6084
+ 			
+ Averages: 			
+ 	 Training Loss: 1.0958
+
+ Test set Averages: Loss: 1.096 | Precision@1: 61.420% (6142/10000)
+
+Epoch: 4
+Loss: 1.143 | Precision@1: 62.500% (80/128)
+Loss: 1.138 | Precision@1: 60.156% (154/256)
+Loss: 1.085 | Precision@1: 61.719% (237/384)
+Loss: 1.050 | Precision@1: 62.695% (321/512)
+Loss: 1.053 | Precision@1: 63.281% (405/640)
+Loss: 1.043 | Precision@1: 63.802% (490/768)
+Loss: 1.019 | Precision@1: 64.174% (575/896)
+Loss: 1.028 | Precision@1: 63.379% (649/1024)
+Loss: 1.030 | Precision@1: 63.628% (733/1152)
+Loss: 1.029 | Precision@1: 63.281% (810/1280)
+Loss: 1.019 | Precision@1: 63.494% (894/1408)
+Loss: 1.006 | Precision@1: 64.128% (985/1536)
+Loss: 0.998 | Precision@1: 64.663% (1076/1664)
+Loss: 0.995 | Precision@1: 64.565% (1157/1792)
+Loss: 0.979 | Precision@1: 65.104% (1250/1920)
+Loss: 0.974 | Precision@1: 65.234% (1336/2048)
+Loss: 0.977 | Precision@1: 65.257% (1420/2176)
+Loss: 0.975 | Precision@1: 65.451% (1508/2304)
+Loss: 0.982 | Precision@1: 65.049% (1582/2432)
+Loss: 0.986 | Precision@1: 64.961% (1663/2560)
+Loss: 0.981 | Precision@1: 65.216% (1753/2688)
+Loss: 0.975 | Precision@1: 65.518% (1845/2816)
+Loss: 0.980 | Precision@1: 65.149% (1918/2944)
+Loss: 0.980 | Precision@1: 65.072% (1999/3072)
+Loss: 0.986 | Precision@1: 64.688% (2070/3200)
+Loss: 0.984 | Precision@1: 64.663% (2152/3328)
+Loss: 0.983 | Precision@1: 64.583% (2232/3456)
+Loss: 0.985 | Precision@1: 64.342% (2306/3584)
+Loss: 0.987 | Precision@1: 64.251% (2385/3712)
+Loss: 0.986 | Precision@1: 64.271% (2468/3840)
+Loss: 0.981 | Precision@1: 64.415% (2556/3968)
+Loss: 0.981 | Precision@1: 64.551% (2644/4096)
+Loss: 0.976 | Precision@1: 64.631% (2730/4224)
+Loss: 0.980 | Precision@1: 64.522% (2808/4352)
+Loss: 0.981 | Precision@1: 64.375% (2884/4480)
+Loss: 0.987 | Precision@1: 64.128% (2955/4608)
+Loss: 0.985 | Precision@1: 64.274% (3044/4736)
+Loss: 0.987 | Precision@1: 64.165% (3121/4864)
+Loss: 0.986 | Precision@1: 64.243% (3207/4992)
+Loss: 0.983 | Precision@1: 64.355% (3295/5120)
+Loss: 0.982 | Precision@1: 64.310% (3375/5248)
+Loss: 0.982 | Precision@1: 64.379% (3461/5376)
+Loss: 0.984 | Precision@1: 64.426% (3546/5504)
+Loss: 0.982 | Precision@1: 64.418% (3628/5632)
+Loss: 0.981 | Precision@1: 64.531% (3717/5760)
+Loss: 0.983 | Precision@1: 64.470% (3796/5888)
+Loss: 0.982 | Precision@1: 64.545% (3883/6016)
+Loss: 0.981 | Precision@1: 64.421% (3958/6144)
+Loss: 0.982 | Precision@1: 64.397% (4039/6272)
+Loss: 0.980 | Precision@1: 64.484% (4127/6400)
+Loss: 0.981 | Precision@1: 64.384% (4203/6528)
+Loss: 0.980 | Precision@1: 64.378% (4285/6656)
+Loss: 0.984 | Precision@1: 64.239% (4358/6784)
+Loss: 0.983 | Precision@1: 64.251% (4441/6912)
+Loss: 0.983 | Precision@1: 64.233% (4522/7040)
+Loss: 0.982 | Precision@1: 64.342% (4612/7168)
+Loss: 0.981 | Precision@1: 64.337% (4694/7296)
+Loss: 0.985 | Precision@1: 64.197% (4766/7424)
+Loss: 0.983 | Precision@1: 64.288% (4855/7552)
+Loss: 0.982 | Precision@1: 64.297% (4938/7680)
+Loss: 0.981 | Precision@1: 64.319% (5022/7808)
+Loss: 0.979 | Precision@1: 64.415% (5112/7936)
+Loss: 0.980 | Precision@1: 64.348% (5189/8064)
+Loss: 0.981 | Precision@1: 64.270% (5265/8192)
+Loss: 0.979 | Precision@1: 64.327% (5352/8320)
+Loss: 0.976 | Precision@1: 64.477% (5447/8448)
+Loss: 0.974 | Precision@1: 64.529% (5534/8576)
+Loss: 0.973 | Precision@1: 64.511% (5615/8704)
+Loss: 0.972 | Precision@1: 64.549% (5701/8832)
+Loss: 0.972 | Precision@1: 64.520% (5781/8960)
+Loss: 0.970 | Precision@1: 64.580% (5869/9088)
+Loss: 0.970 | Precision@1: 64.681% (5961/9216)
+Loss: 0.968 | Precision@1: 64.790% (6054/9344)
+Loss: 0.967 | Precision@1: 64.844% (6142/9472)
+Loss: 0.963 | Precision@1: 64.969% (6237/9600)
+Loss: 0.965 | Precision@1: 64.967% (6320/9728)
+Loss: 0.963 | Precision@1: 65.026% (6409/9856)
+Loss: 0.965 | Precision@1: 65.014% (6491/9984)
+Loss: 0.967 | Precision@1: 64.972% (6570/10112)
+Loss: 0.968 | Precision@1: 64.971% (6653/10240)
+Loss: 0.967 | Precision@1: 64.950% (6734/10368)
+Loss: 0.965 | Precision@1: 65.044% (6827/10496)
+Loss: 0.964 | Precision@1: 65.126% (6919/10624)
+Loss: 0.964 | Precision@1: 65.169% (7007/10752)
+Loss: 0.962 | Precision@1: 65.257% (7100/10880)
+Loss: 0.960 | Precision@1: 65.307% (7189/11008)
+Loss: 0.960 | Precision@1: 65.311% (7273/11136)
+Loss: 0.961 | Precision@1: 65.297% (7355/11264)
+Loss: 0.962 | Precision@1: 65.230% (7431/11392)
+Loss: 0.962 | Precision@1: 65.243% (7516/11520)
+Loss: 0.963 | Precision@1: 65.204% (7595/11648)
+Loss: 0.965 | Precision@1: 65.166% (7674/11776)
+Loss: 0.965 | Precision@1: 65.188% (7760/11904)
+Loss: 0.965 | Precision@1: 65.209% (7846/12032)
+Loss: 0.965 | Precision@1: 65.255% (7935/12160)
+Loss: 0.964 | Precision@1: 65.275% (8021/12288)
+Loss: 0.963 | Precision@1: 65.271% (8104/12416)
+Loss: 0.963 | Precision@1: 65.306% (8192/12544)
+Loss: 0.963 | Precision@1: 65.325% (8278/12672)
+Loss: 0.961 | Precision@1: 65.383% (8369/12800)
+Loss: 0.961 | Precision@1: 65.385% (8453/12928)
+Loss: 0.962 | Precision@1: 65.365% (8534/13056)
+Loss: 0.963 | Precision@1: 65.322% (8612/13184)
+Loss: 0.962 | Precision@1: 65.347% (8699/13312)
+Loss: 0.963 | Precision@1: 65.253% (8770/13440)
+Loss: 0.965 | Precision@1: 65.161% (8841/13568)
+Loss: 0.966 | Precision@1: 65.121% (8919/13696)
+Loss: 0.965 | Precision@1: 65.191% (9012/13824)
+Loss: 0.966 | Precision@1: 65.238% (9102/13952)
+Loss: 0.967 | Precision@1: 65.241% (9186/14080)
+Loss: 0.967 | Precision@1: 65.252% (9271/14208)
+Loss: 0.965 | Precision@1: 65.297% (9361/14336)
+Loss: 0.964 | Precision@1: 65.335% (9450/14464)
+Loss: 0.964 | Precision@1: 65.330% (9533/14592)
+Loss: 0.962 | Precision@1: 65.421% (9630/14720)
+Loss: 0.962 | Precision@1: 65.436% (9716/14848)
+Loss: 0.961 | Precision@1: 65.471% (9805/14976)
+Loss: 0.962 | Precision@1: 65.473% (9889/15104)
+Loss: 0.963 | Precision@1: 65.494% (9976/15232)
+Loss: 0.963 | Precision@1: 65.436% (10051/15360)
+Loss: 0.963 | Precision@1: 65.412% (10131/15488)
+Loss: 0.962 | Precision@1: 65.465% (10223/15616)
+Loss: 0.962 | Precision@1: 65.504% (10313/15744)
+Loss: 0.962 | Precision@1: 65.499% (10396/15872)
+Loss: 0.960 | Precision@1: 65.544% (10487/16000)
+Loss: 0.961 | Precision@1: 65.507% (10565/16128)
+Loss: 0.961 | Precision@1: 65.496% (10647/16256)
+Loss: 0.959 | Precision@1: 65.515% (10734/16384)
+Loss: 0.959 | Precision@1: 65.577% (10828/16512)
+Loss: 0.958 | Precision@1: 65.601% (10916/16640)
+Loss: 0.957 | Precision@1: 65.649% (11008/16768)
+Loss: 0.957 | Precision@1: 65.631% (11089/16896)
+Loss: 0.956 | Precision@1: 65.660% (11178/17024)
+Loss: 0.955 | Precision@1: 65.724% (11273/17152)
+Loss: 0.955 | Precision@1: 65.758% (11363/17280)
+Loss: 0.956 | Precision@1: 65.751% (11446/17408)
+Loss: 0.955 | Precision@1: 65.773% (11534/17536)
+Loss: 0.956 | Precision@1: 65.789% (11621/17664)
+Loss: 0.956 | Precision@1: 65.777% (11703/17792)
+Loss: 0.956 | Precision@1: 65.781% (11788/17920)
+Loss: 0.956 | Precision@1: 65.775% (11871/18048)
+Loss: 0.955 | Precision@1: 65.785% (11957/18176)
+Loss: 0.954 | Precision@1: 65.805% (12045/18304)
+Loss: 0.955 | Precision@1: 65.793% (12127/18432)
+Loss: 0.954 | Precision@1: 65.867% (12225/18560)
+Loss: 0.954 | Precision@1: 65.887% (12313/18688)
+Loss: 0.954 | Precision@1: 65.891% (12398/18816)
+Loss: 0.954 | Precision@1: 65.868% (12478/18944)
+Loss: 0.954 | Precision@1: 65.861% (12561/19072)
+Loss: 0.954 | Precision@1: 65.906% (12654/19200)
+Loss: 0.953 | Precision@1: 65.910% (12739/19328)
+Loss: 0.953 | Precision@1: 65.933% (12828/19456)
+Loss: 0.953 | Precision@1: 65.921% (12910/19584)
+Loss: 0.952 | Precision@1: 65.965% (13003/19712)
+Loss: 0.952 | Precision@1: 65.948% (13084/19840)
+Loss: 0.952 | Precision@1: 65.930% (13165/19968)
+Loss: 0.951 | Precision@1: 65.958% (13255/20096)
+Loss: 0.950 | Precision@1: 65.996% (13347/20224)
+Loss: 0.951 | Precision@1: 65.989% (13430/20352)
+Loss: 0.950 | Precision@1: 66.016% (13520/20480)
+Loss: 0.949 | Precision@1: 66.033% (13608/20608)
+Loss: 0.949 | Precision@1: 66.045% (13695/20736)
+Loss: 0.949 | Precision@1: 66.056% (13782/20864)
+Loss: 0.948 | Precision@1: 66.092% (13874/20992)
+Loss: 0.947 | Precision@1: 66.122% (13965/21120)
+Loss: 0.947 | Precision@1: 66.129% (14051/21248)
+Loss: 0.948 | Precision@1: 66.097% (14129/21376)
+Loss: 0.948 | Precision@1: 66.085% (14211/21504)
+Loss: 0.948 | Precision@1: 66.087% (14296/21632)
+Loss: 0.947 | Precision@1: 66.117% (14387/21760)
+Loss: 0.946 | Precision@1: 66.164% (14482/21888)
+Loss: 0.946 | Precision@1: 66.188% (14572/22016)
+Loss: 0.945 | Precision@1: 66.212% (14662/22144)
+Loss: 0.944 | Precision@1: 66.213% (14747/22272)
+Loss: 0.944 | Precision@1: 66.210% (14831/22400)
+Loss: 0.945 | Precision@1: 66.189% (14911/22528)
+Loss: 0.945 | Precision@1: 66.203% (14999/22656)
+Loss: 0.945 | Precision@1: 66.196% (15082/22784)
+Loss: 0.945 | Precision@1: 66.223% (15173/22912)
+Loss: 0.944 | Precision@1: 66.259% (15266/23040)
+Loss: 0.943 | Precision@1: 66.259% (15351/23168)
+Loss: 0.943 | Precision@1: 66.282% (15441/23296)
+Loss: 0.943 | Precision@1: 66.270% (15523/23424)
+Loss: 0.943 | Precision@1: 66.266% (15607/23552)
+Loss: 0.942 | Precision@1: 66.271% (15693/23680)
+Loss: 0.942 | Precision@1: 66.293% (15783/23808)
+Loss: 0.943 | Precision@1: 66.289% (15867/23936)
+Loss: 0.941 | Precision@1: 66.315% (15958/24064)
+Loss: 0.941 | Precision@1: 66.324% (16045/24192)
+Loss: 0.940 | Precision@1: 66.369% (16141/24320)
+Loss: 0.941 | Precision@1: 66.386% (16230/24448)
+Loss: 0.940 | Precision@1: 66.402% (16319/24576)
+Loss: 0.940 | Precision@1: 66.370% (16396/24704)
+Loss: 0.941 | Precision@1: 66.354% (16477/24832)
+Loss: 0.940 | Precision@1: 66.342% (16559/24960)
+Loss: 0.940 | Precision@1: 66.358% (16648/25088)
+Loss: 0.940 | Precision@1: 66.347% (16730/25216)
+Loss: 0.939 | Precision@1: 66.363% (16819/25344)
+Loss: 0.940 | Precision@1: 66.340% (16898/25472)
+Loss: 0.940 | Precision@1: 66.316% (16977/25600)
+Loss: 0.940 | Precision@1: 66.309% (17060/25728)
+Loss: 0.939 | Precision@1: 66.313% (17146/25856)
+Loss: 0.939 | Precision@1: 66.306% (17229/25984)
+Loss: 0.938 | Precision@1: 66.311% (17315/26112)
+Loss: 0.938 | Precision@1: 66.330% (17405/26240)
+Loss: 0.938 | Precision@1: 66.334% (17491/26368)
+Loss: 0.938 | Precision@1: 66.327% (17574/26496)
+Loss: 0.938 | Precision@1: 66.327% (17659/26624)
+Loss: 0.938 | Precision@1: 66.335% (17746/26752)
+Loss: 0.938 | Precision@1: 66.328% (17829/26880)
+Loss: 0.939 | Precision@1: 66.303% (17907/27008)
+Loss: 0.938 | Precision@1: 66.307% (17993/27136)
+Loss: 0.938 | Precision@1: 66.315% (18080/27264)
+Loss: 0.938 | Precision@1: 66.319% (18166/27392)
+Loss: 0.938 | Precision@1: 66.323% (18252/27520)
+Loss: 0.937 | Precision@1: 66.366% (18349/27648)
+Loss: 0.937 | Precision@1: 66.403% (18444/27776)
+Loss: 0.936 | Precision@1: 66.417% (18533/27904)
+Loss: 0.936 | Precision@1: 66.424% (18620/28032)
+Loss: 0.936 | Precision@1: 66.442% (18710/28160)
+Loss: 0.936 | Precision@1: 66.449% (18797/28288)
+Loss: 0.935 | Precision@1: 66.441% (18880/28416)
+Loss: 0.935 | Precision@1: 66.490% (18979/28544)
+Loss: 0.934 | Precision@1: 66.521% (19073/28672)
+Loss: 0.933 | Precision@1: 66.531% (19161/28800)
+Loss: 0.933 | Precision@1: 66.534% (19247/28928)
+Loss: 0.933 | Precision@1: 66.544% (19335/29056)
+Loss: 0.932 | Precision@1: 66.560% (19425/29184)
+Loss: 0.932 | Precision@1: 66.556% (19509/29312)
+Loss: 0.932 | Precision@1: 66.583% (19602/29440)
+Loss: 0.931 | Precision@1: 66.579% (19686/29568)
+Loss: 0.930 | Precision@1: 66.625% (19785/29696)
+Loss: 0.930 | Precision@1: 66.648% (19877/29824)
+Loss: 0.929 | Precision@1: 66.693% (19976/29952)
+Loss: 0.928 | Precision@1: 66.719% (20069/30080)
+Loss: 0.928 | Precision@1: 66.744% (20162/30208)
+Loss: 0.927 | Precision@1: 66.772% (20256/30336)
+Loss: 0.927 | Precision@1: 66.774% (20342/30464)
+Loss: 0.926 | Precision@1: 66.812% (20439/30592)
+Loss: 0.926 | Precision@1: 66.810% (20524/30720)
+Loss: 0.925 | Precision@1: 66.847% (20621/30848)
+Loss: 0.925 | Precision@1: 66.852% (20708/30976)
+Loss: 0.924 | Precision@1: 66.853% (20794/31104)
+Loss: 0.924 | Precision@1: 66.867% (20884/31232)
+Loss: 0.924 | Precision@1: 66.872% (20971/31360)
+Loss: 0.923 | Precision@1: 66.895% (21064/31488)
+Loss: 0.923 | Precision@1: 66.900% (21151/31616)
+Loss: 0.923 | Precision@1: 66.891% (21234/31744)
+Loss: 0.922 | Precision@1: 66.924% (21330/31872)
+Loss: 0.921 | Precision@1: 66.963% (21428/32000)
+Loss: 0.922 | Precision@1: 66.951% (21510/32128)
+Loss: 0.922 | Precision@1: 66.949% (21595/32256)
+Loss: 0.922 | Precision@1: 66.956% (21683/32384)
+Loss: 0.922 | Precision@1: 66.960% (21770/32512)
+Loss: 0.922 | Precision@1: 66.988% (21865/32640)
+Loss: 0.922 | Precision@1: 66.983% (21949/32768)
+Loss: 0.922 | Precision@1: 66.975% (22032/32896)
+Loss: 0.921 | Precision@1: 66.966% (22115/33024)
+Loss: 0.921 | Precision@1: 66.964% (22200/33152)
+Loss: 0.921 | Precision@1: 66.950% (22281/33280)
+Loss: 0.921 | Precision@1: 66.975% (22375/33408)
+Loss: 0.920 | Precision@1: 66.997% (22468/33536)
+Loss: 0.920 | Precision@1: 66.994% (22553/33664)
+Loss: 0.921 | Precision@1: 66.974% (22632/33792)
+Loss: 0.920 | Precision@1: 67.008% (22729/33920)
+Loss: 0.920 | Precision@1: 67.023% (22820/34048)
+Loss: 0.919 | Precision@1: 67.065% (22920/34176)
+Loss: 0.919 | Precision@1: 67.080% (23011/34304)
+Loss: 0.919 | Precision@1: 67.097% (23103/34432)
+Loss: 0.918 | Precision@1: 67.121% (23197/34560)
+Loss: 0.918 | Precision@1: 67.130% (23286/34688)
+Loss: 0.918 | Precision@1: 67.139% (23375/34816)
+Loss: 0.918 | Precision@1: 67.136% (23460/34944)
+Loss: 0.918 | Precision@1: 67.136% (23546/35072)
+Loss: 0.918 | Precision@1: 67.134% (23631/35200)
+Loss: 0.918 | Precision@1: 67.142% (23720/35328)
+Loss: 0.918 | Precision@1: 67.154% (23810/35456)
+Loss: 0.918 | Precision@1: 67.157% (23897/35584)
+Loss: 0.917 | Precision@1: 67.159% (23984/35712)
+Loss: 0.917 | Precision@1: 67.182% (24078/35840)
+Loss: 0.916 | Precision@1: 67.199% (24170/35968)
+Loss: 0.916 | Precision@1: 67.218% (24263/36096)
+Loss: 0.916 | Precision@1: 67.204% (24344/36224)
+Loss: 0.916 | Precision@1: 67.207% (24431/36352)
+Loss: 0.915 | Precision@1: 67.231% (24526/36480)
+Loss: 0.915 | Precision@1: 67.239% (24615/36608)
+Loss: 0.915 | Precision@1: 67.266% (24711/36736)
+Loss: 0.915 | Precision@1: 67.269% (24798/36864)
+Loss: 0.915 | Precision@1: 67.255% (24879/36992)
+Loss: 0.916 | Precision@1: 67.241% (24960/37120)
+Loss: 0.916 | Precision@1: 67.228% (25041/37248)
+Loss: 0.915 | Precision@1: 67.241% (25132/37376)
+Loss: 0.915 | Precision@1: 67.265% (25227/37504)
+Loss: 0.915 | Precision@1: 67.283% (25320/37632)
+Loss: 0.914 | Precision@1: 67.288% (25408/37760)
+Loss: 0.915 | Precision@1: 67.288% (25494/37888)
+Loss: 0.914 | Precision@1: 67.314% (25590/38016)
+Loss: 0.915 | Precision@1: 67.305% (25673/38144)
+Loss: 0.916 | Precision@1: 67.266% (25744/38272)
+Loss: 0.916 | Precision@1: 67.242% (25821/38400)
+Loss: 0.916 | Precision@1: 67.242% (25907/38528)
+Loss: 0.916 | Precision@1: 67.244% (25994/38656)
+Loss: 0.916 | Precision@1: 67.249% (26082/38784)
+Loss: 0.915 | Precision@1: 67.272% (26177/38912)
+Loss: 0.916 | Precision@1: 67.272% (26263/39040)
+Loss: 0.915 | Precision@1: 67.287% (26355/39168)
+Loss: 0.915 | Precision@1: 67.287% (26441/39296)
+Loss: 0.916 | Precision@1: 67.279% (26524/39424)
+Loss: 0.916 | Precision@1: 67.258% (26602/39552)
+Loss: 0.916 | Precision@1: 67.271% (26693/39680)
+Loss: 0.915 | Precision@1: 67.283% (26784/39808)
+Loss: 0.915 | Precision@1: 67.308% (26880/39936)
+Loss: 0.914 | Precision@1: 67.332% (26976/40064)
+Loss: 0.915 | Precision@1: 67.309% (27053/40192)
+Loss: 0.915 | Precision@1: 67.321% (27144/40320)
+Loss: 0.914 | Precision@1: 67.336% (27236/40448)
+Loss: 0.914 | Precision@1: 67.345% (27326/40576)
+Loss: 0.914 | Precision@1: 67.377% (27425/40704)
+Loss: 0.913 | Precision@1: 67.403% (27522/40832)
+Loss: 0.912 | Precision@1: 67.439% (27623/40960)
+Loss: 0.912 | Precision@1: 67.458% (27717/41088)
+Loss: 0.912 | Precision@1: 67.454% (27802/41216)
+Loss: 0.912 | Precision@1: 67.473% (27896/41344)
+Loss: 0.911 | Precision@1: 67.501% (27994/41472)
+Loss: 0.911 | Precision@1: 67.510% (28084/41600)
+Loss: 0.911 | Precision@1: 67.523% (28176/41728)
+Loss: 0.911 | Precision@1: 67.520% (28261/41856)
+Loss: 0.910 | Precision@1: 67.547% (28359/41984)
+Loss: 0.910 | Precision@1: 67.556% (28449/42112)
+Loss: 0.910 | Precision@1: 67.550% (28533/42240)
+Loss: 0.910 | Precision@1: 67.558% (28623/42368)
+Loss: 0.910 | Precision@1: 67.562% (28711/42496)
+Loss: 0.910 | Precision@1: 67.553% (28794/42624)
+Loss: 0.910 | Precision@1: 67.559% (28883/42752)
+Loss: 0.910 | Precision@1: 67.565% (28972/42880)
+Loss: 0.910 | Precision@1: 67.564% (29058/43008)
+Loss: 0.910 | Precision@1: 67.565% (29145/43136)
+Loss: 0.910 | Precision@1: 67.539% (29220/43264)
+Loss: 0.910 | Precision@1: 67.540% (29307/43392)
+Loss: 0.910 | Precision@1: 67.544% (29395/43520)
+Loss: 0.910 | Precision@1: 67.549% (29484/43648)
+Loss: 0.909 | Precision@1: 67.562% (29576/43776)
+Loss: 0.909 | Precision@1: 67.563% (29663/43904)
+Loss: 0.909 | Precision@1: 67.564% (29750/44032)
+Loss: 0.908 | Precision@1: 67.575% (29841/44160)
+Loss: 0.908 | Precision@1: 67.587% (29933/44288)
+Loss: 0.908 | Precision@1: 67.611% (30030/44416)
+Loss: 0.907 | Precision@1: 67.619% (30120/44544)
+Loss: 0.907 | Precision@1: 67.633% (30213/44672)
+Loss: 0.907 | Precision@1: 67.650% (30307/44800)
+Loss: 0.907 | Precision@1: 67.642% (30390/44928)
+Loss: 0.907 | Precision@1: 67.656% (30483/45056)
+Loss: 0.907 | Precision@1: 67.672% (30577/45184)
+Loss: 0.906 | Precision@1: 67.693% (30673/45312)
+Loss: 0.906 | Precision@1: 67.713% (30769/45440)
+Loss: 0.905 | Precision@1: 67.736% (30866/45568)
+Loss: 0.905 | Precision@1: 67.746% (30957/45696)
+Loss: 0.904 | Precision@1: 67.775% (31057/45824)
+Loss: 0.904 | Precision@1: 67.771% (31142/45952)
+Loss: 0.904 | Precision@1: 67.773% (31230/46080)
+Loss: 0.904 | Precision@1: 67.767% (31314/46208)
+Loss: 0.904 | Precision@1: 67.781% (31407/46336)
+Loss: 0.903 | Precision@1: 67.792% (31499/46464)
+Loss: 0.903 | Precision@1: 67.814% (31596/46592)
+Loss: 0.902 | Precision@1: 67.836% (31693/46720)
+Loss: 0.902 | Precision@1: 67.856% (31789/46848)
+Loss: 0.901 | Precision@1: 67.858% (31877/46976)
+Loss: 0.901 | Precision@1: 67.863% (31966/47104)
+Loss: 0.901 | Precision@1: 67.865% (32054/47232)
+Loss: 0.901 | Precision@1: 67.878% (32147/47360)
+Loss: 0.901 | Precision@1: 67.861% (32226/47488)
+Loss: 0.901 | Precision@1: 67.887% (32325/47616)
+Loss: 0.901 | Precision@1: 67.898% (32417/47744)
+Loss: 0.901 | Precision@1: 67.887% (32499/47872)
+Loss: 0.901 | Precision@1: 67.885% (32585/48000)
+Loss: 0.901 | Precision@1: 67.896% (32677/48128)
+Loss: 0.900 | Precision@1: 67.913% (32772/48256)
+Loss: 0.900 | Precision@1: 67.921% (32863/48384)
+Loss: 0.900 | Precision@1: 67.942% (32960/48512)
+Loss: 0.899 | Precision@1: 67.963% (33057/48640)
+Loss: 0.899 | Precision@1: 67.971% (33148/48768)
+Loss: 0.899 | Precision@1: 67.981% (33240/48896)
+Loss: 0.899 | Precision@1: 67.991% (33332/49024)
+Loss: 0.898 | Precision@1: 68.014% (33430/49152)
+Loss: 0.898 | Precision@1: 68.009% (33515/49280)
+Loss: 0.898 | Precision@1: 68.023% (33609/49408)
+Loss: 0.898 | Precision@1: 68.027% (33698/49536)
+Loss: 0.897 | Precision@1: 68.033% (33788/49664)
+Loss: 0.898 | Precision@1: 68.019% (33868/49792)
+Loss: 0.898 | Precision@1: 68.029% (33960/49920)
+Loss: 0.898 | Precision@1: 68.032% (34016/50000)
+
+Aggregates: 			
+ 	 DataLoader Time: 0.4346 			
+ 	 Mini-batch Time: 12.0843 			
+ 	 Training Epoch Time: 30.6335
+ 			
+ Averages: 			
+ 	 Training Loss: 0.8977
+
+ Test set Averages: Loss: 1.121 | Precision@1: 64.400% (6440/10000)
+Average dataloader time is 0.49
