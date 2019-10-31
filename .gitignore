@@ -1,5 +1,13 @@
 hw2/data/
 hw2/.ipynb_checkpoints/
-
+.idea/
+HPML01Courseintro.pdf
+HPML02MLandPyTorchBasics.pdf
+HPML02Performance_Optimization_B_2.pdf
+HPML04Opt_Algos_and_Pytorch.pdf
+README.md
+hw1/a.out
+hw1/dp1
+hw2/__pycache__/
 
 

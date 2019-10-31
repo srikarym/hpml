@@ -1,0 +1,7 @@
+logs folder has the logs required for questions c2 - c7
+
+report.ipynb has the answers for q1-q4
+
+cluster_runs_c*.py has the script to run all experiments of question C* (C2 - C7) as separate jobs
+
+./run_all.sh runs all cluster_runs_c*.py files
