@@ -6,7 +6,7 @@
 #include <cuda_runtime.h>
 #include <stdio.h>
 #define BILLION 1E9
-#define BLOCK_SIZE 8
+#define BLOCK_SIZE 4
 
 using namespace std;
 
@@ -35,27 +35,34 @@ void print_stats(double ci, double td, double runtime, double th, double co, cha
 
 void init_3d_kernel(double *h_input, int C, int H, int W) {
 
-	for(int channel=0;channel<C;channel++){
-        for(int height=0; height<H; height++){
-            for(int width=0; width<W; width++){
-                h_input[(channel*W*H)+(height*W)+width]= channel * (width+height);
-            }
-        }
-    }
+	for(int channel=0;channel<C;channel++)
+	{
+		for(int height=0; height<H; height++)
+		{
+			for(int width=0; width<W; width++)
+			{
+				h_input[(channel*W*H)+(height*W)+width]= channel * (width+height);
+			}
+		}
+	}
 }
 
 
 void init_4d_kernel(double *h_filter, int K, int C, int FH, int FW) {
 
-	for(int k=0;k<K;k++){
-        for(int channel=0;channel<C;channel++){
-            for(int height=0; height<FH; height++){
-                for(int width=0; width<FW; width++){
-                    h_filter[(k*C*FW*FH)+(channel*FW*FH)+(height*FW)+width] = (channel+k)*(width+height);
-                }
-            }
-        }
-    }
+	for(int k=0;k<K;k++)
+	{
+		for(int channel=0;channel<C;channel++)
+		{
+			for(int height=0; height<FH; height++)
+			{
+				for(int width=0; width<FW; width++)
+				{
+					h_filter[(k*C*FW*FH)+(channel*FW*FH)+(height*FW)+width] = (channel+k)*(width+height);
+				}
+			}
+		}
+	}
 }
 
 
@@ -63,8 +70,10 @@ __global__ void sum_3d_kernel(double *in, int C, int H, int W, double *out) {
 	int c = threadIdx.x;
 
 	double sum = 0.0;
-	for (int i = 0; i < H; ++i) {
-		for (int j = 0; j < W; ++j) {
+	for (int i = 0; i < H; ++i) 
+	{
+		for (int j = 0; j < W; ++j) 
+		{
 			int in_idx = j + i * W + c * H * W;
 			sum += in[in_idx];
 		}
@@ -83,17 +92,19 @@ __device__ double point_conv_2d_kernel(double *in, int C, int H, int W,double *f
 	int row = i - (FH / 2), col = j - (FW / 2);
 
 	for (int c = 0; c < C; ++c) {
-		for (int fh = 0; fh < FH; ++fh) {
-			for (int fw = 0; fw < FW; ++fw) {
-				// Ignore out of bounds. Equivalent to padding with zeros.
-				if (col + fw < 0 || col + fw >= W || row + fh < 0 || row + fh >= H) {
+		for (int fh = 0; fh < FH; ++fh) 
+		{
+			for (int fw = 0; fw < FW; ++fw) 
+			{
+
+				if (col + fw < 0 || col + fw >= W || row + fh < 0 || row + fh >= H) 
+				{
 					continue;
 				}
 				int in_idx = (col + fw) + (row + fh) * W + c * H * W;
 
 				// Transpose Filter for Convolution.
-				int f_idx = (FW - 1 - fw) + (FH - 1 - fh) * FW + 
-										c * FH * FW + k * C * FH * FW;
+				int f_idx = (FW - 1 - fw) + (FH - 1 - fh) * FW + c * FH * FW + k * C * FH * FW;
 				conv += in[in_idx] * filter[f_idx];
 			}
 		}
@@ -116,52 +127,121 @@ __global__ void tiled_conv_2d_kernel(double *in, int C, int H, int W,
 	size_t TH = BLOCK_SIZE + (FH / 2) * 2;
 	extern __shared__ double tile[];
 
-	if (k < K && i < H && j < W) {
-		// Cooperate among threads to load tile.
+	if (k < K && i < H && j < W) 
+	{
+
 		int tj = threadIdx.y + FW / 2;
 		int ti = threadIdx.x + FH / 2;
 
-		for (int c = 0; c < C; ++c) {
+		for (int c = 0; c < C; ++c) 
+		{
 			// Point
 			tile[tj + ti * TW + c * TH * TW] = in[j + i * W + c * H * W];
 
 			// Top
-			if (threadIdx.x == 0) {
-				tile[tj + (ti - 1) * TW + c * TH * TW] = (i > 0) ? in[j + (i - 1) * W + c * H * W] : 0.0;
+			if (threadIdx.x == 0) 
+			{
+				if (i > 0)
+				{
+					tile[tj + (ti - 1) * TW + c * TH * TW] =  in[j + (i - 1) * W + c * H * W];
+				}
+				else
+				{
+					tile[tj + (ti - 1) * TW + c * TH * TW] = 0.0;
+				}
 
 				// Top Left Corner
-				if (threadIdx.y == 0) {
-					tile[(tj - 1) + (ti - 1) * TW + c * TH * TW] = (j > 0 && i > 0) ? in[(j - 1) + (i - 1) * W + c * H * W] : 0.0;
+				if (threadIdx.y == 0) 
+				{
+					if (j > 0 && i > 0)
+					{
+						tile[(tj - 1) + (ti - 1) * TW + c * TH * TW] =  in[(j - 1) + (i - 1) * W + c * H * W];
+					}
+					else
+					{
+						tile[(tj - 1) + (ti - 1) * TW + c * TH * TW] = 0.0;
+					}
+
 				}
 			}
 
 			// Right
-			if (threadIdx.y == BLOCK_SIZE - 1) {
-				tile[(tj + 1) + ti * TW + c * TH * TW] = (j < W - 1) ? in[(j + 1) + i * W + c * H * W] : 0.0;
+			if (threadIdx.y == BLOCK_SIZE - 1) 
+			{
+				if (j < W - 1)
+				{
+					tile[(tj + 1) + ti * TW + c * TH * TW] =in[(j + 1) + i * W + c * H * W];
+				}
+
+				else
+				{
+					tile[(tj + 1) + ti * TW + c * TH * TW] = 0.0;
+				}
 
 				// Top Right Corner
-				if (threadIdx.x == 0) {
-					tile[(tj + 1) + (ti - 1) * TW + c * TH * TW] = (j < W - 1 && i > 0) ? in[(j + 1) + (i - 1) * W + c * H * W] : 0.0;
+				if (threadIdx.x == 0) 
+				{
+					if (j < W - 1 && i > 0)
+					{
+						tile[(tj + 1) + (ti - 1) * TW + c * TH * TW] =  in[(j + 1) + (i - 1) * W + c * H * W];
+					}
+					else
+					{
+						tile[(tj + 1) + (ti - 1) * TW + c * TH * TW] = 0.0;
+					}
 				}
 			}
 
 			// Bottom
-			if (threadIdx.x == BLOCK_SIZE - 1) {
-				tile[tj + (ti + 1) * TW + c * TH * TW] = (i < H - 1) ? in[j + (i + 1) * W + c * H * W] : 0.0;
+			if (threadIdx.x == BLOCK_SIZE - 1) 
+			{
+				if (i < H - 1)
+				{
+					tile[tj + (ti + 1) * TW + c * TH * TW] =   in[j + (i + 1) * W + c * H * W];
+				}
+				else
+				{
+					tile[tj + (ti + 1) * TW + c * TH * TW] = 0.0;
+				}
 
 				// Bottom Right Corner
-				if (threadIdx.y == BLOCK_SIZE - 1) {
-					tile[(tj + 1) + (ti + 1) * TW + c * TH * TW] = (j < W - 1 && i < H - 1) ? in[(j + 1) + (i + 1) * W + c * H * W] : 0.0;
+				if (threadIdx.y == BLOCK_SIZE - 1) 
+				{
+					if (j < W - 1 && i < H - 1)
+					{
+						tile[(tj + 1) + (ti + 1) * TW + c * TH * TW] =  in[(j + 1) + (i + 1) * W + c * H * W];
+					}
+					else
+					{
+						tile[(tj + 1) + (ti + 1) * TW + c * TH * TW] = 0.0;
+
+					}
 				}
 			}
 
 			// Left
-			if (threadIdx.y == 0) {
-				tile[(tj - 1) + ti * TW + c * TH * TW] = (j > 0) ? in[(j - 1) + i * W + c * H * W] : 0.0;
+			if (threadIdx.y == 0) 
+			{
+				if (j > 0)
+				{
+					tile[(tj - 1) + ti * TW + c * TH * TW] =  in[(j - 1) + i * W + c * H * W];
+				}
+				else
+				{
+					tile[(tj - 1) + ti * TW + c * TH * TW] = 0.0;
+				}
 
 				// Bottom Left Corner
-				if (threadIdx.x == BLOCK_SIZE - 1) {
-					tile[(tj - 1) + (ti + 1) * TW + c * TH * TW] = (j > 0 && i < H - 1) ? in[(j - 1) + (i + 1) * W + c * H * W] : 0.0;
+				if (threadIdx.x == BLOCK_SIZE - 1) 
+				{
+					if (j > 0 && i < H - 1)
+					{
+						tile[(tj - 1) + (ti + 1) * TW + c * TH * TW] = in[(j - 1) + (i + 1) * W + c * H * W];
+					}
+					else
+					{
+						tile[(tj - 1) + (ti + 1) * TW + c * TH * TW] = 0.0;
+					}
 				}
 			}
 		}
@@ -211,24 +291,24 @@ void c1(int C, int H, int W, int K, int FH, int FW)
 	cudaMalloc(&filter, filter_size);
 	cudaMalloc(&output, output_size);
 
-    double* h_input = (double*) malloc(input_size);
-    double* h_filter = (double*) malloc(filter_size);
-    double* h_output = (double*) malloc(output_size);
-    char kernel[] = "kernel";
+	double* h_input = (double*) malloc(input_size);
+	double* h_filter = (double*) malloc(filter_size);
+	double* h_output = (double*) malloc(output_size);
+	char kernel[] = "kernel";
 
 
-    init_3d_kernel(h_input, C, H, W);
-    init_4d_kernel(h_filter, K, C, FH, FW);
+	init_3d_kernel(h_input, C, H, W);
+	init_4d_kernel(h_filter, K, C, FH, FW);
 
-    clock_gettime(CLOCK_MONOTONIC, &start);
-    cudaMemcpy(input, h_input, input_size, cudaMemcpyHostToDevice);
-    cudaDeviceSynchronize();
-    clock_gettime(CLOCK_MONOTONIC, &end);
+	clock_gettime(CLOCK_MONOTONIC, &start);
+	cudaMemcpy(input, h_input, input_size, cudaMemcpyHostToDevice);
+	cudaDeviceSynchronize();
+	clock_gettime(CLOCK_MONOTONIC, &end);
 
-    double copy_to_device = (end.tv_sec - start.tv_sec) + (end.tv_nsec - start.tv_nsec) / BILLION;
+	double copy_to_device = (end.tv_sec - start.tv_sec) + (end.tv_nsec - start.tv_nsec) / BILLION;
 
 
-    cudaMemcpy(filter, h_filter, filter_size, cudaMemcpyHostToDevice);
+	cudaMemcpy(filter, h_filter, filter_size, cudaMemcpyHostToDevice);
 
 	
 
@@ -255,13 +335,13 @@ void c1(int C, int H, int W, int K, int FH, int FW)
 
 
 	clock_gettime(CLOCK_MONOTONIC, &start);
-    cudaMemcpy(h_output, output, output_size, cudaMemcpyDeviceToHost);
-    cudaDeviceSynchronize();
-    clock_gettime(CLOCK_MONOTONIC, &end);
+	cudaMemcpy(h_output, output, output_size, cudaMemcpyDeviceToHost);
+	cudaDeviceSynchronize();
+	clock_gettime(CLOCK_MONOTONIC, &end);
 
-    double copy_to_host = (end.tv_sec - start.tv_sec) + (end.tv_nsec - start.tv_nsec) / BILLION;
+	double copy_to_host = (end.tv_sec - start.tv_sec) + (end.tv_nsec - start.tv_nsec) / BILLION;
 
-    print_stats(checksum_I, copy_to_device, runtime , copy_to_host, checksum_O, kernel);
+	print_stats(checksum_I, copy_to_device, runtime , copy_to_host, checksum_O, kernel);
 
 	free(h_input);
 	free(h_filter);
@@ -287,24 +367,24 @@ void c2(int C, int H, int W, int K, int FH, int FW)
 	cudaMalloc(&filter, filter_size);
 	cudaMalloc(&output, output_size);
 
-    double* h_input = (double*) malloc(input_size);
-    double* h_filter = (double*) malloc(filter_size);
-    double* h_output = (double*) malloc(output_size);
-    char kernel[] = "cudnn";
+	double* h_input = (double*) malloc(input_size);
+	double* h_filter = (double*) malloc(filter_size);
+	double* h_output = (double*) malloc(output_size);
+	char kernel[] = "cudnn";
 
-    init_3d_kernel(h_input, C, H, W);
-    init_4d_kernel(h_filter, K, C, FH, FW);
-    
+	init_3d_kernel(h_input, C, H, W);
+	init_4d_kernel(h_filter, K, C, FH, FW);
+	
 
 	clock_gettime(CLOCK_MONOTONIC, &start);
-    cudaMemcpy(input, h_input, input_size, cudaMemcpyHostToDevice);
-    cudaDeviceSynchronize();
-    clock_gettime(CLOCK_MONOTONIC, &end);
+	cudaMemcpy(input, h_input, input_size, cudaMemcpyHostToDevice);
+	cudaDeviceSynchronize();
+	clock_gettime(CLOCK_MONOTONIC, &end);
 
-    double copy_to_device = (end.tv_sec - start.tv_sec) + (end.tv_nsec - start.tv_nsec) / BILLION;
+	double copy_to_device = (end.tv_sec - start.tv_sec) + (end.tv_nsec - start.tv_nsec) / BILLION;
 
 
-    cudaMemcpy(filter, h_filter, filter_size, cudaMemcpyHostToDevice);
+	cudaMemcpy(filter, h_filter, filter_size, cudaMemcpyHostToDevice);
 
 	cudnnHandle_t cudnn;
 	checkCUDNN(cudnnCreate(&cudnn));
@@ -342,8 +422,7 @@ void c2(int C, int H, int W, int K, int FH, int FW)
 
 	clock_gettime(CLOCK_MONOTONIC, &end);
 
-	double runtime = (end.tv_sec - start.tv_sec) +
-									 (end.tv_nsec - start.tv_nsec) / BILLION;
+	double runtime = (end.tv_sec - start.tv_sec) + (end.tv_nsec - start.tv_nsec) / BILLION;
 
 
 	double checksum_I = sum_3d_tensor(input, C, H, W);
@@ -351,13 +430,13 @@ void c2(int C, int H, int W, int K, int FH, int FW)
 
 
 	clock_gettime(CLOCK_MONOTONIC, &start);
-    cudaMemcpy(h_output, output, output_size, cudaMemcpyDeviceToHost);
-    cudaDeviceSynchronize();
-    clock_gettime(CLOCK_MONOTONIC, &end);
+	cudaMemcpy(h_output, output, output_size, cudaMemcpyDeviceToHost);
+	cudaDeviceSynchronize();
+	clock_gettime(CLOCK_MONOTONIC, &end);
 
-    double copy_to_host = (end.tv_sec - start.tv_sec) + (end.tv_nsec - start.tv_nsec) / BILLION;
+	double copy_to_host = (end.tv_sec - start.tv_sec) + (end.tv_nsec - start.tv_nsec) / BILLION;
 
-    print_stats(checksum_I, copy_to_device, runtime , copy_to_host, checksum_O, kernel);
+	print_stats(checksum_I, copy_to_device, runtime , copy_to_host, checksum_O, kernel);
 
 	cudaFree(input);
 	cudaFree(filter);
