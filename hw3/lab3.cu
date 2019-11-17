@@ -10,6 +10,10 @@
 
 using namespace std;
 
+int C = 3, H = 1024, W = 1024;
+int K = 64, FH = 3, FW = 3;
+
+
 #define checkCUDNN(expression)                               \
   {                                                          \
 	cudnnStatus_t status = (expression);                     \
@@ -66,65 +70,34 @@ void init_4d_kernel(double *h_filter, int K, int C, int FH, int FW) {
 }
 
 
-__global__ void sum_3d_kernel(double *in, int C, int H, int W, double *out) {
-	int c = threadIdx.x;
-
-	double sum = 0.0;
-	for (int i = 0; i < H; ++i) 
-	{
-		for (int j = 0; j < W; ++j) 
-		{
-			int in_idx = j + i * W + c * H * W;
-			sum += in[in_idx];
-		}
-	}
-
-	out[c] = sum;
-}
-
-
-__device__ double point_conv_2d_kernel(double *in, int C, int H, int W,double *filter, 
-										int FH, int FW,int k, int i, int j) 
+double find_checksum(double * output, int K, int H, int W)
 {
-	double conv = 0.0;
-
-	// Top left corner
-	int row = i - (FH / 2), col = j - (FW / 2);
-
-	for (int c = 0; c < C; ++c) {
-		for (int fh = 0; fh < FH; ++fh) 
-		{
-			for (int fw = 0; fw < FW; ++fw) 
-			{
-
-				if (col + fw < 0 || col + fw >= W || row + fh < 0 || row + fh >= H) 
-				{
-					continue;
-				}
-				int in_idx = (col + fw) + (row + fh) * W + c * H * W;
-
-				// Transpose Filter for Convolution.
-				int f_idx = (FW - 1 - fw) + (FH - 1 - fh) * FW + c * FH * FW + k * C * FH * FW;
-				conv += in[in_idx] * filter[f_idx];
-			}
-		}
-	}
-
-	return conv;
+    double checksum = 0.0;
+    for (int k=0; k<K; k++)
+    {
+        for(int row=0; row<H; row++)
+        {
+            for(int col=0; col<W; col++)
+            {
+                checksum+=output[(k*H*W)+(row*W)+col];
+            }
+        }
+    }
+    return checksum;
 }
-
 
 
 
 __global__ void tiled_conv_2d_kernel(double *in, int C, int H, int W,
 									 double *filter, int K, int FH, int FW,
-									 double *out) {
+									 double *out) 
+{
 	int k = threadIdx.z + blockIdx.z * blockDim.z;
 	int i = threadIdx.x + blockIdx.x * blockDim.x;
 	int j = threadIdx.y + blockIdx.y * blockDim.y;
 
-	size_t TW = BLOCK_SIZE + (FW / 2) * 2;
-	size_t TH = BLOCK_SIZE + (FH / 2) * 2;
+	int TW = BLOCK_SIZE + (FW / 2) * 2;
+	int TH = BLOCK_SIZE + (FH / 2) * 2;
 	extern __shared__ double tile[];
 
 	if (k < K && i < H && j < W) 
@@ -135,7 +108,7 @@ __global__ void tiled_conv_2d_kernel(double *in, int C, int H, int W,
 
 		for (int c = 0; c < C; ++c) 
 		{
-			// Point
+			
 			tile[tj + ti * TW + c * TH * TW] = in[j + i * W + c * H * W];
 
 			// Top
@@ -249,40 +222,42 @@ __global__ void tiled_conv_2d_kernel(double *in, int C, int H, int W,
 		__syncthreads();
 
 		int out_idx = j + i * W + k * H * W;
-		out[out_idx] = point_conv_2d_kernel(tile, C, TH, TW,filter, FH, FW,k, ti, tj);
+		
+		// Top left corner
+		int row = i - (FH / 2), col = j - (FW / 2);
+		double conv_val = 0.0;
+
+		for (int c = 0; c < C; ++c) {
+			for (int fh = 0; fh < FH; ++fh) 
+			{
+				for (int fw = 0; fw < FW; ++fw) 
+				{
+
+					if (col + fw >= 0 && col + fw < W && row + fh >= 0 && row + fh < H) 
+					{
+						int in_idx = (col + fw) + (row + fh) * W + c * H * W;
+
+						// Transpose Filter for Convolution.
+						int f_idx = (FW - 1 - fw) + (FH - 1 - fh) * FW + c * FH * FW + k * C * FH * FW;
+						conv_val += in[in_idx] * filter[f_idx];
+					}
+					
+				}
+			}
+		}
+
+		out[out_idx] = conv_val;
+
+
 	}
 }
 
-
-double find_checksum(double *in, int C, int H, int W) {
-	double *d_sum = NULL;
-	cudaMalloc(&d_sum, C * sizeof(double));
-
-	sum_3d_kernel<<<1, C>>>(in, C, H, W, d_sum);
-	cudaDeviceSynchronize();
-
-	double *h_sum = (double*) malloc(C * sizeof(double));
-	cudaMemcpy(h_sum, d_sum, C * sizeof(double), cudaMemcpyDeviceToHost);
-
-	double sum = 0.0;
-	for (int c = 0; c < C; ++c) {
-		sum += h_sum[c];
-	}
-
-	cudaFree(d_sum);
-	free(h_sum);
-
-	return sum;
-}
-
-
-double c1(int C, int H, int W, int K, int FH, int FW) 
+double c1() 
 {
 	
-
-	size_t input_size = C * H * W * sizeof(double);
-	size_t filter_size = K * C * FH * FW * sizeof(double);
-	size_t output_size = H * W * K * sizeof(double);
+	int input_size = C * H * W * sizeof(double);
+	int filter_size = K * C * FH * FW * sizeof(double);
+	int output_size = H * W * K * sizeof(double);
 
 	double *input = NULL, *filter = NULL, *output = NULL;
 	struct timespec start, end;
@@ -316,8 +291,8 @@ double c1(int C, int H, int W, int K, int FH, int FW)
 	dim3 num_blocks(H / BLOCK_SIZE, W / BLOCK_SIZE);
 
 
-	size_t T = C * (BLOCK_SIZE + (FH / 2) * 2) * (BLOCK_SIZE + (FW / 2) * 2);
-	size_t TS = T * sizeof(double);
+	int T = C * (BLOCK_SIZE + (FH / 2) * 2) * (BLOCK_SIZE + (FW / 2) * 2);
+	int TS = T * sizeof(double);
 
 	clock_gettime(CLOCK_MONOTONIC, &start);
 	
@@ -327,11 +302,7 @@ double c1(int C, int H, int W, int K, int FH, int FW)
 	
 	clock_gettime(CLOCK_MONOTONIC, &end);
 
-	double runtime = (end.tv_sec - start.tv_sec) +
-									 (end.tv_nsec - start.tv_nsec) / BILLION;
-
-	double checksum_I = find_checksum(input, C, H, W);
-	double checksum_O = find_checksum(output, K, H, W);
+	double runtime = (end.tv_sec - start.tv_sec) +(end.tv_nsec - start.tv_nsec) / BILLION;
 
 
 	clock_gettime(CLOCK_MONOTONIC, &start);
@@ -340,6 +311,8 @@ double c1(int C, int H, int W, int K, int FH, int FW)
 	clock_gettime(CLOCK_MONOTONIC, &end);
 
 	double copy_to_host = (end.tv_sec - start.tv_sec) + (end.tv_nsec - start.tv_nsec) / BILLION;
+	double checksum_I = find_checksum(h_input, C, H, W);
+	double checksum_O = find_checksum(h_output, K, H, W);
 
 	print_stats(checksum_I, copy_to_device, runtime , copy_to_host, checksum_O, kernel);
 
@@ -354,13 +327,13 @@ double c1(int C, int H, int W, int K, int FH, int FW)
 }
 
 
-double c2(int C, int H, int W, int K, int FH, int FW) 
+double c2() 
 {
 
 
-	size_t input_size = C * H * W * sizeof(double);
-	size_t filter_size = K * C * FH * FW * sizeof(double);
-	size_t output_size = H * W * K * sizeof(double);
+	int input_size = C * H * W * sizeof(double);
+	int filter_size = K * C * FH * FW * sizeof(double);
+	int output_size = H * W * K * sizeof(double);
 
 	double *input = NULL, *filter = NULL, *output = NULL;
 	struct timespec start, end;
@@ -426,17 +399,14 @@ double c2(int C, int H, int W, int K, int FH, int FW)
 
 	double runtime = (end.tv_sec - start.tv_sec) + (end.tv_nsec - start.tv_nsec) / BILLION;
 
-
-	double checksum_I = find_checksum(input, C, H, W);
-	double checksum_O = find_checksum(output, K, H, W);
-
-
 	clock_gettime(CLOCK_MONOTONIC, &start);
 	cudaMemcpy(h_output, output, output_size, cudaMemcpyDeviceToHost);
 	cudaDeviceSynchronize();
 	clock_gettime(CLOCK_MONOTONIC, &end);
 
 	double copy_to_host = (end.tv_sec - start.tv_sec) + (end.tv_nsec - start.tv_nsec) / BILLION;
+	double checksum_I = find_checksum(h_input, C, H, W);
+	double checksum_O = find_checksum(h_output, K, H, W);
 
 	print_stats(checksum_I, copy_to_device, runtime , copy_to_host, checksum_O, kernel);
 
@@ -461,23 +431,19 @@ double c2(int C, int H, int W, int K, int FH, int FW)
 
 int main() {
 	
-	int C = 3, H = 1024, W = 1024;
-	int K = 64, FH = 3, FW = 3;
 
 	int repetitions = 5;
 
-	double timeConv = 0.0, timecuDNN = 0.0, runtime_c1 = 0.0, runtime_c2 = 0.0; 
+	double timeConv = 0.0, timecuDNN = 0.0; 
 
-	for (int i = 0; i < repetitions; i++){
+	for (int i = 0; i < repetitions; i++)
+	{
 
 		cout << "Repetition "<< i+1 << " out of "<<repetitions<<endl;
-		runtime_c1 = c1(C,H,W,K,FH,FW);
 
-		timeConv += runtime_c1;
+		timeConv += c1();
 
-		runtime_c2 = c2(C,H,W,K,FH,FW);
-
-		timecuDNN += runtime_c2;
+		timecuDNN += c2();
 
 	}
 
