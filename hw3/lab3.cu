@@ -27,7 +27,7 @@ void print_stats(double ci, double td, double runtime, double th, double co, cha
 	cout << "I = checksum: " << ci << endl;
 	cout << "Copy host->dev " << kernel << " " << td <<" sec" << endl;
 	cout << "time " << kernel << " " <<runtime <<" sec" << endl;
-	cout << "Copy dev->host " << kernel << " " << td <<" sec" << endl;
+	cout << "Copy dev->host " << kernel << " " << th <<" sec" << endl;
 	cout << "CUDA O = checksum " << co << endl;
 	cout << "" <<endl;
 }
@@ -254,7 +254,7 @@ __global__ void tiled_conv_2d_kernel(double *in, int C, int H, int W,
 }
 
 
-double sum_3d_tensor(double *in, int C, int H, int W) {
+double find_checksum(double *in, int C, int H, int W) {
 	double *d_sum = NULL;
 	cudaMalloc(&d_sum, C * sizeof(double));
 
@@ -276,7 +276,7 @@ double sum_3d_tensor(double *in, int C, int H, int W) {
 }
 
 
-void c1(int C, int H, int W, int K, int FH, int FW) 
+double c1(int C, int H, int W, int K, int FH, int FW) 
 {
 	
 
@@ -330,8 +330,8 @@ void c1(int C, int H, int W, int K, int FH, int FW)
 	double runtime = (end.tv_sec - start.tv_sec) +
 									 (end.tv_nsec - start.tv_nsec) / BILLION;
 
-	double checksum_I = sum_3d_tensor(input, C, H, W);
-	double checksum_O = sum_3d_tensor(output, K, H, W);
+	double checksum_I = find_checksum(input, C, H, W);
+	double checksum_O = find_checksum(output, K, H, W);
 
 
 	clock_gettime(CLOCK_MONOTONIC, &start);
@@ -349,10 +349,12 @@ void c1(int C, int H, int W, int K, int FH, int FW)
 	cudaFree(input);
 	cudaFree(filter);
 	cudaFree(output);
+
+	return runtime;
 }
 
 
-void c2(int C, int H, int W, int K, int FH, int FW) 
+double c2(int C, int H, int W, int K, int FH, int FW) 
 {
 
 
@@ -425,8 +427,8 @@ void c2(int C, int H, int W, int K, int FH, int FW)
 	double runtime = (end.tv_sec - start.tv_sec) + (end.tv_nsec - start.tv_nsec) / BILLION;
 
 
-	double checksum_I = sum_3d_tensor(input, C, H, W);
-	double checksum_O = sum_3d_tensor(output, K, H, W);
+	double checksum_I = find_checksum(input, C, H, W);
+	double checksum_O = find_checksum(output, K, H, W);
 
 
 	clock_gettime(CLOCK_MONOTONIC, &start);
@@ -452,6 +454,8 @@ void c2(int C, int H, int W, int K, int FH, int FW)
 	cudnnDestroyFilterDescriptor(filter_descriptor);
 	cudnnDestroyConvolutionDescriptor(convolution_descriptor);
 	cudnnDestroy(cudnn);
+
+	return runtime;
 }
 
 
@@ -462,25 +466,18 @@ int main() {
 
 	int repetitions = 5;
 
-	struct timespec start, end;
-	double timeConv = 0.0, timecuDNN = 0.0, runtime = 0.0; 
+	double timeConv = 0.0, timecuDNN = 0.0, runtime_c1 = 0.0, runtime_c2 = 0.0; 
 
 	for (int i = 0; i < repetitions; i++){
 
 		cout << "Repetition "<< i+1 << " out of "<<repetitions<<endl;
-		clock_gettime(CLOCK_MONOTONIC, &start);
-		c1(C,H,W,K,FH,FW);
-		clock_gettime(CLOCK_MONOTONIC, &end);
+		runtime_c1 = c1(C,H,W,K,FH,FW);
 
-		runtime = (end.tv_sec - start.tv_sec) +(end.tv_nsec - start.tv_nsec) / BILLION;
-		timeConv += runtime;
+		timeConv += runtime_c1;
 
-		clock_gettime(CLOCK_MONOTONIC, &start);
-		c2(C,H,W,K,FH,FW);
-		clock_gettime(CLOCK_MONOTONIC, &end);
+		runtime_c2 = c2(C,H,W,K,FH,FW);
 
-		runtime = (end.tv_sec - start.tv_sec) +(end.tv_nsec - start.tv_nsec) / BILLION;
-		timecuDNN += runtime;
+		timecuDNN += runtime_c2;
 
 	}
 
