@@ -14,19 +14,21 @@ int C = 3, H = 1024, W = 1024;
 int K = 64, FH = 3, FW = 3;
 
 
-#define checkCUDNN(expression)                               \
-  {                                                          \
+#define checkcuDNN(expression)                               \
+{                                                            \
 	cudnnStatus_t status = (expression);                     \
-	if (status != CUDNN_STATUS_SUCCESS) {                    \
-	  cerr << "Error on line " << __LINE__ << ": "      	 \
+	if (status != CUDNN_STATUS_SUCCESS)                      \
+	{														 \
+		cerr << "Error on line " << __LINE__ << ": "      	 \
 				<< cudnnGetErrorString(status) << endl; 	 \
-	  exit(EXIT_FAILURE);                               	 \
+		exit(EXIT_FAILURE);                               	 \
 	}                                                        \
-  }
+}
 
 
 
-void print_stats(double ci, double td, double runtime, double th, double co, char* kernel) {
+void print_stats(double ci, double td, double runtime, double th, double co, char* kernel) 
+{
 	cout << fixed << setprecision(6);
 	cout << "I = checksum: " << ci << endl;
 	cout << "Copy host->dev " << kernel << " " << td <<" sec" << endl;
@@ -37,7 +39,8 @@ void print_stats(double ci, double td, double runtime, double th, double co, cha
 }
 
 
-void init_3d_kernel(double *h_input, int C, int H, int W) {
+void init_3d_kernel(double *h_input) 
+{
 
 	for(int channel=0;channel<C;channel++)
 	{
@@ -52,7 +55,8 @@ void init_3d_kernel(double *h_input, int C, int H, int W) {
 }
 
 
-void init_4d_kernel(double *h_filter, int K, int C, int FH, int FW) {
+void init_4d_kernel(double *h_filter) 
+{
 
 	for(int k=0;k<K;k++)
 	{
@@ -70,7 +74,7 @@ void init_4d_kernel(double *h_filter, int K, int C, int FH, int FW) {
 }
 
 
-double find_checksum(double * output, int K, int H, int W)
+double find_checksum(double * output, int K)
 {
     double checksum = 0.0;
     for (int k=0; k<K; k++)
@@ -88,7 +92,7 @@ double find_checksum(double * output, int K, int H, int W)
 
 
 
-__global__ void tiled_conv_2d_kernel(double *in, int C, int H, int W,
+__global__ void tiled_conv_2d(double *in, int C, int H, int W,
 									 double *filter, int K, int FH, int FW,
 									 double *out) 
 {
@@ -223,7 +227,6 @@ __global__ void tiled_conv_2d_kernel(double *in, int C, int H, int W,
 
 		int out_idx = j + i * W + k * H * W;
 		
-		// Top left corner
 		int row = i - (FH / 2), col = j - (FW / 2);
 		double conv_val = 0.0;
 
@@ -237,7 +240,6 @@ __global__ void tiled_conv_2d_kernel(double *in, int C, int H, int W,
 					{
 						int in_idx = (col + fw) + (row + fh) * W + c * H * W;
 
-						// Transpose Filter for Convolution.
 						int f_idx = (FW - 1 - fw) + (FH - 1 - fh) * FW + c * FH * FW + k * C * FH * FW;
 						conv_val += in[in_idx] * filter[f_idx];
 					}
@@ -272,8 +274,8 @@ double c1()
 	char kernel[] = "kernel";
 
 
-	init_3d_kernel(h_input, C, H, W);
-	init_4d_kernel(h_filter, K, C, FH, FW);
+	init_3d_kernel(h_input);
+	init_4d_kernel(h_filter);
 
 	clock_gettime(CLOCK_MONOTONIC, &start);
 	cudaMemcpy(input, h_input, input_size, cudaMemcpyHostToDevice);
@@ -296,7 +298,7 @@ double c1()
 
 	clock_gettime(CLOCK_MONOTONIC, &start);
 	
-	tiled_conv_2d_kernel<<<num_blocks, num_threads, TS>>>(input, C, H, W,filter, K, FH, FW,output);
+	tiled_conv_2d<<<num_blocks, num_threads, TS>>>(input, C, H, W,filter, K, FH, FW,output);
 	
 	cudaDeviceSynchronize();
 	
@@ -311,8 +313,8 @@ double c1()
 	clock_gettime(CLOCK_MONOTONIC, &end);
 
 	double copy_to_host = (end.tv_sec - start.tv_sec) + (end.tv_nsec - start.tv_nsec) / BILLION;
-	double checksum_I = find_checksum(h_input, C, H, W);
-	double checksum_O = find_checksum(h_output, K, H, W);
+	double checksum_I = find_checksum(h_input, C);
+	double checksum_O = find_checksum(h_output, K);
 
 	print_stats(checksum_I, copy_to_device, runtime , copy_to_host, checksum_O, kernel);
 
@@ -347,8 +349,8 @@ double c2()
 	double* h_output = (double*) malloc(output_size);
 	char kernel[] = "cudnn";
 
-	init_3d_kernel(h_input, C, H, W);
-	init_4d_kernel(h_filter, K, C, FH, FW);
+	init_3d_kernel(h_input);
+	init_4d_kernel(h_filter);
 	
 
 	clock_gettime(CLOCK_MONOTONIC, &start);
@@ -362,29 +364,29 @@ double c2()
 	cudaMemcpy(filter, h_filter, filter_size, cudaMemcpyHostToDevice);
 
 	cudnnHandle_t cudnn;
-	checkCUDNN(cudnnCreate(&cudnn));
+	checkcuDNN(cudnnCreate(&cudnn));
 
 	cudnnTensorDescriptor_t input_descriptor;
-	checkCUDNN(cudnnCreateTensorDescriptor(&input_descriptor));
-	checkCUDNN(cudnnSetTensor4dDescriptor(input_descriptor, CUDNN_TENSOR_NCHW, CUDNN_DATA_DOUBLE, 1, C, H, W));
+	checkcuDNN(cudnnCreateTensorDescriptor(&input_descriptor));
+	checkcuDNN(cudnnSetTensor4dDescriptor(input_descriptor, CUDNN_TENSOR_NCHW, CUDNN_DATA_DOUBLE, 1, C, H, W));
 
 	cudnnFilterDescriptor_t filter_descriptor;
-	checkCUDNN(cudnnCreateFilterDescriptor(&filter_descriptor));
+	checkcuDNN(cudnnCreateFilterDescriptor(&filter_descriptor));
 	cudnnSetFilter4dDescriptor(filter_descriptor, CUDNN_DATA_DOUBLE, CUDNN_TENSOR_NCHW, K, C, FH, FW);
 
 	cudnnTensorDescriptor_t output_descriptor;
-	checkCUDNN(cudnnCreateTensorDescriptor(&output_descriptor));
-	checkCUDNN(cudnnSetTensor4dDescriptor(output_descriptor, CUDNN_TENSOR_NCHW, CUDNN_DATA_DOUBLE, 1, K, H, W));
+	checkcuDNN(cudnnCreateTensorDescriptor(&output_descriptor));
+	checkcuDNN(cudnnSetTensor4dDescriptor(output_descriptor, CUDNN_TENSOR_NCHW, CUDNN_DATA_DOUBLE, 1, K, H, W));
 
 	cudnnConvolutionDescriptor_t convolution_descriptor;
-	checkCUDNN(cudnnCreateConvolutionDescriptor(&convolution_descriptor));
-	checkCUDNN(cudnnSetConvolution2dDescriptor(convolution_descriptor, FH / 2, FW / 2, 1, 1, 1, 1, CUDNN_CONVOLUTION, CUDNN_DATA_DOUBLE));
+	checkcuDNN(cudnnCreateConvolutionDescriptor(&convolution_descriptor));
+	checkcuDNN(cudnnSetConvolution2dDescriptor(convolution_descriptor, FH / 2, FW / 2, 1, 1, 1, 1, CUDNN_CONVOLUTION, CUDNN_DATA_DOUBLE));
 
 	cudnnConvolutionFwdAlgo_t convolution_algorithm;
-	checkCUDNN(cudnnGetConvolutionForwardAlgorithm(cudnn, input_descriptor, filter_descriptor, convolution_descriptor, output_descriptor, CUDNN_CONVOLUTION_FWD_PREFER_FASTEST, 0, &convolution_algorithm));
+	checkcuDNN(cudnnGetConvolutionForwardAlgorithm(cudnn, input_descriptor, filter_descriptor, convolution_descriptor, output_descriptor, CUDNN_CONVOLUTION_FWD_PREFER_FASTEST, 0, &convolution_algorithm));
 
 	size_t workspace_size = 0;
-	checkCUDNN(cudnnGetConvolutionForwardWorkspaceSize(cudnn, input_descriptor, filter_descriptor, convolution_descriptor, output_descriptor, convolution_algorithm, &workspace_size));
+	checkcuDNN(cudnnGetConvolutionForwardWorkspaceSize(cudnn, input_descriptor, filter_descriptor, convolution_descriptor, output_descriptor, convolution_algorithm, &workspace_size));
 
 	void  *workspace;
 	cudaMalloc(&workspace, workspace_size);
@@ -393,7 +395,7 @@ double c2()
 
 	clock_gettime(CLOCK_MONOTONIC, &start);
 
-	checkCUDNN(cudnnConvolutionForward(cudnn, &alpha, input_descriptor, input, filter_descriptor, filter, convolution_descriptor, convolution_algorithm, workspace, workspace_size, &beta, output_descriptor, output));
+	checkcuDNN(cudnnConvolutionForward(cudnn, &alpha, input_descriptor, input, filter_descriptor, filter, convolution_descriptor, convolution_algorithm, workspace, workspace_size, &beta, output_descriptor, output));
 
 	clock_gettime(CLOCK_MONOTONIC, &end);
 
@@ -405,8 +407,8 @@ double c2()
 	clock_gettime(CLOCK_MONOTONIC, &end);
 
 	double copy_to_host = (end.tv_sec - start.tv_sec) + (end.tv_nsec - start.tv_nsec) / BILLION;
-	double checksum_I = find_checksum(h_input, C, H, W);
-	double checksum_O = find_checksum(h_output, K, H, W);
+	double checksum_I = find_checksum(h_input, C);
+	double checksum_O = find_checksum(h_output, K);
 
 	print_stats(checksum_I, copy_to_device, runtime , copy_to_host, checksum_O, kernel);
 
