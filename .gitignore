@@ -13,4 +13,5 @@ hw4/data
 hw4/logs
 hw4/__pycache__
 hw4/cluster_runs_q1.py
-
+hw4/slurm_logs/
+hw4/slurm_scripts
