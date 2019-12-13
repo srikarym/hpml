@@ -31,7 +31,7 @@ def parse_args():
 	parser.add_argument('--weight-decay', type = float,
 						metavar='',help = 'Weight decay', default=5e-4)
 
-	parser.add_argument('--gpu-id', type=str, default=0,
+	parser.add_argument('--gpu-id', type=str, default='0',
 						help='GPU device id')
 
 	parser.add_argument('--batch-norm', type=int, default=1,

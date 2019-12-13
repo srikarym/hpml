@@ -15,6 +15,7 @@ device = f'cuda:{args.gpu_id[0]}'
 args.device = torch.device(device)
 
 print(args)
+print(torch.cuda.get_device_name(0))
 
 transform_train, transform_test = get_transforms()
 
@@ -80,19 +81,19 @@ def train(epoch):
 		_, predicted = outputs.max(1)
 		total += targets.size(0)
 		correct += predicted.eq(targets).sum().item()
-		
-		metrics_end = time.perf_counter()
 
 		data_loader_time += (load_end - load_start)
 		epoch_minibatch_time += (batch_end - load_start)
-		metrics_time += metrics_end - batch_end
+
 		compute_time += batch_end - load_end
 
 		data_movement_time += movement_end - load_end
+		metrics_end = time.perf_counter()
+		metrics_time += metrics_end - batch_end
 
 	epoch_end = time.perf_counter()
 
-	epoch_time =  epoch_end - preprocess_start 
+	epoch_time =  epoch_end - preprocess_start - metrics_time
 
 	train_loss /= n_batches
 
@@ -100,11 +101,12 @@ def train(epoch):
 		print(f'\nAggregates: \
 				\n \t DataLoader Time: {data_loader_time:.4f} \
 				\n \t Mini-batch Time: {epoch_minibatch_time:.4f} \
-				\n \t \t Compute time: {compute_time:.4f} \
+				\n \t Compute time: {compute_time:.4f} \
 				\n \t \t Movement time: {data_movement_time:.4f}\
 				\n \t Training Epoch Time: {epoch_time:.4f}\n \
 				\n Averages: \
-				\n \t Training Loss: {train_loss:.4f}')
+				\n \t Training Loss: {train_loss:.4f}\
+				\n \t Training accuracy: {(100* correct/total):.4f}')
 
 
 def test():
