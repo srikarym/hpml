@@ -9,5 +9,9 @@ README.md
 hw1/a.out
 hw1/dp1
 hw2/__pycache__/
-
-
+hw4/data
+hw4/logs
+hw4/__pycache__
+hw4/cluster_runs_q1.py
+hw4/slurm_logs/
+hw4/slurm_scripts

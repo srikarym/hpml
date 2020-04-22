@@ -1,0 +1,68 @@
+Repetition 1 out of 5
+I = checksum: 3218079744.000000
+Copy host->dev kernel 0.004861 sec
+time kernel 0.031404 sec
+Copy dev->host kernel 0.424679 sec
+CUDA O = checksum 122756344698240.000000
+
+I = checksum: 3218079744.000000
+Copy host->dev cudnn 0.006004 sec
+time cudnn 0.000087 sec
+Copy dev->host cudnn 0.423556 sec
+CUDA O = checksum 122756344698240.000000
+
+Repetition 2 out of 5
+I = checksum: 3218079744.000000
+Copy host->dev kernel 0.005829 sec
+time kernel 0.031132 sec
+Copy dev->host kernel 0.412327 sec
+CUDA O = checksum 122756344698240.000000
+
+I = checksum: 3218079744.000000
+Copy host->dev cudnn 0.004671 sec
+time cudnn 0.000071 sec
+Copy dev->host cudnn 0.417579 sec
+CUDA O = checksum 122756344698240.000000
+
+Repetition 3 out of 5
+I = checksum: 3218079744.000000
+Copy host->dev kernel 0.005556 sec
+time kernel 0.031038 sec
+Copy dev->host kernel 0.397091 sec
+CUDA O = checksum 122756344698240.000000
+
+I = checksum: 3218079744.000000
+Copy host->dev cudnn 0.005069 sec
+time cudnn 0.000066 sec
+Copy dev->host cudnn 0.414707 sec
+CUDA O = checksum 122756344698240.000000
+
+Repetition 4 out of 5
+I = checksum: 3218079744.000000
+Copy host->dev kernel 0.004966 sec
+time kernel 0.031007 sec
+Copy dev->host kernel 0.402175 sec
+CUDA O = checksum 122756344698240.000000
+
+I = checksum: 3218079744.000000
+Copy host->dev cudnn 0.005334 sec
+time cudnn 0.000061 sec
+Copy dev->host cudnn 0.419711 sec
+CUDA O = checksum 122756344698240.000000
+
+Repetition 5 out of 5
+I = checksum: 3218079744.000000
+Copy host->dev kernel 0.005396 sec
+time kernel 0.031080 sec
+Copy dev->host kernel 0.393007 sec
+CUDA O = checksum 122756344698240.000000
+
+I = checksum: 3218079744.000000
+Copy host->dev cudnn 0.005240 sec
+time cudnn 0.000051 sec
+Copy dev->host cudnn 0.414437 sec
+CUDA O = checksum 122756344698240.000000
+
+
+
+ <Time>: Conv 0.031132 sec cuDNN 0.000067 sec
